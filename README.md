@@ -2,7 +2,7 @@
 
 **Lascia al caso i dadi, non il divertimento.**
 
-Il Divertoscopio è uno strumento sperimentale per GDR da tavolo progettato per massimizzare il divertimento reale dei giocatori e la loro voglia volontaria di tornare a giocare, riducendo al tempo stesso lavoro e attrito che non creano valore al tavolo.
+**Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
 
 ## Inizia
 
@@ -19,12 +19,6 @@ Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md
 ## Stato
 
 Questa è la **GitHub Closed Pilot Candidate** del 29/08/2026, destinata al primo pilot esterno controllato. Il progetto è sperimentale: capacità, sistemi e modalità non sono tutti validati allo stesso livello. Leggi [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) prima di interpretare una capacità come già dimostrata.
-
-Il claim candidato autorizzato per questa fase è:
-
-> **Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
-
-Il claim deriva dalla ricerca di anteriorità documentata al 29/08/2026 e resta falsificabile: se emerge un precedente anteriore sostanzialmente equivalente, va corretto.
 
 ## Closed Pilot e Ultra-Garanzia
 

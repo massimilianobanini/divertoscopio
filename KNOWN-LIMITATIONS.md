@@ -142,13 +142,10 @@ Per dettagli scena-per-scena l'AI deve avere accesso a materiale che l'utente pu
 18\. DIVERTOSCOPIO È ANCORA UN BRAND CANDIDATO DI CLOSED PILOT  
 Nome, Visual Hammer, categoria e posizionamento stanno ancora attraversando test umani e stress test. Non presentare il naming come marchio registrato o definitivamente validato.
 
-19\. CLAIM “PRIMO” — DESK PRIOR-ART AUDIT PASS / PERIMETRO STRETTO  
-Il desk audit di anteriorità del 29/08/2026 non ha trovato un predecessore pubblico indicizzato che combini il perimetro esatto: strumento italiano per GDR da tavolo \+ Ultra-Garanzia del Prezzo Negativo. Il claim può quindi essere usato nella Closed Pilot Candidate esclusivamente nella formulazione stretta già auditata: “Il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo”. Non estenderlo a “primo AI Dungeon Master”, “primo strumento GDR italiano” o altre categorie più ampie. È una conclusione di ricerca documentale, non una certificazione assoluta: un predecessore privato/non indicizzato o nuova evidenza può richiedere correzione immediata.
-
-20\. ULTRA-GARANZIA — PILOT, NON PROVA DI PERFORMANCE  
+19\. ULTRA-GARANZIA — PILOT, NON PROVA DI PERFORMANCE  
 La presenza della garanzia dimostra che il progetto accetta una conseguenza economica sul fallimento dichiarato; non dimostra da sola che il prodotto aumenti il divertimento. La prova viene da uso reale, feedback, riuso, Desire to Return, casi e iterazioni.
 
-21\. UTENTI ESTERNI — È PROPRIO CIÒ CHE STIAMO PER TESTARE  
+20\. UTENTI ESTERNI — È PROPRIO CIÒ CHE STIAMO PER TESTARE  
 I test interni hanno prodotto segnali utili, ma il closed pilot 10 Player \+ 10 Master serve precisamente a ottenere evidenza indipendente esterna. Prima del closed pilot non esiste ancora un volume sufficiente di casi terzi.
 
 REGOLA DI COMUNICAZIONE  

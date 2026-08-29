@@ -1,6 +1,4 @@
 MANIFESTO PUBBLICO — GITHUB CLOSED PILOT CANDIDATE V0.3  
-Firewall/IP completato il 29/08/2026. Claim di anteriorità autorizzato per il Closed Pilot Candidate sulla base della ricerca documentata; resta falsificabile e verrà corretto se emerge un precedente sostanzialmente equivalente.
-
 # DIVERTOSCOPIO
 
 ## Lascia al caso i dadi, non il divertimento.
@@ -266,8 +264,6 @@ Il principio no.
 Mettiamo capitale nostro a rischio perché vogliamo che chi costruisce il sistema abbia un interesse concreto nello stesso risultato di chi lo usa.
 
 Se il divertimento e l’utilità sono davvero il risultato finale, allora devono avere conseguenze anche per noi.
-
-Il claim “primo” è stato sottoposto a ricerca di anteriorità prima del Closed Pilot Candidate e, allo stato delle fonti verificate al 29/08/2026, non è emerso un precedente sostanzialmente equivalente. Il claim resta falsificabile: se emerge una prova anteriore pertinente, lo correggiamo pubblicamente. Ci interessa soprattutto dimostrare un modello diverso: chi promette valore accetta di pagare qualcosa quando quel valore non arriva.
 
 Se chiediamo alle persone tempo, attenzione e fiducia, vogliamo assumerci una parte reale del rischio quando non produciamo valore.
 

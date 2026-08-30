@@ -6,7 +6,7 @@ Testo della licenza: https://creativecommons.org/licenses/by/4.0/legalcode
 
 Attribuzione minima consigliata:
 
-> Basato su Divertoscopio — Closed Pilot Candidate 2026-08-29, con modifiche.
+> Basato su Divertoscopio — Closed Pilot V0.3, con modifiche.
 
 Quando modifichi il materiale, indica in modo ragionevole che sono state effettuate modifiche.
 

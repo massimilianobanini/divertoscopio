@@ -1,9 +1,9 @@
-MANIFESTO PUBBLICO — GITHUB CLOSED PILOT CANDIDATE V0.3  
+MANIFESTO PUBBLICO — CLOSED PILOT V0.3  
 # DIVERTOSCOPIO
 
 ## Lascia al caso i dadi, non il divertimento.
 
-| IN BREVE  IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.  È pensato per giocatori e Master, cioè chi conduce la partita, che non vogliono lasciare al caso il divertimento finale dell’esperienza. È gratuito e aperto: osserva ciò che succede davvero durante il gioco, raccoglie riscontri e aiuta a capire cosa mantenere e cosa cambiare. Non valuta il valore da quante pagine, quante funzioni o quanto materiale vengono prodotti: mette al centro ciò che provano le persone e usa l’intelligenza artificiale per personalizzare, capire i problemi e migliorare passo dopo passo. Non ti obbliga a studiare un nuovo sistema, diventare tecnico, preparare all’infinito o accettare un’esperienza identica per tutti. Già dal primo uso reale o dalla prima sessione che puoi giudicare, aiuta a capire cosa ha funzionato e cosa no, così da migliorare l’uso o la sessione successiva. Se sei un giocatore e non ti diverti, oppure sei un Master e dopo averlo usato davvero non lo trovi utile o non sei soddisfatto, non solo non paghi: con l’Ultra-Garanzia del Prezzo Negativo ti paghiamo noi 1 euro, entro il fondo pubblico previsto dal test. Per GDR da tavolo intendiamo i giochi di ruolo giocati in presenza, online in tempo reale o via chat. Sono esperienze diverse, ma hanno la stessa domanda finale: le persone si sono divertite e hanno voglia di tornare a giocare?  |
+| IN BREVE  IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.  È pensato per giocatori e Master, cioè chi conduce la partita, che non vogliono lasciare al caso il divertimento finale dell’esperienza. È gratuito e aperto: osserva ciò che succede davvero durante il gioco, raccoglie riscontri e aiuta a capire cosa mantenere e cosa cambiare. Non valuta il valore da quante pagine, quante funzioni o quanto materiale vengono prodotti: mette al centro ciò che provano le persone e usa l’intelligenza artificiale per personalizzare, capire i problemi e migliorare passo dopo passo. Non ti obbliga a studiare un nuovo sistema, diventare tecnico, preparare all’infinito o accettare un’esperienza identica per tutti. Già dal primo uso reale o dalla prima sessione che puoi giudicare, aiuta a capire cosa ha funzionato e cosa no, così da migliorare l’uso o la sessione successiva. Se sei un giocatore e non ti diverti, oppure sei un Master e dopo averlo usato davvero non lo trovi utile o non sei soddisfatto, non solo non paghi: con l’Ultra-Garanzia del Prezzo Negativo ti paghiamo noi 1 euro, entro il fondo pubblico previsto dal test. Quel pagamento è un simbolico indennizzo reputazionale: non è un premio e non compra il feedback; rende concreto il costo del fallimento per chi ha promesso valore. Per GDR da tavolo intendiamo i giochi di ruolo giocati in presenza, online in tempo reale o via chat. Sono esperienze diverse, ma hanno la stessa domanda finale: le persone si sono divertite e hanno voglia di tornare a giocare?  |
 | :---- |
 
 # PERCHÉ ESISTE
@@ -250,6 +250,8 @@ La versione base è gratuita.
 
 Se un partecipante al test lo usa realmente, completa il riscontro e dichiara che l’esperienza non ha funzionato per lui secondo le regole del test, il progetto gli paga 1 euro.
 
+Quel pagamento ha una funzione precisa: è un **simbolico indennizzo reputazionale**. Non è il prodotto, non è un premio e non compra il feedback. È il costo simbolico che il progetto accetta quando la promessa di valore non funziona per quella persona.
+
 In forma semplice:
 
 **SE NON TI DIVERTI, NON PAGHI.**  
@@ -261,11 +263,15 @@ Nel test l’importo è simbolico.
 
 Il principio no.
 
+**La tua insoddisfazione ha un costo per noi.**
+
 Mettiamo capitale nostro a rischio perché vogliamo che chi costruisce il sistema abbia un interesse concreto nello stesso risultato di chi lo usa.
 
 Se il divertimento e l’utilità sono davvero il risultato finale, allora devono avere conseguenze anche per noi.
 
 Se chiediamo alle persone tempo, attenzione e fiducia, vogliamo assumerci una parte reale del rischio quando non produciamo valore.
+
+Le condizioni, il fondo e lo stato dei pagamenti sono documentati separatamente nei termini e nel registro pubblico dell'Ultra-Garanzia.
 
 # 11\. APERTO NON SIGNIFICA “FINITO”
 

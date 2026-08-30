@@ -1,4 +1,4 @@
-V0.2 PUBLIC MVP — PUBLIC PATTERN LIBRARY
+CLOSED PILOT V0.3 — PUBLIC PATTERN LIBRARY
 
 SCOPO  
 Questa libreria contiene pattern trasferibili e originali/riorganizzati. Non è una bibliografia né un'enciclopedia. Il motore consulta un pattern solo quando una situazione lo rende utile.
@@ -26,8 +26,8 @@ Per una scena probabile, prepara: situazione, attori, tensione, informazioni, po
 STAGED PREP COMPILER  
 Classifica il futuro in definito/probabile/plausibile/remoto e investi tempo proporzionalmente.
 
-THREE-LENS PREFLIGHT QA  
-Prima della sessione controlla Player Lens, World Lens, Table Lens: divertimento/agency, causalità/stato, usabilità reale.
+FOUR-LENS PREFLIGHT QA  
+Prima della sessione controlla Player Lens, World Lens, Table Lens e Coherence Lens: divertimento/agency, causalità/stato, usabilità reale e coerenza di nomi, oggetti, timeline, posizione e terminologia.
 
 DRAMATIC QUESTION EXIT GATE  
 Una scena dovrebbe continuare finché esiste una domanda/decisione interessante; quando è risolta e non emerge altro valore, comprimi/transiziona.
@@ -337,5 +337,4 @@ CAUSAL CONTINUATION HOOK
 Se resta un gancio per continuare, deve derivare preferibilmente da ciò che è appena successo: conseguenza, debito, domanda irrisolta, fazione reagente, promessa, scoperta. Evita cliffhanger seriali scollegati usati soltanto per trattenere il giocatore.
 
 MEMORABILITY GUARDRAIL  
-Non ottimizzare per 'momenti epici' a scapito di agency, causalità o ritmo. Un ricordo forte può essere piccolo ma personale. Il motore deve prima riconoscere ciò a cui il giocatore ha attribuito valore, poi usare eventuali callback con moderazione.  
-.
+Non ottimizzare per 'momenti epici' a scapito di agency, causalità o ritmo. Un ricordo forte può essere piccolo ma personale. Il motore deve prima riconoscere ciò a cui il giocatore ha attribuito valore, poi usare eventuali callback con moderazione.

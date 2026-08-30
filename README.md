@@ -20,7 +20,9 @@ Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md
 
 Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare il **Kit di sopravvivenza per Master di GDR con AI — V0.3**:
 
-- [`master/KIT-DI-SOPRAVVIVENZA-MASTER-V0.3.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER-V0.3.pdf)
+- [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf)
+
+Il Kit è una guida pratica autonoma; il Divertoscopio è il sistema completo ospitato in questo repository.
 
 Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository nella tua AI e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere.
 
@@ -46,7 +48,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.
 - [`master/MASTER.md`](master/MASTER.md) — percorso e strumenti per il Master.
-- [`master/KIT-DI-SOPRAVVIVENZA-MASTER-V0.3.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER-V0.3.pdf) — manuale pratico per usare l'AI con meno lavoro inutile.
+- [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.
 - [`player/PLAYER.md`](player/PLAYER.md) — percorso per il giocatore.
 - [`protocols/PROTOCOLS.md`](protocols/PROTOCOLS.md) — procedure da usare quando servono.
 - [`library/PATTERN-INDEX.md`](library/PATTERN-INDEX.md) — tecniche e pattern opzionali.

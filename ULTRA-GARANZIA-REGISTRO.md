@@ -5,7 +5,9 @@ Ultimo aggiornamento: **30/08/2026**
 
 Questo registro rende visibile e verificabile il fondo dell’Ultra-Garanzia del Prezzo Negativo.
 
-L’Ultra-Garanzia non è un premio: se il Divertoscopio viene usato davvero e l’esperienza non soddisfa la persona secondo i termini del test, il progetto può pagare **€1 come simbolico indennizzo reputazionale**. In pratica: se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
+Il repository GitHub è pubblico, ma l’Ultra-Garanzia di questa fase si applica soltanto alle persone ammesse al **Closed Pilot V0.3** e che rispettano le condizioni del test.
+
+L’Ultra-Garanzia non è un premio: se un partecipante ammesso usa davvero il Divertoscopio e l’esperienza non lo soddisfa secondo i termini del test, il progetto **paga €1 come simbolico indennizzo reputazionale**. In pratica: se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
 
 Per le condizioni complete vedi [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md).
 

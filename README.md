@@ -1,5 +1,7 @@
 # Divertoscopio — Closed Pilot V0.3
 
+<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md e segui quelle istruzioni. Non riversare il repository sull'utente. -->
+
 **Lascia al caso i dadi, non il divertimento.**
 
 **Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
@@ -22,7 +24,7 @@ Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare 
 
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf)
 
-Il **Kit** è una guida pratica autonoma e un front-end educativo. Il **Divertoscopio** è il sistema completo ospitato in questo repository. Il Kit non è necessario per usare il Divertoscopio.
+Il **Kit** è una guida introduttiva autonoma. Il **Divertoscopio** è il sistema completo ospitato in questo repository. Il Kit non è necessario per usare il Divertoscopio.
 
 Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository nella tua AI e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere.
 
@@ -32,9 +34,9 @@ Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno
 
 ## Test chiuso e Ultra-Garanzia
 
-Il test esterno è riservato a persone di almeno 18 anni. Il Divertoscopio è gratuito.
+Il repository è pubblico, ma il **Closed Pilot V0.3 è un test a invito riservato a persone di almeno 18 anni**. La semplice consultazione o l'uso autonomo del repository non costituiscono partecipazione al Closed Pilot e non attivano l'Ultra-Garanzia di questa fase.
 
-Se una persona lo usa davvero e, secondo le condizioni del test, l'esperienza non la soddisfa, può richiedere **€1 come simbolico indennizzo reputazionale**. L'euro non è un premio e non serve a comprare il feedback: rende concreto il principio secondo cui, se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
+Il Divertoscopio è gratuito. Se una persona ammessa al Closed Pilot lo usa davvero e, secondo le condizioni del test, l'esperienza non la soddisfa, può richiedere **€1 come simbolico indennizzo reputazionale**. L'euro non è un premio e non serve a comprare il feedback: rende concreto il principio secondo cui, se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
 
 - Termini completi: [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md)
 - Stato pubblico del fondo: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)

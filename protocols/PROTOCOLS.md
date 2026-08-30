@@ -1,4 +1,4 @@
-V0.2 PUBLIC MVP — PROTOCOLS INDEX \+ P0 SPECS
+CLOSED PILOT V0.3 — PROTOCOLS INDEX + P0 SPECS
 
 SCOPO  
 I protocolli sono moduli situazionali. Il sistema li attiva quando il Situation Classifier riconosce il problema pertinente e li disattiva quando non servono.  
@@ -236,7 +236,7 @@ Mai aggiungere una fase retroattiva solo perché il boss sta perdendo troppo in 
 P0-07 — SOLO / DUET  
 \========================================  
 TRIGGER  
-Un solo giocatore umano o party principalmente gestita dall'AI.
+Un solo giocatore umano o party principalmente gestito dall'AI.
 
 SESSION ZERO SETTING  
 Companion control:  
@@ -406,7 +406,7 @@ Aggiungi:
 \- errori/ruling;  
 \- momenti standout/noiosi;  
 \- divergenze;  
-\- 1–3 modifiche ad alto ROI.  
+\- 1–3 modifiche ad alto ROI;  
 \- se si è conclusa una unità significativa, offri una sola volta un file riepilogativo versionato V0.1; PLAYER senza segreti del Master, MASTER con stato/prep utile.
 
 OPTIONAL BEHIND THE SCREEN  
@@ -452,7 +452,7 @@ Pattern disponibili on-demand includono:
 \- meaningful theme / life-skill layer: temi educativi o morali giocabili tramite dilemmi, conseguenze e prospettive diverse, sempre subordinati a fun/agency e mai come predica.
 
 REGOLA DI ATTIVAZIONE  
-Situation Classifier → scegli il protocollo minimo → applica eventuale modifier → fai lookup di regole/conoscenza soltanto se necessario → aggiorna state → scarica mentalmente il protocollo quando la situazione è finita
+Situation Classifier → scegli il protocollo minimo → applica eventuale modifier → fai lookup di regole/conoscenza soltanto se necessario → aggiorna state → scarica mentalmente il protocollo quando la situazione è finita.
 
 \========================================  
 P0-16 — DICE MODE / TRUST / NO HIDDEN FUDGING  
@@ -522,8 +522,7 @@ PROCEDURA:
 6\. DECISION RELEVANCE: rendi esplicito il contesto quando può cambiare la scelta: partire ora o domattina, cercare riparo, scegliere percorso, preparare equipaggiamento, evitare buio/caldo/freddo/tempesta, sfruttare visibilità o terreno.  
 7\. MECHANICAL CONSEQUENCES: applica effetti meccanici di caldo/freddo estremo, vento, neve, pioggia, oscurità, terreno, ecc. solo secondo ruleset/setting attivo o ruling dichiarata; non inventare penalità solo per rendere il meteo “importante”.  
 8\. PRESENTATION: non ripetere luogo/ora/meteo identici a ogni turno. Richiamali quando cambia la scena, cambia una condizione, il giocatore potrebbe ragionevolmente averli persi di vista o diventano decisionali.  
-ANTI-PATTERN: narrazione in un vuoto spaziale/temporale; il PG “si trova da qualche parte” e il giocatore non sa se è mattina o notte quando l'informazione dovrebbe essere ovvia.  
-.
+ANTI-PATTERN: narrazione in un vuoto spaziale/temporale; il PG “si trova da qualche parte” e il giocatore non sa se è mattina o notte quando l'informazione dovrebbe essere ovvia.
 
 \========================================  
 P0-21 — EXECUTION / CONTEXT CONTINUITY  

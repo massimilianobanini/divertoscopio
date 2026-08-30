@@ -1,7 +1,7 @@
-V0.2 PUBLIC MVP — FEEDBACK & METRICS
+CLOSED PILOT V0.3 — FEEDBACK & METRICS
 
 SCOPO  
-Misurare se il framework produce realmente più divertimento, maggiore voglia volontaria di tornare a giocare e minore attrito/preparazione. Il feedback non è un rituale: deve generare decisioni di miglioramento.
+Misurare se il Divertoscopio produce realmente più divertimento, maggiore voglia volontaria di tornare a giocare e minore attrito/preparazione. Il feedback non è un rituale: deve generare decisioni di miglioramento.
 
 NORTH STAR METRICS  
 1\. FUN — Quanto ti sei divertito? 0–10.  
@@ -20,7 +20,7 @@ FRICTION METRICS
 
 MASTER METRICS  
 9\. PREP TIME ACTUAL.  
-10\. PREP TIME COUNTERFACTUAL — quanto pensi avresti impiegato senza framework?  
+10\. PREP TIME COUNTERFACTUAL — quanto pensi avresti impiegato senza Divertoscopio?  
 11\. PREP USED — quota/materiale effettivamente utilizzato.  
 12\. GM FRICTION/STRESS — opzionale 0–10.
 
@@ -51,8 +51,8 @@ Alla fine di una unità significativa, dopo il feedback quando appropriato, offr
 
 MASTER FEEDBACK BREVE  
 Aggiungi:  
-\- Quanto tempo hai preparato con il framework?  
-\- Quanto avresti stimato senza?  
+\- Quanto tempo hai preparato con il Divertoscopio?  
+\- Quanto pensi che avresti impiegato senza?  
 \- Cosa hai preparato ma non hai usato?  
 \- Quale suggerimento ti ha fatto risparmiare più tempo?  
 \- Quale suggerimento ti ha creato lavoro inutile?
@@ -63,7 +63,7 @@ CONTEXT FIELDS — RACCOLTI AUTOMATICAMENTE QUANDO POSSIBILE
 \- role \= PLAYER / MASTER / BOTH;  
 \- system;  
 \- ruleset/edition;  
-\- mode PLAYER \= GIOCA\_SUBITO / PERSONALIZZA\_PRIMA / CONFIGURA\_A\_FONDO; mode MASTER \= PREPARA\_SUBITO / PREPARA\_MEGLIO / APPROFONDISCI;  
+\- mode PLAYER \= GIOCA\_SUBITO / PERSONALIZZA\_PRIMA / PERSONALIZZA\_A\_FONDO; mode MASTER \= PREPARA\_SUBITO / PREPARA\_MEGLIO / APPROFONDISCI;  
 \- human\_GM / AI\_GM / AI\_ASSISTED\_HUMAN\_GM;  
 \- session\_length;  
 \- solo / group;  
@@ -119,7 +119,7 @@ Ogni esperimento può contenere:
 \- decision \= KEEP / MODIFY / REJECT / NEED MORE DATA.
 
 Esempio:  
-Hypothesis: il percorso GIOCA SUBITO con un solo messaggio di configurazione porta il Time to First Play verso \~60 secondi senza ridurre Fun, Desire to Return o libertà di scelta.  
+Hypothesis: il percorso GIOCA SUBITO con un solo messaggio di configurazione porta il Time to First Play verso \~60 secondi di configurazione prima della prima decisione giocabile, senza ridurre Fun, Desire to Return o libertà di scelta. La latenza tecnica della piattaforma resta separata.  
 Guardrail: libertà di scelta, safety e corretto experience match non devono peggiorare.  
 Decisione dopo N test.
 
@@ -173,36 +173,36 @@ Se il debrief include counterfactual o probabilità, distinguere:
 Non presentare una stima ex-post come realtà nascosta che “sarebbe certamente accaduta”.
 
 VERSIONING  
-Ogni test esterno deve registrare almeno la versione del framework.  
-Formato iniziale suggerito:  
-0.2.0-alpha.N
+Ogni test esterno deve registrare almeno la versione del Divertoscopio e, quando pertinente, la versione separata dei termini applicabili.  
+Versione prodotto corrente: **Closed Pilot V0.3**.  
+Eventuali build tecniche possono usare un identificatore più granulare senza sostituire il nome pubblico della release.
 
 Release stages:  
 INTERNAL  
-→ ALPHA CLOSED  
-→ ALPHA PUBLIC  
+→ CLOSED PILOT  
+→ PUBLIC ALPHA  
 → BETA  
 → STABLE, solo quando esistono dati sufficienti.
 
-MVP SUCCESS CRITERIA — IPOTESI DA VALIDARE  
+CLOSED PILOT SUCCESS CRITERIA — IPOTESI DA VALIDARE  
 Non trattare queste soglie come verità definitiva.  
 Prime soglie operative candidate:  
 \- median Fun ≥ 8/10;  
 \- median Desire to Return ≥ 8/10;  
 \- Libertà di scelta (campo interno Agency) ≥ 8/10;  
 \- nessun pattern ricorrente grave di player-action takeover o hidden fudging;  
-\- GIOCA SUBITO: candidato Time to First Play \~1 minuto; PERSONALIZZA PRIMA \~5 minuti; CONFIGURA A FONDO 15+ minuti. Soglie da validare, non promesse;  
+\- GIOCA SUBITO: candidato Time to First Play con circa 1 minuto di configurazione; PERSONALIZZA PRIMA circa 5 minuti; PERSONALIZZA A FONDO 15+ minuti. Soglie da validare, non promesse;  
 \- per AI-assisted human GM, riduzione percepita del prep time senza calo di divertimento.
 
 La vera baseline va misurata sui primi tester; non manipolare il design per “passare” arbitrariamente le soglie.
 
-TESTER STRATEGY — PRIMA FASE  
-Target iniziale: 10–20 persone reali, abbastanza diverse da far emergere errori qualitativi.  
+TESTER STRATEGY — CLOSED PILOT V0.3  
+Target iniziale: **10 Player + 10 Master**, abbastanza diversi da far emergere errori qualitativi.  
 Non serve subito scala enorme.  
 Cercare varietà in:  
 \- esperienza GDR;  
 \- esperienza AI;  
-\- player vs GM;  
+\- Player vs Master;  
 \- solo vs gruppo;  
 \- preferenza combat/RP/exploration;  
 \- livelli di prep del Master.
@@ -216,8 +216,8 @@ Domanda futura centrale:
 
 GUARDRAIL  
 Non ottimizzare una metrica in modo cieco.  
-Esempio: ridurre Time to First Play a 60 secondi non è successo se produce mismatch, minore libertà di scelta, errori o meno divertimento.  
-North Star \= esperienza umana complessiva
+Esempio: ridurre il tempo di configurazione non è un successo se produce mismatch, minore libertà di scelta, errori o meno divertimento.  
+North Star \= esperienza umana complessiva.
 
 ADDITIONAL RELIABILITY METRICS — ATTIVA QUANDO PERTINENTI  
 20\. DICE TRUST / NO HIDDEN FUDGING: casi in cui l'AI ha modificato/ripetuto segretamente un proprio risultato già ottenuto \= 0\. Non misurare come failure la mancata verifica dei tiri dichiarati dal giocatore, salvo modalità verificata esplicitamente concordata.  
@@ -232,13 +232,12 @@ MULTIPLAYER FEEDBACK BREVE — SOLO SE UTILE
 Oltre alle metriche generali, chiedere eventualmente: “Ti sei sentito coinvolto/a abbastanza rispetto agli altri giocatori?” 0–10 e “Hai avuto tempi morti troppo lunghi?” 0–10. Non obbligare ogni giocatore a compilare un questionario lungo; raccogliere individualmente solo quando serve a diagnosticare il gruppo.
 
 LONGITUDINAL CHECKPOINTS  
-Per campagne persistenti, non giudicare il framework soltanto dalla sessione 1\. Quando possibile confronta sessione 1 / 2 / 3 / 5 su: Fun, Desire to Return, libertà, ritmo, ripetitività percepita, state errors, qualità dei callback/payoff e volontà spontanea di riprendere.  
-.
+Per campagne persistenti, non giudicare il Divertoscopio soltanto dalla sessione 1\. Quando possibile confronta sessione 1 / 2 / 3 / 5 su: Fun, Desire to Return, libertà, ritmo, ripetitività percepita, state errors, qualità dei callback/payoff e volontà spontanea di riprendere.
 
 CONTINUITY RELIABILITY METRICS — QUANDO PERTINENTI  
-26\. FIRST USEFUL PARTIAL: un task lungo ha prodotto un risultato utilizzabile prima dell'ultimo passaggio? sì/no \+ momento/milestone.  
-27\. CHECKPOINT COMPLETENESS: in caso di interruzione o cambio chat, sono presenti DONE / PENDING / DECISIONS-CANON / FILES-SOURCES / NEXT STEP?  
-28\. CONTEXT WARNING QUALITY: warning dato prima della perdita evidente di continuità; nessuna falsa precisione su messaggi/token rimanenti; numero di warning ridondanti.  
-29\. RESUME FROM CONTINUITY PACK: nuova chat riesce a riprendere il lavoro senza chiedere nuovamente informazioni già conservate e senza leak di visibilità.  
+27\. FIRST USEFUL PARTIAL: un task lungo ha prodotto un risultato utilizzabile prima dell'ultimo passaggio? sì/no \+ momento/milestone.  
+28\. CHECKPOINT COMPLETENESS: in caso di interruzione o cambio chat, sono presenti DONE / PENDING / DECISIONS-CANON / FILES-SOURCES / NEXT STEP?  
+29\. CONTEXT WARNING QUALITY: warning dato prima della perdita evidente di continuità; nessuna falsa precisione su messaggi/token rimanenti; numero di warning ridondanti.  
+30\. RESUME FROM CONTINUITY PACK: nuova chat riesce a riprendere il lavoro senza chiedere nuovamente informazioni già conservate e senza leak di visibilità.  
 Failure candidate: F24 EXECUTION/CONTEXT ALL-OR-NOTHING — task perde valore perché tutto era rinviato alla fine, manca checkpoint utile o la conversazione supera il contesto senza strategia di continuità.  
 Success candidate: S15 FAIL-SOFT CONTINUITY — risultato parziale utile, stato salvato e ripresa possibile con basso attrito.

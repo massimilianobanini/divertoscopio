@@ -1,4 +1,4 @@
-V0.2 PUBLIC MVP — SYSTEM ADAPTER: 5E / SRD 5.1
+CLOSED PILOT V0.3 — SYSTEM ADAPTER: 5E / SRD 5.1
 
 SCOPO  
 Collegare il Fun-First Core a un ruleset 5E basato sul System Reference Document 5.1 (SRD 5.1) senza trasformare il Core in un manuale e senza mischiare versioni o fonti.
@@ -7,7 +7,7 @@ Collegare il Fun-First Core a un ruleset 5E basato sul System Reference Document
 Il Core resta system-agnostic. Questo adapter gestisce ciò che cambia quando si usa un ruleset 5E/SRD 5.1. Dadi, d20 e procedure 5E appartengono all’adapter, non al Core.
 
 LICENZA / ATTRIBUZIONE SRD 5.1  
-Questo adapter è progettato per interoperare con il System Reference Document 5.1, pubblicato da Wizards of the Coast LLC con licenza Creative Commons Attribution 4.0 International (CC BY 4.0). Eventuale materiale derivato dall’SRD 5.1 deve rispettare quella licenza e mantenerne l’attribuzione. Fonte ufficiale SRD: https://www.dndbeyond.com/resources/1781-systems-reference-document-srd — licenza: https://creativecommons.org/licenses/by/4.0/  
+Questo adapter è progettato per interoperare con il System Reference Document 5.1, pubblicato da Wizards of the Coast LLC con licenza Creative Commons Attribution 4.0 International (CC BY 4.0). Eventuale materiale derivato dall’SRD 5.1 deve rispettare quella licenza, mantenerne l’attribuzione e indicare quando è stato adattato, sintetizzato o riorganizzato. L'attribuzione e la nota sulle modifiche sono centralizzate in [`../../THIRD-PARTY-NOTICES.md`](../../THIRD-PARTY-NOTICES.md). Fonte ufficiale SRD: https://www.dndbeyond.com/resources/1781-systems-reference-document-srd — licenza: https://creativecommons.org/licenses/by/4.0/  
 Il nome Divertoscopio, il suo codice e la sua documentazione originale non diventano prodotti ufficiali o sponsorizzati da Wizards of the Coast per effetto della compatibilità 5E. Non usare loghi, artwork o trade dress di Wizards nel repository.
 
 1\. RULESET LOCK  
@@ -245,7 +245,7 @@ CORE FUN ENGINE
 → campaign/adventure source.
 
 Ogni nuovo adapter deve specificare che cosa cambia rispetto al Core, non duplicare l'intero framework.  
-Se non esiste un adapter e il sistema non è verificabile, raccogli dal giocatore/Master la minima specifica di risoluzione: azioni incerte, dadi/meccanismi, successo/fallimento, caratteristiche, rischio/danno/conseguenze e regole essenziali. Un GDR inventato dall'utente è trattato come ruleset dichiarato, non come errore da contestare
+Se non esiste un adapter e il sistema non è verificabile, raccogli dal giocatore/Master la minima specifica di risoluzione: azioni incerte, dadi/meccanismi, successo/fallimento, caratteristiche, rischio/danno/conseguenze e regole essenziali. Un GDR inventato dall'utente è trattato come ruleset dichiarato, non come errore da contestare.
 
 21\. 5E DICE INTEGRITY  
 Applica P0-16 come regola di fiducia, non come sistema antifrode. Se tira l'AI, non cambiare segretamente un risultato già ottenuto per esigenze narrative; mostra dado grezzo \+ modificatore \+ totale quando utile o richiesto. Se tira il giocatore, accetta normalmente il risultato che dichiara senza chiedere prove o verifiche. In solo-player, anche un giocatore che decide di alterare i propri tiri sta scegliendo il proprio tipo di esperienza; in multiplayer valgono le regole di fairness concordate dal tavolo.
@@ -254,14 +254,13 @@ Applica P0-16 come regola di fiducia, non come sistema antifrode. Se tira l'AI, 
 Per più giocatori usa lo stesso adapter per ciascun PG. Mantieni distinti almeno: player\_id, pc\_id, HP/condizioni/risorse, posizione, concentrazione/ongoing effects e PC\_KNOWN. Messaggi aggregati attribuiti sono validi, es. “Carl attacca la guardia; Den cerca copertura; John prova ad aprire la porta”. Tiri simultanei restano separati salvo group check, Help, contest o altra procedura prevista dal ruleset. Se il party si divide, alterna scene su decision point/soft scene clock per preservare spotlight.
 
 23\. LEVEL 1 \+ HIGH RISK GUARDRAIL  
-Livello 1 riduce complessità ma può aumentare fragilità. Rischio alto autorizza conseguenze dure e morte possibile, non encounter design arbitrariamente letale. Telegraph sufficiente, opportunità plausibili di evitare/negoziare/fuggire e action economy vanno considerate prima dello scontro; nessun salvataggio nascosto dopo.  
-.
+Livello 1 riduce complessità ma può aumentare fragilità. Rischio alto autorizza conseguenze dure e morte possibile, non encounter design arbitrariamente letale. Telegraph sufficiente, opportunità plausibili di evitare/negoziare/fuggire e action economy vanno considerate prima dello scontro; nessun salvataggio nascosto dopo.
 
-VALIDATION STATUS — 28/08/2026  
+VALIDATION STATUS — 30/08/2026  
 Questo adapter descrive capacità previste, non tutte già validate empiricamente.
 
-5E/SRD 5.1: è il vertical attualmente più testato, ma il Pilot 0 ha coperto soprattutto gioco di livello 1 e non costituisce validazione dell’intero ruleset.  
+5E/SRD 5.1: è il vertical attualmente più testato, ma i test interni precedenti hanno coperto soprattutto gioco di livello 1 e non costituiscono validazione dell’intero ruleset.  
 Ruleset 5E successivi/SRD 5.2.1: separazione architetturale prevista, ma NON ancora stress-testati a dovere. Non presentare parità di supporto con SRD 5.1 come fatto dimostrato.  
 Level-up/advancement, gioco di livello medio/alto, spell/feature complesse, encounter ad alta densità, multiplayer reale, VTT/map-grid e media runtime richiedono test dedicati prima di essere dichiarati robusti.
 
-La matrice di validazione viene aggiornata con i risultati del Closed Pilot. Non dichiarare robustezza oltre quanto indicato in questa sezione.
+La matrice di validazione viene aggiornata con i risultati del Closed Pilot V0.3. Non dichiarare robustezza oltre quanto indicato in questa sezione.

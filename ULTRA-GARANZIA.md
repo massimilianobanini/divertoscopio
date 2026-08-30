@@ -1,16 +1,20 @@
-ULTRA-GARANZIA DEL PREZZO NEGATIVO — TERMINI DEL TEST INIZIALE V0.2
+ULTRA-GARANZIA DEL PREZZO NEGATIVO — TERMINI DEL CLOSED PILOT V0.3
 
-Versione interna dei termini: UGPN-PILOT-V0.1 — non devi ricordarla  
-Stato: test iniziale a invito / sperimentale  
-Data: 28/08/2026
+Versione dei termini: UGPN-PILOT-1.0 — applicabile al Divertoscopio Closed Pilot V0.3  
+Stato: test chiuso a invito / sperimentale  
+Data: 30/08/2026
 
 1\. CHE COS'È  
 Il Divertoscopio è gratuito durante questo test. Se una persona lo usa davvero, completa il riscontro richiesto e dichiara che l’esperienza non è stata soddisfacente secondo le condizioni qui descritte, può richiedere l’Ultra-Garanzia del Prezzo Negativo. Se la richiesta rispetta le condizioni, il progetto paga 1 euro alla persona.
 
+Quel pagamento non è il prodotto e non serve a “comprare” il feedback. È un **simbolico indennizzo reputazionale**: rende concreto il principio secondo cui, se il progetto promette valore e l’esperienza non funziona per la persona, il fallimento deve avere un costo anche per chi ha fatto la promessa. In altre parole: la tua insoddisfazione ha un costo per noi.
+
+Il pagamento non viene offerto come premio, vincita, lotteria, ricompensa casuale, gara o incentivo a lasciare una recensione positiva o negativa. Il riscontro serve a capire cosa non ha funzionato; non viene pagato come prestazione.
+
 Prezzo nominale: €0.  
-Pagamento della garanzia: 1 euro.  
-Esito economico per il tester quando la garanzia scatta: \-€1 rispetto al prezzo nominale.  
-Fondo iniziale del test: 100 euro destinati ai pagamenti della garanzia. Le eventuali commissioni di pagamento vengono considerate separatamente e non riducono il conteggio pubblico del fondo.
+Simbolico indennizzo reputazionale quando la garanzia scatta: €1.  
+Esito economico per il tester: \-€1 rispetto al prezzo nominale.  
+Fondo iniziale del test: €100 destinati ai pagamenti della garanzia. Le eventuali commissioni di pagamento vengono considerate separatamente e non riducono il conteggio pubblico del fondo.
 
 2\. CHI PUÒ PARTECIPARE  
 In questa prima fase il test esterno è riservato a persone maggiorenni (18+). Un’eventuale estensione futura ai minori richiederà regole e consensi specifici.
@@ -19,7 +23,7 @@ Nei normali questionari il partecipante usa nome e cognome oppure un nickname st
 
 3\. QUANDO PUÒ RICHIEDERE 1 EURO UN GIOCATORE  
 Un giocatore può richiedere la garanzia quando:  
-\- ha usato realmente Divertoscopio in un'esperienza sufficientemente completa da poterla giudicare;  
+\- ha usato realmente il Divertoscopio in un'esperienza sufficientemente completa da poterla giudicare;  
 \- completa il riscontro previsto per i giocatori;  
 \- dichiara personalmente di non essersi divertito / di non essere soddisfatto dell'esperienza;  
 \- indica almeno un motivo concreto di ciò che non ha funzionato o che avrebbe voluto diverso.
@@ -36,7 +40,7 @@ Un Master può attivare la garanzia quando:
 Non è necessario che il Master sappia già proporre la soluzione tecnica corretta: il feedback sul problema è sufficiente.
 
 5\. UN SOLO PAGAMENTO PER PERSONA IN QUESTO TEST  
-Ogni persona può ricevere al massimo un pagamento di 1 euro durante questo test iniziale. Può continuare a inviare altri riscontri, ma questi non generano nuovi pagamenti nello stesso test.
+Ogni persona può ricevere al massimo un pagamento di 1 euro durante questo closed pilot. Può continuare a inviare altri riscontri, ma questi non generano nuovi pagamenti nello stesso test.
 
 La critica o l'insoddisfazione non rendono una persona “tossica”. Sono esclusi solo abusi, richieste duplicate, assenza di uso reale, dati manifestamente falsi o comportamenti manipolativi.
 
@@ -55,11 +59,13 @@ Nel modulo privato vengono richiesti soltanto i dati necessari a collegare la ri
 
 Se il canale indicato non è utilizzabile, si concorda un'alternativa ragionevole.
 
+Se hai già completato il feedback ma il link al modulo privato non compare, non funziona o non ti è stato fornito, scrivi a **massimiliano.banini@yahoo.it** indicando soltanto il nome/nickname usato nel test, se eri Player o Master e la data approssimativa del feedback. Non inviare via email dati bancari o altre destinazioni di pagamento finché non vengono richiesti tramite il canale appropriato.
+
 7\. ENTRO QUANDO PUOI RICHIEDERE 1 EURO  
 La richiesta va presentata durante il test e, salvo problemi tecnici documentati, entro 30 giorni dal riscontro relativo all’uso che la genera.
 
 8\. FONDO E DISPONIBILITÀ  
-Il fondo nominale iniziale è €100. Il registro pubblico può mostrare, per esempio: €100 iniziali / €7 pagati / 7 richieste accolte / €93 residui.
+Il fondo nominale iniziale è €100. Lo stato pubblico del fondo è riportato in [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md).
 
 Se il fondo nominale residuo raggiunge €0, il Divertoscopio entra automaticamente in PAUSA DIAGNOSTICA: la garanzia non viene promessa a nuovi tester e il fondo non viene semplicemente ricaricato. Prima di qualsiasi ripartenza il progetto analizza quali esperienze hanno fallito, quali promesse o aspettative erano sbagliate, quali pattern ricorrono nei feedback e quali modifiche o restrizioni di perimetro sono necessarie. Solo dopo una decisione esplicita e una nuova versione può essere aperta una nuova fase ed eventualmente stanziato un nuovo fondo. Le condizioni applicabili a un test restano quelle dichiarate prima dell'uso e identificate dalla versione dei termini.
 
@@ -88,12 +94,14 @@ Una richiesta viene valutata secondo:
 Modifiche materiali future non si applicano retroattivamente.
 
 12\. SCOPO DEL PILOT  
-Il pagamento di 1 euro è volutamente simbolico. Non serve a quantificare il valore del divertimento: serve a rendere concreta la responsabilità economica del progetto e a spostare una parte del costo del fallimento dal partecipante al progetto.
+Il pagamento di 1 euro è volutamente simbolico. Non serve a quantificare il valore del divertimento e non è beneficenza: è il **simbolico indennizzo reputazionale** che rende concreta la responsabilità economica del progetto e sposta una piccola parte del costo del fallimento dal partecipante al progetto.
 
 Il test serve anche a capire se questa garanzia viene percepita come una responsabilità reale del progetto oppure soltanto come una trovata promozionale. Il risultato può portare a modificarla o eliminarla nelle versioni successive.
 
-13\. NATURA DELLA GARANZIA  
-L’Ultra-Garanzia è concepita come una garanzia contrattuale/sperimentale collegata all’uso reale e all’insoddisfazione dichiarata secondo questi termini. Non prevede estrazione, sorte, classifica, gara, graduatoria, abilità competitiva o selezione di vincitori: ogni partecipante che soddisfa le condizioni applicabili può presentare la propria richiesta. Il pagamento di €1 non viene descritto come premio, vincita o ricompensa casuale.
+13\. NATURA DELL'ULTRA-GARANZIA  
+L’Ultra-Garanzia è un meccanismo sperimentale collegato all’uso reale e all’insoddisfazione dichiarata secondo questi termini. Il pagamento di €1 viene configurato e comunicato come **simbolico indennizzo reputazionale**: il costo che il progetto accetta quando la promessa non produce valore per il partecipante.
+
+Non prevede estrazione, sorte, classifica, gara, graduatoria, abilità competitiva o selezione di vincitori: ogni partecipante che soddisfa le condizioni applicabili può presentare la propria richiesta. Il pagamento non viene offerto come premio, vincita o ricompensa casuale.
 
 14\. NOTE LEGALI/OPERATIVE  
-Questi termini descrivono la meccanica sperimentale del test e non costituiscono un parere legale. La qualificazione giuridica dell’Ultra-Garanzia e gli eventuali adempimenti applicabili devono essere verificati in modo specifico prima di una diffusione pubblica ampia. Prima della Public Alpha verranno inoltre riesaminati privacy, fiscalità, pagamenti, marchio e termini in base all’esperienza reale e agli obblighi applicabili.
+Questi termini descrivono la meccanica sperimentale del closed pilot e non sostituiscono una consulenza legale, fiscale o contabile. L’Ultra-Garanzia viene qui strutturata come simbolico indennizzo reputazionale collegato all’insoddisfazione, non come premio o concorso. Prima di una diffusione su scala significativamente maggiore o di cambiamenti sostanziali del modello verranno riesaminati gli eventuali adempimenti applicabili a privacy, fiscalità, pagamenti, marchio e termini.

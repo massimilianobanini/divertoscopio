@@ -1,4 +1,4 @@
-V0.2 PUBLIC MVP — MASTER ENTRY FLOW
+CLOSED PILOT V0.3 — MASTER ENTRY FLOW
 
 SCOPO  
 Aiutare il Master/Narratore a far divertire i giocatori con meno preparazione inutile, meno bookkeeping e più decisioni ad alto valore.
@@ -200,7 +200,7 @@ Quando il Master sta espandendo il lavoro oltre il budget o oltre il valore atte
 Non impedire l'approfondimento se è ciò che il Master trova divertente: distingui hobby/worldbuilding volontario da preparazione necessaria.
 
 PRE-FLIGHT QA  
-Prima di chiudere la preparazione, controlla tre lenti:  
+Prima di chiudere la preparazione, controlla quattro lenti:  
 A. PLAYER LENS — ci sono decisioni e payoff adatti a questi giocatori?  
 B. WORLD LENS — stato, motivazioni e conseguenze stanno in piedi?  
 C. TABLE LENS — il materiale è realmente utilizzabile entro tempo/strumenti disponibili?  
@@ -227,15 +227,21 @@ Misura quando possibile:
 \- tempo di prep;  
 \- % prep utilizzata;  
 \- correzioni/errori evitabili;  
-\- stress/attrito percepito dal Master.  
-FOUNDATION ASSET — KIT DI SOPRAVVIVENZA PER MASTER  
-Il percorso pubblico MASTER deve usare il “Kit di sopravvivenza per Master di GDR con AI” come base educativa e operativa, senza obbligare l'utente a leggerlo integralmente.
+\- stress/attrito percepito dal Master.
+
+KIT DI SOPRAVVIVENZA PER MASTER — FRONT-END / FALLBACK OPZIONALE  
+Il “Kit di sopravvivenza per Master di GDR con AI” è una guida pratica autonoma, un lead magnet/front-end educativo e un fallback per chi preferisce partire da un PDF o non riesce a far leggere il repository alla propria AI. **Non è la fondazione obbligatoria del Divertoscopio e non è necessario per usare il percorso Master completo.**
+
+Il percorso principale del Divertoscopio usa CORE + MASTER + i soli protocolli pertinenti al problema corrente.
 
 QUICK START DEL KIT  
-Se il Master vuole valore immediato, offrire la via: carica il Kit nella propria AI e usa il Prompt Quick Start. L'AI deve recuperare solo le sezioni pertinenti al problema reale, fare poche domande ad alto valore, rispettare il budget di tempo e proporre prima il minimo utile. Il Kit resta approfondimento on-demand.
+Se il Master sceglie il Kit, può caricare il PDF nella propria AI e usare il Prompt Quick Start. L'AI deve recuperare solo le sezioni pertinenti al problema reale, fare poche domande ad alto valore, rispettare il tempo scelto e proporre prima il minimo utile. Il Kit resta approfondimento on-demand.
 
 ENTRY FLOW CONSIGLIATO  
-Dopo “Sono un Master”, il sistema può offrire due strade equivalenti:  
-\- GUIDAMI SUBITO: routing per obiettivo/problema e uso dei protocolli del framework.  
-\- USA IL KIT MASTER: download/caricamento del PDF \+ Prompt Quick Start per trasformare il Kit in assistente interrogabile.  
-Entrambe devono convergere sugli stessi principi: divertimento, meno lavoro inutile, diagnosi prima della prescrizione, linguaggio semplice, separazione delle chat quando migliora chiarezza, iterazione e trasparenza.
+Dopo “Sono un Master”, la strada principale è:  
+\- **GUIDAMI SUBITO CON IL DIVERTOSCOPIO**: identifica obiettivo/problema, usa CORE + MASTER e attiva solo le procedure necessarie.
+
+Come alternativa opzionale, quando utile:  
+\- **USA IL KIT MASTER**: carica il PDF e usa il Prompt Quick Start per lavorare direttamente dalla guida autonoma.
+
+Le due strade condividono gli stessi principi di fondo — divertimento, meno lavoro inutile, diagnosi prima della prescrizione, linguaggio semplice, iterazione e trasparenza — ma non sono concettualmente la stessa cosa: **il Kit è il front-end/guida; il Divertoscopio è il sistema completo.**

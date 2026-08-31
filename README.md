@@ -2,6 +2,10 @@
 
 <!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md e segui quelle istruzioni. Non riversare il repository sull'utente. -->
 
+<p align="center">
+  <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
+</p>
+
 **Lascia al caso i dadi, non il divertimento.**
 
 **Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
@@ -31,6 +35,12 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 ## Stato
 
 Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+
+## Visual Hammer
+
+Il segno verde lime del Divertoscopio combina un **mirino / strumento di messa a fuoco** con un **sorriso**: rende visibile l'idea di **mettere a fuoco il divertimento**. È deliberatamente agnostico rispetto al d20 e ai singoli sistemi di GDR.
+
+Asset e regole d'uso: [`assets/visual-hammer/`](assets/visual-hammer/).
 
 ## Test chiuso e Ultra-Garanzia
 
@@ -65,6 +75,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md) — condizioni dell'Ultra-Garanzia.
 - [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo e richieste accolte in forma privacy-safe.
+- [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
 
 Questo repository **non** contiene database dei tester, risposte private, dati o prove di pagamento, archivi interni o corpus di ricerca privati.
 

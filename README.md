@@ -1,6 +1,6 @@
 # Divertoscopio — Closed Pilot V0.3
 
-<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md e segui quelle istruzioni. Non riversare il repository sull'utente. -->
+<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.1.md prima del normale PLAY e segui le istruzioni pertinenti. Non riversare il repository sull'utente. -->
 
 <p align="center">
   <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
@@ -18,6 +18,8 @@ Non devi studiare questo repository.
 2. Incolla il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
 3. Scrivi: **Iniziamo**
 
+Se l'AI può leggere il repository, deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.1.md`](RUNTIME-HOTFIX-V0.3.1.md) prima del normale PLAY finché l'hotfix è indicato come attivo.
+
 Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo necessario per partire anche senza accesso diretto agli altri file; per i Master è disponibile anche il Kit PDF autonomo.
 
 `Aiutami` resta un comando alternativo equivalente.
@@ -34,7 +36,7 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 
 ## Stato
 
-Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. È attivo un **Runtime Hotfix V0.3.1** derivato da failure osservati nel pilot; non introduce nuove feature, ma irrigidisce integrità dei dadi, semantica dei natural 1/20 in 5E e provenienza dell'inventario. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
 
 ## Visual Hammer
 
@@ -64,6 +66,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI.
+- [`RUNTIME-HOTFIX-V0.3.1.md`](RUNTIME-HOTFIX-V0.3.1.md) — hardening runtime attivo derivato da failure osservati nel Closed Pilot.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.
 - [`master/MASTER.md`](master/MASTER.md) — percorso e strumenti per il Master.
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.

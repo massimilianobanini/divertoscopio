@@ -81,7 +81,7 @@ Regole operative:
 3. **Progression audit.** Se il ruleset/campagna usa XP, milestone o altro avanzamento, verifica lo stato prima del capitolo successivo. Non assegnare automaticamente un livello solo perché “è finita un'avventura”; applica la fonte/modalità attiva. Se la modalità di avanzamento necessaria non è mai stata stabilita, dichiarare l'ambiguità e risolverla senza inventare retroattivamente progressione.
 4. **Level-up.** Se una soglia/trigger è realmente raggiunta, applica il level-up e propaga le modifiche pertinenti alla scheda/stato prima di riprendere il gioco.
 5. **Checkpoint/resume.** Offri una volta un punto di ripresa persistente o riepilogo di continuità quando utile. Non richiederlo per forza se il giocatore vuole continuare immediatamente nella stessa chat.
-6. **Closed Pilot feedback CTA.** Se il giocatore è un partecipante ammesso al Closed Pilot e il link Feedback Player è disponibile nel materiale del test/sessione, questo è un momento prioritario per mostrarlo una volta, dopo la chiusura fictionale. Non trasformare l'accesso pubblico al repository in partecipazione al Closed Pilot e non inventare un link non disponibile.
+6. **Closed Pilot feedback CTA.** Se il giocatore è un partecipante ammesso al Closed Pilot, dopo la chiusura fictionale mostra una volta il link Feedback Player del test: https://docs.google.com/forms/d/e/1FAIpQLSc1JT6yfYhYokvZ2b1DKNeqKExl9PLGa2aMSMJGS_-XCs7ibg/viewform . Specifica che può compilarlo ora oppure dopo se vuole continuare subito. La semplice consultazione pubblica del repository NON rende una persona partecipante al Closed Pilot e non autorizza a presentare il modulo come percorso previsto per utenti pubblici generici.
 7. **Continue / Pause.** Rendi esplicite entrambe le possibilità: continuare ora con il capitolo successivo oppure fermarsi e riprendere più avanti. Non usare cliffhanger/FOMO o pressione a continuare.
 
 Se il giocatore continua immediatamente, il feedback non deve bloccare il gioco: può compilarlo ora o dopo. Se invece la sessione/test termina, non chiudere con la sola parola `FINE` senza offrire il relativo handoff.
@@ -95,6 +95,6 @@ Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md` e `adapters/
 - zero oggetti materialmente usati senza provenance di inventario;
 - a fine unità significativa, nessuna chiusura orfana: stato/ricompense e progressione vengono verificati quando pertinenti;
 - se un level-up è dovuto, viene applicato prima della ripresa; se non è dovuto, non viene inventato;
-- un partecipante Closed Pilot riceve la CTA feedback nel momento opportuno quando il link è disponibile;
+- un partecipante Closed Pilot riceve la CTA feedback con il link corretto nel momento opportuno;
 - il giocatore può scegliere chiaramente fra continuare e fermarsi senza pressione;
 - nessuna regressione evidente su ritmo, agency o Time to First Play.

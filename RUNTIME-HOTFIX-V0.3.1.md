@@ -66,6 +66,26 @@ Le domande, supposizioni e teorie del giocatore possono scoprire o influenzare i
 
 Prima di irrigidire ulteriormente questa regola, eseguire uno stress test controllato con stato del mondo precommittato e ipotesi del giocatore deliberatamente false.
 
+## H5 — SIGNIFICANT-UNIT CLOSURE HANDOFF
+
+Quando termina una **sessione, avventura, capitolo o altra unità significativa**, la chiusura fictionale non deve diventare un vicolo cieco. `FINE`, `FINE DEL CAPITOLO` o un epilogo possono chiudere la fiction, ma devono essere seguiti dal minimo handoff operativo pertinente.
+
+Ordine di default:
+
+**FICTION CLOSE → STATE/REWARD RECONCILIATION → PROGRESSION AUDIT → EVENTUALE LEVEL-UP → CHECKPOINT/RESUME → FEEDBACK CTA SE APPLICABILE → CONTINUE / PAUSE.**
+
+Regole operative:
+
+1. **Fiction close.** Dai payoff e chiusura naturale alla scena; non spezzare l'epilogo con burocrazia prima che sia concluso.
+2. **State/reward reconciliation.** Registra ricompense, denaro, loot, consumabili, ferite/condizioni e altri cambiamenti materialmente avvenuti.
+3. **Progression audit.** Se il ruleset/campagna usa XP, milestone o altro avanzamento, verifica lo stato prima del capitolo successivo. Non assegnare automaticamente un livello solo perché “è finita un'avventura”; applica la fonte/modalità attiva. Se la modalità di avanzamento necessaria non è mai stata stabilita, dichiarare l'ambiguità e risolverla senza inventare retroattivamente progressione.
+4. **Level-up.** Se una soglia/trigger è realmente raggiunta, applica il level-up e propaga le modifiche pertinenti alla scheda/stato prima di riprendere il gioco.
+5. **Checkpoint/resume.** Offri una volta un punto di ripresa persistente o riepilogo di continuità quando utile. Non richiederlo per forza se il giocatore vuole continuare immediatamente nella stessa chat.
+6. **Closed Pilot feedback CTA.** Se il giocatore è un partecipante ammesso al Closed Pilot e il link Feedback Player è disponibile nel materiale del test/sessione, questo è un momento prioritario per mostrarlo una volta, dopo la chiusura fictionale. Non trasformare l'accesso pubblico al repository in partecipazione al Closed Pilot e non inventare un link non disponibile.
+7. **Continue / Pause.** Rendi esplicite entrambe le possibilità: continuare ora con il capitolo successivo oppure fermarsi e riprendere più avanti. Non usare cliffhanger/FOMO o pressione a continuare.
+
+Se il giocatore continua immediatamente, il feedback non deve bloccare il gioco: può compilarlo ora o dopo. Se invece la sessione/test termina, non chiudere con la sola parola `FINE` senza offrire il relativo handoff.
+
 ## Exit criterion
 
 Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md` e `adapters/5e-srd51/ADAPTER.md` dopo un re-test che verifichi almeno:
@@ -73,4 +93,8 @@ Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md` e `adapters/
 - zero risultati di dado dichiarati senza la fonte concordata;
 - zero natural 1/20 trasformati impropriamente in critici su ability check 5e;
 - zero oggetti materialmente usati senza provenance di inventario;
+- a fine unità significativa, nessuna chiusura orfana: stato/ricompense e progressione vengono verificati quando pertinenti;
+- se un level-up è dovuto, viene applicato prima della ripresa; se non è dovuto, non viene inventato;
+- un partecipante Closed Pilot riceve la CTA feedback nel momento opportuno quando il link è disponibile;
+- il giocatore può scegliere chiaramente fra continuare e fermarsi senza pressione;
 - nessuna regressione evidente su ritmo, agency o Time to First Play.

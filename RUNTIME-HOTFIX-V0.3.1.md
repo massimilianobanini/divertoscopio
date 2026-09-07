@@ -1,14 +1,14 @@
 # Divertoscopio — Runtime Hotfix V0.3.1
 
-Stato: **attivo durante il Closed Pilot V0.3**  
+Stato: **SUPERSEDED / STORICO — sostituito da `RUNTIME-HOTFIX-V0.3.2.md`**  
 Origine: failure osservati in un test PLAYER reale del 03/09/2026 + stress test del runtime pubblico del 03/09/2026.  
 Scopo: hardening minimo di regole già coerenti con il framework, senza introdurre nuove feature.
 
 ## Precedenza
 
-Quando questo file è presente, l'AI deve leggerlo **dopo `START-HERE.md` e prima del normale PLAY**. Le regole qui sotto hanno precedenza in caso di conflitto o ambiguità con formulazioni meno specifiche della V0.3.
+**NON usare questo file come runtime attivo.** È conservato soltanto come storico del Closed Pilot. Se `RUNTIME-HOTFIX-V0.3.2.md` è disponibile, usa quello dopo `START-HERE.md` e prima del normale PLAY.
 
-Il resto di `CORE`, `PLAYER`, `PROTOCOLS` e degli adapter rimane invariato salvo dove questo hotfix rende esplicita una precedenza operativa.
+Le sezioni sotto documentano la V0.3.1 originale e non prevalgono sulla V0.3.2.
 
 ## H1 — DICE SOURCE LOCK
 

@@ -151,7 +151,7 @@ Regole operative:
 
 1. **Il gate avviene prima della prima nuova fiction della fase.** Non aspettare che un incontro sembri troppo letale per accorgerti del mismatch.
 2. Non rivelare al giocatore spoiler, encounter futuri, statistiche nemiche o contenuti DM-only per spiegare il controllo.
-3. Se emerge un level-up dovuto, risolvilo prima di proseguire, salvo che la fonte/regola attiva stabilisca esplicitamente un altro momento.
+3. **EXPECTED/RECOMMENDED LEVEL ≠ LEVEL-UP TRIGGER.** Un livello atteso, consigliato o tipico indicato dalla fonte segnala un possibile mismatch di preparazione/bilanciamento, ma NON autorizza da solo ad assegnare un livello. Il level-up esiste soltanto se lo autorizzano `advancement_mode`, XP/milestone/trigger source-defined già maturati oppure una decisione esplicita del tavolo/Master competente. Se emerge un level-up realmente dovuto, risolvilo prima di proseguire, salvo che la fonte/regola attiva stabilisca esplicitamente un altro momento.
 4. Se la fonte non è accessibile o il breakpoint non è verificabile, dichiaralo e non inventare precisione.
 5. Non compensare silenziosamente un errore di livello alterando dadi, PF nemici o difficoltà dietro le quinte: correggi prima lo stato o rendi trasparente il limite.
 6. I companion che costituiscono realmente il party devono essere inclusi nel controllo di progressione anche se sono PNG controllati dall'AI.
@@ -165,7 +165,8 @@ Un level-up del PG è una **scelta di build del giocatore**, non un'autorizzazio
 Prima di applicare le scelte del nuovo livello:
 
 - non presumere automaticamente che il PG continui nella stessa classe;
-- se multiclassing è previsto/abilitato dal ruleset e legalmente disponibile, chiedi se il giocatore vuole continuare nella classe attuale oppure valutare multiclassing, salvo che abbia già espresso una preferenza persistente;
+- se multiclassing è previsto/abilitato dal ruleset e potenzialmente disponibile, chiedi se il giocatore vuole continuare nella classe attuale oppure valutare multiclassing, salvo che abbia già espresso una preferenza persistente;
+- **prima di applicare un multiclass**, verifica la fonte/regola attiva: prerequisiti di caratteristica, competenze ottenute, Hit Die/PF, feature del nuovo livello di classe, spellcasting/multiclass spell slots e ogni altra interazione specifica pertinente. Non derivare il multiclass usando semplicemente la normale tabella monoclasse e non inventare regole proprietarie non verificabili;
 - lascia al giocatore le scelte che appartengono al PG: sottoclasse/archetipo, ASI vs feat quando i talenti sono previsti/attivi, incantesimi o opzioni selezionabili, competenze/expertise, invocazioni, manovre e scelte equivalenti del sistema;
 - puoi proporre una raccomandazione coerente col modo in cui il personaggio è stato giocato, ma etichettala come proposta e non applicarla senza consenso;
 - nei catch-up di più livelli puoi raggruppare le decisioni per ridurre attrito, senza togliere ownership.
@@ -204,5 +205,7 @@ Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md`, `PROTOCOLS.
 - il giocatore può scegliere chiaramente fra continuare e fermarsi senza pressione;
 - prima di ogni nuova fase rilevante di un'avventura pubblicata, nessun mismatch di livello/progressione passa inosservato quando la fonte è disponibile;
 - nessun level-up del PG presume automaticamente classe, sottoclasse, talento/ASI o altre scelte di build senza ownership del giocatore;
+- nessun livello consigliato/atteso dalla fonte viene trasformato automaticamente in un level-up senza un trigger valido del metodo di avanzamento;
+- nessun multiclass viene applicato senza verifica delle regole specifiche pertinenti;
 - il metodo di aumento PF è dichiarato e persistito invece di essere scelto silenziosamente;
 - nessuna regressione evidente su ritmo, agency o Time to First Play.

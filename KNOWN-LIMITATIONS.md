@@ -4,7 +4,7 @@ IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 
 Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
 
-- per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, personaggi di livello 1, una persona e gioco testuale in chat;  
+- per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
 - D&D 2024, personaggi di livello più alto e combattimenti molto complessi sono ancora poco testati;  
 - il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  
 - usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
@@ -19,7 +19,7 @@ DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 
 Stato: pubblico per tester / sperimentale  
 Versione: Closed Pilot V0.3  
-Data: 30/08/2026
+Data: 07/09/2026
 
 SCOPO  
 Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il closed pilot deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
@@ -49,8 +49,8 @@ Non è ancora validato come copilot live avanzato che segue in tempo reale un in
 3. D&D 2024 — NON VALIDATO A DOVERE  
 Le regole 2024 non sono state testate in modo sufficiente. Il closed pilot deve evitare di presentare D&D 2024 come equivalente al supporto 2014.
 
-4. LEVEL-UP — NON TESTATO A DOVERE  
-Non è stato ancora testato in modo sufficiente il passaggio di livello e la continuità del personaggio/campagna attraverso più level-up.
+4. LEVEL-UP — TEST PARZIALE  
+È stato eseguito un primo catch-up tecnico dal livello 1 al 3 durante il Pilot 0, che ha fatto emergere e correggere problemi reali su checkpoint di avanzamento, ownership delle scelte di build e metodo dei PF. Questo NON valida ancora la progressione completa: restano da stressare level-up naturali durante il gioco, più passaggi consecutivi, multiclassing reale, ASI/talenti, spellcaster complessi, continuità delle risorse e gioco prolungato dopo il level-up.
 
 5. LIVELLI MEDIO/ALTI — NON TESTATI A DOVERE  
 Non sono stati stressati seriamente:  

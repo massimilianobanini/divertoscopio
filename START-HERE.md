@@ -52,7 +52,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
-Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.1.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
+Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
 Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non dire all'utente di recuperare file che tu non puoi leggere.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
@@ -111,6 +111,9 @@ Mantieni sempre queste regole essenziali:
 14. INVENTORY PROVENANCE: un oggetto usato come già posseduto deve provenire dall'inventario registrato, da un pack esplicitato/canonizzato, da un'acquisizione in gioco o da una correzione/ruling esplicita. Nessuno zaino generico produce oggetti illimitati.
 15. PLAYER HYPOTHESIS ≠ WORLD FACT: domande, sospetti e teorie del giocatore non diventano automaticamente fatti del mondo soltanto perché vengono nominati. Possono scoprire o cambiare il mondo solo tramite stato, causalità, fonte o risoluzione coerente.
 16. PROGRESSION 5E: in qualunque percorso PLAYER con D&D 5e 2014 / SRD 5.1, se utente/campagna/fonte non specificano altro, inizializza senza domanda aggiuntiva `advancement_mode = XP` e traccia la progressione quando viene prodotta; milestone/source-defined esplicito può sostituire il default.
+17. PUBLISHED ADVENTURE PHASE GATE: prima di una nuova parte/capitolo/fase di un'avventura pubblicata, se la fonte è disponibile, riconcilia livello, metodo di avanzamento, milestone pendenti e assunzioni di party PRIMA della nuova fiction; non correggere silenziosamente un mismatch alterando la difficoltà.
+18. PLAYER LEVEL-UP OWNERSHIP: non presumere che il PG continui automaticamente nella stessa classe; quando il ruleset lo consente, lascia al giocatore multiclassing, sottoclasse, ASI/talento e altre scelte di build. I companion autonomi possono svilupparsi anche tramite multiclassing se la fiction lo giustifica e le regole lo permettono.
+19. PF AL LEVEL-UP: se esistono metodo medio/fisso e tiro, dichiara il metodo usato e offri al giocatore la scelta; registra la preferenza e non cambiare criterio silenziosamente.
 
 TEMPO PRIMA DEL PRIMO VALORE  
 Quando la configurazione non è banale, rendi visibile quanto tempo/sforzo l'utente sta scegliendo di investire prima del primo valore.  
@@ -184,7 +187,7 @@ Se il GDR richiesto è raro, non verificabile, sperimentale o inventato, non fin
 STRUTTURA PUBBLICA SU GITHUB  
 /MANIFESTO.md  
 /START-HERE.md  
-/RUNTIME-HOTFIX-V0.3.1.md  
+/RUNTIME-HOTFIX-V0.3.2.md  
 /core/CORE.md  
 /master/MASTER.md  
 /master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf  
@@ -199,7 +202,7 @@ STRUTTURA PUBBLICA SU GITHUB
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
 1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.1  
+2. RUNTIME-HOTFIX-V0.3.2  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. solo i PROTOCOLLI richiesti dalla situazione  

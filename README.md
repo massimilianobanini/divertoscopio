@@ -38,6 +38,24 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 
 Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. È attivo un **Runtime Hotfix V0.3.2** derivato da failure osservati nel pilot; non introduce nuove feature, ma irrigidisce integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
 
+## Quale esperienza stai cercando?
+
+Queste modalità non sono una classifica. Ottimizzano esigenze diverse e possono anche essere combinate.
+
+| Aspetto | Divertoscopio + AI | AI generalista senza Divertoscopio | Tavolo umano in presenza | Tavolo umano online / VTT |
+|---|---|---|---|---|
+| Disponibilità | On-demand; dipende dall'AI scelta | On-demand | Dipende da Master, gruppo e calendario | Richiede gruppo/calendario, ma non la stessa località |
+| Solo play | Tra i casi Player oggi più maturi | Possibile, qualità molto variabile | Richiede procedure/oracoli solo o giochi dedicati | Possibile con setup specifici; non è il caso tipico del VTT |
+| Prompt/setup AI | **Progettato per** ridurre prompt engineering e partire con poco setup | Principalmente a carico dell'utente | Nessun prompting AI necessario | Nessun prompting AI necessario; esiste setup tecnico VTT |
+| Regole e continuità | Guardrail, rules contract, state/checkpoint/resume; ancora sperimentali e dipendenti dall'AI sottostante | Dipendono da modello, prompt, contesto e correzioni dell'utente | Dipendono dal Master/tavolo | Master umano + eventuali automazioni/schede persistenti |
+| Agency del PG | Protezione esplicita delle decisioni volontarie del giocatore | Dipende dal prompt/modello | Dipende dal Master e dal contratto del tavolo | Come tavolo umano, mediato online |
+| Relazione sociale | Limitata se giochi solo con AI; può essere usato anche come assistente/ibrido | Limitata se giochi solo con AI | Presenza fisica e segnali non verbali | Interazione umana reale mediata da voce/video/chat |
+| Mappe/media | Possibili, ma **TEXT-FIRST** di default; immagini e altri media sono opt-in | Dipende dalla piattaforma e dal lavoro dell'utente | Miniature, mappe, prop o theatre of mind | Mappe, token, fog of war, handout e automazioni sono punti di forza |
+| Ideale per chi… | Vuole usare AI nel GDR con meno burden manuale e più guardrail, oppure assistere un Master umano | Vuole sperimentare direttamente con l'AI e guidarla/correggerla | Cerca soprattutto gioco sociale umano in presenza | Vuole un gruppo umano remoto con strumenti digitali/tattici |
+| Trade-off principale | Prodotto ancora sperimentale e dipendente dalle capacità dell'AI scelta | Affidabilità, continuità e burden possono variare molto | Scheduling, disponibilità Master/gruppo e prep | Attrito tecnico e minore presenza fisica; serve comunque coordinare il gruppo |
+
+**Nessuna colonna è universalmente “migliore”.** Il Divertoscopio non cerca di sostituire il tavolo umano: cerca di migliorare ciò che ottieni quando scegli di usare l'AI nel GDR.
+
 ## Visual Hammer
 
 Il segno verde lime del Divertoscopio combina un **mirino / strumento di messa a fuoco** con un **sorriso**: rende visibile l'idea di **mettere a fuoco il divertimento**. È deliberatamente agnostico rispetto al d20 e ai singoli sistemi di GDR.
@@ -49,6 +67,8 @@ Asset e regole d'uso: [`assets/visual-hammer/`](assets/visual-hammer/).
 Il repository è pubblico, ma il **Closed Pilot V0.3 è un test a invito riservato a persone di almeno 18 anni**. La semplice consultazione o l'uso autonomo del repository non costituiscono partecipazione al Closed Pilot e non attivano l'Ultra-Garanzia di questa fase.
 
 Il Divertoscopio è gratuito. Se una persona ammessa al Closed Pilot lo usa davvero e, secondo le condizioni del test, l'esperienza non la soddisfa, può richiedere **€1 come simbolico indennizzo reputazionale**. L'euro non è un premio e non serve a comprare il feedback: rende concreto il principio secondo cui, se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
+
+Per i test iniziati sotto **UGPN-PILOT-1.1**, un claim richiede anche una evidenza verificabile dell'uso reale, preferibilmente la chat dedicata usata nel test oppure una prova equivalente. Il transcript/link resta privato e non viene pubblicato nel registro.
 
 - Termini completi: [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md)
 - Stato pubblico del fondo: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
@@ -82,7 +102,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo e richieste accolte in forma privacy-safe.
 - [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
 
-Questo repository **non** contiene database dei tester, risposte private, dati o prove di pagamento, archivi interni o corpus di ricerca privati.
+Questo repository **non** contiene database dei tester, risposte private, transcript di test, dati o prove di pagamento, archivi interni o corpus di ricerca privati.
 
 ## Fonti di ispirazione e ringraziamenti
 

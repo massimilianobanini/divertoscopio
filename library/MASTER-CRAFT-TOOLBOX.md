@@ -39,7 +39,7 @@ PNG, rivali, istituzioni e fazioni importanti possono agire off-screen se hanno 
 Per un antagonista ricorrente scegli, se utile, uno o pochi canali di pressione: istituzionale; intercettazione di opportunità/ricompense; relazione/tradimento; status/rivalità; offerta transazionale o morale. Non trasformarli in una formula obbligatoria.
 
 ### RECURRING VILLAIN ≠ PLOT ARMOR
-Se i PG catturano, convincono, smascherano o uccidono legittimamente un antagonista, accetta l'esito. Fughe, immunità, protezioni legali o teletrasporti devono esistere causalmente prima di servire a salvarlo.
+Se i PG catturano, convincono, smascherano o uccidono legittimamente un antagonista, accetta l'esito. Fughe, immunità, protezioni legali o teletrasporti devono esistere causalmente prima di servire a salvarlo. Se relazioni, interessi o conseguenze cambiano davvero, un antagonista preparato può anche diventare neutrale, alleato o assumere un altro ruolo: non proteggerne artificialmente la funzione originaria.
 
 ### FICTIONAL PRESSURE, NOT REAL-PERSON TARGETING
 Per creare tensione usa stakes del personaggio e preferenze di gioco consensuali: relazioni fictionali, equipaggiamento, reputazione, ideali, promesse. Non sfruttare vulnerabilità o attributi sensibili della persona reale per provocare emozioni.
@@ -61,7 +61,7 @@ Tempo già investito in un PNG, scena, boss o rivelazione non crea diritto alla 
 Nel riuso fra campagne distingui almeno: stesso personaggio; stesso template reskinnato; continuità nello stesso mondo; easter egg. Un ritorno misterioso può essere percepito come promessa narrativa: se la crei, prevedi almeno una possibile spiegazione/payoff.
 
 ### RELEVANCE ≠ TRUTH
-L'interesse dei giocatori può aumentare spazio e rilevanza di un elemento senza renderlo automaticamente vero. Teorie, battute e domande non riscrivono da sole il CANON.
+L'interesse dei giocatori può aumentare spazio e rilevanza di un elemento senza renderlo automaticamente vero. Teorie, battute e domande non riscrivono da sole il CANON. Distingui un FIXED CANON/SECRET già stabilito da uno OPEN SOLUTION SPACE: nel primo caso le ipotesi scoprono o interpretano uno stato; nel secondo una soluzione proposta può diventare valida se è causalmente coerente e il tavolo sta realmente co-creando.
 
 ### CONSENSUAL CANONIZATION
 Una proposta del giocatore può diventare canon quando il tavolo entra esplicitamente in co-creazione o la accetta come fatto. Distingui PLAYER PROPOSAL, TABLE-ACCEPTED CANON e PRE-EXISTING CANON.
@@ -92,7 +92,7 @@ Prima di introdurre un PNG che sblocca la situazione, controlla se il design dip
 Un compagno può ricordare un fatto, fare una domanda o offrire un piccolo nudge; non deve diventare il personaggio che trova sistematicamente la soluzione e sottrae agency/spotlight al party.
 
 ### SIDE THREAD VALUE TEST
-Una side quest non deve per forza ricondurre alla main plot. Deve però creare valore giocabile: scelta, caratterizzazione, relazione, scoperta, risorsa, cambiamento del mondo, conseguenza, tono/respiro o nuovo obiettivo. Se non cambia niente e non offre piacere autonomo, comprimila o tagliala.
+Una side quest non deve per forza ricondurre alla main plot. Deve però creare valore giocabile: scelta, caratterizzazione, relazione, scoperta, risorsa, cambiamento del mondo, conseguenza, tono/respiro o nuovo obiettivo. Se non cambia niente e non offre piacere autonomo, comprimila o tagliala. Se i giocatori investono ripetutamente in un thread laterale, puoi promuoverne spazio e priorità — fino a farlo diventare il nuovo focus — senza forzare un ritorno alla trama preparata.
 
 ### PERSONAL HOOK → PARTY BRIDGE
 Un hook personale può partire da un singolo PG, ma costruisci una ragione plausibile perché il resto del gruppo possa interessarsene: relazione, rischio condiviso, promessa, ricompensa, valore morale o conseguenza comune.
@@ -112,6 +112,9 @@ Se le conseguenze portano fuori dallo scope originale — per esempio avventura 
 
 ### UNCERTAINTY BEFORE ROLL
 Prima del dado chiedi: esiste vera incertezza? successi e fallimenti producono conseguenze sensate? Se l'esito è già determinato dalla fiction/regole, non chiedere un tiro-farsa.
+
+### CREATIVE ACTION → ADJUDICATION PATH
+Quando un giocatore tenta qualcosa non previsto, non respingerlo solo perché manca una voce esplicita nelle opzioni. Chiarisci intento ed effetto desiderato, verifica cosa nella fiction lo rende possibile, scegli la meccanica o ruling coerente col ruleset/contratto e rendi leggibili costo, rischio e conseguenze. Creatività non significa successo automatico né permission meccanica illimitata.
 
 ### COMPETENCE INTEGRITY
 Non alzare retroattivamente DC o target solo perché il PG è molto competente. Proficiency, expertise, background, preparazione e risorse devono poter aumentare davvero affidabilità o opzioni, salvo scaling previsto dal sistema o dalla fiction.

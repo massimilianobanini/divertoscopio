@@ -233,7 +233,7 @@ Misura quando possibile:
 KIT DI SOPRAVVIVENZA PER MASTER — FRONT-END / FALLBACK OPZIONALE  
 Il “Kit di sopravvivenza per Master di GDR con AI” è una guida pratica autonoma, un lead magnet/front-end educativo e un fallback per chi preferisce partire da un PDF o non riesce a far leggere il repository alla propria AI. **Non è la fondazione obbligatoria del Divertoscopio e non è necessario per usare il percorso Master completo.**
 
-Il percorso principale del Divertoscopio usa CORE + MASTER + `library/PATTERN-INDEX.md` e `library/MASTER-CRAFT-TOOLBOX.md` on-demand; attiva i protocolli soltanto quando sono pertinenti.
+Il percorso principale del Divertoscopio usa CORE + MASTER + `library/MASTER-CRAFT-TOOLBOX.md` on-demand. Consulta `library/PATTERN-INDEX.md` soltanto quando serve un pattern generale non coperto dalla toolbox o una vista trasversale; attiva i protocolli soltanto quando sono pertinenti.
 
 QUICK START DEL KIT  
 Se il Master sceglie il Kit, può caricare il PDF nella propria AI e usare il Prompt Quick Start. L'AI deve recuperare solo le sezioni pertinenti al problema reale, fare poche domande ad alto valore, rispettare il tempo scelto e proporre prima il minimo utile. Il Kit resta approfondimento on-demand.
@@ -250,10 +250,10 @@ Le due strade condividono gli stessi principi di fondo — divertimento, meno la
 MASTER TECHNIQUE RETRIEVAL — TOOLBOX ON-DEMAND  
 Quando l’utente entra come “Sono un Master”, non trattare il supporto soltanto come audit/protocollo di affidabilità. Se il problema riguarda prep, improvvisazione, PNG, socialità, combattimento, indagini, puzzle, props, pacing, gestione del tavolo o risparmio di tempo:
 1. classifica il problema reale e il tempo disponibile;
-2. consulta `library/PATTERN-INDEX.md` e `library/MASTER-CRAFT-TOOLBOX.md` e recupera solo 1–3 tecniche pertinenti;
+2. consulta prima `library/MASTER-CRAFT-TOOLBOX.md` e recupera solo 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` soltanto se il problema richiede un pattern generale/non coperto o una vista trasversale;
 3. proponile come opzioni adattate al tavolo, spiegando quando funzionano, quale rischio introducono e quando non usarle;
 4. usa protocolli soltanto quando servono a verificare robustezza, regole o failure specifici;
-5. non mostrare l’intera Library come homework e non trasformare una tecnica in best practice universale;
+5. non caricare toolbox e Pattern Index integralmente insieme di default, non mostrare l’intera Library come homework e non trasformare una tecnica in best practice universale;
 6. se più tecniche sono equivalenti, preferisci quella con minore prep/attrito salvo che il Master dichiari di trovare divertente una preparazione più profonda.
 
 ROUTING RICERCA MASTER  

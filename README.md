@@ -32,7 +32,7 @@ Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare 
 
 Il **Kit** è una guida introduttiva autonoma. Il **Divertoscopio** è il sistema completo ospitato in questo repository. Il Kit non è necessario per usare il Divertoscopio.
 
-Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository nella tua AI e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere.
+Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository nella tua AI e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere, recuperando on-demand anche la toolbox pubblica di tecniche Master.
 
 ## Stato
 
@@ -72,15 +72,23 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.
 - [`player/PLAYER.md`](player/PLAYER.md) — percorso per il giocatore.
 - [`protocols/PROTOCOLS.md`](protocols/PROTOCOLS.md) — procedure da usare quando servono.
-- [`library/PATTERN-INDEX.md`](library/PATTERN-INDEX.md) — tecniche e pattern opzionali.
+- [`library/PATTERN-INDEX.md`](library/PATTERN-INDEX.md) — pattern generali opzionali.
+- [`library/MASTER-CRAFT-TOOLBOX.md`](library/MASTER-CRAFT-TOOLBOX.md) — toolbox Master-facing: prep pigra, PNG, improvvisazione, combattimento, Sessione Zero, one-shot, feedback e altre tecniche recuperate on-demand.
 - [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
+- [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — fonti di ispirazione e ringraziamenti per la ricerca pubblica/privata che ha contribuito materialmente al progetto.
 - [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md) — condizioni dell'Ultra-Garanzia.
 - [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo e richieste accolte in forma privacy-safe.
 - [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
 
 Questo repository **non** contiene database dei tester, risposte private, dati o prove di pagamento, archivi interni o corpus di ricerca privati.
+
+## Fonti di ispirazione e ringraziamenti
+
+Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Il Rosso**, oltre a numerose fonti internazionali.
+
+L'elenco, il criterio di inclusione e la nota esplicita che una citazione **non implica approvazione, collaborazione o affiliazione** sono in [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md).
 
 ## Licenze
 

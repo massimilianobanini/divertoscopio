@@ -77,7 +77,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
-- [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — fonti di ispirazione e ringraziamenti per la ricerca pubblica/privata che ha contribuito materialmente al progetto.
+- [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.
 - [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md) — condizioni dell'Ultra-Garanzia.
 - [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo e richieste accolte in forma privacy-safe.
 - [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
@@ -88,7 +88,7 @@ Questo repository **non** contiene database dei tester, risposte private, dati o
 
 Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Il Rosso**, oltre a numerose fonti internazionali.
 
-L'elenco, il criterio di inclusione e la nota esplicita che una citazione **non implica approvazione, collaborazione o affiliazione** sono in [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md).
+[`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) separa esplicitamente le fonti con un contributo documentato alla ricerca dalle ispirazioni/community/interlocutori considerati. In entrambi i casi, una citazione **non implica approvazione, collaborazione o affiliazione**.
 
 ## Licenze
 

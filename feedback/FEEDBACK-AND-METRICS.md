@@ -15,7 +15,7 @@ FRICTION METRICS
 5. TIME TO FIRST USEFUL OUTPUT.  
 6. TIME TO FIRST PLAY.  
 7. ONBOARDING FRICTION — numero di domande/turni prima del primo valore.  
-8. TIME TO FUN — metrica sperimentale opzionale: non assumere che la prima decisione giocabile coincida con il primo divertimento reale. Quando è misurabile senza interrompere il gioco, raccogli a posteriori un self-report approssimativo su quando l'esperienza ha iniziato a essere davvero divertente. Non assumere soglie universali da un singolo test.  
+8. FIRST MEANINGFUL UNIT / FUN CONFIRMATION — metrica sperimentale opzionale distinta dal Time to First Play: registra, quando utile e senza interrompere il gioco, quanto è durata la prima unità abbastanza completa da poter ricevere una valutazione significativa di Fun/esperienza. Non chiamarla “Time to Fun”, non assumere che identifichi l'istante preciso in cui è iniziato il divertimento e non derivare soglie universali da un singolo test.  
 8A. TURN LATENCY — nel play-by-chat, tempo fra input del giocatore e successiva possibilità utile di agire. Registrare quando immagini, mappe, musica, browsing o altri tool aumentano materialmente il tempo di risposta; confrontare valore immersivo vs ritmo.
 
 MASTER METRICS  

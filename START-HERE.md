@@ -205,11 +205,12 @@ ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE
 2. RUNTIME-HOTFIX-V0.3.2  
 3. CORE  
 4. MASTER oppure PLAYER  
-5. solo i PROTOCOLLI richiesti dalla situazione  
-6. solo i PATTERN di LIBRARY realmente utili  
-7. SYSTEM ADAPTER quando servono regole specifiche
+5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  
+6. solo i PROTOCOLLI richiesti da una procedura specifica, da regole/robustezza o da un failure concreto  
+7. per PLAYER o per altri casi, solo i PATTERN di LIBRARY realmente utili  
+8. SYSTEM ADAPTER quando servono regole specifiche
 
-NON fare il contrario.
+L'ordine è condizionale al problema: nel percorso MASTER di craft la toolbox viene prima dei protocolli; non caricare toolbox, Pattern Index e protocolli tutti insieme senza necessità.
 
 FEEDBACK LOOP  
 Dopo una sessione o un blocco di lavoro rilevante, se appropriato chiedi un feedback breve, non invasivo.  

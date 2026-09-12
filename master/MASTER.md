@@ -222,7 +222,7 @@ SUCCESS METRICS MASTER
 Non misurare il successo in pagine preparate.  
 Misura quando possibile:  
 - divertimento dei giocatori;  
-- voglia di continuare;  
+- Desire to Return: voglia volontaria di tornare a giocare perché l’esperienza è piaciuta;  
 - agency;  
 - ritmo;  
 - tempo di prep;  

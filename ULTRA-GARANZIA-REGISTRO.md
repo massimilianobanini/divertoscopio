@@ -21,7 +21,7 @@ Per UGPN-PILOT-1.2 la copertura deve essere scelta **prima dell’uso** e confer
 | € riservati a slot attivi | €0 |
 | Nuovi slot attivati nel mese corrente | 0 / 20 |
 | Fondo disponibile per nuove attivazioni | €100 |
-| Stato | PRE-PILOT — SLOT NON ANCORA ATTIVI |
+| Stato | CLOSED PILOT — UGPN 1.2 SLOT FLOW NON ANCORA ATTIVATO |
 
 **Cap mensile:** massimo 20 nuove attivazioni per mese di calendario, sempre entro il fondo disponibile. Questo limite riguarda i **nuovi slot**, non viene usato per rinviare un payout già validamente maturato.
 

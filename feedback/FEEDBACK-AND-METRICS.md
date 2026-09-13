@@ -1,252 +1,213 @@
-CLOSED PILOT V0.3 — FEEDBACK & METRICS
+# CLOSED PILOT V0.3 — FEEDBACK & METRICS
 
-SCOPO  
-Misurare se il Divertoscopio produce realmente più divertimento, maggiore voglia volontaria di tornare a giocare e minore attrito/preparazione. Il feedback non è un rituale: deve generare decisioni di miglioramento.
+## Scopo
 
-NORTH STAR METRICS  
-1. FUN — Quanto ti sei divertito? 0–10.  
-2. DESIRE TO RETURN — Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10. Non usare questa metrica per massimizzare durata compulsiva o difficoltà a smettere.
+Misurare se il Divertoscopio produce realmente **divertimento**, **voglia volontaria di tornare** e un’esperienza utile con attrito ragionevole. Il feedback deve generare decisioni di miglioramento, non diventare un questionario infinito.
 
-CORE EXPERIENCE METRICS  
-3. LIBERTÀ DI SCELTA (campo interno: Agency) — Quanto ti sei sentito libero/a di decidere cosa fare con il tuo personaggio? 0–10.  
-4. RITMO (campo interno: Pacing) — Quanto il gioco è scorso al ritmo giusto per te, senza trascinarsi troppo o andare troppo velocemente? 0–10.
+## Principio operativo corrente
 
-FRICTION METRICS  
-5. TIME TO FIRST USEFUL OUTPUT.  
-6. TIME TO FIRST PLAY.  
-7. ONBOARDING FRICTION — numero di domande/turni prima del primo valore.  
-8. FIRST MEANINGFUL UNIT / FUN CONFIRMATION — metrica sperimentale opzionale distinta dal Time to First Play: registra, quando utile e senza interrompere il gioco, quanto è durata la prima unità abbastanza completa da poter ricevere una valutazione significativa di Fun/esperienza. Non chiamarla “Time to Fun”, non assumere che identifichi l'istante preciso in cui è iniziato il divertimento e non derivare soglie universali da un singolo test.  
-8A. TURN LATENCY — nel play-by-chat, tempo fra input del giocatore e successiva possibilità utile di agire. Registrare quando immagini, mappe, musica, browsing o altri tool aumentano materialmente il tempo di risposta; confrontare valore immersivo vs ritmo.
+**ASK ONLY WHAT CANNOT BE OBSERVED.**
 
-MASTER METRICS  
-9. PREP TIME ACTUAL.  
-10. PREP TIME COUNTERFACTUAL — quanto pensi avresti impiegato senza Divertoscopio?  
-11. PREP USED — quota/materiale effettivamente utilizzato.  
-12. GM FRICTION/STRESS — opzionale 0–10.
+Per i nuovi test del Closed Pilot V0.3 / **UGPN-PILOT-1.3**, il tester usa **un solo modulo dopo l’esperienza**.
 
-QUALITY / TRUST METRICS  
-13. Rules corrections/errori rilevati.  
-14. Contraddizioni di stato/memoria.  
-15. Spoiler involontari.  
-16. Player-action takeover: casi in cui l'AI decide/narra volontariamente al posto del PG.  
-17. Railroading percepito/segnalato.  
-18. Boring/friction moments segnalati.  
-19. Standout moments.
+Campi visibili a tutti:
 
-DEFAULT FEEDBACK — MASSIMO 30–60 SECONDI  
-Domande al giocatore:  
-- Divertimento: 0–10  
-- Voglia di tornare a giocare perché questa esperienza ti è piaciuta: 0–10  
-- Quanto ti sei sentito libero/a di decidere cosa fare con il tuo personaggio? 0–10  
-- Quanto il gioco è scorso al ritmo giusto per te, senza trascinarsi troppo o andare troppo velocemente? 0–10  
-- Vorrei PIÙ di: [testo breve]  
-- Vorrei MENO di: [testo breve]
+- nome/cognome o nickname;
+1. **FUN** — Quanto ti sei divertito? 0–10;
+2. **DESIRE TO RETURN** — Quanto vorresti continuare/rigiocare perché questa esperienza ti è piaciuta? 0–10;
+3. cosa migliore — facoltativo;
+4. cosa principale da cambiare — facoltativo;
+5. vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì.
 
-Opzionale:  
-- Momento migliore?  
-- Momento più debole/frustrante?
+Se **NO**: submit e fine.
 
-Non rendere obbligatori lunghi commenti aperti.  
-Alla fine di una unità significativa, dopo il feedback quando appropriato, offrire una sola volta un file riepilogativo V0.1 riutilizzabile; non offrirlo dopo micro-scambi.
+Se **SÌ**, nello stesso modulo:
+6. chat usata / prova equivalente;
+7. metodo + dato necessario al pagamento.
 
-MASTER FEEDBACK BREVE  
-Aggiungi:  
-- Quanto tempo hai preparato con il Divertoscopio?  
-- Quanto pensi che avresti impiegato senza?  
-- Cosa hai preparato ma non hai usato?  
-- Quale suggerimento ti ha fatto risparmiare più tempo?  
-- Quale suggerimento ti ha creato lavoro inutile?
+Non usare PRE-TEST obbligatori, Feedback Master separati, Claim Form separati, Slot ID o Pilot ID esposti al tester per i nuovi test 1.3.
 
-CONTEXT FIELDS — RACCOLTI AUTOMATICAMENTE QUANDO POSSIBILE  
-- framework_version;  
-- date;  
-- role = PLAYER / MASTER / BOTH;  
-- system;  
-- ruleset/edition;  
-- mode PLAYER = GIOCA_SUBITO / PERSONALIZZA_PRIMA / PERSONALIZZA_A_FONDO; mode MASTER = PREPARA_SUBITO / PREPARA_MEGLIO / APPROFONDISCI;  
-- human_GM / AI_GM / AI_ASSISTED_HUMAN_GM;  
-- session_length;  
-- solo / group;  
-- group_size;  
-- experience_level;  
-- protocol set attivato;  
-- interaction/media mode = LIVE / TEXT_FIRST / ENHANCED / CINEMATIC / HYBRID quando pertinente;  
-- adventure type = published / original / hybrid;  
-- ai_platform = nome piattaforma quando conoscibile senza interrogare inutilmente l'utente;  
-- ai_model = modello dichiarato/esposto oppure UNKNOWN;  
-- response_mode = SPEED / BALANCED / REASONING / OTHER / UNKNOWN, senza inventare la modalità se la piattaforma non la espone;  
-- custom_instructions = YES / NO / UNKNOWN quando rilevante e conoscibile;  
-- mode_changed_during_test = YES / NO / UNKNOWN;  
-- quality_escalation = NOT_TRIGGERED / OFFERED / ACCEPTED / DECLINED / UNKNOWN;  
-- optional user/test ID pseudonimo.
+## North Star
 
-Non trasformare questi campi in un nuovo questionario obbligatorio. UNKNOWN è un valore valido. La configurazione spontanea iniziale dell'utente è parte dell'evidenza del test.
+### 1. FUN
+Quanto ti sei divertito? `0–10`.
 
-PRIVACY PRINCIPLE  
-Raccogli soltanto dati necessari a migliorare il prodotto.  
-Non chiedere dati sensibili per analizzare il divertimento.  
-Email/lista marketing e feedback di gioco devono essere concettualmente separabili e gestiti con consenso appropriato.
+### 2. DESIRE TO RETURN
+Quanto vorresti tornare/continuare perché questa esperienza ti è piaciuta? `0–10`.
 
-PLAYER MODEL UPDATE  
-Ogni feedback deve essere tradotto con provenienza:  
-DECLARED — risposta esplicita.  
-OBSERVED — comportamento/metriche osservate.  
-INFERRED — interpretazione.  
-CONFIDENCE — 0–1 o LOW/MEDIUM/HIGH.
+Non usare Desire to Return per massimizzare durata compulsiva, cliffhanger artificiali o difficoltà a smettere.
 
-Esempio:  
-Declared: “voglio più combattimento”.  
-Observed: punteggi più alti nelle sessioni con combattimenti tattici brevi.  
-Inferred: preferenza per combat ad alta decision density, non necessariamente maggiore durata.  
-Confidence: medium.
+## Dati qualitativi minimi
 
-Non convertire automaticamente “più combattimento” in “raddoppia tutti i fight”. Testa una piccola modifica.
+- **Best Thing** — cosa ha funzionato meglio;
+- **Main Change** — la principale cosa da cambiare.
 
-ITERATION LOOP  
-SESSION/USE  
-→ FEEDBACK  
-→ FAILURE/SUCCESS CLASSIFICATION  
-→ aggiornamento Player/GM Model  
-→ identifica 1–3 cambiamenti a maggior ROI  
-→ nuova versione/esperimento  
-→ SESSION/USE successivo.
+Questi campi possono essere facoltativi: un punteggio autentico vale più di un modulo abbandonato.
 
-CHANGE POLICY  
-Non modificare contemporaneamente dieci variabili se vuoi capire cosa ha prodotto il risultato.  
-Quando possibile, cambiare poche cose e annotare l'ipotesi.
+## Metriche diagnostiche — osservare quando possibile
 
-EXPERIMENT OBJECT  
-Ogni esperimento può contenere:  
-- hypothesis;  
-- target segment;  
-- change;  
-- expected effect;  
-- guardrail;  
-- metrics;  
-- result;  
-- decision = KEEP / MODIFY / REJECT / NEED MORE DATA.
+Non trasformare automaticamente queste metriche in altre domande obbligatorie. Quando esiste un transcript o una sessione osservabile, ricavare direttamente:
 
-Esempio:  
-Hypothesis: il percorso GIOCA SUBITO con un solo messaggio di configurazione porta il Time to First Play verso ~60 secondi di configurazione prima della prima decisione giocabile, senza ridurre Fun, Desire to Return o libertà di scelta. La latenza tecnica della piattaforma resta separata.  
-Guardrail: libertà di scelta, safety e corretto experience match non devono peggiorare.  
-Decisione dopo N test.
+- libertà di scelta / agency;
+- pacing e turn latency;
+- Time to First Play;
+- rules corrections/errori;
+- contraddizioni di stato/memoria;
+- spoiler / knowledge leak;
+- player-action takeover;
+- hidden railroading;
+- dice integrity / hidden fudging;
+- source fidelity;
+- continuity / resume accuracy;
+- correction burden: correzioni, reminder, rescue e hidden-GM work richiesti all’utente;
+- media/tool latency;
+- closure della sessione;
+- uso effettivo di prep/materiale per i Master.
 
-FAILURE TAXONOMY — BOZZA  
-F01 ONBOARDING TOO LONG  
-F02 WRONG EXPERIENCE MATCH  
-F03 PLAYER ACTION TAKEOVER  
-F04 HIDDEN RAILROAD  
-F05 STATE/MEMORY FAILURE  
-F06 RULES ERROR  
-F07 SPOILER / KNOWLEDGE LEAK  
-F08 PACING DRAG  
-F09 TOO MUCH EXPLANATION  
-F10 TOO LITTLE SUPPORT  
-F11 COMBAT STATIC/LOW-DECISION  
-F12 INVESTIGATION BLOCK  
-F13 NPC FLAT/INCOHERENT  
-F14 CONSEQUENCE ARBITRARY  
-F15 PLOT ARMOR / FUDGING  
-F16 OVER-PREP  
-F17 UNDER-PREP / MISSING CRITICAL ASSET  
-F18 TOOL/UX FRICTION  
-F19 SAFETY/EXPECTATION MISMATCH  
-F20 NARRATIVE/ORTHOGRAPHIC INCOHERENCE  
-F21 REPETITIVE LOOP / NO STATE CHANGE  
-F22 NO NATURAL SESSION CLOSURE  
-F23 OTHER.
+**UNKNOWN è un valore valido.** Non interrogare inutilmente il tester per riempire ogni colonna.
 
-SUCCESS TAXONOMY — BOZZA  
-S01 HIGH AGENCY  
-S02 STRONG TENSION  
-S03 FAST TIME-TO-FIRST-PLAY / FIRST-USEFUL-OUTPUT  
-S04 MEMORABLE NPC  
-S05 SATISFYING CONSEQUENCE  
-S06 GOOD TACTICAL DECISION  
-S07 STRONG DISCOVERY/REVELATION  
-S08 PLAYER SURPRISE WITHOUT CHEATING  
-S09 HIGH IMMERSION  
-S10 LOW-PREP/HIGH-VALUE  
-S11 DESIRE TO RETURN  
-S12 SATISFYING SESSION/CHAPTER CLOSURE  
-S13 MEANINGFUL THEME WITHOUT PREACHING  
-S14 OTHER.
+## Context fields
 
-BEHIND-THE-SCREEN DATA  
-Se il debrief include counterfactual o probabilità, distinguere:  
-- PREDEFINED: era già stabilito;  
-- LOGGED DECISION: decisione presa prima dell'esito;  
-- EX-POST INFERENCE: ricostruzione successiva;  
-- NOT DETERMINED.  
-Non presentare una stima ex-post come realtà nascosta che “sarebbe certamente accaduta”.
+Raccogliere automaticamente quando conoscibili senza attrito:
 
-VERSIONING  
-Ogni test esterno deve registrare almeno la versione del Divertoscopio e, quando pertinente, la versione separata dei termini applicabili.  
+- framework/product version;
+- data;
+- ruolo = PLAYER / MASTER / BOTH;
+- sistema / edition;
+- modalità di gioco;
+- solo / gruppo;
+- AI platform/model se realmente esposto o dichiarato;
+- response mode se conoscibile;
+- protocollo/adapter usato;
+- adventure type = published / original / hybrid;
+- interaction/media mode = TEXT_FIRST / immagini on request / altro quando pertinente.
+
+Non inventare dati mancanti.
+
+## Master metrics
+
+Quando il test riguarda un Master umano, osservare o raccogliere solo se realmente utile:
+
+- PREP TIME ACTUAL;
+- PREP TIME COUNTERFACTUAL;
+- PREP USED / curation ratio;
+- GM friction/stress;
+- quale supporto ha fatto risparmiare lavoro;
+- quale supporto ha creato lavoro inutile;
+- **MASTER ROLE-ENTRY ENABLEMENT**: l’assistenza ha reso possibile masterare qualcosa che altrimenti non avrebbe preparato/gestito?
+
+Non creare un secondo questionario Master obbligatorio per il Closed Pilot 1.3.
+
+## Provenienza dell’evidenza
+
+Ogni conclusione dovrebbe distinguere:
+
+- **DECLARED** — risposta esplicita del tester;
+- **OBSERVED** — comportamento/failure visibile nel transcript o nel test;
+- **INFERRED** — interpretazione;
+- **CONFIDENCE** — LOW / MEDIUM / HIGH o equivalente.
+
+Un utente può dichiarare di essersi divertito molto e, contemporaneamente, avere dovuto correggere spesso l’AI.
+
+**EXPERT RESCUE ≠ BASELINE PASS.**
+
+## Correction burden
+
+Quando la chat è disponibile, contare o stimare separatamente:
+
+- correzioni di regole;
+- correzioni di stato/canon;
+- reminder di istruzioni già date;
+- richieste di tiro/meccanica che l’AI avrebbe dovuto attivare;
+- ripristini di agency;
+- reindirizzamenti verso la fonte/modulo;
+- altri interventi in cui il giocatore diventa di fatto hidden GM/debugger.
+
+## Ultra-Garanzia — UGPN-PILOT-1.3
+
+Feedback e richiesta economica sono metriche diverse.
+
+Campi interni utili:
+
+- `claim_requested = YES / NO`;
+- `identity_match_status`;
+- `evidence_verified = YES / NO / PARTIAL`;
+- `lifetime_payout_check`;
+- `claim_qualified`;
+- `payout_status`;
+- `correction_burden` quando il transcript lo consente.
+
+Interpretazione:
+
+- feedback negativo senza claim ≠ soddisfazione;
+- claim richiesto ≠ claim automaticamente qualificato;
+- claim qualificato ≠ payout automatico;
+- un dry-run interno ≠ claim reale;
+- transcript/evidenza richiesta soltanto nel ramo €1 o condivisa volontariamente per ricerca.
+
+Per UGPN-PILOT-1.3 tutti i tester ammessi al Closed Pilot sono automaticamente coperti; non esistono metriche operative di slot/pre-use per i nuovi test.
+
+## Iteration loop
+
+`SESSION/USE → FEEDBACK → FAILURE/SUCCESS CLASSIFICATION → aggiornamento del modello Player/GM → 1–3 cambiamenti ad alto ROI → nuovo test`
+
+Non modificare dieci variabili contemporaneamente se vuoi capire cosa ha prodotto il risultato.
+
+## Failure examples
+
+Fra i failure da classificare quando osservati:
+
+- onboarding troppo lungo;
+- wrong experience match;
+- player-action takeover;
+- hidden railroad;
+- state/memory failure;
+- rules error;
+- spoiler/knowledge leak;
+- pacing drag;
+- too much explanation;
+- too little support;
+- combat static/low-decision;
+- investigation block;
+- NPC flat/incoherent;
+- consequence arbitrary;
+- plot armor/fudging;
+- over-prep;
+- missing critical asset;
+- tool/UX friction;
+- safety/expectation mismatch;
+- repetitive loop / no state change;
+- no natural session closure.
+
+La tassonomia completa e gli stress test tecnici vivono nella documentazione interna/canonica; il modulo pubblico non deve riprodurli.
+
+## Success examples
+
+- high agency;
+- strong tension;
+- fast Time to First Play;
+- memorable NPC;
+- satisfying consequence;
+- meaningful tactical decision;
+- strong discovery;
+- surprise without cheating;
+- high immersion;
+- low-prep/high-value;
+- Desire to Return;
+- satisfying closure.
+
+## Versioning
+
 Versione prodotto corrente: **Closed Pilot V0.3**.  
-Eventuali build tecniche possono usare un identificatore più granulare senza sostituire il nome pubblico della release.
+Runtime hardening corrente: **V0.3.2**.  
+Termini correnti per i nuovi test: **UGPN-PILOT-1.3**.
 
-Release stages:  
-INTERNAL  
-→ CLOSED PILOT  
-→ PUBLIC ALPHA  
-→ BETA  
-→ STABLE, solo quando esistono dati sufficienti.
+I test iniziati sotto termini precedenti restano attribuiti alla versione allora applicabile.
 
-CLOSED PILOT SUCCESS CRITERIA — IPOTESI DA VALIDARE  
-Non trattare queste soglie come verità definitiva.  
-Prime soglie operative candidate:  
-- median Fun ≥ 8/10;  
-- median Desire to Return ≥ 8/10;  
-- Libertà di scelta (campo interno Agency) ≥ 8/10;  
-- nessun pattern ricorrente grave di player-action takeover o hidden fudging;  
-- GIOCA SUBITO: candidato Time to First Play con circa 1 minuto di configurazione; PERSONALIZZA PRIMA circa 5 minuti; PERSONALIZZA A FONDO 15+ minuti. Soglie da validare, non promesse;  
-- per AI-assisted human GM, riduzione percepita del prep time senza calo di divertimento.
+## Guardrail finale
 
-La vera baseline va misurata sui primi tester; non manipolare il design per “passare” arbitrariamente le soglie.
+Ridurre la frizione del feedback è un successo soltanto se non rende impossibile capire il risultato.
 
-TESTER STRATEGY — CLOSED PILOT V0.3  
-Target iniziale: **10 Player + 10 Master**, abbastanza diversi da far emergere errori qualitativi.  
-Non serve subito scala enorme.  
-Cercare varietà in:  
-- esperienza GDR;  
-- esperienza AI;  
-- Player vs Master;  
-- solo vs gruppo;  
-- preferenza combat/RP/exploration;  
-- livelli di prep del Master.
+Per il Closed Pilot corrente la priorità è:
 
-LEARNING ASSET  
-Il vero vantaggio cumulativo non è il numero di fonti lette, ma il dataset che collega:  
-CONTEXT + PLAYER/GM PROFILE + TECHNIQUE/PROTOCOL USED + OUTCOME.
-
-Domanda futura centrale:  
-“Quale tecnica aumenta la probabilità di divertimento per quale tipo di persona, in quale situazione, a quale costo di attrito/preparazione?”
-
-GUARDRAIL  
-Non ottimizzare una metrica in modo cieco.  
-Esempio: ridurre il tempo di configurazione non è un successo se produce mismatch, minore libertà di scelta, errori o meno divertimento.  
-North Star = esperienza umana complessiva.
-
-ADDITIONAL RELIABILITY METRICS — ATTIVA QUANDO PERTINENTI  
-20. DICE TRUST / NO HIDDEN FUDGING: casi in cui l'AI ha modificato/ripetuto segretamente un proprio risultato già ottenuto = 0. Non misurare come failure la mancata verifica dei tiri dichiarati dal giocatore, salvo modalità verificata esplicitamente concordata.  
-21. STATE ACCURACY: contraddizioni CANON per 100 turni; errori su identità/alias, posizione, HP/risorse, oggetti e conoscenze.  
-22. RESUME ACCURACY: errori critici dopo snapshot → nuova chat/sessione.  
-23. MULTIPLAYER: libertà di scelta per giocatore; spotlight percepito; tempo morto percepito; knowledge leak tra PG; chiarezza su chi sta agendo.  
-24. HEALTHY ENGAGEMENT: la persona vuole tornare volontariamente; monitorare separatamente eventuale sensazione di sessione trascinata, cliffhanger artificiale o difficoltà a fermarsi.  
-25. SOURCE FIREWALL: numero di istruzioni incorporate nelle fonti che hanno alterato impropriamente il comportamento del framework; target = 0.  
-26. SCENE CONTEXT: scene/decisioni in cui luogo, ora/fascia del giorno o condizioni ambientali erano materialmente rilevanti ma mancavano/erano incoerenti; errori di geografia conosciuta dal PG; cambi meteo arbitrari non causali.
-
-MULTIPLAYER FEEDBACK BREVE — SOLO SE UTILE  
-Oltre alle metriche generali, chiedere eventualmente: “Ti sei sentito coinvolto/a abbastanza rispetto agli altri giocatori?” 0–10 e “Hai avuto tempi morti troppo lunghi?” 0–10. Non obbligare ogni giocatore a compilare un questionario lungo; raccogliere individualmente solo quando serve a diagnosticare il gruppo.
-
-LONGITUDINAL CHECKPOINTS  
-Per campagne persistenti, non giudicare il Divertoscopio soltanto dalla sessione 1. Quando possibile confronta sessione 1 / 2 / 3 / 5 su: Fun, Desire to Return, libertà, ritmo, ripetitività percepita, state errors, qualità dei callback/payoff e volontà spontanea di riprendere.
-
-CONTINUITY RELIABILITY METRICS — QUANDO PERTINENTI  
-27. FIRST USEFUL PARTIAL: un task lungo ha prodotto un risultato utilizzabile prima dell'ultimo passaggio? sì/no + momento/milestone.  
-28. CHECKPOINT COMPLETENESS: in caso di interruzione o cambio chat, sono presenti DONE / PENDING / DECISIONS-CANON / FILES-SOURCES / NEXT STEP?  
-29. CONTEXT WARNING QUALITY: warning dato prima della perdita evidente di continuità; nessuna falsa precisione su messaggi/token rimanenti; numero di warning ridondanti.  
-30. RESUME FROM CONTINUITY PACK: nuova chat riesce a riprendere il lavoro senza chiedere nuovamente informazioni già conservate e senza leak di visibilità.  
-31. PLATFORM / RESPONSE-MODE SENSITIVITY: quando un failure porta a una quality escalation, conserva il failure originale e registra separatamente se il passaggio a una modalità più orientata a qualità/coerenza/ragionamento migliora lo stesso problema. Non reinterpretare retroattivamente il primo failure come errore dell'utente.  
-Failure candidate: F24 EXECUTION/CONTEXT ALL-OR-NOTHING — task perde valore perché tutto era rinviato alla fine, manca checkpoint utile o la conversazione supera il contesto senza strategia di continuità.  
-Success candidate: S15 FAIL-SOFT CONTINUITY — risultato parziale utile, stato salvato e ripresa possibile con basso attrito.
+**poche domande soggettive ad alto valore + osservazione tecnica dal transcript quando disponibile.**

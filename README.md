@@ -66,14 +66,14 @@ Asset e regole d'uso: [`assets/visual-hammer/`](assets/visual-hammer/).
 
 Il repository è pubblico, ma il **Closed Pilot V0.3 è un test a invito riservato a persone di almeno 18 anni**. La semplice consultazione o l'uso autonomo del repository non costituiscono partecipazione al Closed Pilot e non attivano l'Ultra-Garanzia di questa fase.
 
-Il Divertoscopio è gratuito. **Feedback e Ultra-Garanzia sono separati:** puoi partecipare e lasciare anche un feedback critico senza voler ricevere denaro.
+Per i nuovi test regolati da **UGPN-PILOT-1.3**, tutti i tester ammessi al Closed Pilot sono automaticamente coperti: **non servono opt-in preventivo, slot o un Claim Form separato**.
 
-Per i nuovi test regolati da **UGPN-PILOT-1.2**, chi vuole mantenere la possibilità di chiedere **€1 come simbolico indennizzo reputazionale** deve scegliere la copertura prima dell'uso e ricevere conferma di uno **slot Ultra-Garanzia**. Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'intero programma**, salvo futura apertura esplicita di un programma separato. In questa fase possono essere confermati al massimo **20 nuovi slot per mese di calendario**, sempre entro il fondo nominale di €100. Ogni slot attivo riserva €1; il limite mensile riguarda le nuove attivazioni e non rinvia i payout già validamente maturati.
+Dopo l'esperienza esiste **un solo modulo**. Tutti possono lasciare feedback senza ricevere denaro. Chi sceglie di richiedere **€1 come simbolico indennizzo reputazionale** aggiunge, nello stesso modulo, soltanto una evidenza verificabile dell'uso — preferibilmente la chat dedicata o una prova equivalente — e il metodo/dato necessario al pagamento.
 
-Un claim richiede uso reale, feedback, slot valido e una evidenza verificabile dell'uso, preferibilmente la chat dedicata usata nel test o una prova equivalente. Transcript/link restano privati e non vengono pubblicati nel registro. Chi non attiva la garanzia, non ottiene uno slot o semplicemente non vuole denaro può comunque usare il Divertoscopio e lasciare normalmente il proprio feedback.
+Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'intero programma**. Il Closed Pilot ammette al massimo **20 tester**, quindi l'esposizione teorica massima della fase è **€20**, a fronte di un fondo nominale di **€100**. Nessun pagamento è automatico: i claim vengono verificati manualmente. Transcript, link e dati di pagamento restano privati.
 
 - Termini completi: [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md)
-- Stato pubblico del fondo e della capacità: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
+- Stato pubblico del fondo e delle richieste: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
 - Privacy: [`PRIVACY.md`](PRIVACY.md)
 
 ## Materiale commerciale e copyright
@@ -101,7 +101,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.
 - [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md) — condizioni dell'Ultra-Garanzia.
-- [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo, capacità e richieste accolte in forma privacy-safe.
+- [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo, esposizione e richieste accolte in forma privacy-safe.
 - [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
 
 Questo repository **non** contiene database dei tester, risposte private, transcript di test, dati o prove di pagamento, archivi interni o corpus di ricerca privati.

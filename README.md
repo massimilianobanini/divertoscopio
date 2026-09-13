@@ -66,12 +66,14 @@ Asset e regole d'uso: [`assets/visual-hammer/`](assets/visual-hammer/).
 
 Il repository è pubblico, ma il **Closed Pilot V0.3 è un test a invito riservato a persone di almeno 18 anni**. La semplice consultazione o l'uso autonomo del repository non costituiscono partecipazione al Closed Pilot e non attivano l'Ultra-Garanzia di questa fase.
 
-Il Divertoscopio è gratuito. Se una persona ammessa al Closed Pilot lo usa davvero e, secondo le condizioni del test, l'esperienza non la soddisfa, può richiedere **€1 come simbolico indennizzo reputazionale**. L'euro non è un premio e non serve a comprare il feedback: rende concreto il principio secondo cui, se promettiamo valore e non arriva, il fallimento deve avere un costo anche per noi.
+Il Divertoscopio è gratuito. **Feedback e Ultra-Garanzia sono separati:** puoi partecipare e lasciare anche un feedback critico senza voler ricevere denaro.
 
-Per i test iniziati sotto **UGPN-PILOT-1.1**, un claim richiede anche una evidenza verificabile dell'uso reale, preferibilmente la chat dedicata usata nel test oppure una prova equivalente. Il transcript/link resta privato e non viene pubblicato nel registro.
+Per i nuovi test regolati da **UGPN-PILOT-1.2**, chi vuole mantenere la possibilità di chiedere **€1 come simbolico indennizzo reputazionale** deve scegliere la copertura prima dell'uso e ricevere conferma di uno **slot Ultra-Garanzia**. Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'intero programma**, salvo futura apertura esplicita di un programma separato. In questa fase possono essere confermati al massimo **20 nuovi slot per mese di calendario**, sempre entro il fondo nominale di €100. Ogni slot attivo riserva €1; il limite mensile riguarda le nuove attivazioni e non rinvia i payout già validamente maturati.
+
+Un claim richiede uso reale, feedback, slot valido e una evidenza verificabile dell'uso, preferibilmente la chat dedicata usata nel test o una prova equivalente. Transcript/link restano privati e non vengono pubblicati nel registro. Chi non attiva la garanzia, non ottiene uno slot o semplicemente non vuole denaro può comunque usare il Divertoscopio e lasciare normalmente il proprio feedback.
 
 - Termini completi: [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md)
-- Stato pubblico del fondo: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
+- Stato pubblico del fondo e della capacità: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
 - Privacy: [`PRIVACY.md`](PRIVACY.md)
 
 ## Materiale commerciale e copyright
@@ -99,7 +101,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.
 - [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md) — condizioni dell'Ultra-Garanzia.
-- [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo e richieste accolte in forma privacy-safe.
+- [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md) — fondo, capacità e richieste accolte in forma privacy-safe.
 - [`assets/visual-hammer/`](assets/visual-hammer/) — Visual Hammer e regole d'uso pubbliche.
 
 Questo repository **non** contiene database dei tester, risposte private, transcript di test, dati o prove di pagamento, archivi interni o corpus di ricerca privati.

@@ -10,7 +10,7 @@ Data aggiornamento: **13/09/2026**
 - **Tutti i tester ammessi al Closed Pilot V0.3 sono automaticamente coperti** dall’Ultra-Garanzia secondo questi termini: non devono attivare nulla prima dell’uso e non devono conoscere Slot ID, Pilot ID o Claim ID.
 - Dopo l’esperienza esiste **un solo modulo** di feedback.
 - Tutti possono lasciare feedback senza ricevere denaro.
-- Se il tester sceglie nello stesso modulo **“Sì, voglio ricevere €1”**, aggiunge soltanto una prova dell’uso reale e il metodo/dato necessario al pagamento.
+- Se il tester sceglie nello stesso modulo **“Sì — non sono soddisfatto e voglio richiedere €1”**, aggiunge soltanto una prova dell’uso reale e il metodo/dato necessario al pagamento.
 - Ogni persona fisica può ricevere al massimo **un solo pagamento di €1 nell’intero programma Ultra-Garanzia del Divertoscopio**, indipendentemente da nickname, account, email, dispositivi o destinazioni di pagamento.
 - Il Closed Pilot ammette al massimo **20 tester**: l’esposizione economica teorica massima della fase è quindi **€20**, a fronte di un fondo nominale di **€100**.
 - Nessun pagamento è automatico: i claim vengono verificati manualmente.
@@ -43,18 +43,18 @@ Per i nuovi test UGPN-PILOT-1.3 non esistono PRE-TEST obbligatori, attivazioni p
 
 Dopo l’esperienza il tester compila un solo modulo:
 
-1. nome/cognome o nickname;
-2. Fun 0–10;
-3. Desire to Return 0–10;
-4. cosa migliore;
-5. cosa principale da cambiare;
-6. scelta se richiedere oppure no €1.
+- nome/cognome o nickname;
+1. quanto ti sei divertito? — 0–10;
+2. quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? — 0–10;
+3. cosa migliore — facoltativo;
+4. cosa principale da cambiare — facoltativo;
+5. dopo averlo usato davvero, non sei soddisfatto e vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì.
 
 Se sceglie **NO**, il modulo termina.
 
 Se sceglie **SÌ**, nello stesso modulo compaiono soltanto:
-- evidenza della chat usata o prova equivalente;
-- metodo/dato necessario al pagamento.
+6. evidenza della chat usata o prova equivalente;
+7. metodo/dato necessario al pagamento.
 
 Feedback e denaro restano separati: un feedback può essere critico o negativo anche senza alcuna richiesta economica.
 
@@ -64,7 +64,7 @@ Per essere qualificabile sotto UGPN-PILOT-1.3, il claim deve riguardare una pers
 
 - abbia usato realmente Divertoscopio in modo sufficiente a formarsi un giudizio personale;
 - completi il modulo unico;
-- scelga personalmente di richiedere €1;
+- dichiari personalmente di non essere soddisfatta e scelga di richiedere €1;
 - fornisca evidenza verificabile dell’uso reale;
 - indichi una destinazione/metodo di pagamento utilizzabile;
 - non abbia già ricevuto il proprio unico payout del programma.

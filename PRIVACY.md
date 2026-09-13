@@ -1,190 +1,213 @@
-INFORMATIVA PRIVACY — DIVERTOSCOPIO CLOSED PILOT V0.3
+# INFORMATIVA PRIVACY — DIVERTOSCOPIO CLOSED PILOT V0.3
 
 Data aggiornamento: **13/09/2026**  
 Contatto privacy/progetto: **massimiliano.banini@yahoo.it**
 
-## IN BREVE — LE COSE IMPORTANTI
+## In breve — le cose importanti
 
-- Nei normali questionari puoi usare nome e cognome oppure un nickname. Se vuoi fornire meno dati personali, usa un nickname stabile.
-- Il sistema assegna automaticamente un identificativo interno per collegare le tue risposte: non devi conoscerlo o ricordarlo.
+- **Feedback e Ultra-Garanzia sono separati**: puoi lasciare feedback senza attivare la garanzia e senza ricevere denaro.
+- Se chiedi l’Ultra-Garanzia sotto **UGPN-PILOT-1.2**, la scelta avviene prima dell’uso e può comportare la registrazione di uno slot, della sua validità e del relativo stato.
+- Nei normali questionari puoi usare nome e cognome oppure un nickname stabile; se vuoi minimizzare i dati personali, usa un nickname.
 - I normali moduli non devono raccogliere automaticamente l’email del tuo account Google.
-- I dati di pagamento vengono chiesti soltanto se scegli di richiedere 1 euro tramite l’Ultra-Garanzia, in un modulo separato e privato.
-- Per i claim relativi a test iniziati sotto **UGPN-PILOT-1.1** viene richiesta una evidenza verificabile dell’uso reale, preferibilmente la chat dedicata usata nel test o un export/copia equivalente.
-- Usa quando possibile una chat dedicata al Closed Pilot e, prima di condividerla, rimuovi/oscuri contenuti estranei e dati di terzi non necessari.
-- Il transcript, il file o il link della chat **non vengono pubblicati** nel registro pubblico.
+- I dati di pagamento vengono chiesti soltanto se presenti un claim qualificabile.
+- I claim UGPN-PILOT-1.2 richiedono evidenza verificabile dell’uso reale, preferibilmente la chat dedicata usata nel test o un export/copia equivalente.
+- Usa quando possibile una chat dedicata e rimuovi/oscuri contenuti estranei e dati di terzi non necessari.
+- Transcript, shared link, dati di pagamento e dettagli antifrode non vengono pubblicati nel registro pubblico.
+- Per applicare la regola **“un solo payout per persona nell’intero programma”**, il progetto può conservare un indicatore anti-duplicazione minimo/pseudonimizzato più a lungo del transcript, con accesso ristretto e riesame periodico.
 - Ricevere aggiornamenti futuri è facoltativo e richiede una scelta separata.
-- Per chiedere accesso, correzione, cancellazione o esercitare altri diritti puoi scrivere al contatto sopra.
 
-## TITOLARE DEL TRATTAMENTO
+## Titolare del trattamento
 
 Il titolare del trattamento per i dati raccolti direttamente attraverso i moduli del test è **Massimiliano Banini**. Contatto privacy e per l’esercizio dei diritti: massimiliano.banini@yahoo.it.
 
-## BASE GIURIDICA — IN SINTESI
+## Base giuridica — in sintesi
 
-- gestione del closed pilot, collegamento delle risposte, analisi del feedback e miglioramento del prodotto: legittimo interesse del titolare a testare e migliorare il Divertoscopio (art. 6(1)(f) GDPR), con minimizzazione, possibilità di usare un nickname e diritto di opposizione; il relativo bilanciamento è documentato internamente in un Legitimate Interest Assessment (LIA);
-- gestione della richiesta €1, verifica dei requisiti applicabili e relativo simbolico indennizzo reputazionale: esecuzione delle condizioni dell’Ultra-Garanzia su richiesta dell’interessato (art. 6(1)(b) GDPR);
-- analisi diagnostica dell’eventuale transcript/evidenza del test per individuare failure, frizioni e miglioramenti del prodotto: legittimo interesse del Closed Pilot (art. 6(1)(f)), con minimizzazione e diritto di opposizione;
-- eventuali obblighi legali, fiscali o di rendicontazione: art. 6(1)(c), quando effettivamente applicabile;
+- gestione del Closed Pilot, collegamento delle risposte, analisi del feedback e miglioramento del prodotto: legittimo interesse del titolare a testare e migliorare Divertoscopio (art. 6(1)(f) GDPR), con minimizzazione e diritto di opposizione;
+- attivazione facoltativa di uno slot UGPN, verifica dei requisiti, gestione del claim e pagamento richiesto dall’interessato: esecuzione delle condizioni dell’Ultra-Garanzia su richiesta dell’interessato (art. 6(1)(b) GDPR), nei limiti applicabili;
+- analisi diagnostica di transcript/evidenza per failure, frizioni e miglioramento del prodotto: legittimo interesse del Closed Pilot (art. 6(1)(f)), con minimizzazione e diritto di opposizione;
+- prevenzione di claim/payout duplicati e tutela da abusi: legittimo interesse alla sostenibilità e sicurezza del programma (art. 6(1)(f)), con controlli proporzionati e non invasivi per default;
+- eventuali obblighi legali, fiscali o di rendicontazione: art. 6(1)(c), quando applicabile;
 - aggiornamenti futuri/marketing: consenso separato e revocabile (art. 6(1)(a)).
 
 La partecipazione al test resta volontaria.
 
-## 1. SCOPO
+## 1. Scopo
 
-Questa informativa descrive come vengono trattati i dati raccolti durante il Closed Pilot V0.3 del Divertoscopio, compresi questionario iniziale, riscontri di giocatori e Master, eventuale evidenza di uso reale ed eventuale uso dell’Ultra-Garanzia del Prezzo Negativo.
+Questa informativa descrive come vengono trattati i dati raccolti durante il Closed Pilot V0.3, compresi pre-test, feedback, eventuale opt-in all’Ultra-Garanzia, slot, evidenza di uso, claim e pagamento.
 
-## 2. PRINCIPIO DI MINIMIZZAZIONE
+## 2. Feedback senza garanzia
 
-Il progetto raccoglie il minimo necessario per capire se lo strumento viene realmente usato, se produce valore/divertimento, quali problemi emergono e, quando richiesto, per verificare ed eseguire il pagamento previsto dall'Ultra-Garanzia.
+Il normale feedback può essere inviato senza attivare l’Ultra-Garanzia, senza presentare un claim e senza ricevere denaro. La scelta di non attivare la garanzia non riduce il valore del feedback e non limita la possibilità di essere critici o insoddisfatti.
 
-Nei normali questionari puoi usare un nickname stabile. Non inserire nomi, email, informazioni sanitarie o altri dati personali di giocatori, Master o terzi che non abbiano acconsentito.
+I dati del feedback non vengono trasformati automaticamente in dati di claim/pagamento.
+
+## 3. Principio di minimizzazione
+
+Il progetto raccoglie il minimo necessario per capire se lo strumento viene usato, se produce valore/divertimento, quali problemi emergono e, solo quando richiesto, per gestire slot/claim/payout.
+
+Nei normali questionari può essere usato un nickname stabile. Non inserire nomi, email, informazioni sanitarie o altri dati personali di giocatori, Master o terzi non consenzienti.
 
 Per la prova di uso reale non viene richiesto accesso all’intera cronologia dell’account AI: l’evidenza deve essere limitata alla sessione/test pertinente.
 
-## 3. DATI DEL PRE-TEST / REGISTRO PILOT
+## 4. Dati del pre-test / registro pilot
 
 Possono essere raccolti:
 
-- nome e cognome oppure nickname scelto dal partecipante;
-- ID interno assegnato automaticamente;
+- nome/nickname e ID interno;
 - ruolo Player/Master;
 - esperienza GDR e AI;
 - sistema giocato;
-- risposte aperte su problemi, alternative e strumenti usati;
-- stato del test.
+- risposte aperte sul problema/obiettivo;
+- stato del test;
+- per UGPN-PILOT-1.2, scelta pre-use NO/SÌ rispetto alla copertura, eventuale Slot ID, data attivazione, validità e stato dello slot.
 
-Per il recruiting può essere conservato separatamente un nome/handle o un recapito già disponibile al progetto, solo per gestire l'invito e il follow-up del closed pilot.
+Se la persona sceglie NO, il test può continuare normalmente senza garanzia economica.
 
-## 4. DATI DEL FEEDBACK
+## 5. Dati del feedback
 
 Possono essere raccolti:
 
 - nome/nickname, ID interno e versione testata;
-- contesto d'uso;
-- punteggi e metriche come divertimento, desiderio di tornare a giocare, agency/libertà di scelta, ritmo e utilità per il Master;
+- contesto d’uso;
+- punteggi e metriche come divertimento, desiderio di tornare, libertà di scelta, ritmo e utilità per il Master;
 - commenti qualitativi;
-- comprensione spontanea del progetto/brand;
-- eventuale intenzione di attivare l'Ultra-Garanzia;
-- eventuale opt-in separato per ricevere aggiornamenti.
+- comprensione del progetto/brand;
+- stato della copertura UGPN se pertinente;
+- decisione eventuale di presentare o non presentare un claim;
+- opt-in separato per aggiornamenti.
 
-L'email per aggiornamenti viene richiesta solo se la persona sceglie volontariamente di iscriversi.
+L’email per aggiornamenti viene richiesta solo a chi sceglie volontariamente di iscriversi.
 
-## 5. DATI DELLA RICHIESTA €1 / PAGAMENTO — AREA PRIVATA
+## 6. Dati dello slot Ultra-Garanzia — area privata
 
-Se una persona attiva l'Ultra-Garanzia, possono essere raccolti in un archivio privato separato:
+Se una persona chiede la copertura UGPN-PILOT-1.2 possono essere registrati:
+
+- Pilot ID;
+- Slot ID;
+- versione dei termini;
+- data di attivazione e scadenza;
+- mese di capacità;
+- stato ACTIVE / EXPIRED / RELEASED / CLAIMED / PAID / VOID o equivalente;
+- importo nominale riservato;
+- esito del controllo di eleggibilità/duplicazione;
+- eventuali note strettamente necessarie.
+
+Il registro pubblico mostra solo dati aggregati sulla capacità/fondo, non l’identità dei titolari degli slot.
+
+## 7. Dati del claim / pagamento — area privata
+
+Se una persona presenta un claim possono essere raccolti:
 
 - nome/nickname e ID interno;
-- Claim ID;
+- Slot ID e Claim ID;
 - percorso Player/Master;
-- versione prodotto e versione dei termini;
-- dichiarazione e motivo della richiesta;
-- per **UGPN-PILOT-1.1**, evidenza verificabile dell’uso reale e relativo stato di verifica;
-- nome e cognome, se necessari al pagamento;
+- versione prodotto e termini;
+- dichiarazione e motivo del claim;
+- evidenza verificabile dell’uso e stato di verifica;
+- esito del controllo “un solo payout per persona”;
+- nome/cognome se necessari al pagamento;
 - contatto;
 - canale e destinazione di pagamento;
-- stato/data/importo del pagamento;
+- stato/data/importo del payout;
 - eventuale prova privata della transazione.
 
 Questi dati non vengono copiati nel registro pubblico.
 
-### Evidenza chat/transcript
+## 8. Evidenza chat / transcript
 
-La forma preferita è il link alla **chat dedicata usata per il test**. Se la piattaforma non consente un link condivisibile, possono essere usati export, copia testuale/PDF o altra evidenza equivalente.
+La forma preferita è il link alla chat dedicata usata per il test. Se la piattaforma non consente un link condivisibile, possono essere usati export, copia testuale/PDF o altra evidenza equivalente.
 
-Prima della condivisione il partecipante deve rimuovere/oscurare, quando presenti, contenuti estranei al test, categorie particolari di dati, dati personali non necessari e dati di terzi non consenzienti. Nei test multiplayer non devono essere inclusi nomi, recapiti o altri dati identificativi degli altri partecipanti se non necessari e appropriati.
+Prima della condivisione il partecipante deve rimuovere/oscurare, quando presenti, contenuti estranei, categorie particolari di dati, dati personali non necessari e dati di terzi non consenzienti.
 
 Il progetto non richiede accesso all’intero account AI né a conversazioni non pertinenti.
 
-## 6. REGISTRO PUBBLICO
+Il materiale può essere analizzato per verificare l’uso e, quando pertinente, per diagnosticare failure/correction burden e migliorare il prodotto.
 
-Per trasparenza, il progetto pubblica lo stato del fondo e può pubblicare dati anonimizzati o pseudonimizzati relativi alle richieste accolte, per esempio:
+## 9. Controllo un solo payout / anti-abuso
 
-- Public Register ID;
-- data;
-- percorso Player/Master;
-- versione;
-- motivo sintetico del problema;
-- €1 pagato/non pagato;
-- cosa è stato fatto con il feedback;
-- eventuale modifica del progetto collegata.
+Per applicare la regola “un solo pagamento per persona fisica nell’intero programma” e contrastare duplicazioni, il progetto può confrontare in modo proporzionato le informazioni già disponibili nel pilot/claim/pagamento.
 
-Nome o handle vengono pubblicati solo con consenso separato ed esplicito. **Nessun transcript, shared-chat link, indirizzo email, IBAN, PayPal, destinazione di pagamento o prova privata viene pubblicato.**
+Non viene richiesta identificazione invasiva a tutti per default. Se emergono anomalie concrete, può essere richiesta la minima verifica supplementare ragionevolmente necessaria.
 
-## 7. FINALITÀ
+Quando tecnicamente e organizzativamente praticabile, dopo il payout i dati identificativi non più necessari dovrebbero essere ridotti a un indicatore/chiave pseudonimizzata sufficiente a segnalare che la persona ha già usato il proprio unico payout. I dettagli tecnici antifrode non sono pubblicati se ciò ne comprometterebbe l’efficacia.
+
+## 10. Registro pubblico
+
+Per trasparenza il progetto può pubblicare in forma aggregata o privacy-safe:
+
+- fondo nominale;
+- payout eseguiti;
+- claim qualificati non ancora pagati;
+- numero e valore degli slot attivi riservati;
+- nuovi slot attivati nel mese corrente e limite mensile;
+- disponibilità residua e stato ACTIVE / PAUSA DIAGNOSTICA;
+- casi anonimi/pseudonimi con motivo sintetico e disposizione del feedback.
+
+Nome/handle vengono pubblicati solo con consenso separato. Non vengono pubblicati transcript, shared-chat link, email, destinazioni di pagamento, prove private o dettagli antifrode.
+
+## 11. Finalità
 
 I dati vengono utilizzati per:
 
-- gestire il closed pilot;
+- gestire il Closed Pilot;
 - misurare uso reale, divertimento/utilità e frizioni;
-- migliorare Divertoscopio, Kit, protocolli e percorso iniziale;
-- distinguere evidenza osservata, feedback, inferenze e modifiche candidate;
-- verificare i requisiti applicabili alle richieste dell’Ultra-Garanzia;
-- analizzare, quando disponibile e pertinente, il transcript del test per individuare failure, correction burden e comportamenti riusciti;
-- amministrare eventuali pagamenti;
-- produrre statistiche aggregate e registro pubblico rispettoso della privacy;
-- inviare aggiornamenti soltanto a chi ha fornito un opt-in separato.
+- migliorare Divertoscopio, Kit, protocolli e onboarding;
+- distinguere evidenza osservata, feedback e inferenza;
+- amministrare scelta UGPN, capacità, slot, claim e payout;
+- verificare uso reale e prevenire duplicazioni/abusi;
+- analizzare transcript quando disponibile e pertinente;
+- produrre statistiche aggregate e registro pubblico privacy-safe;
+- inviare aggiornamenti soltanto a chi ha fornito opt-in separato.
 
-## 8. PARTECIPAZIONE, CLAIM E MARKETING
-
-La partecipazione al Closed Pilot e l'invio del normale feedback sono volontari. I dati necessari a gestire una richiesta €1 vengono trattati per eseguire la richiesta secondo i termini applicabili. Il consenso per comunicazioni future è distinto e facoltativo.
-
-L’evidenza di uso reale introdotta da UGPN-PILOT-1.1 riguarda soltanto i claim relativi a test iniziati sotto tale versione o una condivisione volontaria per ricerca. Non viene aggiunta come requisito generale del normale feedback.
-
-## 9. MINORI
-
-Il Closed Pilot V0.3 esterno è limitato a persone di almeno 18 anni. Non vengono raccolti intenzionalmente dati di minori in questa fase.
-
-## 10. CONSERVAZIONE
+## 12. Conservazione
 
 Policy operativa del Closed Pilot:
 
-- feedback/pre-test identificati con nome/nickname e ID interno: fino a 24 mesi, salvo anonimizzazione o cancellazione anticipata;
-- transcript/evidenza di uso: fino a 24 mesi **solo quando ancora necessario** per verifica, diagnosi o versioning; quando basta una sintesi/estratto anonimizzato, il progetto deve minimizzare o eliminare prima il materiale integrale;
-- contatti marketing: fino a revoca dell'opt-in o cessazione della finalità;
-- dati richiesta/pagamento: per il tempo necessario a gestire il pagamento e gli eventuali obblighi applicabili;
-- prove di pagamento: accesso ristretto e conservazione solo per il periodo necessario alla verifica/rendicontazione.
+- feedback/pre-test identificati: fino a 24 mesi, salvo anonimizzazione/cancellazione anticipata o necessità documentata di ricerca/versioning;
+- transcript/evidenza di uso: fino a 24 mesi solo quando ancora necessari per verifica, diagnosi o versioning; quando basta una sintesi/estratto anonimizzato, minimizzare o eliminare prima il materiale integrale;
+- record slot/claim/payout: per il tempo necessario alla gestione e agli eventuali obblighi applicabili;
+- dati di pagamento e prove di transazione: accesso ristretto e conservazione solo per il periodo necessario alla gestione/rendicontazione;
+- indicatore anti-duplicazione necessario a far rispettare il limite di un solo payout per persona: può essere conservato per la durata del programma Ultra-Garanzia, in forma quanto più possibile minimizzata/pseudonimizzata, con riesame periodico della necessità e della base giuridica;
+- contatti marketing: fino a revoca dell’opt-in o cessazione della finalità.
 
-Se l’evidenza è fornita tramite un link pubblico o semi-pubblico di condivisione, il partecipante può revocare quel link dopo che il progetto ha confermato l’avvenuta verifica o acquisizione appropriata dell’evidenza necessaria.
+Se l’evidenza è fornita tramite link pubblico/semi-pubblico, il partecipante può revocarlo dopo conferma dell’avvenuta verifica o acquisizione appropriata dell’evidenza necessaria.
 
-## 11. ACCESSO E SICUREZZA
+## 13. Accesso e sicurezza
 
-I database di feedback, richiesta/pagamento, recruiting e le eventuali evidenze di uso sono interni e non devono essere pubblicati su GitHub. L'area richiesta/pagamento è separata dal registro pubblico. L'accesso è limitato alle persone che gestiscono il pilot.
+Database di feedback, slot, claim/payout, recruiting ed evidenze sono interni e non devono essere pubblicati su GitHub. L’accesso è limitato a chi gestisce il pilot.
 
 Le notifiche operative via email non devono includere destinazioni di pagamento, transcript integrali o altri dati non necessari.
 
-## 12. DATI DI TERZI
+## 14. Dati di terzi e categorie particolari
 
-Non inserire nel feedback o nell’evidenza:
+Non inserire nel feedback/evidenza nomi, contatti, account privati, dati sensibili o chat identificabili di terzi se non esiste un motivo necessario e un presupposto appropriato. Preferire descrizioni anonime come “un giocatore del gruppo”.
 
-- nomi/cognomi di altri giocatori;
-- email, telefoni o account privati;
-- informazioni sensibili;
-- chat private o materiali identificabili di terzi;
+Il progetto non richiede intenzionalmente categorie particolari di dati personali.
 
-se non esiste un motivo necessario e un presupposto appropriato. Descrivere invece le situazioni in forma anonima, quando possibile.
+## 15. Destinatari e fornitori
 
-## 13. DESTINATARI, FORNITORI E TRASFERIMENTI
+Per gestire il test possono essere utilizzati servizi Google, Yahoo Mail, la piattaforma AI scelta dal partecipante e, solo per i payout, il fornitore/canale di pagamento concordato. Si applicano anche le informative dei rispettivi fornitori.
 
-Per gestire il test possono essere utilizzati servizi Google, Yahoo Mail, la piattaforma AI scelta dal partecipante e, solo se viene richiesta l’Ultra-Garanzia, il fornitore/canale di pagamento concordato. Si applicano anche le informative dei rispettivi fornitori.
+Alcuni fornitori possono trattare dati fuori dallo Spazio Economico Europeo; configurazioni e garanzie vanno riesaminate se cambiano fornitori o modalità di trattamento.
 
-Alcuni fornitori possono trattare dati al di fuori dello Spazio Economico Europeo. Le configurazioni effettivamente utilizzate nel closed pilot devono essere riesaminate se cambiano fornitori o modalità di trattamento.
+## 16. Diritti GDPR, reclamo e decisioni automatizzate
 
-## 14. DIRITTI GDPR, RECLAMO E DECISIONI AUTOMATIZZATE
+Nei limiti previsti dal GDPR puoi chiedere accesso, rettifica, cancellazione, limitazione, opposizione e, quando applicabile, portabilità. Puoi revocare il consenso agli aggiornamenti senza pregiudicare la liceità del trattamento precedente. Puoi proporre reclamo al Garante o all’autorità competente.
 
-Nei limiti previsti dal GDPR puoi chiedere accesso, rettifica, cancellazione, limitazione, opposizione e, quando applicabile, portabilità dei dati. Puoi revocare il consenso agli aggiornamenti senza pregiudicare la liceità del trattamento precedente. Puoi inoltre proporre reclamo al Garante per la protezione dei dati personali o all’autorità di controllo competente.
+Le decisioni di qualificazione/pagamento non vengono affidate esclusivamente a un processo automatizzato: i claim vengono revisionati da una persona.
 
-Il Divertoscopio non usa decisioni esclusivamente automatizzate che producano effetti giuridici o analogamente significativi sul partecipante. Le richieste €1 vengono controllate da una persona prima della qualificazione/pagamento.
+## 17. Dati obbligatori e facoltativi
 
-## 15. DATI OBBLIGATORI E FACOLTATIVI
+Il normale feedback non richiede l’attivazione della garanzia. La scelta UGPN è facoltativa.
 
-Nei normali moduli i campi obbligatori servono a collegare il test e ottenere un riscontro interpretabile. Nome e cognome non sono normalmente necessari: può essere usato un nickname stabile. Email per aggiornamenti è facoltativa.
+Per UGPN-PILOT-1.2 uno slot confermato prima dell’uso e una evidenza verificabile dell’uso reale sono condizioni del claim. Senza prova sufficiente o senza slot valido la richiesta non può essere qualificata sotto tali termini.
 
-Per i claim **UGPN-PILOT-1.1**, una evidenza verificabile dell’uso reale è una condizione dei termini applicabili; senza una prova sufficiente il progetto non può qualificare la richiesta. Se la piattaforma non consente la condivisione della chat, è ammessa una prova equivalente. I dati di pagamento diventano necessari soltanto se il partecipante sceglie di richiedere €1.
+I dati di pagamento diventano necessari soltanto se la persona presenta un claim qualificabile e vuole ricevere €1.
 
-## 16. ACCOUNTABILITY E RIESAME
+## 18. Accountability e riesame
 
-Il titolare mantiene internamente una valutazione del legittimo interesse (LIA). Il 13/09/2026 il LIA è stato riesaminato per l’introduzione della categoria “chat/transcript/evidenza di uso” nei claim UGPN-PILOT-1.1.
+Il titolare mantiene internamente un Legitimate Interest Assessment (LIA). Il 13/09/2026 il LIA è stato riesaminato prima per l’introduzione dell’evidenza chat/transcript e poi per UGPN-PILOT-1.2: opt-in separato, slot, capacità mensile, riserva del fondo e controllo one-payout-person.
 
-Questa informativa e il LIA devono essere riesaminati se aumentano significativamente scala o categorie di dati, entrano minori, vengono introdotte analisi più invasive, cambiano fornitori rilevanti o si passa a una fase pubblica più ampia.
+Informativa, LIA e processi devono essere riesaminati se aumentano significativamente scala/categorie di dati, entrano minori, cambiano fornitori, vengono introdotti controlli più invasivi o si passa a una fase pubblica più ampia.
 
-Questa informativa descrive il trattamento previsto per il Closed Pilot V0.3 e non costituisce un parere legale.
+Questa informativa non costituisce un parere legale.

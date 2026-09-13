@@ -1,200 +1,183 @@
 # ULTRA-GARANZIA DEL PREZZO NEGATIVO — TERMINI DEL CLOSED PILOT V0.3
 
-Versione dei termini: **UGPN-PILOT-1.2** — applicabile ai test iniziati sotto questa versione  
+Versione dei termini: **UGPN-PILOT-1.3** — applicabile ai nuovi test iniziati sotto questa versione  
 Stato: test chiuso a invito / sperimentale  
 Data aggiornamento: **13/09/2026**
 
 ## In 30 secondi
 
-- **Feedback e Ultra-Garanzia sono due scelte separate.** Puoi usare Divertoscopio e lasciare feedback anche senza voler ricevere denaro.
-- Se vuoi che uno specifico test sia coperto dall’Ultra-Garanzia, devi scegliere di attivarla **prima dell’uso** e ricevere conferma di uno **slot disponibile**. Lo slot riserva €1 del fondo per quel test.
-- Ogni **persona fisica può ricevere al massimo un solo pagamento di €1 nell’intero programma Ultra-Garanzia del Divertoscopio**, indipendentemente da nickname, account, email, dispositivi o destinazioni di pagamento usati, salvo che futuri termini dichiarino espressamente un nuovo programma separato.
-- In questa fase possono essere attivati al massimo **20 nuovi slot per mese di calendario**, sempre entro la disponibilità del fondo complessivo di **€100**.
-- Il limite mensile riguarda le **nuove attivazioni**, non ritarda un pagamento già validamente maturato.
-- Il test deve essere reale, il feedback deve essere completato e il claim deve includere evidenza verificabile dell’uso secondo questi termini.
+- Il Divertoscopio è gratuito durante il Closed Pilot.
+- **Tutti i tester ammessi al Closed Pilot V0.3 sono automaticamente coperti** dall’Ultra-Garanzia secondo questi termini: non devono attivare nulla prima dell’uso e non devono conoscere Slot ID, Pilot ID o Claim ID.
+- Dopo l’esperienza esiste **un solo modulo** di feedback.
+- Tutti possono lasciare feedback senza ricevere denaro.
+- Se il tester sceglie nello stesso modulo **“Sì, voglio ricevere €1”**, aggiunge soltanto una prova dell’uso reale e il metodo/dato necessario al pagamento.
+- Ogni persona fisica può ricevere al massimo **un solo pagamento di €1 nell’intero programma Ultra-Garanzia del Divertoscopio**, indipendentemente da nickname, account, email, dispositivi o destinazioni di pagamento.
+- Il Closed Pilot ammette al massimo **20 tester**: l’esposizione economica teorica massima della fase è quindi **€20**, a fronte di un fondo nominale di **€100**.
+- Nessun pagamento è automatico: i claim vengono verificati manualmente.
 
 ## 1. Che cos’è
 
-Il Divertoscopio è gratuito durante questo test. L’Ultra-Garanzia del Prezzo Negativo è un meccanismo sperimentale e facoltativo: se una persona attiva validamente la copertura per un test, usa davvero Divertoscopio, completa il riscontro richiesto e dichiara che l’esperienza non è stata soddisfacente secondo questi termini, può richiedere **€1 come simbolico indennizzo reputazionale**.
+L’Ultra-Garanzia del Prezzo Negativo è una promessa sperimentale collegata a uso reale e insoddisfazione dichiarata: se un tester ammesso usa davvero Divertoscopio, completa il modulo unico e sceglie di attivare la penalità reputazionale, può richiedere **€1 come simbolico indennizzo reputazionale**, secondo questi termini.
 
-Il pagamento non compra il feedback e non è un premio, una vincita, una lotteria, una ricompensa casuale, una gara o un incentivo a lasciare una recensione positiva o negativa. Il feedback resta utile anche quando la persona non vuole alcun pagamento.
+Il pagamento non compra il feedback e non è un premio, una vincita, una lotteria, una ricompensa casuale, una gara o un incentivo a lasciare una recensione positiva o negativa.
 
-Prezzo nominale: €0.  
-Indennizzo reputazionale massimo per persona nell’intero programma: €1.  
-Fondo nominale della fase: €100, destinato ai payout nominali; eventuali commissioni operative sono tracciate separatamente.
+Prezzo nominale del Closed Pilot: **€0**.  
+Indennizzo reputazionale massimo per persona nell’intero programma: **€1**.  
+Fondo nominale della fase: **€100**.  
+Tester massimi ammessi nella fase: **20**.  
+Esposizione teorica massima della fase: **€20**.
 
-## 2. Chi può partecipare
+## 2. Chi è coperto
 
-Il repository GitHub è pubblico, ma il **Closed Pilot V0.3 è un test a invito**. L’Ultra-Garanzia di questa fase si applica soltanto alle persone ammesse al Closed Pilot e agli usi per i quali sia stato confermato uno slot prima dell’inizio del test coperto.
+La garanzia UGPN-PILOT-1.3 si applica soltanto alle persone **ammesse al Closed Pilot V0.3** e ai test iniziati sotto questi termini.
 
-La semplice consultazione, copia o uso autonomo del repository non attiva l’Ultra-Garanzia.
+Il repository GitHub è pubblico, ma la semplice consultazione, copia o uso autonomo del repository **non** rende una persona partecipante al Closed Pilot e non attiva la garanzia di questa fase.
 
-In questa fase il test esterno è riservato a persone maggiorenni (18+).
+Il Closed Pilot esterno è riservato a persone maggiorenni (18+).
 
-Nei normali questionari il partecipante può usare nome e cognome oppure un nickname stabile. Il sistema usa un identificativo interno per collegare pre-test, uso, feedback, slot ed eventuale claim.
+Nel modulo il tester può usare nome e cognome oppure il nickname con cui è stato invitato. L’identificativo tecnico interno resta dietro le quinte.
 
-## 3. Feedback e Ultra-Garanzia sono separati
+## 3. Un solo modulo, dopo l’esperienza
 
-Lasciare feedback non attiva automaticamente l’Ultra-Garanzia e non crea automaticamente alcun diritto al pagamento.
+Per i nuovi test UGPN-PILOT-1.3 non esistono PRE-TEST obbligatori, attivazioni preventive, slot da prenotare o un Claim Form separato.
 
-Prima dell’uso coperto, il partecipante può scegliere:
+Dopo l’esperienza il tester compila un solo modulo:
 
-- **NO** — partecipo/uso Divertoscopio e lascio eventualmente feedback senza attivare la possibilità di ricevere €1;
-- **SÌ** — chiedo di attivare la copertura Ultra-Garanzia per questo test, se esiste uno slot disponibile e risulto eleggibile.
+1. nome/cognome o nickname;
+2. Fun 0–10;
+3. Desire to Return 0–10;
+4. cosa migliore;
+5. cosa principale da cambiare;
+6. scelta se richiedere oppure no €1.
 
-La scelta **NO** non riduce il valore del feedback e non impedisce di essere critici, insoddisfatti o propositivi. È la scelta corretta anche per chi non vuole denaro, ha già ricevuto il proprio unico payout, non è sufficientemente insoddisfatto da voler presentare un claim o vuole semplicemente aiutare il progetto.
+Se sceglie **NO**, il modulo termina.
 
-**Nessun pagamento viene inviato automaticamente.**
+Se sceglie **SÌ**, nello stesso modulo compaiono soltanto:
+- evidenza della chat usata o prova equivalente;
+- metodo/dato necessario al pagamento.
 
-## 4. Slot, capacità mensile e riserva del fondo
+Feedback e denaro restano separati: un feedback può essere critico o negativo anche senza alcuna richiesta economica.
 
-Per i test iniziati sotto **UGPN-PILOT-1.2**, la copertura è valida soltanto dopo conferma di uno **SLOT ULTRA-GARANZIA** associato al test/Pilot ID prima dell’uso coperto.
+## 4. Requisiti del claim
 
-Ogni slot:
+Per essere qualificabile sotto UGPN-PILOT-1.3, il claim deve riguardare una persona ammessa al Closed Pilot che:
 
-- è personale, non cedibile e riferito a uno specifico test;
-- riserva €1 del fondo mentre è attivo;
-- non garantisce il pagamento se le altre condizioni del claim non sono soddisfatte;
-- non può generare più di un claim/payout;
-- ha validità ordinaria di **30 giorni dalla conferma per iniziare l’uso coperto**, salvo durata diversa comunicata prima dell’attivazione.
+- abbia usato realmente Divertoscopio in modo sufficiente a formarsi un giudizio personale;
+- completi il modulo unico;
+- scelga personalmente di richiedere €1;
+- fornisca evidenza verificabile dell’uso reale;
+- indichi una destinazione/metodo di pagamento utilizzabile;
+- non abbia già ricevuto il proprio unico payout del programma.
 
-In questa fase possono essere confermati al massimo **20 nuovi slot per mese di calendario**. Possono essere meno se il fondo disponibile, la capacità operativa o una pausa diagnostica non consentono ulteriori attivazioni.
+La soddisfazione resta soggettiva: non è necessario dimostrare oggettivamente che la persona “avrebbe dovuto” essere insoddisfatta.
 
-Il limite di 20 riguarda le nuove attivazioni. **Non è un tetto che rinvia al mese successivo pagamenti già validamente maturati**: un claim qualificato relativo a uno slot già riservato segue i normali tempi di pagamento.
+Un commento testuale negativo non è obbligatorio per ricevere €1 se gli altri requisiti sono verificabili; se le informazioni non sono sufficienti a verificare uso o identità, può essere richiesta la minima integrazione necessaria.
 
-Quando uno slot scade senza uso/claim, viene chiuso e la relativa riserva economica può tornare disponibile. Gli slot non utilizzati non si trasformano in denaro dovuto.
+## 5. Evidenza di uso
 
-Chi non ottiene uno slot può comunque usare gratuitamente Divertoscopio e lasciare feedback; semplicemente quell’uso non è coperto dall’Ultra-Garanzia.
+La forma preferita è il **link alla chat dedicata usata per il test**.
 
-## 5. Un solo pagamento per persona fisica nell’intero programma
+Se la piattaforma non permette un link condivisibile, sono accettabili export, copia testuale/PDF o altra prova equivalente che permetta di verificare l’uso reale.
 
-Ogni persona fisica può ricevere al massimo **un singolo pagamento di €1** nell’ambito del programma Ultra-Garanzia del Divertoscopio, considerando complessivamente tutte le fasi e versioni, salvo che futuri termini dichiarino espressamente l’apertura di un nuovo programma separato e ne definiscano nuovamente l’eleggibilità.
+Per minimizzare i dati:
+- usa quando possibile una chat dedicata;
+- rimuovi/oscuri contenuti estranei;
+- evita dati personali o sensibili non necessari;
+- evita dati identificativi di terzi non consenzienti.
 
-Più nickname, account, indirizzi email, dispositivi, Pilot ID o destinazioni di pagamento riconducibili alla stessa persona non creano ulteriori diritti.
+Transcript, shared-chat link e prove equivalenti restano privati e non vengono pubblicati nel registro pubblico. Possono essere usati anche per diagnosticare failure e migliorare Divertoscopio secondo `PRIVACY.md`.
+
+## 6. Un solo pagamento per persona fisica
+
+Ogni persona fisica può ricevere al massimo **un singolo pagamento di €1 nell’intero programma Ultra-Garanzia del Divertoscopio**, salvo che futuri termini dichiarino espressamente l’apertura di un programma separato.
+
+Più nickname, account, email, dispositivi, Pilot ID o destinazioni di pagamento riconducibili alla stessa persona non creano ulteriori diritti.
 
 Dopo il payout la persona può continuare a usare Divertoscopio e inviare feedback senza pagamento.
 
 Questo limite riguarda soltanto questa garanzia volontaria e non limita eventuali diritti inderogabili previsti dalla legge.
 
-## 6. Quando può presentare un claim un giocatore
+## 7. Anti-abuso e verifica
 
-Un giocatore può presentare un claim quando:
+La critica e l’insoddisfazione non sono abuso. Un claim non viene rifiutato perché il progetto non condivide il gusto del partecipante.
 
-- era eleggibile e aveva ricevuto conferma dello slot prima dell’uso coperto;
-- ha usato realmente Divertoscopio in un’esperienza sufficientemente completa da poterla giudicare;
-- completa il riscontro previsto per i giocatori;
-- dichiara personalmente di non essersi divertito / di non essere soddisfatto dell’esperienza;
-- indica almeno un motivo concreto di ciò che non ha funzionato o che avrebbe voluto diverso;
-- fornisce evidenza verificabile dell’uso reale secondo la sezione 8;
-- non ha già ricevuto il proprio unico payout del programma.
+Possono invece impedire la qualificazione o richiedere verifica supplementare:
+- assenza di ammissione al Closed Pilot;
+- assenza di uso reale;
+- claim duplicati;
+- payout già ricevuto dalla stessa persona;
+- identità/account multipli usati per aggirare il limite;
+- evidenza falsificata o materialmente manipolata;
+- bot/automazioni o altri tentativi di ottenere più pagamenti di quelli consentiti.
 
-Non deve dimostrare oggettivamente che “avrebbe dovuto” divertirsi. Una volta verificati uso e requisiti, la soddisfazione resta una valutazione personale.
+I claim vengono revisionati manualmente. Se emerge un’anomalia concreta può essere chiesta soltanto la verifica supplementare ragionevolmente necessaria.
 
-## 7. Quando può presentare un claim un Master
+I criteri economici sono pubblici; i dettagli tecnici antifrode possono restare riservati quando divulgarli renderebbe più facile aggirarli.
 
-Un Master può presentare un claim quando:
+## 8. Tempi di pagamento
 
-- era eleggibile e aveva ricevuto conferma dello slot prima dell’uso coperto;
-- ha usato realmente Divertoscopio, il Kit o il percorso Master su un problema o obiettivo concreto;
-- completa il riscontro previsto per i Master;
-- dichiara di non averlo trovato utile / di non essere soddisfatto;
-- indica almeno un motivo concreto;
-- fornisce evidenza verificabile dell’uso reale o prova equivalente appropriata;
-- non ha già ricevuto il proprio unico payout del programma.
+Una richiesta qualificata viene pagata **entro 14 giorni dalla verifica positiva** e dalla disponibilità di una destinazione di pagamento utilizzabile, salvo impedimenti tecnici o operativi comunicati alla persona interessata.
 
-Non è necessario che il Master sappia proporre la soluzione tecnica corretta: il feedback sul problema è sufficiente.
+Se il dato di pagamento fornito è incompleto o inutilizzabile, viene chiesta soltanto l’integrazione necessaria.
 
-## 8. Evidenza di uso e claim
+## 9. Fondo e sostenibilità
 
-La forma preferita di evidenza è il **link alla chat dedicata usata per il test**. Se la piattaforma non permette un link condivisibile, sono accettabili export, copia testuale/PDF o altra evidenza equivalente che permetta di verificare l’uso reale.
+Fondo nominale della fase: **€100**.
 
-Per minimizzare i dati, usa quando possibile una chat dedicata al test. Prima di condividerla rimuovi o oscura contenuti estranei, dati personali non necessari, categorie particolari di dati e dati di terzi non consenzienti. Nei test multiplayer evita nomi, recapiti o altri dati identificativi non necessari.
+Poiché UGPN-PILOT-1.3 copre automaticamente un Closed Pilot di massimo 20 tester e il payout massimo è €1 per persona, l’esposizione teorica massima di questa fase è **€20**.
 
-L’evidenza resta privata e può essere usata anche per diagnosticare failure e migliorare Divertoscopio secondo [`PRIVACY.md`](PRIVACY.md). Transcript, shared-chat link e file non vengono pubblicati nel registro pubblico.
+Se emerge un abuso sistematico, una vulnerabilità tecnica, un problema normativo o un altro rischio materiale, il progetto può sospendere **nuove ammissioni / nuovi test futuri** e aprire una **PAUSA DIAGNOSTICA**.
 
-Il claim privato richiede i dati necessari a collegare richiesta, slot e feedback, verificare uso/eleggibilità e, se qualificato, eseguire il pagamento.
+Una sospensione futura non cancella retroattivamente un claim valido maturato da un tester già ammesso sotto i termini applicabili.
 
-Eventuali integrazioni a un claim già aperto confluiscono nello stesso Claim ID e non generano nuovi claim autonomi.
+Per una futura fase più ampia potranno essere introdotti, in modo prospettico e pubblico, limiti mensili, capacità prenotata o altri meccanismi di sostenibilità. Tali modifiche non si applicano retroattivamente ai test già iniziati.
 
-## 9. Anti-abuso e verifica
+## 10. Registro pubblico
 
-La critica e l’insoddisfazione non sono abuso. Non viene rifiutato un claim perché il progetto non condivide il gusto del partecipante.
-
-Possono invece impedire la qualificazione o richiedere verifica supplementare, tra l’altro: assenza di slot valido, assenza di uso reale, claim duplicati, payout già ricevuto dalla stessa persona, identità/account multipli usati per aggirare il limite, evidenza falsificata o materialmente manipolata, dati manifestamente falsi, bot/automazioni o altre condotte dirette a ottenere più pagamenti di quelli consentiti.
-
-I claim vengono revisionati manualmente. Se emergono anomalie concrete, il progetto può chiedere la minima verifica supplementare ragionevolmente necessaria. Non viene richiesta identificazione invasiva a tutti per default.
-
-I dettagli tecnici dei controlli antifrode possono non essere pubblicati quando divulgarli renderebbe più facile aggirarli; le condizioni che determinano l’eleggibilità economica restano invece pubbliche.
-
-## 10. Tempi di claim e pagamento
-
-Salvo problemi tecnici documentati, il claim va presentato entro **30 giorni dal feedback** relativo all’uso coperto.
-
-Una richiesta qualificata viene pagata **entro 14 giorni dalla verifica positiva e dalla disponibilità di una destinazione di pagamento utilizzabile**, salvo impedimenti tecnici/operativi comunicati alla persona interessata.
-
-Il limite mensile di nuovi slot non viene usato per rinviare arbitrariamente un payout già coperto e qualificato.
-
-## 11. Fondo, riserve e pausa diagnostica
-
-Fondo nominale iniziale della fase: **€100**.
-
-Per proteggere sia il progetto sia chi ha già una copertura valida, la disponibilità per nuovi slot tiene conto almeno di:
-
-**FONDO NOMINALE − PAYOUT GIÀ ESEGUITI − € RISERVATI A SLOT ATTIVI − CLAIM QUALIFICATI NON ANCORA PAGATI.**
-
-Non vengono confermati nuovi slot se ciò renderebbe il fondo incapace di coprire gli impegni già assunti.
-
-Se il fondo disponibile raggiunge €0, se viene rilevato un abuso sistematico, una vulnerabilità tecnica, un problema normativo o un altro rischio materiale, il progetto può sospendere immediatamente **NUOVE attivazioni** e aprire una **PAUSA DIAGNOSTICA**.
-
-La sospensione di nuove attivazioni non cancella retroattivamente uno slot già validamente confermato; eventuali claim collegati restano soggetti alla normale verifica dei requisiti.
-
-Il fondo non viene semplicemente ricaricato come se nulla fosse successo: prima della ripartenza vengono analizzati failure, promesse, pattern di abuso e modifiche necessarie.
-
-## 12. Registro pubblico e trasparenza
-
-Lo stato pubblico deve rendere comprensibili almeno:
-
+Il registro pubblico può mostrare in forma aggregata o privacy-safe:
 - fondo nominale;
 - payout eseguiti;
-- claim qualificati non ancora pagati, se presenti;
-- numero/valore degli slot attivi riservati;
-- nuovi slot attivati nel mese corrente;
-- limite mensile corrente;
-- disponibilità residua per nuove attivazioni;
-- eventuale stato **ACTIVE / PAUSA DIAGNOSTICA**.
+- claim qualificati non ancora pagati;
+- numero massimo di tester coperti nella fase;
+- esposizione economica teorica massima;
+- numero di claim reali ricevuti;
+- eventuale stato ACTIVE / PAUSA DIAGNOSTICA;
+- casi anonimi o pseudonimi dopo controllo privacy.
 
-I casi pubblicati sono anonimi o pseudonimi dopo controllo privacy. Nome/handle vengono pubblicati soltanto con consenso separato. Non vengono pubblicati email, destinazioni di pagamento, transcript/chat, link privati, controlli antifrode dettagliati o prove private di pagamento.
+Non vengono pubblicati email, destinazioni di pagamento, transcript/chat, shared-link, prove private o dettagli tecnici antifrode.
 
-## 13. Feedback, pagamento e marketing sono indipendenti
+I dry-run interni e i test tecnici non vengono conteggiati come claim reali.
 
-Il feedback può essere inviato **senza attivare la garanzia, senza presentare claim e senza ricevere denaro**.
+## 11. Feedback, pagamento e marketing sono indipendenti
 
-Attivare uno slot non obbliga a presentare un claim. Se alla fine la persona è soddisfatta, non vuole il denaro o preferisce soltanto lasciare un feedback costruttivo, non deve fare altro.
+Lasciare feedback non obbliga a chiedere €1.
 
-Il diritto a un eventuale payout qualificato non dipende dall’iscrizione a comunicazioni future. Marketing/aggiornamenti richiedono una scelta separata e revocabile.
+Chiedere €1 non obbliga a iscriversi a comunicazioni future.
 
-## 14. Versione applicabile e non retroattività
+Marketing/aggiornamenti richiedono una scelta separata e revocabile.
 
-Ogni test è regolato dai termini comunicati prima dell’inizio dell’uso coperto.
+L’assenza di claim non viene interpretata automaticamente come soddisfazione.
 
-**UGPN-PILOT-1.2** introduce in particolare: opt-in separato prima dell’uso, slot confermato, capacità massima di 20 nuove attivazioni/mese, riserva del fondo e limite di un solo payout per persona nell’intero programma.
+## 12. Versione applicabile e non retroattività
 
-Queste condizioni **non vengono applicate retroattivamente** a test già iniziati sotto UGPN-PILOT-1.0 o 1.1. I test precedenti restano regolati dai termini validi al loro inizio.
+Ogni test è regolato dai termini comunicati all’inizio del proprio periodo di test.
 
-## 15. Natura dell’Ultra-Garanzia
+**UGPN-PILOT-1.3** sostituisce per i nuovi test del Closed Pilot la procedura 1.2 basata su opt-in preventivo e slot. I test realmente iniziati sotto versioni precedenti restano regolati dai termini allora applicabili.
 
-L’Ultra-Garanzia è un meccanismo sperimentale collegato a uso reale, copertura attivata e insoddisfazione dichiarata secondo questi termini. Il pagamento di €1 viene comunicato come **simbolico indennizzo reputazionale**.
+## 13. Natura dell’Ultra-Garanzia e note legali
 
-Non prevede estrazione, sorte, classifica, gara, graduatoria o selezione competitiva di vincitori. La disponibilità limitata degli slot è una limitazione preventiva e pubblica della capacità economica/operativa del programma, non una selezione casuale di chi “vince”.
+L’Ultra-Garanzia è comunicata come **simbolico indennizzo reputazionale** collegato a uso reale e insoddisfazione dichiarata.
 
-## 16. Note legali e diritti inderogabili
+Non prevede estrazione, sorte, classifica, gara o selezione competitiva di vincitori.
 
-Questi termini descrivono la meccanica sperimentale del Closed Pilot e non costituiscono un parere legale, fiscale o contabile. Nessuna clausola intende escludere diritti inderogabili previsti dalla legge.
+Questi termini descrivono la meccanica sperimentale del Closed Pilot e **non costituiscono un parere legale, fiscale o contabile**. Nessuna clausola intende escludere diritti inderogabili previsti dalla legge.
 
-Prima di una Public Alpha o di una diffusione significativamente più ampia il modello, la qualificazione giuridica, privacy, fiscalità, pagamenti, termini e comunicazione commerciale devono essere riesaminati professionalmente.
+Prima di una Public Alpha o di una diffusione significativamente più ampia, qualificazione giuridica, privacy, fiscalità, pagamenti, termini e comunicazione commerciale devono essere riesaminati professionalmente.
 
-## 17. Principio di sostenibilità
+## 14. Principio di progettazione
 
-L’Ultra-Garanzia deve poter sopravvivere anche se qualcuno prova ad abusarne. Per questo il progetto non assume obblighi economici illimitati: li limita e li riserva prima dell’uso, li rende pubblici e non modifica retroattivamente le condizioni di chi ha già ottenuto una copertura valida.
+L’antifrode può essere complesso dietro le quinte; il claim non deve essere burocratico per il tester.
 
-L’obiettivo non è scoraggiare il feedback negativo, ma rendere possibile mantenerne la promessa nel tempo.
+Per UGPN-PILOT-1.3 il principio operativo è:
+
+**GIOCA → UN SOLO MODULO → FEEDBACK → EVENTUALE €1 → FINE.**

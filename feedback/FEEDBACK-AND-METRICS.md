@@ -14,10 +14,10 @@ Campi visibili a tutti:
 
 - nome/cognome o nickname;
 1. **FUN** — Quanto ti sei divertito? 0–10;
-2. **DESIRE TO RETURN** — Quanto vorresti continuare/rigiocare perché questa esperienza ti è piaciuta? 0–10;
+2. **DESIRE TO RETURN** — Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10;
 3. cosa migliore — facoltativo;
 4. cosa principale da cambiare — facoltativo;
-5. vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì.
+5. dopo averlo usato davvero, non sei soddisfatto e vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì.
 
 Se **NO**: submit e fine.
 
@@ -33,7 +33,7 @@ Non usare PRE-TEST obbligatori, Feedback Master separati, Claim Form separati, S
 Quanto ti sei divertito? `0–10`.
 
 ### 2. DESIRE TO RETURN
-Quanto vorresti tornare/continuare perché questa esperienza ti è piaciuta? `0–10`.
+Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? `0–10`.
 
 Non usare Desire to Return per massimizzare durata compulsiva, cliffhanger artificiali o difficoltà a smettere.
 

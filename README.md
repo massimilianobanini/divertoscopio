@@ -36,7 +36,7 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 
 ## Stato
 
-Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. È attivo un **Runtime Hotfix V0.3.2** derivato da failure osservati nel pilot; non introduce nuove feature, ma irrigidisce integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. È attivo un **Runtime Hotfix V0.3.2** derivato da failure osservati nel pilot e da due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. L'hotfix irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
 
 ## Quale esperienza stai cercando?
 
@@ -88,7 +88,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI.
-- [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — hardening runtime attivo derivato da failure osservati nel Closed Pilot.
+- [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — hardening runtime attivo + Comic Patch V0.1 + Image-on-demand / Text-first sperimentali del Closed Pilot.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.
 - [`master/MASTER.md`](master/MASTER.md) — percorso e strumenti per il Master.
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.

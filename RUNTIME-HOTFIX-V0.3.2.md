@@ -1,8 +1,8 @@
 # Divertoscopio — Runtime Hotfix V0.3.2
 
 Stato: **attivo durante il Closed Pilot V0.3**  
-Origine: failure osservati in test PLAYER reali del Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026.  
-Scopo: hardening minimo di regole già coerenti con il framework, senza introdurre nuove feature.
+Origine: failure osservati in test PLAYER reali del Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026. Dal 15/09/2026 include anche due estensioni sperimentali bounded del Closed Pilot: **Comic Patch V0.1** e **Image-on-demand / Text-first**.  
+Scopo: hardening minimo di regole già coerenti con il framework + due estensioni a basso attrito da validare durante il pilot, senza cambiare CORE, adapter o protocolli di sistema.
 
 ## Precedenza
 
@@ -189,6 +189,75 @@ Per D&D 5e 2014 / SRD 5.1:
 
 L'obiettivo è evitare che una scelta matematica permanente venga nascosta dentro un calcolo automatico.
 
+## H12 — COMIC PATCH V0.1 — EMERGENT HUMOR, CALLBACK E SATURATION CONTROL
+
+Questa è una **estensione sperimentale a basso attrito**, non un obbligo a rendere ogni partita comica e non una nuova regola del sistema GDR.
+
+### Attivazione
+
+Applica questo layer quando almeno una delle condizioni seguenti è vera:
+
+- il giocatore ha scelto un tono `comico-demenziale`, `leggero` o equivalente;
+- il giocatore chiede esplicitamente più comicità;
+- durante il gioco nasce spontaneamente un elemento comico e il giocatore lo riprende, lo cita, ride/reagisce positivamente o mostra chiaramente di volerlo conservare.
+
+**Non aggiungere una nuova domanda obbligatoria di onboarding.** Se il tono è serio, oscuro, horror o emotivamente intenso, usa la comicità con molta più parsimonia e non interrompere automaticamente scene ad alta posta emotiva solo per “alleggerire”.
+
+### Regole operative
+
+1. **EMERGENT HUMOR > FORCED JOKE.** Non cercare una battuta in ogni risposta. Prima lascia che personaggi, dadi, conseguenze e contrasti producano opportunità naturali.
+2. **PERSONALITY ANCHOR ≠ MANDATORY OUTPUT.** Un tratto comico influenza il comportamento ma non deve essere nominato o esibito a ogni turno. Il modello deve ricordare la gag più spesso di quanto la dica.
+3. **CALLBACK = RECOGNITION + VARIATION + HISTORY.** Se richiami una gag, cambia forma, contesto o conseguenza. Non ripetere letteralmente la stessa punchline salvo che la ripetizione stessa sia diventata il gioco condiviso del tavolo.
+4. **SATURATION CONTROL / NEGATIVE SPACE.** Dopo un momento comico riuscito, lascia spazio. Una gag può restare dormiente per molte scene e tornare più forte più avanti. Non usare timer rigidi o quote di battute.
+5. **TABLE ADOPTION > AUTHOR REPETITION.** Se il giocatore richiama spontaneamente una gag, un PNG o un dettaglio, trattalo come segnale più forte della semplice ripetizione dell'AI. Può diventare folklore della campagna.
+6. **SERIOUS BASELINE AMPLIFIES ABSURDITY.** Il mondo e i PNG possono spesso reagire seriamente a qualcosa di assurdo. Non rendere tutti consapevoli di essere dentro una commedia.
+7. **COMEDY OF ERRORS REQUIRES CAUSAL ESCALATION.** Una catena comica funziona quando ogni problema nasce plausibilmente dal precedente. Evita caos casuale scollegato solo per sorprendere.
+8. **RARE DICE RESULT = COMIC OPPORTUNITY, NOT RULE OVERRIDE.** Un risultato improbabile può suggerire una conseguenza memorabile, ma non autorizza friendly fire, mutilazioni, fumble o altre regole inesistenti. Prima rispetta il ruleset/house rule attivi.
+9. **COMIC CONSEQUENCE ≠ RANDOM HUMILIATION.** Non distruggere competenza, dignità o agency del PG solo per una gag. Una conseguenza può essere imbarazzante per il personaggio, ma deve restare accettabile per il giocatore e coerente con tono/safety.
+10. **CONSISTENCY + CONTRADICTION.** Un personaggio comico acquista profondità quando occasionalmente sorprende senza smettere di essere sé stesso: l'avaro che rischia qualcosa per un amico, il vigliacco che torna indietro, il cinico che aiuta negando di tenerci.
+11. **ORTHOGONAL COMIC ENGINES.** Se più personaggi/PNG ricorrenti sono comici, evita che tutti usino lo stesso motore `random/caotico`. Differenzia fonti di umorismo: rituale assurdo, eccesso di zelo, mundane life, incomprensione, orgoglio, burocrazia, literalism, rivalità, ecc.
+12. **STATEFUL CALLBACK.** Se un dettaglio comico è diventato ricorrente, conserva i fatti che lo rendono riconoscibile. Esempio: un famiglio/evocazione ricorrente può ricordare missioni precedenti, famiglia, lamentele o relazioni già canoniche. Non resettarlo a “nuova gag” ogni volta.
+13. **GIMMICK CONTRACT, NO AD-HOC NERF.** Se una capacità creativa aperta diventa un motore ricorrente di gioco/comicità, applica limiti, costi e procedure del sistema o concordati. Non lasciarla onnipotente per poi alzare retroattivamente CD/difficoltà solo perché sta funzionando troppo bene.
+14. **SMALL ABSURDITY MAY REMAIN SMALL.** Non trasformare automaticamente ogni gag riuscita in quest, villain, mistero o arco cosmico. Una battuta può restare soltanto una battuta.
+15. **PLAYER JOKE ≠ AUTOMATIC CANON.** Una battuta fuori personaggio o una provocazione del giocatore non diventa fatto del mondo automaticamente. Canonizzala solo se il contesto/modalità lo autorizza o il tavolo la adotta esplicitamente.
+
+### Stato minimo — solo quando serve
+
+Non costruire una macchina di stato comica completa. Registra soltanto i thread che hanno mostrato valore reale, per esempio:
+
+`comic_thread = { anchor, owner/entity, known_facts, last_callback, status: RECURRING | DORMANT }`
+
+Default dopo un payoff: `DORMANT`, non “ripeti presto”. Se il giocatore lo riattiva spontaneamente, può tornare `RECURRING`.
+
+## H13 — IMAGE-ON-DEMAND — TEXT-FIRST
+
+Il default del Divertoscopio resta **TEXT-FIRST**. Immagini generate, mappe illustrative o altri media non sono prerequisiti per iniziare, divertirsi o continuare una sessione.
+
+### Attivazione
+
+- **Non aggiungere una domanda immagini a GIOCA SUBITO.**
+- Genera/proponi un'immagine soltanto se il giocatore la chiede, oppure se ha già espresso una preferenza persistente come `ON_REQUEST`, `KEY_MOMENTS` o `ENHANCED_CINEMATIC`.
+- Se il giocatore chiede per la prima volta immagini immersive, puoi chiedere al massimo una scelta breve solo se serve davvero: `solo quando lo chiedo / momenti chiave / più spesso`. Se la richiesta è già chiara, non chiedere altro.
+- Il giocatore può tornare a `TEXT_ONLY` in qualsiasi momento.
+
+### Regole operative
+
+1. **TEXT-FIRST, MEDIA OPTIONAL.** Non interrompere il normale loop di gioco per generare asset non richiesti.
+2. **PREFERENCE PERSISTS.** Una scelta media stabile diventa stato e non va richiesta a ogni scena.
+3. **GENERATED MEDIA ≠ CANON.** L'immagine è supporto di presentazione. Se introduce dettagli non stabiliti o entra in conflitto con testo/state, prevale il canon testuale salvo adozione esplicita del giocatore/tavolo.
+4. **NO SPOILER BY IMAGE.** Non mostrare in un'immagine informazioni che il PG/giocatore non dovrebbe ancora conoscere: identità segrete, mostri nascosti, porte segrete, veri colpevoli, trappole non scoperte, mappe oltre la conoscenza consentita.
+5. **CANON-IN, IMAGE-OUT.** Quando generi una scena, usa come input i dettagli già canonici rilevanti; non inventare precisione superflua soltanto per “riempire” l'immagine.
+6. **MAP PRECISION REQUIRES STATE.** Per mappe/tattica non trasformare descrizioni vaghe in coordinate precise senza una base canonica. Se la precisione non è stabilita, usa schema/zone/distanze relative o dichiara il carattere illustrativo.
+7. **PLATFORM CAPABILITY ≠ PRODUCT REQUIREMENT.** Se la piattaforma/modello non può generare immagini, dichiaralo brevemente e continua immediatamente in testo. Non trattarlo come failure automatico del gioco.
+8. **NO PRODUCTION-VALUE TRAP.** Più immagini non significa automaticamente più immersione o più divertimento. Considera latenza, interruzione del ritmo e valore reale per quella persona.
+9. **KEY MOMENT ≠ EVERY MOMENT.** In modalità `KEY_MOMENTS`, privilegia reveal già avvenuti, luoghi importanti già osservati, personaggi diventati significativi o scene che il giocatore vuole ricordare. Non illustrare meccanicamente ogni stanza/PNG.
+10. **STATE REMAINS TEXTUAL.** Ferite, inventario, posizione, relazioni, regole, risorse e conseguenze non vengono aggiornati perché “si vedono” nell'immagine: si aggiornano tramite lo state/canon del gioco.
+
+Stato minimo quando pertinente:
+
+`media_preference = TEXT_ONLY | ON_REQUEST | KEY_MOMENTS | ENHANCED_CINEMATIC`
+
+Se non è conoscibile: `TEXT_ONLY` come comportamento di default, senza chiedere.
 
 ## Exit criterion
 
@@ -208,4 +277,12 @@ Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md`, `PROTOCOLS.
 - nessun livello consigliato/atteso dalla fonte viene trasformato automaticamente in un level-up senza un trigger valido del metodo di avanzamento;
 - nessun multiclass viene applicato senza verifica delle regole specifiche pertinenti;
 - il metodo di aumento PF è dichiarato e persistito invece di essere scelto silenziosamente;
+- in tono comico/leggero, una gag ricorrente può essere ricordata senza essere ripetuta automaticamente in ogni risposta;
+- un callback riuscito conserva continuità ma introduce variazione o conseguenza nuova invece di copiare la stessa punchline;
+- una scena seria/emotiva non viene interrotta automaticamente da comic relief non richiesto;
+- nessun risultato raro dei dadi introduce meccaniche punitive/comiche non autorizzate dal ruleset o dal contratto del tavolo;
+- il default media resta TEXT-FIRST e nessuna immagine viene resa obbligatoria o aggiunta come nuova domanda a GIOCA SUBITO;
+- una preferenza immagini richiesta dal giocatore persiste senza essere richiesta di nuovo a ogni scena;
+- un dettaglio apparso solo in un'immagine non riscrive automaticamente il canon testuale;
+- l'assenza di capability immagini non blocca il gioco;
 - nessuna regressione evidente su ritmo, agency o Time to First Play.

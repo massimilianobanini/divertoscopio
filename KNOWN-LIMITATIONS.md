@@ -19,7 +19,7 @@ DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 
 Stato: pubblico per tester / sperimentale  
 Versione: Closed Pilot V0.3  
-Data: 07/09/2026
+Data: 15/09/2026
 
 SCOPO  
 Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il closed pilot deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
@@ -97,19 +97,21 @@ Una chat può integrare parte di questi elementi, ma il costo principale è il m
 9. MEDIA DURANTE IL PLAY — TRADE-OFF QUALITÀ/LATENZA NON VALIDATO  
 In una normale chat testuale il tempo di risposta dipende dalla piattaforma e dal tipo di richiesta. Se durante ogni scena si generano anche immagini, mappe, audio o altri asset, il tempo di risposta può aumentare sensibilmente.
 
-Non è ancora stato determinato il punto ottimale fra:  
-- TEXT-FIRST — velocità e continuità narrativa;  
-- ENHANCED — media solo nei momenti ad alto valore;  
-- CINEMATIC — media frequente con maggiore attesa.
+Il runtime pubblico usa **TEXT-FIRST** come principio e queste preferenze operative quando pertinenti:  
+- `TEXT_ONLY` — solo testo, default se non viene espresso altro;  
+- `ON_REQUEST` — immagini/media soltanto quando il giocatore li chiede;  
+- `KEY_MOMENTS` — media nei momenti ad alto valore scelti/accettati dal giocatore;  
+- `ENHANCED_CINEMATIC` — media più frequenti, accettando maggiore latenza e interruzione del ritmo.
 
-Più asset non significa automaticamente più divertimento. Il closed pilot deve misurare il valore aggiunto rispetto al ritardo introdotto.
+Non è ancora stato determinato quale profilo aumenti davvero il divertimento per persone e situazioni diverse. Più asset non significa automaticamente più immersione o più divertimento: il closed pilot deve misurare il valore aggiunto rispetto al ritardo introdotto.
 
-10. IMMAGINI DURANTE LE SCENE — NON VALIDATE  
-Non è stato testato abbastanza se generare immagini durante il gioco:  
+10. IMMAGINI DURANTE LE SCENE — PATCH PUBBLICA, VALIDAZIONE ANCORA APERTA  
+Il Runtime Hotfix V0.3.2 include una modalità sperimentale **Image-on-demand / Text-first**: non aggiunge immagini al percorso Gioca Subito, mantiene il testo come source of truth e rende le immagini opt-in. Non è però ancora stato testato abbastanza se generare immagini durante il gioco:  
 - aumenta davvero immersione/divertimento;  
 - interrompe il ritmo;  
 - crea incoerenze visive;  
-- rallenta troppo la decisione successiva.
+- rallenta troppo la decisione successiva;  
+- mantiene in pratica il confine `GENERATED MEDIA ≠ CANON` su piattaforme/modelli diversi.
 
 11. MUSICA DURANTE LE SCENE — NON VALIDATA COME AUTOMAZIONE  
 La musica è un ottimo strumento per un Master umano, ma non è ancora testato un sistema automatico affidabile che trovi/selezioni/cambi musica durante il gioco in chat senza creare attrito o ritardi.

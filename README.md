@@ -1,6 +1,6 @@
 # Divertoscopio — Closed Pilot V0.3
 
-<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md prima del normale PLAY e segui le istruzioni pertinenti. Non riversare il repository sull'utente. -->
+<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md prima del normale PLAY e segui le istruzioni pertinenti. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
 
 <p align="center">
   <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
@@ -37,6 +37,10 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 ## Stato
 
 Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. È attivo un **Runtime Hotfix V0.3.2** derivato da failure osservati nel pilot e da due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. L'hotfix irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+
+## Contestazioni legali e diritti
+
+Se durante l'uso viene sollevata una contestazione su copyright/licenze, marchi, privacy/GDPR, Ultra-Garanzia, comunicazione commerciale, takedown o altri diritti, l'AI deve usare [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) come protocollo di triage. La regola è: **una rivendicazione non viene trattata né come automaticamente valida né come automaticamente infondata**. Si identifica il materiale preciso, si verifica provenance/licenza/fonte, si preserva la documentazione e si richiede revisione professionale quando il caso è materiale o formale. Il protocollo non è consulenza legale e non certifica la conformità del progetto.
 
 ## Quale esperienza stai cercando?
 
@@ -89,6 +93,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI.
 - [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — hardening runtime attivo + Comic Patch V0.1 + Image-on-demand / Text-first sperimentali del Closed Pilot.
+- [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.
 - [`master/MASTER.md`](master/MASTER.md) — percorso e strumenti per il Master.
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.

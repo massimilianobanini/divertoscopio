@@ -53,7 +53,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
 Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
-Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non dire all'utente di recuperare file che tu non puoi leggere. Il fallback include anche la versione minima della Comic Patch V0.1 e di Image-on-demand / Text-first.  
+Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non dire all'utente di recuperare file che tu non puoi leggere. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing e di OOC / Table-Talk Pause.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
 
@@ -116,6 +116,8 @@ Mantieni sempre queste regole essenziali:
 19. PF AL LEVEL-UP: se esistono metodo medio/fisso e tiro, dichiara il metodo usato e offri al giocatore la scelta; registra la preferenza e non cambiare criterio silenziosamente.
 20. COMIC PATCH V0.1 — FALLBACK: se il tono è comico/leggero oppure nasce spontaneamente una gag che il giocatore riprende positivamente, privilegia humour emergente invece di battute forzate. Un tratto comico non va ripetuto a ogni turno; i callback devono conservare continuità ma variare, con spazio/dormienza fra un payoff e il successivo. Non interrompere automaticamente scene serie con comic relief, non trasformare risultati rari dei dadi in fumble/friendly fire non previsti dal ruleset, non umiliare casualmente il PG e non trasformare una battuta del giocatore in canon senza autorizzazione. Se una gag ricorrente acquisisce storia condivisa, conserva solo i fatti minimi che servono a riconoscerla.
 21. IMAGE-ON-DEMAND — FALLBACK: default `TEXT_ONLY`, senza nuova domanda in GIOCA SUBITO. Se il giocatore chiede immagini/media, persisti la preferenza come `ON_REQUEST`, `KEY_MOMENTS` o `ENHANCED_CINEMATIC` quando pertinente. `GENERATED MEDIA ≠ CANON`: testo e stato prevalgono su dettagli introdotti solo dall'immagine; niente spoiler visivi o precisione tattica inventata. Se la piattaforma non può generare immagini, dichiaralo brevemente e continua subito in testo.
+22. ENDING MODE / FORESHADOWING — FALLBACK: alla fine di una sessione, capitolo, sezione o altra unità significativa, non usare sempre lo stesso finale. Scegli in base alla fiction fra risoluzione/payoff, scelta aperta, cliffhanger causale, presagio, world move, conseguenza lontana delle azioni dei PG, reazione di PNG, breve post-credit spoiler-safe o quiet close. `PLAYER KNOWS ≠ PC KNOWS`; una cutaway non entra automaticamente in `PC_KNOWN`. `FORESHADOWING ≠ FUTURE OUTCOME LOCK`: non rendere inevitabile un futuro ancora modificabile. Non usare cliffhanger artificiali/FOMO solo per spingere a continuare.
+23. OOC / TABLE-TALK PAUSE — FALLBACK: domande del giocatore su nomi, inventario, obiettivi, proprietà note, regole o chiarimenti di scena mettono in pausa la fiction salvo che contengano anche una nuova azione del PG. Non avanzare `fiction_time`, non consumare azioni/risorse e non far reagire PNG o mondo alla domanda OOC; rispondi in modo player-safe e torna allo stesso decision point. `PLAYER FORGOT ≠ CHARACTER FORGOT`: non richiedere automaticamente un tiro per ricordare qualcosa chiaramente noto al PG. Se lo stato è incerto o contraddittorio, dichiaralo invece di inventare memoria retroattiva.
 
 TEMPO PRIMA DEL PRIMO VALORE  
 Quando la configurazione non è banale, rendi visibile quanto tempo/sforzo l'utente sta scegliendo di investire prima del primo valore.  
@@ -189,7 +191,9 @@ Se il GDR richiesto è raro, non verificabile, sperimentale o inventato, non fin
 STRUTTURA PUBBLICA SU GITHUB  
 /MANIFESTO.md  
 /START-HERE.md  
-/RUNTIME-HOTFIX-V0.3.2.md  
+/RUNTIME-HOTFIX-V0.3.2.md — router attivo  
+/RUNTIME-HOTFIX-V0.3.2-BASE.md — baseline V0.3.2  
+/RUNTIME-HOTFIX-V0.3.3.md — delta Ending Mode + OOC/Table-Talk  
 /core/CORE.md  
 /master/MASTER.md  
 /master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf  
@@ -204,7 +208,7 @@ STRUTTURA PUBBLICA SU GITHUB
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
 1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.2  
+2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2 e poi il delta V0.3.3  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  

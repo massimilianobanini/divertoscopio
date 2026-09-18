@@ -20,7 +20,7 @@ Non devi studiare questo repository.
 
 Se l'AI può leggere il repository, deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md) e poi il delta attivo [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md).
 
-Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo necessario per partire anche senza accesso diretto agli altri file, inclusi i delta essenziali della V0.3.3; per i Master è disponibile anche il Kit PDF autonomo.
+Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare l'adapter SRD 2.0 in questo scenario di accesso parziale, copia subito dopo anche [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md): il fallback generale non deve essere scambiato per l'adapter completo. Per i Master è disponibile anche il Kit PDF autonomo.
 
 `Aiutami` resta un comando alternativo equivalente.
 
@@ -36,7 +36,7 @@ Per un Master:
 
 > **Iniziamo. Sono un Master. Voglio usare il Divertoscopio con Daggerheart.**
 
-L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Se vuoi fare un test esterno pulito, vedi anche [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md).
+L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per un test esterno pulito, usa prima soltanto il repository + una richiesta naturale; [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) spiega anche come separare il test clean-room dal fallback manuale.
 
 **Stato:** adapter pubblico sperimentale. Ha superato un Mechanical Gauntlet statico interno, ma non ha ancora validazione esterna/actual-play sufficiente. Non trattarlo come supporto già dimostrato equivalente al vertical 5E/SRD 5.1.
 

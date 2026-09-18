@@ -26,6 +26,8 @@ When exact execution depends on material outside SRD 5.2.1, use a legally availa
 
 ## 1. RULESET LOCK
 
+Treat **D&D 2024**, **revised 2024 rules**, **5.5e**, and **SRD 5.2.1** as aliases for this adapter unless the user explicitly means a different compatibility layer.
+
 Before applying mechanics, record:
 
 - `ruleset = 5E / SRD 5.2.1`;
@@ -45,8 +47,21 @@ For a scoped mechanical question, use:
 
 1. explicit table/house rule currently active;
 2. the most specific active procedure for the exact adventure / feature / spell / item / stat block / subsystem;
-3. SRD 5.2.1 general rule;
-4. transparent provisional ruling if the exact rule cannot be verified without unacceptable interruption.
+3. current SRD 5.2.1 rule, including errata already incorporated into that SRD version;
+4. a current official erratum or official Sage Advice ruling when it resolves a current-rule ambiguity not already reflected in the active SRD text;
+5. transparent provisional ruling if the exact rule cannot be verified without unacceptable interruption.
+
+Keep provenance distinct:
+
+```
+rules_text / current SRD
+official_errata
+official_sage_ruling
+designer/public advice
+table_ruling / house_rule
+```
+
+A public statement or forum discussion is not automatically an official ruling.
 
 A specific adventure procedure can override a general default **inside its own scope**.
 
@@ -68,15 +83,23 @@ Keep these deltas readily available.
 
 ### Heroic Inspiration
 
-Treat Heroic Inspiration as the current reroll resource, not the older pre-roll Advantage model.
+Heroic Inspiration is a **post-roll reroll** resource:
 
-Track whether a character currently has it and do not invent extra uses.
+- expend it immediately after a die you rolled;
+- reroll that die;
+- the new result must be used;
+- a player character can have only one instance at a time;
+- if a rule gives you another while you already have one, you can pass it to another player character who lacks it.
+
+With Advantage or Disadvantage, a reroll affects only one of the two d20s.
+
+Do not import the older pre-roll Advantage model.
 
 ### Surprise
 
-Use the current Initiative-based Surprise procedure.
+If a combatant is surprised by combat starting, that combatant has **Disadvantage on its Initiative roll**.
 
-Do **not** import a "surprise round" or the older first-turn denial procedure.
+Do **not** import a "surprise round," a Surprised condition, or the older first-turn denial procedure.
 
 ### Actions
 
@@ -86,14 +109,17 @@ Translate natural-language player intent into the correct action internally; do 
 
 ### Hide
 
-Use the current Hide procedure and its prerequisites.
+Baseline SRD 5.2.1 procedure:
 
-Important runtime rules:
+- take the Hide action;
+- make a **DC 15 Dexterity (Stealth)** check;
+- you must be Heavily Obscured or behind Three-Quarters Cover or Total Cover;
+- you must be out of every enemy's line of sight;
+- on success, you have the Invisible condition **while hidden**;
+- record the Stealth total: it becomes the DC for a creature trying to find you with Wisdom (Perception);
+- hidden ends immediately if you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.
 
-- successful hiding creates a tracked hidden state;
-- record the Stealth result when the rule requires it as the later discovery target;
-- if a more specific active source supplies a different DC/procedure, that local rule wins in scope;
-- do not hard-code one Hide DC across every published adventure.
+A more specific active source can supply a different local stealth procedure or DC. That local rule wins **only in its scope**; do not export it back into general Hide.
 
 Track at least:
 
@@ -106,33 +132,80 @@ hide_break_trigger
 
 ### Invisible vs hidden
 
-Do not assume that every source of invisibility behaves identically to the Invisible state obtained through hiding.
+Hide-sourced Invisible exists only **while hidden**. If the hidden state ends, that source of Invisible ends with it.
 
-Track the **source** of the condition/state.
+Independently sourced Invisible effects remain separate. A creature that can somehow see an Invisible creature can suppress the relevant Invisible benefits against itself without automatically deleting an unrelated source for everyone.
+
+Track the **source** of every Invisible state/effect.
 
 ### Unarmed Strike / Grapple / Shove
 
-Current Unarmed Strike can route to damage, grapple, or shove.
+Current Unarmed Strike can route to damage, Grapple, or Shove.
 
-Do not import the old default of resolving grapple initiation as a contested Athletics check.
+For Grapple:
 
-Track the current save/DC procedure and current escape procedure.
+- target chooses a Strength or Dexterity saving throw;
+- DC = 8 + your Strength modifier + Proficiency Bonus;
+- you need a free hand;
+- target can be no more than one size larger;
+- escape uses an action and a Strength (Athletics) or Dexterity (Acrobatics) check against the grapple's escape DC.
 
-An Opportunity Attack can route through an Unarmed Strike when the current rules permit it; therefore Grapple/Shove can be legal there when their normal requirements are satisfied.
+For Shove:
+
+- target chooses a Strength or Dexterity saving throw against the same DC formula;
+- on failure, push it 5 feet or give it the Prone condition;
+- target can be no more than one size larger.
+
+Grappled state:
+
+- Speed 0;
+- attacks against targets other than the grappler have Disadvantage;
+- dragging normally costs 1 extra foot of movement per foot, subject to the current size exception;
+- the grapple also ends if the grappler is Incapacitated or the required range is broken;
+- the grappler can release the target without an action.
+
+Do not import the old contested-Athletics initiation procedure.
+
+An Opportunity Attack can use an Unarmed Strike; therefore Grapple/Shove can be legal there when their normal requirements are satisfied.
 
 ### Exhaustion
 
 Do not import the 2014 threshold table.
 
-Use the current level-based arithmetic penalties and current death threshold.
+Current SRD 5.2.1:
+
+- Exhaustion is cumulative from level 0 to 6;
+- at level 6, the creature dies;
+- D20 Tests are reduced by **2 × Exhaustion level**;
+- Speed is reduced by **5 feet × Exhaustion level**;
+- a normal Long Rest reduces Exhaustion by 1 unless another rule says otherwise.
 
 Track the numeric exhaustion level as persistent state.
 
 ### Short Rest / Long Rest
 
-Use the current rest procedures, including their current interruption and recovery rules.
+**Short Rest**
 
-Do not assume the 2014 Hit Dice recovery model.
+- 1 hour of downtime;
+- requires at least 1 HP to start;
+- spend Hit Point Dice during the completed rest to heal;
+- Initiative, casting a non-cantrip spell, or taking damage interrupts it;
+- an interrupted Short Rest grants no benefits.
+
+**Long Rest**
+
+- at least 8 hours;
+- normally includes at least 6 hours of sleep and no more than 2 hours of light activity;
+- requires at least 1 HP to start;
+- restores all lost HP and **all spent Hit Point Dice**;
+- restores reduced ability scores / HP maximum as the current rule specifies;
+- reduces Exhaustion by 1;
+- you must wait at least 16 hours before starting another Long Rest;
+- Initiative, casting a non-cantrip spell, taking damage, or 1 hour of walking/other physical exertion interrupts it;
+- after at least 1 hour, an interrupted Long Rest gives Short Rest benefits;
+- if immediately resumed, each interruption adds 1 hour to the time needed to finish.
+
+Do not import the 2014 "recover half your Hit Dice" model.
 
 Rest state must include enough information to know:
 
@@ -143,6 +216,12 @@ interruption
 benefits_earned
 resources_recovered
 ```
+
+### Knockout / nonlethal melee
+
+When a melee attack would reduce a creature to 0 HP, the attacker can use the current knockout procedure instead: the creature remains at 1 HP, gains the Unconscious condition, and starts a Short Rest.
+
+Do not import the older "Stable at 0 HP" shortcut.
 
 ### Natural 1 / Natural 20
 
@@ -166,9 +245,36 @@ Do not treat a spell attack as automatically being the Attack action.
 
 Do not invent a generic "delay my turn" procedure.
 
-Ready creates a Reaction opportunity under its current procedure.
+Ready:
 
-Track that only one Reaction is available unless another rule explicitly changes that.
+- define a perceivable trigger;
+- define an action to take or movement up to your Speed;
+- when the trigger occurs, you may use your Reaction **after the trigger finishes** or ignore it;
+- a readied spell is cast during Ready, expending its normal resources, then held with Concentration until the Reaction releases it;
+- if that Concentration breaks, the spell dissipates without taking effect.
+
+Only one Reaction is available until the start of your next turn unless another rule explicitly changes that. Spending the Reaction on something else means the readied Reaction is no longer available.
+
+### Object interaction / Utilize
+
+In time-limited play, one simple object interaction can normally occur for free during movement or an action. Additional interactions require the **Utilize** action unless another rule says otherwise.
+
+Do not import an unlimited "free object interaction" assumption.
+
+### Incapacitated / Stunned
+
+Current Incapacitated state prevents actions, Bonus Actions, and Reactions; breaks Concentration; prevents speech; and imposes Disadvantage on Initiative if the creature is Incapacitated when Initiative is rolled.
+
+Current Stunned includes Incapacitated, automatic failure of Strength/Dexterity saves, and Advantage on attack rolls against the creature.
+
+Do **not** add a separate Speed-0 clause to Stunned unless another active effect supplies it.
+
+### Weapon Mastery
+
+A weapon having a mastery property does **not** mean every proficient wielder can use that property.
+
+Track whether the creature has a feature that actually unlocks Weapon Mastery for that weapon. Retrieve the exact current mastery property when it matters; do not use remembered 2014 weapon behavior as a substitute.
+
 
 ---
 
@@ -315,6 +421,13 @@ This applies especially to subclasses, feats, spells, species, magic items, mons
 ---
 
 ## 11. PLAYER OWNERSHIP DURING LEVEL-UP
+
+Do not inherit the Closed Pilot's SRD 5.1 "XP by default" convention into this adapter automatically.
+
+For SRD 5.2.1 play:
+- use the advancement method explicitly established by the adventure/campaign/table;
+- if none is established, defer the choice until progression first matters rather than adding unnecessary onboarding;
+- never treat an expected/recommended level in an adventure as an automatic level-up trigger.
 
 Do not auto-continue the same class simply because it is the shortest path.
 

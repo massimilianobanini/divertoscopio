@@ -31,7 +31,11 @@ Non andare a cercare artificialmente errori. Se emergono, annota soprattutto:
 - level-up o progression inventati;
 - stato persistente dimenticato;
 - regola non verificata presentata come certa;
-- adventure-specific rule esportata globalmente.
+- adventure-specific rule esportata globalmente;
+- current SRD / errata / official ruling confusi con forum o commenti informali;
+- Ready spell che recupera lo slot quando il trigger non avviene;
+- Stunned a cui viene aggiunto automaticamente Speed 0 dal 2014;
+- Weapon Mastery applicata a chiunque impugni l'arma senza la feature che la abilita.
 
 ## Test di source integrity
 
@@ -47,7 +51,7 @@ Osserva se l'AI:
 
 ## Test di version lock
 
-Prova una situazione in cui esiste una versione 2014 e una 2024 dello stesso concetto.
+Prova una situazione in cui esiste una versione 2014 e una 2024 dello stesso concetto. Prova anche a chiamare il sistema “5.5e” in una chat separata: deve instradare allo stesso adapter senza ricadere sul 2014.
 
 PASS:
 - l'AI identifica la versione attiva;

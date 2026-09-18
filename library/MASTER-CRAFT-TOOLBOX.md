@@ -48,8 +48,11 @@ Per creare tensione usa stakes del personaggio e preferenze di gioco consensuali
 
 ## 2. Prep pigra, riuso e improvvisazione
 
-### PREP VALUE DENSITY
-Prepara prima ciò che ha alta probabilità d'uso, alto impatto sul gioco o buon riuso. Completezza enciclopedica non è un obiettivo.
+### PREP VALUE DENSITY / SYSTEM-DEPENDENT PREP FLOOR
+Prepara prima ciò che ha alta probabilità d'uso, alto impatto sul gioco o buon riuso. Completezza enciclopedica non è un obiettivo. Il prep minimo dipende però dal sistema: se stat block, procedure, mappe o sottosistemi richiedono studio preventivo per essere eseguiti bene, quello è prep necessario. Taglia prima il lavoro a basso valore sopra quel floor, non la competenza richiesta per giocare correttamente.
+
+### NEXT-SESSION INTENT → FOCUSED PREP
+Se a fine sessione i giocatori dichiarano cosa vogliono perseguire dopo, usa quell'intento come input per approfondire soprattutto il ramo probabile e aggiornare causalmente il resto del mondo. Non preparare tutte le diramazioni con lo stesso livello di dettaglio.
 
 ### UNUSED PREP IS INVENTORY, NOT FAILURE
 Materiale non usato non è automaticamente prep sprecata. Conservalo come inventario modulare; non forzarlo nella sessione soltanto perché è costato tempo.
@@ -84,6 +87,15 @@ Apri vicino a una situazione interessante, ma non predeterminare come debba fini
 
 ### SCRIPTED SETBACK ≠ EARNED CONSEQUENCE
 Cattura, furto, perdita o sconfitta non devono accadere comunque se le capacità o decisioni dei PG potevano impedirli. Una scena emotivamente forte non giustifica una falsa scelta.
+
+### FALSE CHOICE / CAUSAL ATTRIBUTION GUARD
+Prima di presentare un bivio, identifica cosa può cambiare davvero fra le opzioni. Se un incontro o segmento è già fissato indipendentemente dalla scelta, non fingere che sia stata quella scelta a causarlo. Un tratto lineare o predeterminato può essere legittimo se il suo scope è noto/contrattato; ciò che non è legittimo è simulare agency che non esiste.
+
+### LINEARITY ≠ RAILROAD
+Una struttura lineare può lasciare agency reale su approccio, priorità, relazioni, costi e conseguenze. Railroad significa proteggere/coercire il percorso contro decisioni legittime; invisible railroad aggiunge falsa attribuzione causale. Vincolo trasparente > falsa scelta nascosta.
+
+### ACTIVE OPPOSITION / WORLD ADVANCE
+Fazioni, minacce e clock possono avanzare off-screen. Ma se i PG tentano concretamente di impedire un evento e fiction + regole rendono plausibile interferire, offri una vera resolution path e onorane l'esito. Non salvare per fiat un evento solo perché era stato preparato. Se invece i PG non intervengono, non sanno o falliscono legittimamente, il mondo può avanzare.
 
 ### BOTTLENECK BEFORE RESCUER
 Prima di introdurre un PNG che sblocca la situazione, controlla se il design dipende da un solo indizio, tiro, enigma o uscita. Preferisci più approcci; il salvataggio esterno è fallback, non toppa strutturale permanente.
@@ -131,6 +143,15 @@ Se il ruleset si basa su procedure ripetute — turni di esplorazione, consumi, 
 ### ACTIONABLE-FIRST RULE LOOKUP
 Durante il gioco dai prima il ruling operativo minimo utile; dettaglio e fonte dopo, se servono. Una quick reference deve preservare edizione e provenienza e distinguere RAW, optional, house rule e note personali.
 
+### SYSTEM STUDY MODE → TABLE CUSTOMIZATION MODE
+Prima di modificare un sistema, chiarisci lo scopo. Se vuoi CAPIRE/VALUTARE/VALIDARE il ruleset, blocca sistema+edizione+fonte e stabilisci prima una baseline source-faithful; registra separatamente deviazioni e provisional ruling. Se invece vuoi ottimizzare il gioco per quel tavolo, house rule/import/override consensuali sono legittimi, ma devono restare espliciti e con provenance chiara.
+
+### PEER-TAUGHT FLUENCY ≠ SOURCE CORRECTNESS
+“Abbiamo sempre giocato così”, sicurezza nel ricordare una regola o insegnamento ricevuto da altri non sono prova automatica della fonte. Il peer teaching è utile per onboarding, ma una regola materialmente rilevante o contestata va risolta contro source/edition attiva + overlay espliciti. Assisted correct play non dimostra da solo rule literacy.
+
+### FAIL-FORWARD SCOPE / RETRY ≠ RESET
+Fail-forward non è una regola universale. Usalo solo quando source, house rule/contratto o Master lo attivano. Quando è attivo, il fallimento deve cambiare lo stato e la continuazione può deviare, aumentare costi o chiudere opzioni: “la storia continua” non significa “succede comunque la stessa scena”. Un retry parte dal nuovo stato, salvo un vero reset previsto dalla fiction/regola.
+
 ### FAILURE-INVERSION FIREWALL
 Un brutto tiro su informazione nascosta non deve rivelare la verità per meta-inversione (“hai fallito, quindi sarà il contrario”). Narra soltanto ciò che il PG può effettivamente concludere.
 
@@ -142,7 +163,10 @@ Una informazione indispensabile non dovrebbe dipendere da un solo check o da una
 ## 5. Puzzle, props e rappresentazione
 
 ### CHALLENGE LOCUS
-Prima di usare puzzle, cifrari o prop, chiarisci se la sfida è PLAYER-FOCUSED, CHARACTER-FOCUSED o HYBRID. Le competenze del PG possono offrire hint, traduzioni, vantaggi o bypass; non obbligare la persona a possedere una capacità che il personaggio dovrebbe avere.
+Prima di una sfida in cui la competenza reale del giocatore può divergere da quella del PG — puzzle, cifrari, prop, conoscenze o interazioni sociali — chiarisci se la sfida è PLAYER-FOCUSED, CHARACTER-FOCUSED o HYBRID. Le competenze del PG possono offrire hint, traduzioni, vantaggi, bypass o la normale risoluzione prevista dal ruleset; non obbligare la persona a possedere crittografia, eloquenza, memoria o cultura che il personaggio dovrebbe avere.
+
+### SOCIAL INTENT / APPROACH / CHARACTER COMPETENCE
+Nelle interazioni sociali separa: 1) cosa vuole ottenere il PG; 2) quale approccio/leva usa il giocatore — argomento, offerta, minaccia, prova, relazione; 3) quanto bene il personaggio lo esegue secondo la procedura attiva. Una dichiarazione descrittiva breve è sufficiente: ROLEPLAY ≠ ACTING. Eloquenza o nervosismo reali del giocatore non diventano automaticamente competenza o incompetenza del PG. Non assegnare bonus/XP/Inspiration soltanto perché il Master o l'AI ha apprezzato la performance, salvo regola o accordo esplicito.
 
 ### MULTI-STAGE CIPHER
 Se un codice viene risolto molto presto, non invalidare il successo. Eventuali strati successivi devono essere già diegeticamente plausibili — per esempio una lingua sconosciuta o una seconda chiave — non aggiunti solo per allungare la scena.
@@ -188,7 +212,10 @@ Per chiarezza tattica bastano marker distinguibili. Miniature, LEGO, token stamp
 Quando coerente col contratto del tavolo, mostrare un tiro importante del Master può trasformare l'attesa del dado in tensione. È opzionale e non va cambiato improvvisamente per manipolare un esito.
 
 ### SYSTEM-FIT BEFORE HEAVY BENDING
-Se il combattimento desiderato è in attrito costante col ruleset, rendi esplicito il trade-off: semplificazione consensuale, house rule dichiarata o sistema alternativo. Evita modificatori nascosti per simulare un contratto diverso.
+Se l'esperienza desiderata entra in attrito costante col ruleset, rendi esplicito il trade-off: semplificazione consensuale, house rule dichiarata o sistema alternativo. Evita modificatori nascosti per simulare un contratto diverso. Se stai valutando il sistema, prima usa una baseline source-faithful; un tavolo pesantemente modificato può validare quell'overlay, non automaticamente il ruleset di partenza.
+
+### PLAYSTYLE PROFILE ≠ RULESET
+“OSR”, “cinematico”, “narrativo”, “tattico”, “sandbox” o altre etichette descrivono obiettivi/culture/tecniche, non un pacchetto automatico di regole. Separa sempre ruleset/edizione da playstyle desiderato, procedure realmente attivate e adventure-design assumptions. Se lo stile richiede continui override della fonte, trattalo come evidenza di system resistance invece di accumulare bending nascosto. Le abitudini di un sistema precedente possono contaminare proceduralmente quello nuovo anche senza usare lo stesso vocabolario.
 
 ---
 
@@ -291,6 +318,9 @@ Assenza, resurrezione o time-skip non congelano il mondo. Al ritorno ricostruisc
 
 ### CAMPAIGN ANCHOR ≠ SINGLE PC
 Il fulcro persistente può essere un PG, il party, una gilda, un luogo o il mondo. La perdita di un personaggio non deve distruggere automaticamente la continuità della campagna.
+
+### CAMPAIGN CONTINUITY LOCUS
+Quando morte, ritiro, rotazione dei PG o TPK sono plausibili, chiarisci cosa deve portare la continuità: CHARACTER, PARTY/INSTITUTION, MISSION/FRONT, WORLD/REGION oppure HYBRID. Usa questo locus per replacement PC, recap, hook, persistenza delle fazioni e decisione se un TPK chiude la campagna o cambia soltanto stato. CHARACTER LOSS ≠ CAMPAIGN MEMORY LOSS; il nuovo PG riceve solo conoscenze diegeticamente trasferibili. Alta letalità non implica automaticamente personaggi usa-e-getta.
 
 ---
 

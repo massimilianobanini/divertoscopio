@@ -154,7 +154,7 @@ Questo repository **non** contiene database dei tester, risposte private, transc
 
 ## Fonti di ispirazione e ringraziamenti
 
-Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Andrea “Il Rosso” Lucca / La Locanda del Drago Rosso**, oltre a numerose fonti internazionali.
+Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, The Prof. Player, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Andrea “Il Rosso” Lucca / La Locanda del Drago Rosso**, oltre a numerose fonti internazionali.
 
 [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) separa esplicitamente le fonti con un contributo documentato alla ricerca dalle ispirazioni/community/interlocutori considerati. In entrambi i casi, una citazione **non implica approvazione, collaborazione o affiliazione**.
 

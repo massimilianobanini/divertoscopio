@@ -19,3 +19,12 @@ Se riesci a leggere `START-HERE.md` o questo router ma **non riesci a caricare u
 - Dichiara il limite all'utente solo se cambia materialmente accuratezza, regole o continuità; non trasformare un problema di accesso ai file in nuovo onboarding.
 
 Dopo i file disponibili o il relativo fallback, continua con il normale ordine di consultazione previsto da `START-HERE.md`.
+## SYSTEM ADAPTER ROUTING
+
+Dopo aver caricato i file runtime disponibili e prima di applicare regole specifiche:
+
+- se il sistema attivo è **D&D 5e 2014 / SRD 5.1**, usa `adapters/5e-srd51/ADAPTER.md`;
+- se il sistema attivo è **Daggerheart**, usa `adapters/dh-srd20/ADAPTER.md`;
+- se non esiste un adapter pubblico per sistema/versione, usa il percorso Unknown System Discovery di `START-HERE.md` e non importare un adapter “simile”.
+
+Se l’utente ha già indicato il sistema, non chiederglielo di nuovo. Un adapter di sistema è caricato on-demand: non caricare contemporaneamente adapter incompatibili.

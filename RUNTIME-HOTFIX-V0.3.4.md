@@ -12,7 +12,7 @@ Questa V0.3.4 aggiunge o precisa il comportamento precedente. In caso di conflit
 
 ---
 
-## H13 — CAUSAL ATTRIBUTION / FALSE CHOICE GUARD
+## V34-1 — CAUSAL ATTRIBUTION / FALSE CHOICE GUARD
 
 Una scelta del giocatore è significativa soltanto se può cambiare qualcosa di materialmente rilevante **oppure** se il suo scope limitato è dichiarato chiaramente.
 
@@ -52,7 +52,7 @@ PASS:
 
 ---
 
-## H14 — ACTIVE OPPOSITION / WORLD ADVANCE
+## V34-2 — ACTIVE OPPOSITION / WORLD ADVANCE
 
 Il mondo può muoversi senza aspettare i PG. Fazioni, clock, minacce ed eventi possono avanzare off-screen secondo trigger e causalità.
 
@@ -82,7 +82,7 @@ PASS:
 
 ---
 
-## H15 — FAIL-FORWARD SCOPE / CONTINUATION != SAME PATH
+## V34-3 — FAIL-FORWARD SCOPE / CONTINUATION != SAME PATH
 
 **Fail-forward non è una regola universale.** Usalo soltanto quando:
 - il ruleset/source lo prevede;
@@ -102,7 +102,7 @@ Se fail-forward NON è attivo, applica normalmente l'esito previsto dal ruleset/
 
 ---
 
-## H16 — SYSTEM-DEPENDENT PREP FLOOR
+## V34-4 — SYSTEM-DEPENDENT PREP FLOOR
 
 **Meno prep non è automaticamente meglio.** L'obiettivo è ridurre il lavoro che non crea valore senza eliminare la preparazione necessaria a eseguire bene il sistema scelto.
 

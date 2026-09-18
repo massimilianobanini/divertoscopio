@@ -25,12 +25,14 @@ Se l'esperto corregge l'AI e la sessione poi funziona, la correzione è evidenza
 
 ## 1. Parti da una chat nuova
 
-Non usare una conversazione che conosce già:
+Non usare una conversazione o workspace che conosce già:
 - il progetto;
 - i suoi failure mode;
 - gli stress test;
 - le conclusioni della ricerca;
 - le tue correzioni precedenti.
+
+Se la piattaforma mantiene memoria tra chat, istruzioni di progetto/workspace o contesto persistente e hai già lavorato sul Divertoscopio, usa quando possibile un contesto realmente fresco/temporaneo oppure annotalo come limite del clean-room.
 
 Fornisci inizialmente soltanto:
 
@@ -264,7 +266,7 @@ Se non è distinguibile, usa **UNKNOWN** invece di inventare la causa.
 
 Per tester esperti è utile, ma non obbligatoria.
 
-Confronta due **chat nuove** con la stessa AI/modello e, per quanto possibile, lo stesso scenario iniziale:
+Confronta due **chat nuove** con la stessa AI/modello, gli stessi setting rilevanti e, per quanto possibile, lo stesso source pack e lo stesso scenario iniziale:
 
 ### A — AI generalista
 Nessun Divertoscopio.

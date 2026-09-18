@@ -22,3 +22,5 @@ Questa concessione non si estende automaticamente a:
 - nome, brand, marchi o altri segni distintivi del progetto.
 
 Per i materiali di terzi presenti o richiamati nel repository, vedi [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
+
+In particolare, il materiale Public Game Content e l'Adaptive Content derivato dal **Daggerheart System Reference Document 2.0** sono soggetti alla **Darrington Press Community Gaming License 2.0 (DPCGL)**. La CC BY 4.0 del Divertoscopio si applica soltanto nella misura in cui il materiale originale del progetto è separabile e il suo riuso resta compatibile con gli obblighi DPCGL. La presente licenza non concede diritti ulteriori sul materiale di Critical Role/Darrington Press.

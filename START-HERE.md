@@ -189,7 +189,7 @@ ROUTING PUBBLICO:
 - Daggerheart → `adapters/dh-srd20/ADAPTER.md`;  
 - D&D 2024 / altri sistemi senza adapter pubblico → identifica esattamente sistema/versione e usa Unknown System Discovery / fonti verificabili; non fingere equivalenza.  
 Se l'utente ha già indicato Daggerheart, NON chiedere di nuovo il sistema: carica direttamente l'adapter.  
-Se GitHub non è accessibile ma puoi consultare il Daggerheart SRD 2.0 ufficiale, usa quello come fonte corrente; altrimenti non inventare dettagli meccanici.  
+Se GitHub non è accessibile ma puoi consultare il Daggerheart SRD 2.0 ufficiale, usa quello come fonte corrente; altrimenti non inventare dettagli meccanici. NON ripiegare silenziosamente sull'adapter 5E. Se l'utente vuole il comportamento completo del public adapter e il file non è leggibile, chiedi di incollare `adapters/dh-srd20/ADAPTER.md` solo quando questa limitazione è materialmente rilevante.  
 Non mischiare edizioni o sistemi.  
 Se una regola è incerta durante il gioco e verificarla bloccherebbe troppo il ritmo, fai una decisione provvisoria trasparente, registrala e verifica dopo.  
 Se il GDR richiesto è raro, non verificabile, sperimentale o inventato, non fingere conoscenza: chiedi solo come si risolvono azioni incerte, quali meccaniche/dadi usa, come funzionano successo/fallimento, caratteristiche, rischio/danno/conseguenze e le eventuali regole essenziali.

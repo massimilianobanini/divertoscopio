@@ -119,7 +119,9 @@ Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'inter
 
 Il repository pubblico **non contiene il testo di avventure commerciali** né materiale proprietario pubblicato senza autorizzazione. I principi, le procedure e i pattern pubblici del Divertoscopio sono generalizzati e originali/riorganizzati.
 
-Per il supporto 5E viene usato anche il **System Reference Document 5.1 (SRD 5.1)**, pubblicato da Wizards of the Coast con licenza **CC BY 4.0** e attribuito in [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).\n\nL’adapter Daggerheart™ Compatible usa materiale del **Daggerheart System Reference Document 2.0** nei limiti della **Darrington Press Community Gaming License 2.0 (DPCGL)**. Non ripubblica Campaign Frame o testo proprietario non qualificato come Public Game Content. Attribuzione e condizioni: [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
+Per il supporto 5E viene usato anche il **System Reference Document 5.1 (SRD 5.1)**, pubblicato da Wizards of the Coast con licenza **CC BY 4.0** e attribuito in [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
+
+L’adapter Daggerheart™ Compatible usa materiale del **Daggerheart System Reference Document 2.0** nei limiti della **Darrington Press Community Gaming License 2.0 (DPCGL)**. Non ripubblica Campaign Frame o testo proprietario non qualificato come Public Game Content. Attribuzione e condizioni: [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
 
 Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, fornisci alla tua AI il materiale che possiedi legalmente oppure una fonte a cui possa accedere legittimamente. Senza quel materiale, il Divertoscopio deve limitarsi a conoscenze generali, fonti pubblicamente accessibili, esperienze della community e proposte dichiarate come tali.
 
@@ -141,7 +143,9 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`library/MASTER-CRAFT-TOOLBOX.md`](library/MASTER-CRAFT-TOOLBOX.md) — toolbox Master-facing: prep pigra, PNG, improvvisazione, combattimento, Sessione Zero, one-shot, feedback e altre tecniche recuperate on-demand.
 - [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.
 - [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) — adapter candidato separato per le regole 2024 / SRD 5.2.1.
-- [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md) — guida clean-room per il test esterno dell'adapter 2024.\n- [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.\n- [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
+- [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md) — guida clean-room per il test esterno dell'adapter 2024.
+- [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.
+- [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
 - [`testing/EXPERT-CLEAN-ROOM.md`](testing/EXPERT-CLEAN-ROOM.md) — protocollo generale per tester esperti: natural clean-room → red team → A/B opzionale.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.

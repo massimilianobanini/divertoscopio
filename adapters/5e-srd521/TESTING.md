@@ -2,6 +2,8 @@
 
 Questo file serve a provare il candidato **5E / SRD 5.2.1** senza leggere in anticipo i failure mode.
 
+Se sei un tester esperto e vuoi separare natural clean-room, red-team e A/B, usa prima [`../../testing/EXPERT-CLEAN-ROOM.md`](../../testing/EXPERT-CLEAN-ROOM.md). Non leggere i failure mode specifici qui sotto prima della prima prova naturale se vuoi evitare priming.
+
 ## Prima prova: clean-room
 
 Apri una chat nuova, fornisci soltanto il repository e scrivi:

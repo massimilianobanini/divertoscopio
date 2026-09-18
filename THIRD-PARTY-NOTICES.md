@@ -17,7 +17,7 @@ Divertoscopio non è un prodotto ufficiale, approvato o sponsorizzato da Wizards
 Gli altri materiali originali del repository seguono le licenze indicate in [`LICENSE`](LICENSE) e [`LICENSE-DOCS.md`](LICENSE-DOCS.md), salvo diversa indicazione.
 
 
-## Daggerheart System Reference Document 2.0 — Critical Role, LLC / Darrington Press
+## SRD 2.0 — Critical Role, LLC / Darrington Press
 
 Il repository include un adapter procedurale **Daggerheart™ Compatible** basato sul **Daggerheart System Reference Document 2.0 (SRD 2.0)**, identificato come Public Game Content dalla **Darrington Press Community Gaming License 2.0 (DPCGL)**.
 

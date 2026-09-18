@@ -480,7 +480,8 @@ Current status:
 
 - broad internal delta audit performed against 2024/2025 core-rule material and multiple current adventures/supplements;
 - current SRD 5.2.1 public-source lock identified;
-- static stress cases have been designed;
+- public-only document-level static stress retest: **30/30 route/failure-bait coverage** after hardening;
+- the full private Mechanical Gauntlet is not yet recorded as executed for publication readiness;
 - external clean-room testing and actual-play validation are still incomplete.
 
 Therefore:

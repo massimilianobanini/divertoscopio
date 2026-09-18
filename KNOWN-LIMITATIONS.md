@@ -4,12 +4,9 @@ IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 
 Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
 
-**Confidence operative interne sui sistemi con adapter pubblico — stime qualitative, non statistiche:**
-- **D&D 5e 2014 / SRD 5.1: 85%** — vertical con più uso reale e test accumulati;
-- **D&D 2024 / SRD 5.2.1: 75%** — forte audit statico/sintetico interno, actual-play esterno ancora limitato;
-- **Daggerheart / SRD 2.0: 70%** — audit e stress test statici interni, actual-play esterno ancora limitato.
+La matrice corrente delle confidence per i sistemi con supporto pubblico è mantenuta in **[SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md)**, unica fonte canonica delle percentuali.
 
-Queste percentuali indicano il livello corrente di fiducia che il percorso possa funzionare senza rescue anomalo. **Non** sono probabilità di divertimento, accuratezza garantita delle regole, tassi di successo o validazione esterna.
+> **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
 - per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
 - D&D 2024 / SRD 5.2.1 ha ora un adapter candidato separato e un ampio audit interno, ma actual-play e validazione esterna sono ancora insufficienti; personaggi di livello più alto e combattimenti molto complessi restano poco testati;  
 - il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  

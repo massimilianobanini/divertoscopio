@@ -1,6 +1,6 @@
 # Divertoscopio — Closed Pilot V0.3
 
-<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e i delta V0.3.3 + V0.3.4. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
+<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e i delta V0.3.3 + V0.3.4. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Quando viene scelto un sistema, consulta anche `SYSTEM-SUPPORT.md` e mostra una sola volta il relativo box di supporto nel primo messaggio successivo. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
 
 <p align="center">
   <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
@@ -28,13 +28,11 @@ Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md
 
 Se vuoi giocare o lavorare come Master su uno dei sistemi già coperti pubblicamente, puoi scegliere liberamente:
 
-| Sistema | Confidence operativa interna* | Stato |
-|---|---:|---|
-| **D&D 5e 2014 / SRD 5.1** | **85%** | vertical più testato finora |
-| **D&D 2024 / SRD 5.2.1** | **75%** | adapter candidato; forte audit statico/sintetico, actual-play esterno ancora limitato |
-| **Daggerheart / SRD 2.0** | **70%** | adapter candidato; audit e stress test statici interni, actual-play esterno ancora limitato |
+La matrice pubblica corrente è in **[SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md)**, che è l'unica fonte canonica delle percentuali di supporto.
 
-*Le percentuali sono **stime interne qualitative, non statistiche**. Indicano il livello corrente di fiducia che il percorso possa funzionare senza rescue anomalo, sulla base dei test disponibili. **Non** sono probabilità di divertimento, accuratezza garantita delle regole o tassi di successo.
+> **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
+
+Quando scegli un sistema, il Divertoscopio mostra nel primo messaggio successivo un piccolo box con la confidence corrente. Se un GDR non ha ancora una percentuale pubblica, viene indicato come **non valutato**: il sistema non deve inventare un numero.
 
 Per giocare, puoi scrivere per esempio:
 
@@ -127,6 +125,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) — delta Ending Mode / Foreshadowing Governor + OOC / Table-Talk Pause Contract.
 - [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md) — delta causal attribution / false choice + active opposition + fail-forward scope + system-dependent prep floor.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
+- [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.
 - [`master/MASTER.md`](master/MASTER.md) — percorso e strumenti per il Master.
 - [`master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf`](master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf) — guida pratica autonoma per usare l'AI con meno lavoro inutile.

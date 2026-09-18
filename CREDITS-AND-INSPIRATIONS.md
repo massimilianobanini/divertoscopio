@@ -53,7 +53,9 @@ Il lavoro di ricerca ha inoltre studiato o confrontato, tra gli altri:
 - **Insight Check**
 - **Jon Del Arroz**
 - **Deck of DM Things**
-- **Dani Krossing**\n- **Delve With Hope** — articoli pratici su Daggerheart usati per confrontare onboarding, Experiences/Tag Team reminders, spotlight a tavoli grandi, action economy e carico cognitivo del Master.\n- **r/daggerheart** — discussioni della community campionate per individuare failure mode ricorrenti e ambiguità da stressare; non usate come autorità sulle regole.
+- **Dani Krossing**
+- **Delve With Hope** — articoli pratici su Daggerheart usati per confrontare onboarding, Experiences/Tag Team reminders, spotlight a tavoli grandi, action economy e carico cognitivo del Master.
+- **r/daggerheart** — discussioni della community campionate per individuare failure mode ricorrenti e ambiguità da stressare; non usate come autorità sulle regole.
 
 Per queste fonti il valore può essere stato positivo oppure critico: una fonte può aver contribuito perché mostrava un buon metodo, ma anche perché esponeva un failure mode, un limite, una controversia o un'esperienza d'uso da stressare. Quando una fonte ha prodotto un risultato materiale nel framework, la provenance dettagliata resta nella ricerca interna e nei registri di progetto.
 

@@ -9,7 +9,7 @@ Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere quest
 - il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  
 - usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
 - immagini, musica e mappe possono essere utili, ma possono anche rallentare il gioco: stiamo ancora capendo quando valgono davvero l'attesa;  
-- altri GDR e altre piattaforme di intelligenza artificiale possono funzionare, ma non sono stati provati quanto il caso principale;  
+- **Daggerheart** ha ora un adapter candidato pubblico basato su SRD 2.0 e fonti ufficiali correnti: ha superato stress test statici interni, ma non ha ancora validazione esterna/actual-play sufficiente; altri GDR e altre piattaforme di intelligenza artificiale possono funzionare, ma non sono stati provati quanto il caso principale;  
 - giocare al tavolo, online in tempo reale e via chat sono esperienze diverse: non fingiamo che funzionino nello stesso identico modo;  
 - per i Master, oggi il Divertoscopio è più maturo per **preparare una sessione, adattare materiale, analizzare problemi e migliorare il gioco** che per seguire automaticamente in tempo reale un intero tavolo complesso.
 
@@ -19,7 +19,7 @@ DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 
 Stato: pubblico per tester / sperimentale  
 Versione: Closed Pilot V0.3  
-Data: 15/09/2026
+Data: 18/09/2026
 
 SCOPO  
 Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il closed pilot deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
@@ -129,7 +129,27 @@ Se durante l'uso emergono errori ripetuti o forte insoddisfazione, il sistema pu
 Le istruzioni personalizzate possono cambiare il comportamento del modello o entrare in conflitto con altre istruzioni; vanno quindi considerate una variabile opzionale, non un requisito per ottenere assistenza valida.
 
 14. GDR NON-5E — CORE INDIPENDENTE DAL SISTEMA, SUPPORTO NON ANCORA VALIDATO OVUNQUE  
-Il Core non dipende da uno specifico GDR, da un singolo regolamento o da un particolare meccanismo di risoluzione e può essere adattato a d20, d10, d6, pool di dadi, carte, token, giochi senza dadi o altri meccanismi. Il vertical 5E/SRD 5.1 resta però quello oggi più studiato/testato. Questa flessibilità progettuale NON significa accuratezza già validata su tutti i sistemi: non promettere equivalenza dove non esiste ancora un adattamento/test adeguato.
+Il Core non dipende da uno specifico GDR, da un singolo regolamento o da un particolare meccanismo di risoluzione e può essere adattato a d20, d10, d6, pool di dadi, carte, token, giochi senza dadi o altri meccanismi. Il vertical 5E/SRD 5.1 resta quello con più uso reale accumulato. Questa flessibilità progettuale NON significa accuratezza già validata su tutti i sistemi.
+
+14A. ADAPTER CANDIDATO SRD 2.0 — TEST ESTERNO APERTO  
+È ora pubblico `adapters/dh-srd20/ADAPTER.md`, un adapter **Daggerheart™ Compatible** costruito sul Daggerheart SRD 2.0, errata/fonti ufficiali correnti e procedure originali del Divertoscopio.
+
+Evidenza disponibile prima del test esterno:
+- audit interno completo del Core Rulebook;
+- audit interno completo di Hope & Fear;
+- audit del current SRD 2.0 e delle fonti ufficiali web pertinenti;
+- Mechanical Gauntlet sintetico interno con 46/46 route coverage;
+- stress statico del compiled runtime privato.
+
+Questo NON equivale a validazione esterna. Restano da verificare:
+- actual play di giocatori terzi;
+- Master umani che lo usano in preparazione e durante sessioni reali;
+- clean-room su più modelli/piattaforme;
+- campagne lunghe;
+- tavoli numerosi;
+- edge case rari e uso esteso di supplementi.
+
+Il repository pubblico NON ripubblica Campaign Frame o altro testo proprietario non qualificato come Public Game Content. Quando una sessione richiede quel materiale, l’AI deve lavorare sulla fonte legalmente disponibile all’utente.
 
 15. COMBATTIMENTO — TEST PARZIALE  
 Il combattimento è stato provato, ma non abbastanza per dichiarare valida ogni combinazione di:  

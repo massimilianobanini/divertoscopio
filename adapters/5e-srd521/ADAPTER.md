@@ -481,11 +481,13 @@ Current status:
 - broad internal delta audit performed against 2024/2025 core-rule material and multiple current adventures/supplements;
 - current SRD 5.2.1 public-source lock identified;
 - public-only document-level static stress retest: **30/30 route/failure-bait coverage** after hardening;
-- the full private Mechanical Gauntlet is not yet recorded as executed for publication readiness;
+- full private Mechanical Gauntlet: **160/160 static synthetic conformance PASS** against the canonical D24 expected-state map;
 - external clean-room testing and actual-play validation are still incomplete.
 
 Therefore:
 
 **Do not present this adapter as validated to the same level as the existing SRD 5.1 vertical.**
 
-This candidate exists to begin external testing without pretending the work is finished.
+This candidate is open for external clean-room and actual-play testing without pretending the work is finished.
+
+The 160/160 result is an internal static/synthetic conformance result. It does **not** establish independent-model reliability, live correction burden, actual-play quality, or parity with the SRD 5.1 vertical.

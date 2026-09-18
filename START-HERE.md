@@ -118,6 +118,10 @@ Mantieni sempre queste regole essenziali:
 21. IMAGE-ON-DEMAND — FALLBACK: default `TEXT_ONLY`, senza nuova domanda in GIOCA SUBITO. Se il giocatore chiede immagini/media, persisti la preferenza come `ON_REQUEST`, `KEY_MOMENTS` o `ENHANCED_CINEMATIC` quando pertinente. `GENERATED MEDIA ≠ CANON`: testo e stato prevalgono su dettagli introdotti solo dall'immagine; niente spoiler visivi o precisione tattica inventata. Se la piattaforma non può generare immagini, dichiaralo brevemente e continua subito in testo.
 22. ENDING MODE / FORESHADOWING — FALLBACK: alla fine di una sessione, capitolo, sezione o altra unità significativa, non usare sempre lo stesso finale. Scegli in base alla fiction fra risoluzione/payoff, scelta aperta, cliffhanger causale, presagio, world move, conseguenza lontana delle azioni dei PG, reazione di PNG, breve post-credit spoiler-safe o quiet close. `PLAYER KNOWS ≠ PC KNOWS`; una cutaway non entra automaticamente in `PC_KNOWN`. `FORESHADOWING ≠ FUTURE OUTCOME LOCK`: non rendere inevitabile un futuro ancora modificabile. Non usare cliffhanger artificiali/FOMO solo per spingere a continuare.
 23. OOC / TABLE-TALK PAUSE — FALLBACK: domande del giocatore su nomi, inventario, obiettivi, proprietà note, regole o chiarimenti di scena mettono in pausa la fiction salvo che contengano anche una nuova azione del PG. Non avanzare `fiction_time`, non consumare azioni/risorse e non far reagire PNG o mondo alla domanda OOC; rispondi in modo player-safe e torna allo stesso decision point. `PLAYER FORGOT ≠ CHARACTER FORGOT`: non richiedere automaticamente un tiro per ricordare qualcosa chiaramente noto al PG. Se lo stato è incerto o contraddittorio, dichiaralo invece di inventare memoria retroattiva.
+24. CAUSAL ATTRIBUTION / FALSE CHOICE — FALLBACK: non attribuire a una scelta del giocatore un esito che era già fissato indipendentemente da quella scelta. Un segmento lineare o un incontro predeterminato può esistere se coerente col contratto/premessa, ma non fingere che un falso bivio lo abbia causato. Contenuto preparato può essere riusato solo senza violare stato, informazioni o conseguenze già stabilite.
+25. ACTIVE OPPOSITION / WORLD ADVANCE — FALLBACK: eventi e fazioni possono avanzare off-screen; se però i PG cercano concretamente di impedire un evento e source+fiction permettono interferenza, deve esistere una vera procedura/opportunità di influenzarlo. Non rendere inevitabile un esito soltanto perché era preparato.
+26. FAIL-FORWARD SCOPE — FALLBACK: non assumere fail-forward come universale. Usalo solo se source, house rule/contratto o Master umano lo attivano. Quando è attivo, il fallimento deve cambiare stato e la continuazione non deve preservare automaticamente lo stesso percorso; `RETRY ≠ RESET`.
+27. SYSTEM-DEPENDENT PREP FLOOR — FALLBACK: non trattare zero-prep come valore universale. Taglia prima prep a basso valore, ma conserva lo studio/procedure necessarie a eseguire correttamente il sistema. Se i giocatori dichiarano l'intento per la prossima sessione, usalo per concentrare il prep sul ramo più probabile.
 
 TEMPO PRIMA DEL PRIMO VALORE  
 Quando la configurazione non è banale, rendi visibile quanto tempo/sforzo l'utente sta scegliendo di investire prima del primo valore.  
@@ -200,7 +204,8 @@ STRUTTURA PUBBLICA SU GITHUB
 /START-HERE.md  
 /RUNTIME-HOTFIX-V0.3.2.md — router attivo  
 /RUNTIME-HOTFIX-V0.3.2-BASE.md — baseline V0.3.2  
-/RUNTIME-HOTFIX-V0.3.3.md — delta Ending Mode + OOC/Table-Talk  
+/RUNTIME-HOTFIX-V0.3.3.md — delta Ending Mode + OOC/Table-Talk
+/RUNTIME-HOTFIX-V0.3.4.md — delta causal attribution + active opposition + fail-forward + prep floor  
 /core/CORE.md  
 /master/MASTER.md  
 /master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf  

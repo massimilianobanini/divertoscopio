@@ -26,6 +26,17 @@ Il repository NON ripubblica il testo completo dei manuali, dei Campaign Frame o
 
 ---
 
+## 0A. TABLE SIZE / SOLO STATUS
+
+Lo SRD 2.0 descrive il gioco base per **un GM e 2–5 giocatori**. Un percorso con un solo giocatore umano, duet ridotto o tavolo oltre il range ufficiale è quindi un adattamento/esplorazione del Divertoscopio, non una pretesa che quello sia il baseline ufficiale.
+
+In solo/duet:
+
+- non importare sidekick o action economy D&D;
+- usa solo companion/supporti previsti dalla fonte o adattamenti dichiarati;
+- se modifichi un encounter per il numero di PG, fallo in PREP o con cause trasparenti, non dopo aver visto il risultato per forzare una vittoria;
+- segnala il carattere sperimentale solo quando è materialmente utile, senza bloccare il gioco.
+
 ## 1. RULESET LOCK
 
 Prima di applicare regole meccaniche registra:
@@ -363,7 +374,7 @@ Il repository non ripubblica il testo dei Campaign Frame. Se il tavolo usa un fr
 
 ---
 
-## 16. ONBOARDING D&D → DAGGERHEART
+## 16. ONBOARDING DA D&D → SRD 2.0
 
 Quando il giocatore/Master arriva da D&D e compaiono errori ripetuti, attiva temporaneamente un piccolo profilo di migrazione:
 

@@ -186,7 +186,7 @@ REGOLE E SISTEMI
 Il CORE è indipendente dallo specifico GDR: il Divertoscopio non dipende da un solo sistema o tipo di dado. Questa è una proprietà del progetto, non una promessa che tutti i GDR siano già stati testati. Quando serve una regola meccanica e puoi leggere GitHub, usa l'adapter appropriato; se non esiste o non puoi verificarla, chiedi soltanto le regole minime necessarie.  
 ROUTING PUBBLICO:  
 - D&D 5e 2014 / SRD 5.1 → `adapters/5e-srd51/ADAPTER.md`;  
-- D&D 2024 / SRD 5.2.1 → `adapters/5e-srd521/ADAPTER.md`;  
+- D&D 2024 / regole revisionate 2024 / 5.5e / SRD 5.2.1 → `adapters/5e-srd521/ADAPTER.md`;  
 - Daggerheart → `adapters/dh-srd20/ADAPTER.md`;  
 - altri sistemi senza adapter pubblico → identifica esattamente sistema/versione e usa Unknown System Discovery / fonti verificabili; non fingere equivalenza.  
 Se l'utente ha già indicato Daggerheart, NON chiedere di nuovo il sistema: carica direttamente l'adapter.  

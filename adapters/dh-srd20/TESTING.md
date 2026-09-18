@@ -2,6 +2,8 @@
 
 Questo file serve a chi vuole provare il Divertoscopio con un ruleset **Daggerheart™ Compatible** senza leggere l'adapter.
 
+Se sei un tester esperto e vuoi separare natural clean-room, red-team e A/B, usa prima [`../../testing/EXPERT-CLEAN-ROOM.md`](../../testing/EXPERT-CLEAN-ROOM.md). Non leggere i failure mode specifici qui sotto prima della prima prova naturale se vuoi evitare priming.
+
 ## Prima prova: clean-room
 
 Per il primo test NON leggere `ADAPTER.md` e non anticipare all'AI i failure mode attesi. Apri una chat nuova, fornisci soltanto il repository e la tua richiesta naturale. Se la piattaforma non riesce a leggere GitHub o il router non carica l'adapter, annotalo come failure/access limitation: non correggerla manualmente durante questa prima prova.

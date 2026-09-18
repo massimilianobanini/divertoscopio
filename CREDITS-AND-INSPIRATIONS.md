@@ -15,7 +15,7 @@ Il Divertoscopio non ripubblica qui transcript, video, commenti o altri material
 Queste fonti hanno contribuito in modo tracciato ad almeno una tecnica, un refinement, un guardrail, un controesempio o uno stress test del progetto:
 
 - **Caotico Pigro / Stefano** — preparazione efficiente del Master, PNG, improvvisazione e riuso, combattimento, gestione delle one-shot, Sessione Zero, feedback al tavolo, scala/astrazione e altre tecniche di conduzione.
-- **Il Rosso** — tecniche e contenuti GDR inclusi nel percorso di ricerca che ha preceduto la distillazione della libreria pubblica.
+- **Andrea “Il Rosso” Lucca — La Locanda del Drago Rosso** — tecniche, riflessioni e contenuti GDR inclusi nel percorso di ricerca che ha preceduto la distillazione della libreria pubblica.
 - **Giù Nel Dungeon** — discussioni pubbliche e reazioni sull’uso dell’intelligenza artificiale nel GDR utilizzate per far emergere failure mode, stress test e guardrail del progetto.\n- **The Prof. Player** — serie e commenti pubblici su Daggerheart usati come fonte secondaria per failure mode di transizione da D&D, spotlight, onboarding, table alignment, mastering e stress test del public adapter. Le sue interpretazioni non sostituiscono le fonti ufficiali del ruleset.
 
 Questa lista non attribuisce a una singola persona l'origine esclusiva di principi che possono avere molte formulazioni e tradizioni nel game design.

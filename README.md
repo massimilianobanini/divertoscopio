@@ -142,6 +142,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.
 - [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) — adapter candidato separato per le regole 2024 / SRD 5.2.1.
 - [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md) — guida clean-room per il test esterno dell'adapter 2024.\n- [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.\n- [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
+- [`testing/EXPERT-CLEAN-ROOM.md`](testing/EXPERT-CLEAN-ROOM.md) — protocollo generale per tester esperti: natural clean-room → red team → A/B opzionale.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.
@@ -153,7 +154,7 @@ Questo repository **non** contiene database dei tester, risposte private, transc
 
 ## Fonti di ispirazione e ringraziamenti
 
-Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Il Rosso**, oltre a numerose fonti internazionali.
+Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Andrea “Il Rosso” Lucca / La Locanda del Drago Rosso**, oltre a numerose fonti internazionali.
 
 [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) separa esplicitamente le fonti con un contributo documentato alla ricerca dalle ispirazioni/community/interlocutori considerati. In entrambi i casi, una citazione **non implica approvazione, collaborazione o affiliazione**.
 

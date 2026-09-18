@@ -38,3 +38,23 @@ Il repository non ripubblica il testo completo dei manuali, dei Campaign Frame, 
 **Daggerheart™** è un marchio di Critical Role, LLC. Il Divertoscopio è un progetto indipendente e non è affiliato, sponsorizzato o approvato da Critical Role o Darrington Press.
 
 Le parti del repository che costituiscono o incorporano Public Game Content / Adaptive Content DPCGL restano soggette alla DPCGL. La licenza generale della documentazione del Divertoscopio non sostituisce né limita gli obblighi DPCGL applicabili.
+
+## System Reference Document 5.2.1 — Wizards of the Coast LLC
+
+Il repository include un adapter candidato procedurale per **5E / SRD 5.2.1**, basato sul **System Reference Document 5.2.1 (SRD 5.2.1)**, distribuito da Wizards of the Coast LLC sotto licenza Creative Commons Attribution 4.0 International.
+
+Fonte ufficiale SRD: https://www.dndbeyond.com/srd  
+Licenza CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribuzione richiesta:
+
+> This work includes material taken from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC and available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+### Nota sulle modifiche
+
+Nel Divertoscopio il materiale pertinente dell’SRD 5.2.1 può essere **selezionato, sintetizzato, adattato o riorganizzato** per trasformarlo in procedure operative e guardrail di interoperabilità. Le procedure originali del Divertoscopio e la loro organizzazione non sono attribuite a Wizards.
+
+Il repository pubblico non ripubblica testo di manuali commerciali, avventure, setting book, artwork, mappe o altri contenuti proprietari non inclusi nell’SRD 5.2.1. Quando il runtime richiede materiale non-SRD, deve lavorare sulla fonte legalmente disponibile all’utente senza riversarla nel repository.
+
+Divertoscopio è un progetto indipendente e non è un prodotto ufficiale, approvato o sponsorizzato da Wizards of the Coast.
+

@@ -24,6 +24,7 @@ Dopo i file disponibili o il relativo fallback, continua con il normale ordine d
 Dopo aver caricato i file runtime disponibili e prima di applicare regole specifiche:
 
 - se il sistema attivo è **D&D 5e 2014 / SRD 5.1**, usa `adapters/5e-srd51/ADAPTER.md`;
+- se il sistema attivo è **D&D 2024 / regole revisionate 2024 / 5.5e / SRD 5.2.1**, usa `adapters/5e-srd521/ADAPTER.md`;
 - se il sistema attivo è **Daggerheart**, usa `adapters/dh-srd20/ADAPTER.md`;
 - se non esiste un adapter pubblico per sistema/versione, usa il percorso Unknown System Discovery di `START-HERE.md` e non importare un adapter “simile”.
 

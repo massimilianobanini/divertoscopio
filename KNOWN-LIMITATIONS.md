@@ -5,7 +5,7 @@ IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
 
 - per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
-- D&D 2024, personaggi di livello più alto e combattimenti molto complessi sono ancora poco testati;  
+- D&D 2024 / SRD 5.2.1 ha ora un adapter candidato separato e un ampio audit interno, ma actual-play e validazione esterna sono ancora insufficienti; personaggi di livello più alto e combattimenti molto complessi restano poco testati;  
 - il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  
 - usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
 - immagini, musica e mappe possono essere utili, ma possono anche rallentare il gioco: stiamo ancora capendo quando valgono davvero l'attesa;  
@@ -46,8 +46,8 @@ Il percorso Master è più maturo per:
 
 Non è ancora validato come copilot live avanzato che segue in tempo reale un intero tavolo umano complesso.
 
-3. D&D 2024 — NON VALIDATO A DOVERE  
-Le regole 2024 non sono state testate in modo sufficiente. Il closed pilot deve evitare di presentare D&D 2024 come equivalente al supporto 2014.
+3. D&D 2024 / SRD 5.2.1 — ADAPTER CANDIDATO, NON VALIDATO A DOVERE  
+È disponibile un adapter candidato separato in `adapters/5e-srd521/`, costruito sul current SRD 5.2.1 e su un audit interno esteso dei principali delta/meccanismi ad alto rischio. Questo riduce il rischio di contaminazione 2014→2024 ma NON equivale ancora a validazione esterna o actual play sufficiente. Il closed pilot deve evitare di presentare D&D 2024 come equivalente al supporto SRD 5.1 finché i test non lo giustificano.
 
 4. LEVEL-UP — TEST PARZIALE  
 È stato eseguito un primo catch-up tecnico dal livello 1 al 3 durante il Pilot 0, che ha fatto emergere e correggere problemi reali su checkpoint di avanzamento, ownership delle scelte di build e metodo dei PF. Questo NON valida ancora la progressione completa: restano da stressare level-up naturali durante il gioco, più passaggi consecutivi, multiclassing reale, ASI/talenti, spellcaster complessi, continuità delle risorse e gioco prolungato dopo il level-up.

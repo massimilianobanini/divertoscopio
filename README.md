@@ -1,6 +1,6 @@
 # Divertoscopio — Closed Pilot V0.3
 
-<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e il delta V0.3.3. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md` prima del PLAY o del supporto Master. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
+<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e il delta V0.3.3. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
 
 <p align="center">
   <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
@@ -39,6 +39,25 @@ Per un Master:
 L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per un test esterno pulito, usa prima soltanto il repository + una richiesta naturale; [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) spiega anche come separare il test clean-room dal fallback manuale.
 
 **Stato:** adapter pubblico sperimentale. Ha superato un Mechanical Gauntlet statico interno, ma non ha ancora validazione esterna/actual-play sufficiente. Non trattarlo come supporto già dimostrato equivalente al vertical 5E/SRD 5.1.
+
+## Vuoi provare le regole 2024 / 5.5e / SRD 5.2.1?
+
+È disponibile un **adapter candidato 5E / SRD 5.2.1**, separato dal vertical SRD 5.1 per evitare contaminazioni fra versioni.
+
+Per giocare:
+
+> **Iniziamo. Voglio giocare con le regole 2024 / SRD 5.2.1.**  
+> Anche “5.5e” viene instradato allo stesso adapter.
+
+Per un Master:
+
+> **Iniziamo. Sono un Master. Voglio usare il Divertoscopio con le regole 2024 / SRD 5.2.1.**
+
+L'AI deve caricare [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md).
+
+**Stato:** candidato sperimentale / external test open. Ha superato il Mechanical Gauntlet statico/sintetico interno sui casi definiti per il candidate, ma non ha ancora validazione esterna/actual-play sufficiente per essere presentato come equivalente al vertical SRD 5.1.
+
+Guida di test: [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md).
 
 ## Sei un Master?
 
@@ -119,7 +138,9 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`protocols/PROTOCOLS.md`](protocols/PROTOCOLS.md) — procedure da usare quando servono.
 - [`library/PATTERN-INDEX.md`](library/PATTERN-INDEX.md) — pattern generali opzionali.
 - [`library/MASTER-CRAFT-TOOLBOX.md`](library/MASTER-CRAFT-TOOLBOX.md) — toolbox Master-facing: prep pigra, PNG, improvvisazione, combattimento, Sessione Zero, one-shot, feedback e altre tecniche recuperate on-demand.
-- [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.\n- [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.\n- [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
+- [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md) — regole e procedure specifiche per 5E/SRD 5.1.
+- [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) — adapter candidato separato per le regole 2024 / SRD 5.2.1.
+- [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md) — guida clean-room per il test esterno dell'adapter 2024.\n- [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.\n- [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.

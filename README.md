@@ -40,13 +40,14 @@ L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md
 
 **Stato:** adapter pubblico sperimentale. Ha superato un Mechanical Gauntlet statico interno, ma non ha ancora validazione esterna/actual-play sufficiente. Non trattarlo come supporto già dimostrato equivalente al vertical 5E/SRD 5.1.
 
-## Vuoi provare le regole 2024 / SRD 5.2.1?
+## Vuoi provare le regole 2024 / 5.5e / SRD 5.2.1?
 
 È in integrazione un **adapter candidato 5E / SRD 5.2.1**, separato dal vertical SRD 5.1 per evitare contaminazioni fra versioni.
 
 Per giocare:
 
-> **Iniziamo. Voglio giocare con le regole 2024 / SRD 5.2.1.**
+> **Iniziamo. Voglio giocare con le regole 2024 / SRD 5.2.1.**  
+> Anche “5.5e” viene instradato allo stesso adapter.
 
 Per un Master:
 

@@ -53,7 +53,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
 Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
-Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non dire all'utente di recuperare file che tu non puoi leggere. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing e di OOC / Table-Talk Pause.  
+Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing e di OOC / Table-Talk Pause.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
 
@@ -189,7 +189,7 @@ ROUTING PUBBLICO:
 - Daggerheart → `adapters/dh-srd20/ADAPTER.md`;  
 - D&D 2024 / altri sistemi senza adapter pubblico → identifica esattamente sistema/versione e usa Unknown System Discovery / fonti verificabili; non fingere equivalenza.  
 Se l'utente ha già indicato Daggerheart, NON chiedere di nuovo il sistema: carica direttamente l'adapter.  
-Se GitHub non è accessibile ma puoi consultare il Daggerheart SRD 2.0 ufficiale, usa quello come fonte corrente; altrimenti non inventare dettagli meccanici.  
+Se GitHub non è accessibile ma puoi consultare il Daggerheart SRD 2.0 ufficiale, usa quello come fonte corrente; altrimenti non inventare dettagli meccanici. NON ripiegare silenziosamente sull'adapter 5E. Se il public adapter non è leggibile, continua fail-soft con ciò che puoi verificare; puoi proporre come opzione di precisione di incollare `adapters/dh-srd20/ADAPTER.md`, senza trasformarlo in requisito obbligatorio.  
 Non mischiare edizioni o sistemi.  
 Se una regola è incerta durante il gioco e verificarla bloccherebbe troppo il ritmo, fai una decisione provvisoria trasparente, registrala e verifica dopo.  
 Se il GDR richiesto è raro, non verificabile, sperimentale o inventato, non fingere conoscenza: chiedi solo come si risolvono azioni incerte, quali meccaniche/dadi usa, come funzionano successo/fallimento, caratteristiche, rischio/danno/conseguenze e le eventuali regole essenziali.

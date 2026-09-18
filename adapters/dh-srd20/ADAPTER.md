@@ -26,6 +26,17 @@ Il repository NON ripubblica il testo completo dei manuali, dei Campaign Frame o
 
 ---
 
+## 0A. TABLE SIZE / SOLO STATUS
+
+Lo SRD 2.0 descrive il gioco base per **un GM e 2–5 giocatori**. Un percorso con un solo giocatore umano, duet ridotto o tavolo oltre il range ufficiale è quindi un adattamento/esplorazione del Divertoscopio, non una pretesa che quello sia il baseline ufficiale.
+
+In solo/duet:
+
+- non importare sidekick o action economy D&D;
+- usa solo companion/supporti previsti dalla fonte o adattamenti dichiarati;
+- se modifichi un encounter per il numero di PG, fallo in PREP o con cause trasparenti, non dopo aver visto il risultato per forzare una vittoria;
+- segnala il carattere sperimentale solo quando è materialmente utile, senza bloccare il gioco.
+
 ## 1. RULESET LOCK
 
 Prima di applicare regole meccaniche registra:
@@ -117,7 +128,7 @@ Mantieni `roll_type` quando è importante:
 - TAG_TEAM;
 - altro tipo previsto dalla fonte.
 
-Le Reaction Roll non devono ereditare automaticamente tutti gli effetti collaterali di un Action Roll.
+**Reaction Roll — cache pubblica ad alta frequenza:** funziona come un Action Roll per determinare successo/fallimento, ma non genera Hope o Fear, non innesca ulteriori GM Move e non può ricevere Help an Ally. Su critical success non concede il normale clear Stress/gain Hope dell'Action Roll; evita invece anche gli effetti che avrebbero colpito il personaggio su un normale successo.
 
 Group Action e Tag Team hanno procedure proprie: non trasformarle in più turni indipendenti.
 
@@ -129,13 +140,13 @@ Se un nuovo giocatore continua a dimenticare una possibilità come Tag Team, puo
 
 Non presumere che la stessa parola implichi la stessa procedura per tutti gli attori.
 
-Quando Advantage/Disadvantage è rilevante:
+**PG:** advantage = tira un d6 e aggiungilo al totale; disadvantage = tira un d6 e sottrailo. Le fonti multiple non producono normalmente più dadi: advantage e disadvantage si cancellano uno per uno; Help an Ally ha la propria eccezione descritta nello SRD.
 
-- usa la procedura SRD prevista per un PG;
-- usa la procedura SRD prevista per un adversary;
-- non sostituire entrambe con il classico "2d20 prendi il migliore/peggiore" per abitudine D&D.
+**Adversary:** su un action roll con advantage, tira un d20 aggiuntivo e usa il risultato più alto; con disadvantage usa il più basso.
 
-Se più fonti di advantage/disadvantage interagiscono, applica il testo corrente della fonte.
+Non sostituire entrambe le procedure con il classico "2d20 prendi il migliore/peggiore" per abitudine D&D.
+
+Se più fonti, eccezioni o Help an Ally interagiscono, applica il testo SRD/errata corrente.
 
 ---
 
@@ -191,11 +202,11 @@ Se ci sono **5+ giocatori** o emerge starvation/competizione:
 
 ## 8. GM MOVE AUTHORITY
 
-Un GM Move non nasce da qualunque pausa, esitazione o desiderio del Master.
-
-Usa un GM Move solo quando la procedura/source authority lo consente.
+**RAW SRD 2.0:** il GM può fare un GM Move quando vuole; i trigger e gli outcome del gioco guidano però quando sia naturale farlo e quanto debba essere incisivo. In particolare, Fear/fallimento/conseguenze inevitabili/golden opportunity/“cosa succede ora?” sono prompt forti. Dopo il GM turn, lo spotlight torna normalmente ai PG.
 
 Non ridurre "GM Move" a "un adversary attacca".
+
+Usa la severità coerente con outcome, tono e fiction: in generale Hope orienta verso move più soft, Fear verso move più hard. Se vuoi interrompere i giocatori per rubare lo spotlight o fare una GM Move addizionale, applica la spesa di Fear prevista dalla fonte.
 
 Un Move può cambiare, quando coerente:
 
@@ -207,6 +218,8 @@ Un Move può cambiare, quando coerente:
 - countdown;
 - risposta degli adversary;
 - altre componenti autorizzate dalla fonte.
+
+**Guardrail Divertoscopio:** la libertà RAW del GM non autorizza outcome-shopping, punizioni arbitrarie o hard move nascosti solo perché c'è una pausa al tavolo.
 
 **Difficulty integrity:** non alzare o abbassare di nascosto la Difficulty solo per ottenere più o meno spotlight del GM. La Difficulty viene da stat block/fonte o da una ruling fictionally justified. La tensione si gestisce con strumenti legali del sistema, non con rubber-banding nascosto.
 
@@ -316,6 +329,8 @@ Guardrail:
 - nessun "turno gratis" per ogni adversary;
 - `Defeated` non implica automaticamente `Dead`: la fiction determina cosa significa la sconfitta, salvo regola specifica.
 
+**Adversary natural 20:** su un attack roll, un 20 naturale colpisce automaticamente e usa la procedura SRD di extra damage; non importare il critical damage 5E. Su un adversary reaction roll, un 20 naturale riesce automaticamente ma non dà benefici extra.
+
 Per stat block o formule rare: lookup esatto.
 
 ---
@@ -363,7 +378,7 @@ Il repository non ripubblica il testo dei Campaign Frame. Se il tavolo usa un fr
 
 ---
 
-## 16. ONBOARDING D&D → DAGGERHEART
+## 16. ONBOARDING DA D&D → SRD 2.0
 
 Quando il giocatore/Master arriva da D&D e compaiono errori ripetuti, attiva temporaneamente un piccolo profilo di migrazione:
 

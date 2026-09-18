@@ -2,6 +2,10 @@
 
 Questo file serve a chi vuole provare il Divertoscopio con un ruleset **Daggerheart™ Compatible** senza leggere l'adapter.
 
+## Prima prova: clean-room
+
+Per il primo test NON leggere `ADAPTER.md` e non anticipare all'AI i failure mode attesi. Apri una chat nuova, fornisci soltanto il repository e la tua richiesta naturale. Se la piattaforma non riesce a leggere GitHub o il router non carica l'adapter, annotalo come failure/access limitation: non correggerla manualmente durante questa prima prova.
+
 ## Giocatore
 
 Apri una chat nuova, incolla:
@@ -30,7 +34,11 @@ Puoi poi chiedere, per esempio:
 - ridurre prep;
 - ricevere supporto live mentre masteri.
 
-## Cosa osservare
+## Seconda prova opzionale: fallback manuale
+
+Se vuoi separare un problema di accesso GitHub da un problema dell'adapter, apri un'altra chat e incolla `START-HERE.md` seguito da `ADAPTER.md`, poi ripeti lo stesso scenario. Non usare questo fallback per cancellare il failure osservato nella prova clean-room.
+
+## Dopo la prova: cosa osservare
 
 Se capita, annota:
 

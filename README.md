@@ -42,7 +42,7 @@ L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md
 
 ## Vuoi provare le regole 2024 / 5.5e / SRD 5.2.1?
 
-È in integrazione un **adapter candidato 5E / SRD 5.2.1**, separato dal vertical SRD 5.1 per evitare contaminazioni fra versioni.
+È disponibile un **adapter candidato 5E / SRD 5.2.1**, separato dal vertical SRD 5.1 per evitare contaminazioni fra versioni.
 
 Per giocare:
 
@@ -55,7 +55,7 @@ Per un Master:
 
 L'AI deve caricare [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md).
 
-**Stato:** candidato sperimentale. Ha alle spalle un ampio audit interno delle differenze ad alto rischio e delle fonti correnti, ma non ha ancora validazione esterna/actual-play sufficiente per essere presentato come equivalente al vertical SRD 5.1.
+**Stato:** candidato sperimentale / external test open. Ha superato il Mechanical Gauntlet statico/sintetico interno sui casi definiti per il candidate, ma non ha ancora validazione esterna/actual-play sufficiente per essere presentato come equivalente al vertical SRD 5.1.
 
 Guida di test: [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md).
 

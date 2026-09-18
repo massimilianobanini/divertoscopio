@@ -9,6 +9,9 @@ Nella versione pubblica, apri una nuova chat, incolla il link GitHub ufficiale d
 
 Se l’intelligenza artificiale non riesce a leggere il repository GitHub, apri START-HERE.md su GitHub, copia il suo contenuto nella chat e scrivi “Iniziamo”. Questo file contiene anche un fallback minimo autosufficiente: l'AI deve poter partire senza costringere l'utente a recuperare altri file. Se scrivi “Aiutami”, trattalo come alias equivalente e avvia comunque lo stesso percorso.
 
+BOOTSTRAP GEMINI  
+Se questa chat gira su Gemini e il repository non è stato realmente importato/allegato come codice, NON interpretare il semplice URL GitHub nel prompt come accesso riuscito al repository e NON dichiarare che il repository è vuoto. Stato corretto: `REPOSITORY NOT IMPORTED / NOT ACCESSIBLE`. Indica all'utente il percorso della web app su computer: **Aggiungi file → Altri caricamenti → Importa codice → incolla URL repository → Importa**, poi continua da “Iniziamo”. Consulta `GEMINI-START.md` quando disponibile.
+
 Poi scegli se vuoi usarlo come giocatore, come Master oppure se vuoi soltanto informazioni.
 
 Da qui in poi puoi smettere di leggere: il resto sono istruzioni operative per l’intelligenza artificiale.

@@ -15,8 +15,10 @@
 Non devi studiare questo repository.
 
 1. Apri una nuova chat con la tua intelligenza artificiale.
-2. Incolla il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
+2. Usa il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
 3. Scrivi: **Iniziamo**
+
+**Su Gemini c'è un passaggio diverso:** Gemini non legge un repository GitHub soltanto perché il suo URL è stato incollato nel prompt. Nella web app su computer usa **Aggiungi file → Altri caricamenti → Importa codice**, incolla lo stesso URL del repository, importa e poi scrivi **Iniziamo**. Istruzioni rapide: [`GEMINI-START.md`](GEMINI-START.md).
 
 Se l'AI può leggere il repository, deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
 
@@ -120,6 +122,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI, incluso il fallback autosufficiente.
+- [`GEMINI-START.md`](GEMINI-START.md) — bootstrap specifico per Gemini tramite Importa codice.
 - [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — router runtime pubblico.
 - [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md) — baseline/hardening V0.3.2, inclusi Comic Patch V0.1 e Image-on-demand / Text-first.
 - [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) — delta Ending Mode / Foreshadowing Governor + OOC / Table-Talk Pause Contract.

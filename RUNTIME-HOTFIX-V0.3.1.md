@@ -25,7 +25,7 @@ Regole operative:
 - dopo un tiro riuscito mostra almeno dado grezzo, modificatore e totale quando pertinenti;
 - distinguere sempre il **numero generato** dalla successiva **interpretazione secondo il ruleset**.
 
-Questo hardening rafforza `PLAYER.md` / DICE MODE e l'integrità dei dadi già prevista dal Core e dagli adapter.
+Questo hardening rafforza `player/PLAYER.md` / DICE MODE e l'integrità dei dadi già prevista dal Core e dagli adapter.
 
 ## H2 — 5E/SRD 5.1: NATURAL 1 / NATURAL 20
 
@@ -135,7 +135,7 @@ Se `PROTOCOLS` o altro testo V0.3 usa ancora la vecchia dicitura “Voglia di co
 
 ## Exit criterion
 
-Questo hotfix può essere consolidato dentro `PLAYER.md`, `CORE.md`, `PROTOCOLS.md` e `adapters/5e-srd51/ADAPTER.md` dopo un re-test che verifichi almeno:
+Questo hotfix può essere consolidato dentro `player/PLAYER.md`, `core/CORE.md`, `protocols/PROTOCOLS.md` e `adapters/5e-srd51/ADAPTER.md` dopo un re-test che verifichi almeno:
 
 - zero risultati di dado dichiarati senza la fonte concordata;
 - zero natural 1/20 trasformati impropriamente in critici su ability check 5e;

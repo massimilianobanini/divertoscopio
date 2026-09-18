@@ -63,8 +63,12 @@ FAIL:
 
 ## Stato
 
-Adapter candidato pubblico in fase di integrazione.
+Adapter candidato pubblico / **external test open**.
 
-**Public-only static stress — 18/09/2026:** dopo un primo hardening del runtime pubblico, il retest document-level ha coperto **30/30 route/failure bait** previsti. Il pass verifica copertura e conflitti tra i file pubblici; **non è actual play, non è un test clean-room con modelli esterni e non dimostra ancora parità col vertical SRD 5.1**.
+**Public-only static stress — 18/09/2026:** dopo un primo hardening del runtime pubblico, il retest document-level ha coperto **30/30 route/failure bait** previsti.
+
+**Private Mechanical Gauntlet — 18/09/2026:** **160/160 static synthetic conformance PASS** sui casi D24 canonici. Il pass verifica routing, source precedence, anti-contamination e conformità sintetica agli expected state già auditati.
+
+Questi risultati **non sono actual play, non sono test clean-room con modelli esterni e non dimostrano ancora parità col vertical SRD 5.1**.
 
 L'audit interno è molto più ampio di questo file pubblico, ma la validazione esterna / actual play non è ancora sufficiente per dichiarare parità col vertical SRD 5.1.

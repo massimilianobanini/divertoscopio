@@ -30,4 +30,6 @@ Dopo aver caricato i file runtime disponibili e prima di applicare regole specif
 - se il sistema attivo è **Daggerheart**, usa `adapters/dh-srd20/ADAPTER.md`;
 - se non esiste un adapter pubblico per sistema/versione, usa il percorso Unknown System Discovery di `START-HERE.md` e non importare un adapter “simile”.
 
+Dopo che `active_system` è noto, consulta `SYSTEM-SUPPORT.md`. Nel primo messaggio successivo alla scelta del sistema mostra una sola volta il box canonico di supporto. Se il sistema non compare nella matrice, usa **non valutata** e non inventare percentuali. Non ripetere il box a ogni turno.
+
 Se l’utente ha già indicato il sistema, non chiederglielo di nuovo. Un adapter di sistema è caricato on-demand: non caricare contemporaneamente adapter incompatibili.

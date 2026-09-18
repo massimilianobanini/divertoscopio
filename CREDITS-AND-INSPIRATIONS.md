@@ -16,7 +16,7 @@ Queste fonti hanno contribuito in modo tracciato ad almeno una tecnica, un refin
 
 - **Caotico Pigro / Stefano** — preparazione efficiente del Master, PNG, improvvisazione e riuso, combattimento, gestione delle one-shot, Sessione Zero, feedback al tavolo, scala/astrazione e altre tecniche di conduzione.
 - **Il Rosso** — tecniche e contenuti GDR inclusi nel percorso di ricerca che ha preceduto la distillazione della libreria pubblica.
-- **Giù Nel Dungeon** — discussioni pubbliche e reazioni sull’uso dell’intelligenza artificiale nel GDR utilizzate per far emergere failure mode, stress test e guardrail del progetto.
+- **Giù Nel Dungeon** — discussioni pubbliche e reazioni sull’uso dell’intelligenza artificiale nel GDR utilizzate per far emergere failure mode, stress test e guardrail del progetto.\n- **The Prof. Player** — serie e commenti pubblici su Daggerheart usati come fonte secondaria per failure mode di transizione da D&D, spotlight, onboarding, table alignment, mastering e stress test del public adapter. Le sue interpretazioni non sostituiscono le fonti ufficiali del ruleset.
 
 Questa lista non attribuisce a una singola persona l'origine esclusiva di principi che possono avere molte formulazioni e tradizioni nel game design.
 
@@ -52,7 +52,7 @@ Il lavoro di ricerca ha inoltre studiato o confrontato, tra gli altri:
 - **Insight Check**
 - **Jon Del Arroz**
 - **Deck of DM Things**
-- **Dani Krossing**
+- **Dani Krossing**\n- **Delve With Hope** — articoli pratici su Daggerheart usati per confrontare onboarding, Experiences/Tag Team reminders, spotlight a tavoli grandi, action economy e carico cognitivo del Master.\n- **r/daggerheart** — discussioni della community campionate per individuare failure mode ricorrenti e ambiguità da stressare; non usate come autorità sulle regole.
 
 Per queste fonti il valore può essere stato positivo oppure critico: una fonte può aver contribuito perché mostrava un buon metodo, ma anche perché esponeva un failure mode, un limite, una controversia o un'esperienza d'uso da stressare. Quando una fonte ha prodotto un risultato materiale nel framework, la provenance dettagliata resta nella ricerca interna e nei registri di progetto.
 

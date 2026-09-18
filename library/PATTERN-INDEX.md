@@ -12,7 +12,7 @@ LIBRARY ONLY — tecnica opzionale da proporre/attivare quando ha ROI positivo.
 A. PREP & SESSION DESIGN
 
 PREP VALUE DENSITY  
-Prepara prima gli elementi con alta probabilità d'uso, alto impatto sul divertimento e buon riuso. Taglia prep costosa che esiste soltanto per completezza.
+Prepara prima gli elementi con alta probabilità d'uso, alto impatto sul divertimento e buon riuso. Taglia prep costosa che esiste soltanto per completezza. Il PREP FLOOR è system-dependent: low/zero prep non è un valore universale. Se il ruleset richiede studio preventivo di stat block, procedure, mappe o interazioni complesse per essere eseguito bene, quel lavoro è prep necessaria; ottimizzala, non fingere che possa sparire.
 
 SUNK-COST FIREWALL  
 Materiale già preparato non deve essere forzato in gioco solo perché è costato tempo.
@@ -39,6 +39,12 @@ Quando il giocatore è confuso, chiarisci possibilità e conseguenze percepibili
 
 MEANINGFUL CHOICE CONTRACT  
 Una scelta deve poter cambiare uno stato rilevante. Se tutte le opzioni portano allo stesso esito per design nascosto, non è vera agency.
+
+FICTIONAL DECEPTION ≠ FACILITATOR DECEPTION  
+La fiction può mentire; il facilitatore no. PNG, documenti inaffidabili, false piste e antagonisti possono ingannare se coerenti col mondo. L'AI non deve falsificare regole, risultati, stato, fonti o CANON per fabbricare sorpresa. Non deve nemmeno attribuire falsamente a una scelta del giocatore un esito che era già fissato indipendentemente da quella scelta. Se un esito o segmento è predeterminato o il facilitatore ha autorità discrezionale per contratto, rendi trasparente quello scope invece di simulare una causalità player-driven.
+
+FAIL-FORWARD SCOPE / RETRY ≠ RESET  
+Fail-forward non è universale: applicalo soltanto quando ruleset, fonte o contratto del tavolo lo autorizzano. Quando è attivo, il fallimento deve cambiare stato e la continuazione non deve preservare automaticamente lo stesso percorso. Un nuovo tentativo parte dalla fiction e dallo stato lasciati dal tentativo precedente, salvo un vero reset previsto dalla fonte/fiction.
 
 OPTION COMPRESSION  
 Quando esistono decine di possibilità tecniche, mostra soltanto le categorie/opzioni salienti e lascia sempre spazio a “altro”.
@@ -144,6 +150,9 @@ Gare/inseguimenti/rituali possono usare progressi paralleli e conseguenze interm
 ROLE-PARTITIONED SHARED CHALLENGE  
 Nelle sfide di gruppo, assegna problemi/leve differenti così più giocatori possono contribuire senza duplicare la stessa prova.
 
+CHALLENGE LOCUS  
+Prima di una sfida in cui la competenza reale del giocatore può divergere da quella del PG — puzzle/cifrari/prop, conoscenze o interazioni sociali — chiarisci se il locus è PLAYER-FOCUSED, CHARACTER-FOCUSED o HYBRID. Le competenze del PG possono offrire hint, traduzioni, vantaggi, bypass o la risoluzione prevista dal ruleset; non obbligare il giocatore a possedere personalmente crittografia, eloquenza, memoria, cultura o altre capacità che il personaggio dovrebbe avere. Nelle scene sociali distingui ciò che il giocatore dichiara — intento, approccio, leve/argomenti — da quanto bene il personaggio lo esegue: la performance attoriale del player non concede né nega di per sé effetti meccanici salvo regola o contratto esplicito.
+
 G. TRAVEL, EXPLORATION & WORLD
 
 TRAVEL TURN  
@@ -245,13 +254,16 @@ CAUSAL CONSEQUENCE PROPAGATION
 Dopo una decisione importante, chiedi quali oggetti di stato cambiano: PNG, fazioni, luogo, opportunità, informazione, risorse, clock. Propaga soltanto conseguenze plausibili.
 
 WORLD CLOCK  
-Tempo/eventi avanzano secondo trigger e causalità; alcuni clocks possono essere visibili, altri solo segnalati diegeticamente.
+Tempo/eventi avanzano secondo trigger e causalità; alcuni clocks possono essere visibili, altri solo segnalati diegeticamente. Una scadenza deve essere abbastanza reale da creare un trade-off: cosa cambia, si perde o avanza se i PG scelgono altro? Evita countdown finti che aspettano comunque i giocatori. Se i PG si attivano concretamente per impedire un evento e fiction + ruleset rendono plausibile interferire, devono avere una reale procedura/opportunità di riuscirci: non far avanzare l'esito per fiat solo perché era stato preparato. Se invece non intervengono, non sanno o falliscono attraverso procedure legittime, il mondo può avanzare off-screen.
 
 RIVAL PARTY  
 Membri \+ goals \+ attitudes-to-PC \+ history/reasons \+ power tier \+ independent progress \+ next move.
 
 PUBLISHED ANTHOLOGY STITCHING  
 Collega avventure modulari attraverso conseguenze, cast, fazioni e stato del mondo, non inventando un'unica trama segreta obbligatoria.
+
+CAMPAIGN CONTINUITY LOCUS  
+Prima di gioco ad alta letalità, con ritiri frequenti o campagne lunghe, identifica cosa dovrebbe portare la continuità quando un PG esce di scena: INDIVIDUAL CHARACTER, PARTY/CREW/INSTITUTION, MISSION/FRONT, WORLD/REGION/FACTIONS o HYBRID. Usa il locus per morte, ritiro, TPK, replacement PC, recap e persistenza. CHARACTER LOSS ≠ CAMPAIGN MEMORY LOSS; i successori ricevono solo conoscenze diegeticamente trasferibili. Non assumere né che un TPK debba sempre chiudere la campagna né che ogni campagna debba sopravvivere a un TPK.
 
 M. MEANINGFUL THEMES & LIFE-SKILL TRANSFER
 
@@ -338,3 +350,14 @@ Se resta un gancio per continuare, deve derivare preferibilmente da ciò che è 
 
 MEMORABILITY GUARDRAIL  
 Non ottimizzare per 'momenti epici' a scapito di agency, causalità o ritmo. Un ricordo forte può essere piccolo ma personale. Il motore deve prima riconoscere ciò a cui il giocatore ha attribuito valore, poi usare eventuali callback con moderazione.
+
+P. SYSTEM, PLAYSTYLE & SOURCE INTEGRITY — LIBRARY ONLY
+
+SYSTEM-FIT BEFORE HEAVY BENDING  
+Se l'esperienza desiderata entra in attrito costante col ruleset, rendi esplicito il trade-off: semplificazione consensuale, house rule dichiarata o sistema alternativo. Non usare modificatori nascosti per simulare un contratto di gioco diverso. Quando l'obiettivo è CAPIRE, VALUTARE o VALIDARE un sistema, stabilisci prima una baseline source-faithful e separa qualsiasi modifica successiva come overlay esplicito: un'esperienza riuscita dopo house rule/importazioni non valida automaticamente il ruleset di partenza. Quando invece l'obiettivo è ottimizzare il gioco per quello specifico tavolo, le modifiche consensuali sono legittime, ma vanno mantenute con provenance chiara.
+
+PLAYSTYLE PROFILE ≠ RULESET  
+Un playstyle, cultura di tavolo o tradizione di adventure design non coincide con un ruleset. Quando rilevante, separa sistema/edizione/fonte attiva, obiettivo di playstyle, tecniche/procedure esplicite, assunzioni di adventure design e house/imported rules realmente attive. Un'etichetta come “OSR”, “cinematico”, “narrativo”, “tattico” o “sandbox” non autorizza da sola un pacchetto di procedure. Se il sistema resiste continuamente allo stile richiesto, rendi esplicito il system-fit invece di accumulare bending nascosto.
+
+SOURCE / TABLE KNOWLEDGE PROVENANCE  
+“Abbiamo sempre giocato così”, sicurezza personale o insegnamento fra pari non sono prova automatica della fonte. Peer teaching e quick reference sono utili per imparare, ma quando una regola è materialmente rilevante o contestata risolvi contro sistema/edizione/fonte attiva e overlay espliciti. Distingui SOURCE / OPTIONAL / HOUSE / IMPORTED / PROVISIONAL. Assisted correct execution non dimostra da sola rule literacy; familiarità non dimostra source correctness.

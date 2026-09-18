@@ -20,44 +20,37 @@ Non devi studiare questo repository.
 
 Se l'AI può leggere il repository, deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
 
-Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare l'adapter SRD 2.0 in questo scenario di accesso parziale, copia subito dopo anche [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md): il fallback generale non deve essere scambiato per l'adapter completo. Per i Master è disponibile anche il Kit PDF autonomo.
+Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
 
 `Aiutami` resta un comando alternativo equivalente.
 
-## Vuoi provare un altro sistema?
+## Scegli il sistema
 
-È disponibile un **adapter candidato Daggerheart™ Compatible**, basato sullo **SRD 2.0** e sulle fonti ufficiali correnti.
+Se vuoi giocare o lavorare come Master su uno dei sistemi già coperti pubblicamente, puoi scegliere liberamente:
 
-Per giocare:
+| Sistema | Confidence operativa interna* | Stato |
+|---|---:|---|
+| **D&D 5e 2014 / SRD 5.1** | **85%** | vertical più testato finora |
+| **D&D 2024 / SRD 5.2.1** | **75%** | adapter candidato; forte audit statico/sintetico, actual-play esterno ancora limitato |
+| **Daggerheart / SRD 2.0** | **70%** | adapter candidato; audit e stress test statici interni, actual-play esterno ancora limitato |
 
-> **Iniziamo. Voglio giocare con Daggerheart.**
+*Le percentuali sono **stime interne qualitative, non statistiche**. Indicano il livello corrente di fiducia che il percorso possa funzionare senza rescue anomalo, sulla base dei test disponibili. **Non** sono probabilità di divertimento, accuratezza garantita delle regole o tassi di successo.
 
-Per un Master:
+Per giocare, puoi scrivere per esempio:
 
-> **Iniziamo. Sono un Master. Voglio usare il Divertoscopio con Daggerheart.**
+> **Iniziamo. Sono un giocatore esperto. Voglio giocare D&D 2024.**
 
-L'AI deve caricare [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per un test esterno pulito, usa prima soltanto il repository + una richiesta naturale; [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) spiega anche come separare il test clean-room dal fallback manuale.
+oppure:
 
-**Stato:** adapter pubblico sperimentale. Ha superato un Mechanical Gauntlet statico interno, ma non ha ancora validazione esterna/actual-play sufficiente. Non trattarlo come supporto già dimostrato equivalente al vertical 5E/SRD 5.1.
-
-## Vuoi provare le regole 2024 / 5.5e / SRD 5.2.1?
-
-È disponibile un **adapter candidato 5E / SRD 5.2.1**, separato dal vertical SRD 5.1 per evitare contaminazioni fra versioni.
-
-Per giocare:
-
-> **Iniziamo. Voglio giocare con le regole 2024 / SRD 5.2.1.**  
-> Anche “5.5e” viene instradato allo stesso adapter.
+> **Iniziamo. Sono un giocatore esperto. Voglio giocare Daggerheart.**
 
 Per un Master:
 
-> **Iniziamo. Sono un Master. Voglio usare il Divertoscopio con le regole 2024 / SRD 5.2.1.**
+> **Iniziamo. Sono un Master. Voglio preparare una sessione di D&D 5e 2014.**
 
-L'AI deve caricare [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md).
+L'AI deve rispettare il sistema/edizione scelto e caricare l'adapter corrispondente. **Non deve inferire il sistema dalla tua identità, esperienza, dai creator che conosci o dalle fonti che hanno contribuito alla ricerca del Divertoscopio.**
 
-**Stato:** candidato sperimentale / external test open. Ha superato il Mechanical Gauntlet statico/sintetico interno sui casi definiti per il candidate, ma non ha ancora validazione esterna/actual-play sufficiente per essere presentato come equivalente al vertical SRD 5.1.
-
-Guida di test: [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md).
+Per un test esterno pulito, usa prima soltanto il repository + una richiesta naturale. Le guide specifiche sono [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md), [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) e il protocollo generale [`testing/EXPERT-CLEAN-ROOM.md`](testing/EXPERT-CLEAN-ROOM.md).
 
 ## Sei un Master?
 
@@ -71,7 +64,7 @@ Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repositor
 
 ## Stato
 
-Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. La catena runtime attiva usa una **baseline V0.3.2** più i **delta V0.3.3 e V0.3.4**. La baseline deriva da failure osservati nel pilot e include anche due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. Irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. La V0.3.3 aggiunge **Ending Mode / Foreshadowing Governor** e **OOC / Table-Talk Pause Contract**. La V0.3.4 aggiunge hardening su **false choice/causal attribution**, **active opposition**, **fail-forward scope** e **system-dependent prep floor**. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. Il repository include ora anche un adapter candidato Daggerheart™ Compatible, pubblicato apposta per raccogliere test esterni. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. La catena runtime attiva usa una **baseline V0.3.2** più i **delta V0.3.3 e V0.3.4**. La baseline deriva da failure osservati nel pilot e include anche due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. Irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. La V0.3.3 aggiunge **Ending Mode / Foreshadowing Governor** e **OOC / Table-Talk Pause Contract**. La V0.3.4 aggiunge hardening su **false choice/causal attribution**, **active opposition**, **fail-forward scope** e **system-dependent prep floor**. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. Il repository include un vertical pubblico per D&D 5e 2014 / SRD 5.1 e adapter candidati separati per D&D 2024 / SRD 5.2.1 e Daggerheart / SRD 2.0, così sistema ed edizione possono restare espliciti e non contaminarsi fra loro. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
 
 ## Contestazioni legali e diritti
 

@@ -156,7 +156,7 @@ Ora puoi leggere:
 - questo protocollo;
 - `library/PATTERN-INDEX.md`;
 - `library/MASTER-CRAFT-TOOLBOX.md`;
-- il `TESTING.md` dell'adapter pertinente.
+- il file di testing dell'adapter pertinente (`adapters/dh-srd20/TESTING.md` oppure `adapters/5e-srd521/TESTING.md`).
 
 Apri preferibilmente una **nuova chat** e attacca deliberatamente i punti che conosci meglio.
 

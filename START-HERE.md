@@ -10,7 +10,12 @@ Nella versione pubblica, apri una nuova chat, incolla il link GitHub ufficiale d
 Se l’intelligenza artificiale non riesce a leggere il repository GitHub, apri START-HERE.md su GitHub, copia il suo contenuto nella chat e scrivi “Iniziamo”. Questo file contiene anche un fallback minimo autosufficiente: l'AI deve poter partire senza costringere l'utente a recuperare altri file. Se scrivi “Aiutami”, trattalo come alias equivalente e avvia comunque lo stesso percorso.
 
 SUPPORTO PIATTAFORME  
-La versione pubblica corrente è **supportata su ChatGPT**. Gemini e Claude sono al momento **non supportati**: i test esplorativi hanno mostrato rispettivamente problemi di bootstrap/accesso e di efficienza/capacità della conversazione. Non presentare il Divertoscopio come cross-platform già operativo.
+La versione pubblica corrente è **supportata solo su ChatGPT**.
+
+- **Gemini — non supportato:** nel test reale, il solo URL GitHub non ha dato accesso affidabile al repository e Gemini ha interpretato il problema come repository vuoto/inaccessibile. Un workaround con **Gem dedicata + knowledge/mirror su Google Drive** è stato esplorato, ma introduce troppo attrito per il percorso semplice previsto dal Divertoscopio.
+- **Claude — non supportato:** il bootstrap ha funzionato abbastanza da iniziare, ma sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo l'esperienza e imponendo circa **6 ore di attesa** nel test osservato.
+
+Non inferire una causa tecnica più specifica di questi sintomi e non presentare il Divertoscopio come cross-platform già operativo.
 
 Poi scegli se vuoi usarlo come giocatore, come Master oppure se vuoi soltanto informazioni.
 

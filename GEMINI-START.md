@@ -11,7 +11,8 @@ La versione pubblica del Divertoscopio è attualmente ottimizzata e supportata s
 Durante il test Gemini:
 - l'inserimento del solo URL GitHub non ha dato accesso affidabile al repository;
 - Gemini ha interpretato erroneamente il fallimento di accesso come repository vuoto/inaccessibile;
-- percorsi alternativi di importazione o mirror hanno introdotto troppo attrito rispetto alla promessa di avvio semplice.
+- è stato esplorato anche un workaround con **Gem dedicata + knowledge/mirror su Google Drive**;
+- quel workaround può servire come esperimento futuro, ma oggi introduce troppo setup rispetto alla promessa di avvio semplice `link + Iniziamo` e quindi non è un percorso supportato.
 
 Questi tentativi restano documentati per una futura revisione del supporto multipiattaforma.
 

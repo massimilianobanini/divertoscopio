@@ -4,7 +4,7 @@ IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 
 Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
 
-**Supporto piattaforme corrente: ChatGPT. Gemini e Claude non sono supportati al momento.** Nei test esplorativi Gemini ha mostrato problemi di bootstrap/accesso al repository; Claude è riuscito ad avviare il Divertoscopio ma ha mostrato errori e un consumo della capacità della conversazione troppo rapido per considerare l'esperienza sostenibile. Questi risultati non dimostrano che le piattaforme non possano mai funzionare: indicano che il Divertoscopio non è oggi ottimizzato abbastanza per dichiararne il supporto.
+**Supporto piattaforme corrente: solo ChatGPT. Gemini e Claude non sono supportati al momento.** Su Gemini, il solo URL GitHub non ha dato accesso affidabile al repository e nel test reale il repository è stato interpretato erroneamente come vuoto/inaccessibile; un workaround con Gem dedicata + knowledge/mirror su Google Drive è stato esplorato ma giudicato troppo complesso per il normale onboarding. Su Claude, il Divertoscopio è riuscito ad avviarsi, ma sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo di fatto l'avventura e imponendo circa 6 ore di attesa nel test osservato. Non attribuiamo questi sintomi a una causa tecnica più precisa senza evidenza. Questi risultati non dimostrano che le piattaforme non possano mai funzionare: indicano che il Divertoscopio non è oggi abbastanza semplice e sostenibile per dichiararne il supporto.
 
 La matrice corrente delle confidence per i sistemi con supporto pubblico è mantenuta in **[SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md)**, unica fonte canonica delle percentuali.
 
@@ -125,7 +125,13 @@ La musica è un ottimo strumento per un Master umano, ma non è ancora testato u
 Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma l'integrazione sincronizzata AI ↔ mappa ↔ stato ↔ combattimento non è parte validata del Closed Pilot V0.3.
 
 13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON SUPPORTATI NELLA VERSIONE CORRENTE  
-La versione pubblica corrente è ottimizzata e supportata su **ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente. Test esplorativi su Gemini e Claude hanno evidenziato problemi abbastanza materiali da non presentare oggi quelle piattaforme come supportate.
+La versione pubblica corrente è ottimizzata e supportata **solo su ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente.
+
+**Gemini:** il bootstrap dal solo link GitHub non è risultato affidabile; nel test reale Gemini ha trattato il repository come vuoto/inaccessibile quando in realtà il problema era l'accesso. Sono stati esplorati percorsi alternativi, incluso un setup con Gem dedicata e knowledge/mirror Drive, ma richiedono troppo attrito rispetto all'avvio desiderato `link + Iniziamo`.
+
+**Claude:** il bootstrap ha permesso di iniziare, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi. L'avventura/interazione è quindi diventata impraticabile e la piattaforma ha imposto circa 6 ore di attesa prima di poter continuare.
+
+Queste sono osservazioni di prodotto sul comportamento testato, non una diagnosi tecnica definitiva né una dichiarazione che Gemini o Claude non possano essere supportati in futuro.
 
 Una AI o modalità con maggiore capacità di ragionamento/contesto può comportarsi diversamente da una modalità orientata principalmente alla velocità. Il Divertoscopio non richiede come prerequisito una modalità “avanzata”, un piano specifico o istruzioni personalizzate dell'account, e il setup normale scelto spontaneamente dall'utente resta parte valida del Closed Pilot.
 

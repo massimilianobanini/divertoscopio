@@ -20,9 +20,14 @@ Non devi studiare questo repository.
 
 ### Supporto piattaforme
 
-La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata su ChatGPT**.
+La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata solo su ChatGPT**.
 
-**Gemini e Claude non sono supportati al momento.** Nei test esplorativi sono emersi problemi diversi — bootstrap/accesso al repository su Gemini e inefficienza/limiti di capacità della conversazione su Claude — che rendono l'esperienza non abbastanza semplice o sostenibile da presentarla come supportata. Verranno rivalutati in futuro.
+**Gemini e Claude non sono supportati al momento.** I limiti osservati sono diversi:
+
+- **Gemini:** incollare il solo URL GitHub non ha dato accesso affidabile al repository e, nel test reale, Gemini ha interpretato erroneamente il problema come repository vuoto/inaccessibile. È stato esplorato anche un workaround con una **Gem dedicata + knowledge/mirror su Google Drive**, ma richiede troppo setup rispetto alla promessa semplice `link + Iniziamo`. Resta backlog sperimentale.
+- **Claude:** il Divertoscopio è riuscito ad avviarsi, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo di fatto l'avventura e imponendo circa **6 ore di attesa** prima di poter continuare. Non attribuiamo qui una causa tecnica più precisa di quanto osservato.
+
+Quindi, oggi, **ChatGPT è l'unica piattaforma pubblicamente supportata**. Gemini e Claude verranno rivalutati solo se potranno offrire un'esperienza abbastanza semplice e sostenibile.
 
 Su ChatGPT, se il repository è leggibile, l'AI deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
 

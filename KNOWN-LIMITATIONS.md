@@ -4,6 +4,8 @@ IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 
 Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
 
+**Supporto piattaforme corrente: ChatGPT. Gemini e Claude non sono supportati al momento.** Nei test esplorativi Gemini ha mostrato problemi di bootstrap/accesso al repository; Claude è riuscito ad avviare il Divertoscopio ma ha mostrato errori e un consumo della capacità della conversazione troppo rapido per considerare l'esperienza sostenibile. Questi risultati non dimostrano che le piattaforme non possano mai funzionare: indicano che il Divertoscopio non è oggi ottimizzato abbastanza per dichiararne il supporto.
+
 La matrice corrente delle confidence per i sistemi con supporto pubblico è mantenuta in **[SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md)**, unica fonte canonica delle percentuali.
 
 > **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
@@ -122,8 +124,8 @@ La musica è un ottimo strumento per un Master umano, ma non è ancora testato u
 12. VTT / MAPPE / GRIGLIE — NON VALIDATI  
 Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma l'integrazione sincronizzata AI ↔ mappa ↔ stato ↔ combattimento non è parte validata del Closed Pilot V0.3.
 
-13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON VALIDATO A DOVERE  
-Il progetto mira a funzionare con più intelligenze artificiali, ma non è ancora stato testato sistematicamente sugli stessi casi usando modelli, piattaforme e modalità di risposta differenti.
+13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON SUPPORTATI NELLA VERSIONE CORRENTE  
+La versione pubblica corrente è ottimizzata e supportata su **ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente. Test esplorativi su Gemini e Claude hanno evidenziato problemi abbastanza materiali da non presentare oggi quelle piattaforme come supportate.
 
 Una AI o modalità con maggiore capacità di ragionamento/contesto può comportarsi diversamente da una modalità orientata principalmente alla velocità. Il Divertoscopio non richiede come prerequisito una modalità “avanzata”, un piano specifico o istruzioni personalizzate dell'account, e il setup normale scelto spontaneamente dall'utente resta parte valida del Closed Pilot.
 

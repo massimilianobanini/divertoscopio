@@ -14,15 +14,19 @@
 
 Non devi studiare questo repository.
 
-1. Apri una nuova chat con la tua intelligenza artificiale.
-2. Usa il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
+1. Apri una nuova chat su **ChatGPT**.
+2. Incolla il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
 3. Scrivi: **Iniziamo**
 
-**Su Gemini c'è un passaggio diverso:** Gemini non legge un repository GitHub soltanto perché il suo URL è stato incollato nel prompt. Nella web app su computer usa **Aggiungi file → Altri caricamenti → Importa codice**, incolla lo stesso URL del repository, importa e poi scrivi **Iniziamo**. Istruzioni rapide: [`GEMINI-START.md`](GEMINI-START.md).
+### Supporto piattaforme
 
-Se l'AI può leggere il repository, deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
+La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata su ChatGPT**.
 
-Se l'AI non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
+**Gemini e Claude non sono supportati al momento.** Nei test esplorativi sono emersi problemi diversi — bootstrap/accesso al repository su Gemini e inefficienza/limiti di capacità della conversazione su Claude — che rendono l'esperienza non abbastanza semplice o sostenibile da presentarla come supportata. Verranno rivalutati in futuro.
+
+Su ChatGPT, se il repository è leggibile, l'AI deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
+
+Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
 
 `Aiutami` resta un comando alternativo equivalente.
 
@@ -60,7 +64,7 @@ Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare 
 
 Il **Kit** è una guida introduttiva autonoma. Il **Divertoscopio** è il sistema completo ospitato in questo repository. Il Kit non è necessario per usare il Divertoscopio.
 
-Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository nella tua AI e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere, recuperando on-demand anche la toolbox pubblica di tecniche Master.
+Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository in ChatGPT e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere, recuperando on-demand anche la toolbox pubblica di tecniche Master.
 
 ## Stato
 
@@ -76,7 +80,7 @@ Queste modalità non sono una classifica. Ottimizzano esigenze diverse e possono
 
 | Aspetto | Divertoscopio + AI | AI generalista senza Divertoscopio | Tavolo umano in presenza | Tavolo umano online / VTT |
 |---|---|---|---|---|
-| Disponibilità | On-demand; dipende dall'AI scelta | On-demand | Dipende da Master, gruppo e calendario | Richiede gruppo/calendario, ma non la stessa località |
+| Disponibilità | On-demand su ChatGPT nella versione corrente | On-demand | Dipende da Master, gruppo e calendario | Richiede gruppo/calendario, ma non la stessa località |
 | Solo play | Tra i casi Player oggi più maturi | Possibile, qualità molto variabile | Richiede procedure/oracoli solo o giochi dedicati | Possibile con setup specifici; non è il caso tipico del VTT |
 | Prompt/setup AI | **Progettato per** ridurre prompt engineering e partire con poco setup | Principalmente a carico dell'utente | Nessun prompting AI necessario | Nessun prompting AI necessario; esiste setup tecnico VTT |
 | Regole e continuità | Guardrail, rules contract, state/checkpoint/resume; ancora sperimentali e dipendenti dall'AI sottostante | Dipendono da modello, prompt, contesto e correzioni dell'utente | Dipendono dal Master/tavolo | Master umano + eventuali automazioni/schede persistenti |
@@ -84,7 +88,7 @@ Queste modalità non sono una classifica. Ottimizzano esigenze diverse e possono
 | Relazione sociale | Limitata se giochi solo con AI; può essere usato anche come assistente/ibrido | Limitata se giochi solo con AI | Presenza fisica e segnali non verbali | Interazione umana reale mediata da voce/video/chat |
 | Mappe/media | Possibili, ma **TEXT-FIRST** di default; immagini e altri media sono opt-in | Dipende dalla piattaforma e dal lavoro dell'utente | Miniature, mappe, prop o theatre of mind | Mappe, token, fog of war, handout e automazioni sono punti di forza |
 | Ideale per chi… | Vuole usare AI nel GDR con meno burden manuale e più guardrail, oppure assistere un Master umano | Vuole sperimentare direttamente con l'AI e guidarla/correggerla | Cerca soprattutto gioco sociale umano in presenza | Vuole un gruppo umano remoto con strumenti digitali/tattici |
-| Trade-off principale | Prodotto ancora sperimentale e dipendente dalle capacità dell'AI scelta | Affidabilità, continuità e burden possono variare molto | Scheduling, disponibilità Master/gruppo e prep | Attrito tecnico e minore presenza fisica; serve comunque coordinare il gruppo |
+| Trade-off principale | Prodotto ancora sperimentale; supporto pubblico corrente limitato a ChatGPT | Affidabilità, continuità e burden possono variare molto | Scheduling, disponibilità Master/gruppo e prep | Attrito tecnico e minore presenza fisica; serve comunque coordinare il gruppo |
 
 **Nessuna colonna è universalmente “migliore”.** Il Divertoscopio non cerca di sostituire il tavolo umano: cerca di migliorare ciò che ottieni quando scegli di usare l'AI nel GDR.
 
@@ -122,7 +126,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
 - [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI, incluso il fallback autosufficiente.
-- [`GEMINI-START.md`](GEMINI-START.md) — bootstrap specifico per Gemini tramite Importa codice.
+- [`GEMINI-START.md`](GEMINI-START.md) — archivio di un tentativo sperimentale Gemini; **non è un percorso supportato corrente**.
 - [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — router runtime pubblico.
 - [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md) — baseline/hardening V0.3.2, inclusi Comic Patch V0.1 e Image-on-demand / Text-first.
 - [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) — delta Ending Mode / Foreshadowing Governor + OOC / Table-Talk Pause Contract.

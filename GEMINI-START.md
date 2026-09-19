@@ -1,39 +1,18 @@
-# GEMINI START — avvio supportato
+# GEMINI START — ARCHIVIO SPERIMENTALE / NON SUPPORTATO
 
-Gemini gestisce i repository GitHub in modo diverso da molte altre AI.
+**Stato corrente: Gemini non è una piattaforma supportata dal Divertoscopio.**
 
-## Avvio corretto su Gemini
+Questo file documenta un tentativo sperimentale di bootstrap effettuato durante il Closed Pilot. Il percorso non è stato validato come esperienza sufficientemente semplice e affidabile e **non deve essere presentato come istruzione corrente agli utenti**.
 
-Nella **web app Gemini su computer**:
+La versione pubblica del Divertoscopio è attualmente ottimizzata e supportata su **ChatGPT**.
 
-1. apri una nuova chat;
-2. premi **+ / Aggiungi file**;
-3. scegli **Altri caricamenti → Importa codice**;
-4. incolla:
-   `https://github.com/massimilianobanini/divertoscopio`
-5. premi **Importa**;
-6. quando il repository è allegato alla chat, scrivi semplicemente:
+## Evidenza conservata
 
-> **Iniziamo.**
+Durante il test Gemini:
+- l'inserimento del solo URL GitHub non ha dato accesso affidabile al repository;
+- Gemini ha interpretato erroneamente il fallimento di accesso come repository vuoto/inaccessibile;
+- percorsi alternativi di importazione o mirror hanno introdotto troppo attrito rispetto alla promessa di avvio semplice.
 
-Da quel momento usa `START-HERE.md` come router, quindi applica il runtime pubblico e gli adapter pertinenti.
+Questi tentativi restano documentati per una futura revisione del supporto multipiattaforma.
 
-## Importante
-
-**Incollare soltanto l'URL GitHub nel testo del prompt non equivale a importare il repository su Gemini.**
-
-Se il repository non è stato importato come codice, Gemini non deve concludere che sia vuoto o privo di file. Deve distinguere:
-
-- `REPOSITORY NOT IMPORTED / NOT ACCESSIBLE`
-- da
-- `REPOSITORY EMPTY`.
-
-Se non riesci a leggere il repository, dillo esplicitamente e indica il percorso **Aggiungi file → Altri caricamenti → Importa codice**. Non inventare il contenuto del repository e non assegnare un alto grado di certezza alla sua presunta assenza.
-
-## Mobile
-
-L'importazione diretta di repository GitHub è attualmente una funzione della **web app Gemini su computer**. Dopo aver importato il repository in quella chat, la conversazione può poi essere continuata da altri dispositivi quando disponibile.
-
-## Fallback manuale
-
-Se l'importazione GitHub non è disponibile, apri `START-HERE.md` dal repository, copiane il contenuto nella chat e scrivi **Iniziamo**.
+**Nessun supporto Gemini è dichiarato nella versione corrente.**

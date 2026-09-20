@@ -254,6 +254,39 @@ Applica P0-16 come regola di fiducia, non come sistema antifrode. Se tira l'AI, 
 22\. 5E MULTIPLAYER DELTA  
 Per più giocatori usa lo stesso adapter per ciascun PG. Mantieni distinti almeno: player_id, pc_id, HP/condizioni/risorse, posizione, concentrazione/ongoing effects e PC_KNOWN. Messaggi aggregati attribuiti sono validi, es. “Carl attacca la guardia; Den cerca copertura; John prova ad aprire la porta”. Tiri simultanei restano separati salvo group check, Help, contest o altra procedura prevista dal ruleset. Se il party si divide, alterna scene su decision point/soft scene clock per preservare spotlight.
 
+23A\. CHARACTER CREATION / CHARACTER STATE CONTRACT — SRD 5.1 / 2014  
+**Schema owner:** questo adapter. Non usare una scheda universale del CORE.
+
+Riferimenti strutturali pubblici:
+- scheda ufficiale 2014: https://media.wizards.com/2021/dnd/downloads/dnd_blankcharactersheet_it.pdf
+- Basic Rules 2014 — Step-by-Step Characters: https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters
+
+CREATION CONTRACT  
+Per un PG 2014 segui la procedura/fonte 2014 attiva. Il flusso base distingue almeno: Race, Class, ability scores, descrizione/background e starting equipment; le feature e risorse derivano dalle scelte 2014. Non sostituire questo flusso con Character Origin 2024.
+
+MINIMUM PLAYABLE CHARACTER STATE  
+Prima della prima risoluzione che può usare queste informazioni, mantieni quando applicabili:
+- name / pc_id, ruleset = SRD 5.1, level, class, race, background;
+- sei ability scores + modifiers;
+- proficiency bonus, saving-throw proficiencies/modifiers, skill proficiencies/modifiers;
+- Armor Class, initiative, speed, passive Perception;
+- HP max/current/temp, Hit Dice; death-save state quando pertinente;
+- attacks/weapons e relativo attack/damage state;
+- equipment, armor/shield realmente equipaggiati;
+- proficiencies, tools e languages;
+- racial, class e background features realmente possedute;
+- Inspiration come risorsa 2014 quando presente;
+- se spellcaster: spellcasting class/ability, spell save DC, spell attack bonus, cantrips/spells realmente disponibili e slot state secondo la fonte attiva.
+
+FULL / DISPLAY STATE  
+La scheda ufficiale può includere inoltre Alignment, XP, personality traits, ideals, bonds, flaws, appearance, allies/organizations, backstory/treasure e altri dettagli narrativi. In GIOCA SUBITO questi elementi possono restare leggeri o differiti quando non bloccano una procedura meccanica.
+
+CROSS-EDITION / CROSS-SYSTEM FIREWALL  
+- non trasformare Race in Species come se ciò cambiasse automaticamente le meccaniche;
+- non importare Background/Origin Feat/ability-score procedure 2024;
+- non importare Heroic Inspiration 2024 come se fosse automaticamente la stessa risorsa/procedura;
+- non importare Hope, Stress, Evasion, Damage Thresholds, Domain Cards, Loadout o Vault da Daggerheart;
+- un'etichetta UI moderna su una scheda importata NON cambia da sola `active_system`: prevalgono ruleset e fonte dichiarati.
 23\. LEVEL 1 + HIGH RISK GUARDRAIL  
 Livello 1 riduce complessità ma può aumentare fragilità. Rischio alto autorizza conseguenze dure e morte possibile, non encounter design arbitrariamente letale. Telegraph sufficiente, opportunità plausibili di evitare/negoziare/fuggire e action economy vanno considerate prima dello scontro; nessun salvataggio nascosto dopo.
 

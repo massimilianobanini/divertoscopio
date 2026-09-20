@@ -19,6 +19,8 @@ Non inferire una causa tecnica più specifica di questi sintomi e non presentare
 
 Poi scegli se vuoi usarlo come giocatore, come Master oppure se vuoi soltanto informazioni.
 
+Quando l'utente entra nel percorso PLAYER, `player/PLAYER.md` deve mostrare **una sola volta** la nota canonica sul trade-off tra velocità delle risposte e livello di ragionamento di ChatGPT. La nota non è una domanda, non blocca il gioco e non crea un profilo/runtime alternativo.
+
 Da qui in poi puoi smettere di leggere: il resto sono istruzioni operative per l’intelligenza artificiale.
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE

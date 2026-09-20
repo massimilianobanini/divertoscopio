@@ -401,6 +401,48 @@ Do not reproduce commercial adventure text into the public repository.
 
 ---
 
+## 9A. CHARACTER CREATION / CHARACTER STATE CONTRACT — SRD 5.2.1 / 2024
+
+**Schema owner:** this adapter. Do not inherit the SRD 5.1 character schema merely because both games are 5E.
+
+Official structural references:
+- 2024 Character Sheet: https://media.dndbeyond.com/compendium-images/phb/downloads/DnD_2024_Character-Sheet.pdf
+- Creating a Character: https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character
+
+### Creation contract
+
+Use the current 2024 procedure/source. The Basic Rules sequence is structurally: choose a Class → determine Origin (Background + Species + languages) → determine ability scores → choose Alignment → fill remaining details; class/background also establish starting-equipment choices. Do not silently replace this with the 2014 Race-first procedure.
+
+### Minimum playable character state
+
+Before resolving play that depends on it, track when applicable:
+
+- `pc_id`, character name, `ruleset = SRD 5.2.1`, Class, Background, Species, Level, XP/progression state;
+- Subclass when the current class/level actually has one;
+- six ability scores/modifiers, saving throws and skills;
+- Proficiency Bonus;
+- Heroic Inspiration state;
+- Armor Class, Shield state when relevant, Initiative, Speed, Size, Passive Perception;
+- HP max/current/temp, Hit Dice, Death Saves;
+- Equipment Training & Proficiencies, weapons/tools/languages;
+- Class Features, Species Traits, Feats actually gained;
+- weapons / damage cantrips and their attack/DC, damage/type and notes as applicable;
+- equipment and active defenses actually in use;
+- for spellcasters: current spellcasting ability, spell save DC, spell attack modifier, prepared/available spells or cantrips and spell-slot/resource state required by the active source.
+
+### Origin integrity
+
+A 2024 Background is mechanical state, not merely prose: preserve the current source's ability-score options, Origin feat, proficiencies and equipment implications. Species supplies its current traits and other source-defined properties. Do not reconstruct either from a same-named 2014 option.
+
+### Cross-edition / cross-system firewall
+
+- do not use 2014 Race-based ability-score assumptions or treat a 2014 Background packet as the 2024 Background;
+- do not replace Heroic Inspiration with the 2014 Inspiration procedure unless a current source explicitly says so;
+- if a legal legacy/older option is selected under current rules, record its source/version per character instead of silently hybridizing text;
+- do not import Hope, Stress, Evasion, Damage Thresholds, Domain Cards, Loadout or Vault from Daggerheart;
+- UI labels alone do not determine ruleset: keep the declared/current source lock.
+
+---
 ## 10. NO CROSS-EDITION AUTO-COMPLETE
 
 If a 2024/current option shares a name with a 2014 option and exact mechanics are not available:

@@ -87,6 +87,62 @@ Una feature specifica può creare un'eccezione locale. Per esempio, se una class
 
 ---
 
+## 2A. CHARACTER CREATION / CHARACTER STATE CONTRACT — DAGGERHEART
+
+**Schema owner:** questo adapter. Daggerheart non usa una scheda 5E rinominata.
+
+Riferimenti:
+- Character Sheets & Guides ufficiali: https://www.daggerheart.com/wp-content/uploads/2025/05/Character-Sheets-and-Guides-Daggerheart-May212025.pdf
+- SRD corrente v2.0 / changelog: https://www.daggerheart.com/srd/
+
+Il PDF 2025 è un riferimento strutturale per sheet/guide; se una procedura o meccanica entra in conflitto con l'SRD 2.0 corrente/errata, prevale la fonte corrente secondo RULESET LOCK.
+
+### Creation contract
+
+La struttura Daggerheart parte da scelte proprie del sistema, non da Race/Class/ability scores 5E. Mantieni la sequenza source-defined pertinente: Class + Subclass/Foundation → Heritage (Ancestry + Community) → sei Traits Daggerheart → stato iniziale del personaggio → starting equipment → background → Experiences → Domain Cards → Connections quando applicabili al tavolo.
+
+### Minimum playable character state
+
+Prima della prima risoluzione che dipende da questi dati, conserva quando applicabili:
+
+- `pc_id`, name/pronouns se definiti, `system = Daggerheart`, class, subclass e Foundation/subclass state;
+- Heritage con **Ancestry + Community** e le relative feature; Heritage non è una Race 5E;
+- Traits: Agility, Strength, Finesse, Instinct, Presence, Knowledge;
+- level;
+- Evasion;
+- HP slots/current state;
+- Stress slots/current state;
+- Hope current state;
+- Proficiency;
+- damage thresholds;
+- active armor, Armor Score/Slots e feature pertinenti;
+- active primary/secondary weapon state e relativi trait/range/damage/type/feature;
+- class feature state;
+- due starting Experiences e relativi modifiers secondo la fonte attiva;
+- domain access + acquired Domain Cards; distinguere sempre Loadout e Vault;
+- inventory/gold e altri oggetti meccanicamente rilevanti;
+- background/description quando stabiliti;
+- Connections come stato relazionale tra PC quando la composizione del tavolo le rende applicabili; non inventare una falsa Connection obbligatoria se non esiste un altro PC appropriato.
+
+### Quick Play / completeness
+
+In GIOCA SUBITO puoi non stampare tutta la scheda in chat, ma non iniziare una risoluzione che richiede un valore ancora UNKNOWN. Se generi un PG rapidamente, completa prima le scelte meccaniche necessarie del sistema (incluse le carte/feature effettivamente utilizzabili) e tienile nello stato.
+
+### Cross-system firewall
+
+Una scheda Daggerheart NON deve ricevere per abitudine:
+- Armor Class / AC;
+- Initiative o round-robin 5E;
+- array STR/DEX/CON/INT/WIS/CHA;
+- saving throws o skill list 5E;
+- Hit Dice o death saves 5E;
+- action / bonus action / reaction economy 5E;
+- spell slots 5E;
+- Race/Species/Background meccanici trattati come in D&D.
+
+Allo stesso modo, Strength in Daggerheart non autorizza l'importazione delle altre ability 5E: **shared label ≠ shared schema**.
+
+---
 ## 3. ACTION ROLL — DUE ASSI, NON UNO
 
 Per un normale Action Roll conserva sempre entrambe le dimensioni del risultato:

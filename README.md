@@ -61,6 +61,8 @@ L'AI deve rispettare il sistema/edizione scelto e caricare l'adapter corrisponde
 
 Per un test esterno pulito, usa prima soltanto il repository + una richiesta naturale. Le guide specifiche sono [`adapters/5e-srd521/TESTING.md`](adapters/5e-srd521/TESTING.md), [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) e il protocollo generale [`testing/EXPERT-CLEAN-ROOM.md`](testing/EXPERT-CLEAN-ROOM.md).
 
+Per la separazione delle schede/stati personaggio fra sistemi è disponibile anche [`testing/CHARACTER-SHEET-CROSS-SYSTEM.md`](testing/CHARACTER-SHEET-CROSS-SYSTEM.md).
+
 ## Sei un Master?
 
 Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare il **Kit di sopravvivenza per Master di GDR con AI — V0.3**:

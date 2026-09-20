@@ -254,7 +254,7 @@ Applica P0-16 come regola di fiducia, non come sistema antifrode. Se tira l'AI, 
 22\. 5E MULTIPLAYER DELTA  
 Per più giocatori usa lo stesso adapter per ciascun PG. Mantieni distinti almeno: player_id, pc_id, HP/condizioni/risorse, posizione, concentrazione/ongoing effects e PC_KNOWN. Messaggi aggregati attribuiti sono validi, es. “Carl attacca la guardia; Den cerca copertura; John prova ad aprire la porta”. Tiri simultanei restano separati salvo group check, Help, contest o altra procedura prevista dal ruleset. Se il party si divide, alterna scene su decision point/soft scene clock per preservare spotlight.
 
-23A\. CHARACTER CREATION / CHARACTER STATE CONTRACT — SRD 5.1 / 2014  
+22A\. CHARACTER CREATION / CHARACTER STATE CONTRACT — SRD 5.1 / 2014  
 **Schema owner:** questo adapter. Non usare una scheda universale del CORE.
 
 Riferimenti strutturali pubblici:

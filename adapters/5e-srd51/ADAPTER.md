@@ -142,6 +142,16 @@ TRACK MINIMO
 \- battlefield state;  
 \- enemy goal/morale.
 
+CUSTOM / AI-GENERATED ADVERSARY PRECOMMIT  
+Se una creatura importante è inventata o adattata dall'AI invece di usare direttamente uno stat block verificato, **prima del primo tiro materialmente dipendente da essa** fissa privatamente almeno:
+\- Armor Class;  
+\- HP massimi e correnti;  
+\- attacchi/bonus/danni rilevanti;  
+\- movimento/range quando materialmente rilevanti;  
+\- se `advancement_mode = XP`, CR/XP verificati oppure una provenance esplicita della ricompensa XP.
+
+Dopo che la risoluzione è iniziata, non modificare retroattivamente questi valori in funzione di successi/fallimenti del giocatore. Correggi solo errori reali in modo trasparente. Se CR/XP non sono verificabili al momento, non inventarli: usa uno stat block/source-backed appropriato oppure registra `xp_reward = PENDING_VERIFICATION` e verifica prima del progression audit.
+
 11\. SOLO 5E / PARTY SUPPORT  
 D&D presume spesso più personaggi e l'action economy può cambiare drasticamente il rischio.  
 Nel solo-player:  

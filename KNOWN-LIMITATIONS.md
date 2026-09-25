@@ -66,23 +66,54 @@ Non sono stati stressati seriamente:
 - gestione di risorse molto numerose;  
 - interazioni rare o edge case avanzati.
 
-6. MULTIPLAYER REALE — SUPPORTATO COME SHARED CHAT, NON ANCORA VALIDATO A SUFFICIENZA  
-La struttura pubblica prevede multiplayer con più giocatori umani nella **stessa conversazione condivisa**. Non è necessario usare lo stesso smartphone o PC: dispositivi diversi vanno bene se mostrano davvero la stessa conversazione. **Conversazioni ChatGPT separate non vengono sincronizzate automaticamente dal Divertoscopio e non vanno trattate come un unico tavolo affidabile.**
+6. MULTIPLAYER REALE — HOSTED / SINGLE-CHAT IMPLEMENTATO, ACTUAL PLAY ANCORA OPEN  
+**Verifica capability ChatGPT: 26/09/2026.** Il multiplayer pubblico corrente del Divertoscopio NON presume più che più account possano scrivere sincronicamente nella stessa conversazione ChatGPT.
 
-La chat condivisa implica inoltre un limite intenzionale: tutti i partecipanti possono leggere il testo player-visible anche quando i rispettivi PG non possiedono quelle informazioni. Il runtime mantiene `PLAYER_VISIBLE != PC_KNOWN`, ma i giocatori devono evitare di far agire il proprio PG su conoscenza puramente OOC. Se servono veri segreti tra giocatori, la singola chat condivisa non garantisce privacy e vanno usati solo eventuali canali privati realmente supportati dalla piattaforma.
+OpenAI ha iniziato il ritiro delle Group Chat dal 9 luglio 2026: non è più possibile crearne di nuove, convertire una conversazione in Group Chat o far entrare nuovi partecipanti tramite invite link. I **progetti condivisi** permettono ai membri di vedere il contesto e creare/diramare chat, ma la documentazione corrente specifica che le chat non vengono modificate collaborativamente e sincronicamente. Un normale link di condivisione della conversazione non va quindi trattato come trasporto multiplayer sincronizzato. Inoltre, gli account OpenAI sono destinati all'uso individuale: il Divertoscopio non deve chiedere né suggerire la condivisione di credenziali.
 
-Questa modalità è implementata ma non è stata ancora validata a sufficienza con più giocatori umani contemporaneamente. Restano da testare in actual play:  
-- chiarezza del roster giocatore -> PG e attribuzione delle azioni;  
-- equità del tempo di scena;  
-- conflitti tra intenti e costo del Shared Decision Commit Window;  
-- party split;  
-- votazioni/decisioni di gruppo;  
-- persone con preferenze incompatibili;  
-- conversazioni sovrapposte;  
-- leak OOC -> IC / metagaming involontario;  
-- privacy e profili separati;  
-- preferenze dadi differenti per giocatore;  
-- rischio che l'AI favorisca un giocatore.
+Fonti ufficiali correnti:
+- OpenAI — [Retiring group chats in ChatGPT](https://help.openai.com/en/articles/12703475-retiring-group-chats-in-chatgpt)
+- OpenAI — [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
+- OpenAI — [OpenAI Account Sharing Policy](https://help.openai.com/en/articles/10471989-openai-account-sharing-policy)
+- OpenAI — [Sharing conversations and scheduled tasks in ChatGPT](https://help.openai.com/en/articles/7925741-sharing-conversations-and-scheduled-tasks-in-chatgpt)
+
+### Modalità pubblica corrente: HOSTED / SINGLE-CHAT
+Un solo **host umano** gestisce la conversazione ChatGPT dal proprio account. Gli altri giocatori possono essere presenti:
+- allo stesso tavolo;
+- in chiamata/voice;
+- in un canale esterno;
+e comunicano all'host le proprie azioni, tiri e decisioni. L'host inoltra input attribuiti e rende disponibile al gruppo l'output pertinente.
+
+Il runtime mantiene:
+- roster stabile giocatore -> PG;
+- ownership separata;
+- fonti dadi per-player/per-PG;
+- `PLAYER_VISIBLE != PC_KNOWN`;
+- Shared Decision Commit Window;
+- gestione di PG assenti/silenziosi;
+- party split / spotlight;
+- guardrail PvP.
+
+Questa modalità hosted **è implementata ma non è ancora validata a sufficienza con più giocatori umani contemporaneamente**. Restano da testare in actual play:
+- chiarezza del roster giocatore -> PG e attribuzione delle azioni;
+- attrito introdotto dall'host come relay;
+- equità del tempo di scena;
+- conflitti tra intenti e costo del Shared Decision Commit Window;
+- party split;
+- votazioni/decisioni di gruppo;
+- persone con preferenze incompatibili;
+- conversazioni sovrapposte nel canale umano;
+- leak OOC -> IC / metagaming involontario;
+- privacy e profili separati;
+- preferenze dadi differenti per giocatore;
+- rischio che l'host o l'AI favoriscano un giocatore;
+- fun, clarity, latency e Desire to Return del gruppo.
+
+### Privacy / metagaming
+La modalità hosted non fornisce di per sé segreti player-to-player. Se l'host o uno schermo condiviso espongono un testo a più giocatori, ciò che i giocatori vedono resta separato da ciò che i rispettivi PG conoscono. Se servono veri segreti tra giocatori, è necessario un canale privato realmente disponibile e concordato; in assenza di tale canale il sistema non deve fingere privacy.
+
+### Capability futura
+Se ChatGPT o un'altra piattaforma supportata introdurranno nuovamente una vera conversazione collaborativa same-chat, il Divertoscopio può riabilitare quel trasporto soltanto dopo una verifica corrente della capability e nuovi test. `MULTIPLAYER ENGINE IMPLEMENTED` ≠ `COLLABORATIVE TRANSPORT AVAILABLE` ≠ `HUMAN ACTUAL-PLAY VALIDATED`.
 
 7. HUMAN MASTER + AI COPILOT LIVE AVANZATO — NON VALIDATO  
 Il Kit e il percorso Master aiutano in preparazione e diagnosi. Non è ancora stato stressato seriamente l'uso con un Master umano che, durante una sessione dal vivo, chiede in tempo reale all'AI:  

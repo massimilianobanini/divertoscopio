@@ -29,6 +29,12 @@ La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata so
 
 Quindi, oggi, **ChatGPT è l'unica piattaforma pubblicamente supportata**. Gemini e Claude verranno rivalutati solo se potranno offrire un'esperienza abbastanza semplice e sostenibile.
 
+### Multiplayer su ChatGPT
+
+La modalità multiplayer pubblica corrente è **HOSTED / SINGLE-CHAT**: una persona gestisce la chat ChatGPT dal proprio account e inoltra le azioni degli altri giocatori presenti di persona, in voce o tramite un canale esterno. Il Divertoscopio **non** presume che più account possano scrivere sincronicamente nella stessa conversazione, non tratta link condivisi/progetti condivisi come sincronizzazione same-chat e non richiede condivisione di account o credenziali. I dettagli e i limiti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md); il gauntlet pubblico è in [`testing/MULTIPLAYER-HOSTED.md`](testing/MULTIPLAYER-HOSTED.md).
+
+Questa modalità è implementata ma **l'actual play umano multiplayer resta OPEN**: pubblicazione e stress test statici non equivalgono a validazione di fun, clarity, latency o Desire to Return.
+
 Su ChatGPT, se il repository è leggibile, l'AI deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md) e infine [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md).
 
 Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
@@ -153,6 +159,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md) — adapter candidato SRD 2.0, Daggerheart™ Compatible.
 - [`adapters/dh-srd20/TESTING.md`](adapters/dh-srd20/TESTING.md) — istruzioni minime per un test esterno non primato.
 - [`testing/EXPERT-CLEAN-ROOM.md`](testing/EXPERT-CLEAN-ROOM.md) — protocollo generale per tester esperti: natural clean-room → red team → A/B opzionale.
+- [`testing/MULTIPLAYER-HOSTED.md`](testing/MULTIPLAYER-HOSTED.md) — gauntlet statico della modalità multiplayer hosted/single-chat e dei limiti reali della piattaforma.
 - [`feedback/FEEDBACK-AND-METRICS.md`](feedback/FEEDBACK-AND-METRICS.md) — come raccogliere riscontri e migliorare le versioni successive.
 - [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md) — ciò che è ancora poco testato o non validato.
 - [`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) — distingue fonti con contributo documentato alla ricerca da ispirazioni, community e interlocutori considerati.

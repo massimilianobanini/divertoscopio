@@ -66,15 +66,22 @@ Non sono stati stressati seriamente:
 - gestione di risorse molto numerose;  
 - interazioni rare o edge case avanzati.
 
-6. MULTIPLAYER REALE — NON VALIDATO  
-La struttura prevede multiplayer, ma non è stata validata a sufficienza con più giocatori umani contemporaneamente. Restano da testare:  
+6. MULTIPLAYER REALE — SUPPORTATO COME SHARED CHAT, NON ANCORA VALIDATO A SUFFICIENZA  
+La struttura pubblica prevede multiplayer con più giocatori umani nella **stessa conversazione condivisa**. Non è necessario usare lo stesso smartphone o PC: dispositivi diversi vanno bene se mostrano davvero la stessa conversazione. **Conversazioni ChatGPT separate non vengono sincronizzate automaticamente dal Divertoscopio e non vanno trattate come un unico tavolo affidabile.**
+
+La chat condivisa implica inoltre un limite intenzionale: tutti i partecipanti possono leggere il testo player-visible anche quando i rispettivi PG non possiedono quelle informazioni. Il runtime mantiene `PLAYER_VISIBLE != PC_KNOWN`, ma i giocatori devono evitare di far agire il proprio PG su conoscenza puramente OOC. Se servono veri segreti tra giocatori, la singola chat condivisa non garantisce privacy e vanno usati solo eventuali canali privati realmente supportati dalla piattaforma.
+
+Questa modalità è implementata ma non è stata ancora validata a sufficienza con più giocatori umani contemporaneamente. Restano da testare in actual play:  
+- chiarezza del roster giocatore -> PG e attribuzione delle azioni;  
 - equità del tempo di scena;  
-- conflitti tra intenti;  
+- conflitti tra intenti e costo del Shared Decision Commit Window;  
 - party split;  
 - votazioni/decisioni di gruppo;  
 - persone con preferenze incompatibili;  
 - conversazioni sovrapposte;  
+- leak OOC -> IC / metagaming involontario;  
 - privacy e profili separati;  
+- preferenze dadi differenti per giocatore;  
 - rischio che l'AI favorisca un giocatore.
 
 7. HUMAN MASTER + AI COPILOT LIVE AVANZATO — NON VALIDATO  

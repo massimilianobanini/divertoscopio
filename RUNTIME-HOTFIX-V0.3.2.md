@@ -7,7 +7,8 @@ Prima del normale PLAY, leggi **in quest'ordine**:
 1. `RUNTIME-HOTFIX-V0.3.2-BASE.md` — baseline/hardening V0.3.2 già attivo;
 2. `RUNTIME-HOTFIX-V0.3.3.md` — Ending Mode / Foreshadowing Governor e OOC / Table-Talk Pause Contract;
 3. `RUNTIME-HOTFIX-V0.3.4.md` — causal attribution / false choice, active opposition, fail-forward scope e system-dependent prep floor;  
-4. `RUNTIME-HOTFIX-V0.3.5.md` — causal twist / reveal integrity e approach-first check ecology.
+4. `RUNTIME-HOTFIX-V0.3.5.md` — causal twist / reveal integrity e approach-first check ecology;  
+5. `RUNTIME-HOTFIX-V0.3.6.md` — valued experience / emotional affordance, earned emotional stakes, aftermath, sacrifice/legacy ed emotional pacing.
 
 Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
 

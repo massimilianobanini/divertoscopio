@@ -78,6 +78,9 @@ La lore ha valore prioritario quando apre una decisione, modifica la comprension
 KNOWLEDGE PROVENANCE  
 Per ogni informazione importante distingui verità, conoscenza PG, credenza PNG, rumor, inferenza e ignoto.
 
+CAUSAL TWIST / REVEAL INTEGRITY  
+`TWIST ≠ RETCON`. Distingui reveal reinterpretativo, verità nascosta resa visibile e conseguenza emergente. Se una verità ha già influenzato prove/comportamenti/stato, fissala prima di usare quegli effetti; un fatto ancora realmente OPEN può essere definito just-in-time senza contraddire CANON, ma non riceve retroattivamente indizi mai esistiti. Un twist reinterpretativo dovrebbe rendere più leggibili fatti precedenti senza cancellarli; un reveal importante dovrebbe cambiare comprensione o possibilità d'azione. Foreshadowing è uno strumento, non una quota, e una conseguenza emergente dei PG può eliminare il twist preparato.
+
 D. NPC, FACTIONS & SOCIAL
 
 NPC STATE LADDER  
@@ -152,6 +155,15 @@ Nelle sfide di gruppo, assegna problemi/leve differenti così più giocatori pos
 
 CHALLENGE LOCUS  
 Prima di una sfida in cui la competenza reale del giocatore può divergere da quella del PG — puzzle/cifrari/prop, conoscenze o interazioni sociali — chiarisci se il locus è PLAYER-FOCUSED, CHARACTER-FOCUSED o HYBRID. Le competenze del PG possono offrire hint, traduzioni, vantaggi, bypass o la risoluzione prevista dal ruleset; non obbligare il giocatore a possedere personalmente crittografia, eloquenza, memoria, cultura o altre capacità che il personaggio dovrebbe avere. Nelle scene sociali distingui ciò che il giocatore dichiara — intento, approccio, leve/argomenti — da quanto bene il personaggio lo esegue: la performance attoriale del player non concede né nega di per sé effetti meccanici salvo regola o contratto esplicito.
+
+APPROACH-FIRST CHECK ROUTING  
+Quando il sistema usa check/skill/proficiency, determina prima intento, approccio fictionale e incertezza; poi scegli ability/procedura e soltanto dopo la proficiency/skill applicabile. `SKILL NAME ≠ ACTION`: una skill familiare non è un interruttore universale.
+
+CHECK ECOLOGY / UNDERUSED CAPABILITY SURFACING  
+`VARIETY ≠ QUOTA`. Se lo stesso approccio ricorre davvero, può ricorrere anche la stessa skill. Se invece molte scene producono sempre gli stessi check perché i problemi sono progettati nello stesso modo, varia persone, oggetti, ambiente, informazioni e leve. Capacità del party poco usate possono ispirare opportunità plausibili — informazione specialistica, shortcut, leverage, riduzione del rischio, accesso — senza creare gate artificiali soltanto per farle tirare.
+
+MULTI-APPROACH INFORMATION PAYLOAD  
+Lo stesso elemento può offrire informazioni diverse secondo l'approccio: percepirlo, analizzarne costruzione/alterazioni, ricordarne il contesto storico, riconoscerne natura/religione, seguire tracce o interagirvi socialmente non devono diventare automaticamente lo stesso check rinominato. Conserva differenze reali di domanda e payoff secondo ruleset e fiction.
 
 G. TRAVEL, EXPLORATION & WORLD
 

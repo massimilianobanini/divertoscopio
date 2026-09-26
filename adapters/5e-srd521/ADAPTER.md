@@ -293,6 +293,12 @@ INTENT
 
 Do not roll if success is certain, failure is impossible, or repeated retries have no meaningful consequence.
 
+### Check ecology
+
+Apply the runtime's **APPROACH-FIRST CHECK ECOLOGY**. Determine the fictional approach and the real uncertainty first; then route to the current SRD 5.2.1 action/test and any applicable ability or proficiency. Search, Study, Influence, Utilize and other current actions are not interchangeable labels: use the procedure that matches what the character is actually doing.
+
+Do not rotate skills/proficiencies merely for variety. Repeated use of the same procedure is valid when the character truly repeats the same kind of approach. If the same few checks recur because every scene offers the same kind of problem, vary the fictional opportunities instead. Underused character capabilities may create plausible optional leverage — specialist information, access, shortcuts, reduced risk or different positioning — but never invent a gate solely to make a rare proficiency matter. The same object or clue can yield different information through genuinely different approaches. Do not place an essential revelation behind one fragile check when the adventure requires robust access to it.
+
 Do not import generic opposed-roll habits from 2014 when the current procedure uses a fixed or generated DC instead.
 
 ---

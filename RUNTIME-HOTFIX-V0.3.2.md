@@ -10,7 +10,7 @@ Prima del normale PLAY, leggi **in quest'ordine**:
 4. `RUNTIME-HOTFIX-V0.3.5.md` — causal twist / reveal integrity e approach-first check ecology;  
 5. `RUNTIME-HOTFIX-V0.3.6.md` — valued experience / emotional affordance, earned emotional stakes, aftermath, sacrifice/legacy ed emotional pacing.
 
-Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
+Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
 
 ## FAIL-SOFT SU ACCESSO PARZIALE
 

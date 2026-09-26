@@ -199,7 +199,7 @@ La tassonomia completa e gli stress test tecnici vivono nella documentazione int
 ## Versioning
 
 Versione prodotto corrente: **Closed Pilot V0.3**.  
-Runtime hardening corrente: **baseline V0.3.2 + delta V0.3.3 + delta V0.3.4**.  
+Runtime hardening corrente: **baseline V0.3.2 + delta V0.3.3 + delta V0.3.4 + delta V0.3.5 + delta V0.3.6**.  
 Termini correnti per i nuovi test: **UGPN-PILOT-1.3**.
 
 I test iniziati sotto termini precedenti restano attribuiti alla versione allora applicabile.

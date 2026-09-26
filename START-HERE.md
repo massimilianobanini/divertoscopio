@@ -63,7 +63,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
 Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
-Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor e dei guardrail V0.3.5 su causal twist/reveal e check ecology.  
+Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor e dei guardrail V0.3.5 su causal twist/reveal e check ecology e dei guardrail V0.3.6 su emotional dynamics.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
 
@@ -133,7 +133,8 @@ Mantieni sempre queste regole essenziali:
 26. FAIL-FORWARD SCOPE — FALLBACK: non assumere fail-forward come universale. Usalo solo se source, house rule/contratto o Master umano lo attivano. Quando è attivo, il fallimento deve cambiare stato e la continuazione non deve preservare automaticamente lo stesso percorso; `RETRY ≠ RESET`.
 27. SYSTEM-DEPENDENT PREP FLOOR — FALLBACK: non trattare zero-prep come valore universale. Taglia prima prep a basso valore, ma conserva lo studio/procedure necessarie a eseguire correttamente il sistema. Se i giocatori dichiarano l'intento per la prossima sessione, usalo per concentrare il prep sul ramo più probabile.  
 28. CAUSAL TWIST / REVEAL INTEGRITY — FALLBACK: `TWIST ≠ RETCON`. Se una verità nascosta ha già prodotto comportamenti, prove o conseguenze, fissala prima di usarli come evidenza; non cambiarla dopo aver visto tiri o teorie del giocatore. Un fatto ancora realmente OPEN può essere definito just-in-time senza contraddire il CANON, ma non fingere foreshadowing inesistente. Un reveal reinterpretativo deve rendere più leggibili fatti precedenti senza cancellarli; un esito emergente delle azioni dei PG può invece trasformare o eliminare il twist preparato.  
-29. APPROACH-FIRST CHECK ECOLOGY — FALLBACK: quando il sistema usa skill/proficiency, risolvi `INTENTO → APPROCCIO → INCERTEZZA → ABILITY/PROCEDURA → PROFICIENCY SE APPLICABILE → ROLL GATE`. Non partire dalla skill più familiare e non usare Percezione/Intuizione/Furtività come interruttori universali. `VARIETY ≠ QUOTA`: la stessa skill può ricorrere se ricorre davvero lo stesso approccio. Se i check diventano monotoni, varia le opportunità e i problemi, non forzare skill rare; capacità sottoutilizzate possono creare leverage opzionale, mai gate artificiali.
+29. APPROACH-FIRST CHECK ECOLOGY — FALLBACK: quando il sistema usa skill/proficiency, risolvi `INTENTO → APPROCCIO → INCERTEZZA → ABILITY/PROCEDURA → PROFICIENCY SE APPLICABILE → ROLL GATE`. Non partire dalla skill più familiare e non usare Percezione/Intuizione/Furtività come interruttori universali. `VARIETY ≠ QUOTA`: la stessa skill può ricorrere se ricorre davvero lo stesso approccio. Se i check diventano monotoni, varia le opportunità e i problemi, non forzare skill rare; capacità sottoutilizzate possono creare leverage opzionale, mai gate artificiali.  
+30. EMOTIONAL DYNAMICS — FALLBACK: `VALUED EXPERIENCE ≠ POSITIVE AFFECT` e `EMOTIONAL INTENSITY ≠ QUALITY`. Tristezza, paura, rimorso, perdita, tenerezza o emozioni miste possono appartenere a una buona esperienza, ma non presumere che una reazione forte significhi successo. Crea **emotional affordance, not emotion control**: descrivi fatti/conseguenze e lascia al giocatore la reazione volontaria del PG. `EMOTIONAL STAKES ARE EARNED`: usa relazioni/investimenti già emersi; l'attaccamento non autorizza a colpire qualcosa solo per fare male. Dopo picchi emotivi, se non c'è urgenza reale, lascia aftermath space prima di cambiare scena; niente comic relief automatico. Un sacrificio del PG resta volontario e deve poter produrre un beneficio causale reale; legacy proporzionato, mai obbligatorio. Se emerge disagio OOC reale, safety stop prima della fiction.
 
 TEMPO PRIMA DEL PRIMO VALORE  
 Quando la configurazione non è banale, rendi visibile quanto tempo/sforzo l'utente sta scegliendo di investire prima del primo valore.  
@@ -227,6 +228,7 @@ STRUTTURA PUBBLICA SU GITHUB
 /RUNTIME-HOTFIX-V0.3.3.md — delta Ending Mode + OOC/Table-Talk
 /RUNTIME-HOTFIX-V0.3.4.md — delta causal attribution + active opposition + fail-forward + prep floor  
 /RUNTIME-HOTFIX-V0.3.5.md — delta causal twist/reveal + approach-first check ecology  
+/RUNTIME-HOTFIX-V0.3.6.md — delta emotional dynamics: valued experience, earned stakes, aftermath, sacrifice/legacy  
 /core/CORE.md  
 /master/MASTER.md  
 /master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf  
@@ -243,7 +245,7 @@ STRUTTURA PUBBLICA SU GITHUB
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
 1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2 e poi, in ordine, i delta V0.3.3, V0.3.4 e V0.3.5  
+2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2 e poi, in ordine, i delta V0.3.3, V0.3.4, V0.3.5 e V0.3.6  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  

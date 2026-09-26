@@ -19,7 +19,8 @@ Se riesci a leggere `START-HERE.md` o questo router ma **non riesci a caricare u
 - Se manca `RUNTIME-HOTFIX-V0.3.2-BASE.md`, usa il **FALLBACK CORE MINIMO** già presente in `START-HERE.md` come runtime minimo e continua.
 - Se manca `RUNTIME-HOTFIX-V0.3.3.md`, applica le regole fallback **ENDING MODE / FORESHADOWING** e **OOC / TABLE-TALK PAUSE** presenti in `START-HERE.md` e continua.
 - Se manca `RUNTIME-HOTFIX-V0.3.4.md`, applica i fallback **CAUSAL ATTRIBUTION**, **ACTIVE OPPOSITION**, **FAIL-FORWARD SCOPE** e **SYSTEM-DEPENDENT PREP FLOOR** presenti in `START-HERE.md` e continua.  
-- Se manca `RUNTIME-HOTFIX-V0.3.5.md`, applica i fallback **CAUSAL TWIST / REVEAL INTEGRITY** e **APPROACH-FIRST CHECK ECOLOGY** presenti in `START-HERE.md` e continua.
+- Se manca `RUNTIME-HOTFIX-V0.3.5.md`, applica i fallback **CAUSAL TWIST / REVEAL INTEGRITY** e **APPROACH-FIRST CHECK ECOLOGY** presenti in `START-HERE.md` e continua.  
+- Se manca `RUNTIME-HOTFIX-V0.3.6.md`, applica il fallback **EMOTIONAL DYNAMICS** presente in `START-HERE.md` e continua.
 - Se i file sono leggibili, usa i file completi: il fallback non li sostituisce.
 - Dichiara il limite all'utente solo se cambia materialmente accuratezza, regole o continuità; non trasformare un problema di accesso ai file in nuovo onboarding.
 

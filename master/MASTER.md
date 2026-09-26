@@ -160,6 +160,11 @@ Valuta dimensioni osservabili, per esempio:
 - Coerenza col genere;  
 - Prep ROI.
 
+EMOTIONAL DYNAMICS LENS  
+Quando il Master vuole produrre scene emotive, non partire dall'emozione da imporre (“voglio farli piangere”). Valuta invece: investimento precedente, relazione, agency, causalità del rischio, possibilità di scelta, aftermath e compatibilità con tono/safety. Tristezza o paura possono essere parte di una sessione riuscita; intensità emotiva e qualità non sono sinonimi.  
+Per PNG/luoghi/oggetti amati: `ATTACHMENT ≠ TARGET PERMISSION`. Non trasformare automaticamente ciò a cui i giocatori tengono in bersaglio narrativo. Se una perdita avviene causalmente, lascia spazio alle reazioni e alle conseguenze invece di passare subito al prossimo set piece.  
+Per sacrifici: preserva `VOLUNTARY COST + CAUSAL BENEFIT + CONSEQUENCE/LEGACY`; non costruire false scelte in cui l'unico modo di essere “eroici” è morire. Legacy e rituali devono emergere dal tavolo e dal mondo, non essere obbligatori.
+
 Formato consigliato:  
 “Agency: 8/10 — perché…  
 Cosa potrebbe cambiare la valutazione: …  

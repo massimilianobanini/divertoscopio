@@ -10,6 +10,29 @@
 
 **Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
 
+**Dal “vorrei giocare” al gioco vero con meno attrito.**
+
+## In 30 secondi
+
+Vuoi giocare a un GDR, ma manca il Master, il gruppo, il tempo o la voglia di preparare tutto? Il Divertoscopio usa l’AI per ridurre gli ostacoli tra **“vorrei giocare”** e **“sto giocando”**, mettendo al centro una domanda: **ti sei divertito e vuoi tornare a giocare?**
+
+- **Gioca subito:** il percorso più rapido punta ad arrivare alla prima scelta realmente giocabile in circa **1 minuto**.
+- **Gratis e open source:** non serve un abbonamento al Divertoscopio per provarlo.
+- **Hai già un Master?** Non lo sostituisce: lo aiuta a preparare, diagnosticare problemi, adattare il gioco e ridurre lavoro inutile.
+- **Closed Pilot:** per i tester ammessi, se l’esperienza non funziona secondo i termini, l’Ultra-Garanzia del Prezzo Negativo permette di richiedere **€1** come simbolico indennizzo reputazionale. La semplice consultazione pubblica del repository non attiva la garanzia.
+
+### Non nasce per sostituire il tuo tavolo
+
+Se hai già un gruppo, un Master e un modo di giocare che vi piace senza AI, **non c’è niente da sostituire**. Il Divertoscopio non nasce per convincere chi non vuole l’intelligenza artificiale nel proprio GDR.
+
+Serve quando l’AI può togliere un ostacolo: **tempo, preparazione, disponibilità del Master, difficoltà a incastrare gli orari, solo play, continuità, ricerca delle regole o supporto al Master**. Puoi usarlo anche quando la vita adulta rende difficile organizzare una sessione tradizionale, fermarti quando serve e riprendere da un checkpoint.
+
+### Non è soltanto un “AI Master”
+
+Un chatbot può già raccontare una storia. Il Divertoscopio aggiunge un framework esplicito per **agency, regole, continuità, stato, feedback, riduzione della friction e adattamento dell’esperienza nel tempo**.
+
+L’obiettivo non è generare più contenuto. È aumentare la probabilità che **il tempo passato a giocare abbia valore per quelle persone**, con meno lavoro inutile prima e durante il gioco.
+
 ## Inizia
 
 Non devi studiare questo repository.
@@ -18,28 +41,7 @@ Non devi studiare questo repository.
 2. Incolla il link di questo repository: `https://github.com/massimilianobanini/divertoscopio`
 3. Scrivi: **Iniziamo**
 
-### Supporto piattaforme
-
-La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata solo su ChatGPT**.
-
-**Gemini e Claude non sono supportati al momento.** I limiti osservati sono diversi:
-
-- **Gemini:** incollare il solo URL GitHub non ha dato accesso affidabile al repository e, nel test reale, Gemini ha interpretato erroneamente il problema come repository vuoto/inaccessibile. È stato esplorato anche un workaround con una **Gem dedicata + knowledge/mirror su Google Drive**, ma richiede troppo setup rispetto alla promessa semplice `link + Iniziamo`. Resta backlog sperimentale.
-- **Claude:** il Divertoscopio è riuscito ad avviarsi, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo di fatto l'avventura e imponendo circa **6 ore di attesa** prima di poter continuare. Non attribuiamo qui una causa tecnica più precisa di quanto osservato.
-
-Quindi, oggi, **ChatGPT è l'unica piattaforma pubblicamente supportata**. Gemini e Claude verranno rivalutati solo se potranno offrire un'esperienza abbastanza semplice e sostenibile.
-
-### Multiplayer su ChatGPT
-
-La modalità multiplayer pubblica corrente è **HOSTED / SINGLE-CHAT**: una persona gestisce la chat ChatGPT dal proprio account e inoltra le azioni degli altri giocatori presenti di persona, in voce o tramite un canale esterno. Il Divertoscopio **non** presume che più account possano scrivere sincronicamente nella stessa conversazione, non tratta link condivisi/progetti condivisi come sincronizzazione same-chat e non richiede condivisione di account o credenziali. I dettagli e i limiti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md); il gauntlet pubblico è in [`testing/MULTIPLAYER-HOSTED.md`](testing/MULTIPLAYER-HOSTED.md).
-
-Questa modalità è implementata ma **l'actual play umano multiplayer resta OPEN**: pubblicazione e stress test statici non equivalgono a validazione di fun, clarity, latency o Desire to Return.
-
-Su ChatGPT, se il repository è leggibile, l'AI deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md), [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md), [`RUNTIME-HOTFIX-V0.3.5.md`](RUNTIME-HOTFIX-V0.3.5.md) e infine [`RUNTIME-HOTFIX-V0.3.6.md`](RUNTIME-HOTFIX-V0.3.6.md).
-
-Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
-
-`Aiutami` resta un comando alternativo equivalente.
+> **Supporto corrente:** la versione pubblica è ottimizzata e supportata su **ChatGPT**. I dettagli tecnici, i limiti delle altre piattaforme e la modalità multiplayer sono riportati più sotto.
 
 ## Scegli il sistema
 
@@ -78,6 +80,31 @@ Puoi usare direttamente il Divertoscopio con i passaggi sopra oppure consultare 
 Il **Kit** è una guida introduttiva autonoma. Il **Divertoscopio** è il sistema completo ospitato in questo repository. Il Kit non è necessario per usare il Divertoscopio.
 
 Non hai voglia di leggere tutto il Kit? Non serve. Incolla il link del repository in ChatGPT e scrivi: **“Iniziamo. Sono un Master.”** L'AI userà soltanto ciò che serve al problema che vuoi risolvere, recuperando on-demand anche la toolbox pubblica di tecniche Master.
+
+## Supporto tecnico corrente
+
+### Supporto piattaforme
+
+La versione pubblica corrente del Divertoscopio è **ottimizzata e supportata solo su ChatGPT**.
+
+**Gemini e Claude non sono supportati al momento.** I limiti osservati sono diversi:
+
+- **Gemini:** incollare il solo URL GitHub non ha dato accesso affidabile al repository e, nel test reale, Gemini ha interpretato erroneamente il problema come repository vuoto/inaccessibile. È stato esplorato anche un workaround con una **Gem dedicata + knowledge/mirror su Google Drive**, ma richiede troppo setup rispetto alla promessa semplice `link + Iniziamo`. Resta backlog sperimentale.
+- **Claude:** il Divertoscopio è riuscito ad avviarsi, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo di fatto l'avventura e imponendo circa **6 ore di attesa** prima di poter continuare. Non attribuiamo qui una causa tecnica più precisa di quanto osservato.
+
+Quindi, oggi, **ChatGPT è l'unica piattaforma pubblicamente supportata**. Gemini e Claude verranno rivalutati solo se potranno offrire un'esperienza abbastanza semplice e sostenibile.
+
+### Multiplayer su ChatGPT
+
+La modalità multiplayer pubblica corrente è **HOSTED / SINGLE-CHAT**: una persona gestisce la chat ChatGPT dal proprio account e inoltra le azioni degli altri giocatori presenti di persona, in voce o tramite un canale esterno. Il Divertoscopio **non** presume che più account possano scrivere sincronicamente nella stessa conversazione, non tratta link condivisi/progetti condivisi come sincronizzazione same-chat e non richiede condivisione di account o credenziali. I dettagli e i limiti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md); il gauntlet pubblico è in [`testing/MULTIPLAYER-HOSTED.md`](testing/MULTIPLAYER-HOSTED.md).
+
+Questa modalità è implementata ma **l'actual play umano multiplayer resta OPEN**: pubblicazione e stress test statici non equivalgono a validazione di fun, clarity, latency o Desire to Return.
+
+Su ChatGPT, se il repository è leggibile, l'AI deve usare [`START-HERE.md`](START-HERE.md) come router e applicare anche [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) prima del normale PLAY. Quel file è il router runtime: carica la baseline [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md), poi [`RUNTIME-HOTFIX-V0.3.3.md`](RUNTIME-HOTFIX-V0.3.3.md), [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md), [`RUNTIME-HOTFIX-V0.3.5.md`](RUNTIME-HOTFIX-V0.3.5.md) e infine [`RUNTIME-HOTFIX-V0.3.6.md`](RUNTIME-HOTFIX-V0.3.6.md).
+
+Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
+
+`Aiutami` resta un comando alternativo equivalente.
 
 ## Stato
 

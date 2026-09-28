@@ -21,6 +21,16 @@ Hanno voglia di tornare a giocare?
 
 Il Divertoscopio nasce da qui.
 
+## DAL “VORREI GIOCARE” AL GIOCO VERO
+
+Molte persone non hanno smesso di voler giocare ai GDR. Hanno semplicemente più ostacoli fra la voglia di giocare e una sessione reale: trovare un Master, incastrare gli orari di più adulti, preparare, ricordare lo stato della campagna, recuperare una regola, ricominciare dopo una pausa o avere abbastanza tempo per una sessione tradizionale.
+
+Il Divertoscopio vuole ridurre quella distanza.
+
+Non promette che la velocità equivalga automaticamente al divertimento. Distingue il **tempo prima della prima scelta giocabile** dal **tempo prima del primo momento realmente divertente**. L’obiettivo è togliere il più possibile il lavoro che non crea valore, arrivare presto al gioco vero e poi imparare dall’esperienza che cosa funziona per quella persona o quel tavolo.
+
+Per questo può essere usato in solo play, via chat, come supporto a un Master umano o in altri contesti compatibili con le capacità correnti. Fermarsi e riprendere non deve richiedere di ricostruire da zero la campagna.
+
 Il nostro obiettivo è aiutare giocatori e Master a ottenere più divertimento reale dai GDR, riducendo allo stesso tempo il lavoro, la preparazione inutile e la complessità che non aggiungono valore all’esperienza.
 
 Non vogliamo trasformare il divertimento in un compito.  
@@ -125,6 +135,14 @@ Il Divertoscopio non deve forzare tutte le modalità a diventare uguali. Deve ca
 # 5\. L’INTELLIGENZA ARTIFICIALE È UN MEZZO, NON IL FINE
 
 Il Divertoscopio non esiste perché “l’intelligenza artificiale è il futuro”.
+
+## NON DEVE CONVINCERE CHI NON VUOLE L’AI
+
+Se hai già un gruppo, un Master e un modo di giocare che vi piace senza intelligenza artificiale, non c’è niente che il Divertoscopio debba sostituire.
+
+Non nasce per convincere chi non vuole l’AI nel proprio tavolo. Nasce per i casi in cui l’AI può togliere un ostacolo o aumentare il valore: meno preparazione inutile, più facilità nel partire o riprendere, solo play, supporto al Master, ricerca e verifica delle regole, continuità dello stato o maggiore adattamento all’esperienza reale.
+
+Il confronto utile non è “AI contro Master umano”. La domanda è: **in questo contesto, l’AI sta togliendo lavoro e aumentando il valore dell’esperienza oppure sta aggiungendo attrito?** Se aggiunge attrito senza creare valore, non è il mezzo giusto per quel caso.
 
 L’intelligenza artificiale è utile quando assorbe complessità che altrimenti ricadrebbe su Master e giocatori.
 

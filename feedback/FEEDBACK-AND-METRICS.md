@@ -14,7 +14,7 @@ Non servono invito, preregistrazione, PRE-TEST, Slot ID o Pilot ID.
 
 Campi visibili a tutti:
 
-- nome/cognome o nickname;
+- nome e cognome;
 1. **FUN** — Quanto ti sei divertito? 0–10;
 2. **DESIRE TO RETURN** — Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10;
 3. cosa migliore — facoltativo;

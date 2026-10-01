@@ -38,7 +38,7 @@ La semplice consultazione del repository senza uso reale non basta per qualifica
 
 La garanzia è riservata a persone maggiorenni (18+). L’uso pubblico del repository resta possibile anche indipendentemente dalla partecipazione all’Ultra-Garanzia.
 
-Nel modulo la persona può usare nome e cognome oppure un nickname. L’eventuale identificazione tecnica interna resta dietro le quinte.
+Nel modulo la persona indica nome e cognome. L’eventuale identificazione tecnica interna resta dietro le quinte.
 
 ## 3. Un solo modulo, dopo l’esperienza
 
@@ -46,7 +46,7 @@ Per UGPN-PUBLIC-1.0 non esistono PRE-TEST obbligatori, attivazioni preventive, i
 
 Dopo l’esperienza la persona può compilare un solo modulo:
 
-- nome/cognome o nickname;
+- nome e cognome;
 1. **FUN** — quanto ti sei divertito? 0–10;
 2. **DESIRE TO RETURN** — quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10;
 3. cosa migliore — facoltativo;
@@ -115,7 +115,7 @@ Transcript, shared-chat link e prove equivalenti restano privati e non vengono p
 
 Ogni persona fisica può ricevere al massimo **un singolo pagamento di €1 nell’intero programma Ultra-Garanzia del Divertoscopio**, salvo che futuri termini dichiarino espressamente l’apertura di un programma separato.
 
-Più nickname, account, email, dispositivi o destinazioni di pagamento riconducibili alla stessa persona non creano ulteriori diritti.
+Più account, email, dispositivi o destinazioni di pagamento riconducibili alla stessa persona non creano ulteriori diritti.
 
 Dopo il payout la persona può continuare a usare Divertoscopio e inviare feedback senza ulteriore pagamento nell’ambito dello stesso programma.
 

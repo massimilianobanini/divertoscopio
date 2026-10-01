@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix V0.3.3
 
-Stato: **attivo durante il Closed Pilot V0.3**  
+Stato: **attivo durante il Public Stress Test V0.3**  
 Origine: estensione minima della V0.3.2 per due gap operativi osservati nel runtime pubblico: chiusure di unità narrative troppo poco differenziate e domande OOC del giocatore non formalmente separate dalla fiction.  
 Scopo: preservare ritmo, agency, causalità e continuità senza aggiungere nuovo carico di onboarding.
 

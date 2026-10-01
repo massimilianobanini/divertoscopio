@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix Router V0.3
 
-Questo file mantiene compatibilità con `START-HERE.md`, che nel Closed Pilot V0.3 punta ancora a `RUNTIME-HOTFIX-V0.3.2.md`.
+Questo file mantiene compatibilità con `START-HERE.md`, che nel Public Stress Test V0.3 punta a `RUNTIME-HOTFIX-V0.3.2.md`.
 
 Prima del normale PLAY, leggi **in quest'ordine**:
 

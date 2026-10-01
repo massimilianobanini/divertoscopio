@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — MASTER ENTRY FLOW
+PUBLIC STRESS TEST V0.3 — MASTER ENTRY FLOW
 
 SCOPO  
 Aiutare il Master/Narratore a far divertire i giocatori con meno preparazione inutile, meno bookkeeping e più decisioni ad alto valore.

@@ -1,4 +1,4 @@
-# Divertoscopio — Closed Pilot V0.3
+# Divertoscopio — Public Stress Test V0.3
 
 <!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e i delta V0.3.3 + V0.3.4 + V0.3.5 + V0.3.6. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Quando viene scelto un sistema, consulta anche `SYSTEM-SUPPORT.md` e mostra una sola volta il relativo box di supporto nel primo messaggio successivo. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
 
@@ -19,7 +19,7 @@ Vuoi giocare a un GDR, ma manca il Master, il gruppo, il tempo o la voglia di pr
 - **Gioca subito:** il percorso più rapido punta ad arrivare alla prima scelta realmente giocabile in circa **1 minuto**.
 - **Gratis e open source:** non serve un abbonamento al Divertoscopio per provarlo.
 - **Hai già un Master?** Non lo sostituisce: lo aiuta a preparare, diagnosticare problemi, adattare il gioco e ridurre lavoro inutile.
-- **Closed Pilot:** per i tester ammessi, se l’esperienza non funziona secondo i termini, l’Ultra-Garanzia del Prezzo Negativo permette di richiedere **€1** come simbolico indennizzo reputazionale. La semplice consultazione pubblica del repository non attiva la garanzia.
+- **Public Stress Test:** chiunque può provarlo autonomamente. Se una persona maggiorenne lo usa davvero e non è soddisfatta, può richiedere **€1** con l’Ultra-Garanzia secondo i termini correnti, fino a un massimo complessivo di **100 claim qualificati**.
 
 ### Non nasce per sostituire il tuo tavolo
 
@@ -108,7 +108,7 @@ Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE
 
 ## Stato
 
-Questa è la versione **Closed Pilot V0.3**, preparata per il primo test esterno controllato. La catena runtime attiva usa una **baseline V0.3.2** più i **delta V0.3.3, V0.3.4, V0.3.5 e V0.3.6**. La baseline deriva da failure osservati nel pilot e include anche due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. Irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. La V0.3.3 aggiunge **Ending Mode / Foreshadowing Governor** e **OOC / Table-Talk Pause Contract**. La V0.3.4 aggiunge hardening su **false choice/causal attribution**, **active opposition**, **fail-forward scope** e **system-dependent prep floor**. La V0.3.5 aggiunge **causal twist / reveal integrity** e **approach-first check ecology**, per evitare retcon usati come sorpresa e varietà artificiale dei check. La V0.3.6 aggiunge **emotional dynamics**: valued experience ≠ positive affect, emotional affordance, emotional stakes guadagnati, aftermath space, sacrifice/legacy e contrast/recovery senza manipolazione emotiva. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. Il repository include un vertical pubblico per D&D 5e 2014 / SRD 5.1 e adapter candidati separati per D&D 2024 / SRD 5.2.1 e Daggerheart / SRD 2.0, così sistema ed edizione possono restare espliciti e non contaminarsi fra loro. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
+Questa è la versione **Public Stress Test V0.3**, aperta all’uso autonomo pubblico e alla raccolta di evidenza reale senza invito o preregistrazione. La catena runtime attiva usa una **baseline V0.3.2** più i **delta V0.3.3, V0.3.4, V0.3.5 e V0.3.6**. La baseline deriva da failure osservati nel pilot e include anche due estensioni sperimentali bounded da validare durante il test: **Comic Patch V0.1** e **Image-on-demand / Text-first**. Irrigidisce inoltre integrità dei dadi, semantica dei natural 1/20 in 5E, provenienza dell'inventario e affidabilità di progressione/level-up, inclusi i passaggi di fase nelle avventure pubblicate. La V0.3.3 aggiunge **Ending Mode / Foreshadowing Governor** e **OOC / Table-Talk Pause Contract**. La V0.3.4 aggiunge hardening su **false choice/causal attribution**, **active opposition**, **fail-forward scope** e **system-dependent prep floor**. La V0.3.5 aggiunge **causal twist / reveal integrity** e **approach-first check ecology**, per evitare retcon usati come sorpresa e varietà artificiale dei check. La V0.3.6 aggiunge **emotional dynamics**: valued experience ≠ positive affect, emotional affordance, emotional stakes guadagnati, aftermath space, sacrifice/legacy e contrast/recovery senza manipolazione emotiva. Il progetto è sperimentale: non tutte le modalità, i sistemi e le funzioni sono già stati provati allo stesso livello. Il repository include un vertical pubblico per D&D 5e 2014 / SRD 5.1 e adapter candidati separati per D&D 2024 / SRD 5.2.1 e Daggerheart / SRD 2.0, così sistema ed edizione possono restare espliciti e non contaminarsi fra loro. I limiti attualmente conosciuti sono in [`KNOWN-LIMITATIONS.md`](KNOWN-LIMITATIONS.md).
 
 ## Contestazioni legali e diritti
 
@@ -138,15 +138,17 @@ Il segno verde lime del Divertoscopio combina un **mirino / strumento di messa a
 
 Asset e regole d'uso: [`assets/visual-hammer/`](assets/visual-hammer/).
 
-## Test chiuso e Ultra-Garanzia
+## Public Stress Test e Ultra-Garanzia
 
-Il repository è pubblico, ma il **Closed Pilot V0.3 è un test a invito riservato a persone di almeno 18 anni**. La semplice consultazione o l'uso autonomo del repository non costituiscono partecipazione al Closed Pilot e non attivano l'Ultra-Garanzia di questa fase.
+Il repository è pubblico e **chiunque può provare autonomamente il Divertoscopio**. Non servono invito, preregistrazione, opt-in preventivo, Slot ID o Pilot ID.
 
-Per i nuovi test regolati da **UGPN-PILOT-1.3**, tutti i tester ammessi al Closed Pilot sono automaticamente coperti: **non servono opt-in preventivo, slot o un Claim Form separato**.
+Per i nuovi test regolati da **UGPN-PUBLIC-1.0**, una persona maggiorenne (18+) che usa realmente il Divertoscopio può, se non è soddisfatta, richiedere **€1 come simbolico indennizzo reputazionale** secondo i termini della fase.
 
-Dopo l'esperienza esiste **un solo modulo**. Tutti possono lasciare feedback senza ricevere denaro. Chi sceglie di richiedere **€1 come simbolico indennizzo reputazionale** aggiunge, nello stesso modulo, soltanto una evidenza verificabile dell'uso — preferibilmente la chat dedicata o una prova equivalente — e il metodo/dato necessario al pagamento.
+Dopo l'esperienza esiste **un solo modulo facoltativo**. Tutti possono lasciare feedback senza chiedere denaro. Chi sceglie di richiedere €1 aggiunge nello stesso modulo l'evidenza dell'uso e il metodo/dato necessario al pagamento.
 
-Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'intero programma**. Il Closed Pilot ammette al massimo **20 tester**, quindi l'esposizione teorica massima della fase è **€20**, a fronte di un fondo nominale di **€100**. Nessun pagamento è automatico: i claim vengono verificati manualmente. Transcript, link e dati di pagamento restano privati.
+L'Ultra-Garanzia del Public Stress Test ammette al massimo **100 claim qualificati**. Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell'intero programma**; l'esposizione teorica massima della fase è quindi **€100**. Nessun pagamento è automatico: i claim vengono verificati manualmente. Transcript, link e dati di pagamento restano privati.
+
+Modulo feedback facoltativo: https://docs.google.com/forms/d/e/1FAIpQLSc1JT6yfYhYokvZ2b1DKNeqKExl9PLGa2aMSMJGS_-XCs7ibg/viewform
 
 - Termini completi: [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md)
 - Stato pubblico del fondo e delle richieste: [`ULTRA-GARANZIA-REGISTRO.md`](ULTRA-GARANZIA-REGISTRO.md)
@@ -204,7 +206,7 @@ Questo repository **non** contiene database dei tester, risposte private, transc
 
 Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, The Prof. Player, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Andrea “Il Rosso” Lucca / La Locanda del Drago Rosso**, oltre a numerose fonti internazionali.
 
-[`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) separa esplicitamente le fonti con un contributo documentato alla ricerca dalle ispirazioni/community/interlocutori considerati. In entrambi i casi, una citazione **non implica approvazione, collaborazione o affiliazione**.
+[`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) raccoglie in modo uniforme fonti, ispirazioni, community e interlocutori considerati. Una citazione **non implica approvazione, collaborazione o affiliazione**.
 
 ## Licenze
 

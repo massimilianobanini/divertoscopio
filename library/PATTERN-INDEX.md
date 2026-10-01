@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — PUBLIC PATTERN LIBRARY
+PUBLIC STRESS TEST V0.3 — PUBLIC PATTERN LIBRARY
 
 SCOPO  
 Questa libreria contiene pattern trasferibili e originali/riorganizzati. Non è una bibliografia né un'enciclopedia. Il motore consulta un pattern solo quando una situazione lo rende utile.

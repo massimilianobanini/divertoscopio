@@ -74,7 +74,7 @@ Una parte importante del modo di ragionare del Divertoscopio deriva anche dall‚Ä
 
 Questi materiali vengono usati come **actual-play evidence qualitativa** per confrontare continuit√† di campagna, callback, relazioni, evoluzione dei personaggi, spotlight, split party, aftermath, reputazione, gestione dello stato e conseguenze persistenti. Non vengono trattati come prova universale e, per rispetto della privacy, questa pagina non elenca i partecipanti privati ai tavoli.
 
-Anche Closed Pilot, stress test e feedback successivi contribuiscono a correggere o ridimensionare idee che sulla carta sembrano buone ma non reggono abbastanza bene in uso reale.
+Anche Public Stress Test, stress test mirati e feedback successivi contribuiscono a correggere o ridimensionare idee che sulla carta sembrano buone ma non reggono abbastanza bene in uso reale.
 
 ---
 

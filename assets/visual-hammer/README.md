@@ -13,14 +13,16 @@ Il segno è deliberatamente **agnostico rispetto al d20 e ai singoli sistemi di 
 
 **Verde lime/elettrico — `#45DA02`**
 
-È usato in monocromia come colore distintivo del Divertoscopio.
+Resta il riferimento cromatico del segno. L’asset principale usa uno sfondo nero/scuro e una resa luminosa del verde.
 
 ## Asset principale
 
-[`DIVERTOSCOPIO-visual-hammer-lime.svg`](DIVERTOSCOPIO-visual-hammer-lime.svg)
+![Visual Hammer — Divertoscopio](DIVERTOSCOPIO-visual-hammer-lime.png)
+
+[`DIVERTOSCOPIO-visual-hammer-lime.png`](DIVERTOSCOPIO-visual-hammer-lime.png)
 
 ## Regola d'uso
 
-Mantenere la stessa forma e lo stesso significato nel tempo. Evitare gradienti, effetti metallici/3D, decorazioni fantasy, dadi, colori aggiuntivi o restyling opportunistici.
+Mantenere la stessa forma, la resa visiva canonica e lo stesso significato nel tempo. Evitare decorazioni fantasy, dadi, colori aggiuntivi, effetti estranei o restyling opportunistici.
 
 Le licenze del repository non concedono automaticamente diritti sul nome, sul brand o sui segni distintivi del Divertoscopio; vedi la sezione Licenze del repository.

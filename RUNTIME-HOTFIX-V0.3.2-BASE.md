@@ -1,7 +1,7 @@
 # Divertoscopio — Runtime Hotfix V0.3.2
 
 Stato: **attivo durante il Public Stress Test V0.3**  
-Origine: failure osservati in test PLAYER reali del Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026. Dal 15/09/2026 include anche due estensioni sperimentali bounded del Closed Pilot: **Comic Patch V0.1** e **Image-on-demand / Text-first**.  
+Origine: failure osservati in test PLAYER reali del precedente Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026. Dal 15/09/2026 include anche due estensioni sperimentali bounded introdotte durante il Closed Pilot: **Comic Patch V0.1** e **Image-on-demand / Text-first**.  
 Scopo: hardening minimo di regole già coerenti con il framework + due estensioni a basso attrito da validare durante il pilot, senza cambiare CORE, adapter o protocolli di sistema.
 
 ## Precedenza

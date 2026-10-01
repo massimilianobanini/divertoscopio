@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — PROTOCOLS INDEX + P0 SPECS
+PUBLIC STRESS TEST V0.3 — PROTOCOLS INDEX + P0 SPECS
 
 SCOPO  
 I protocolli sono moduli situazionali. Il sistema li attiva quando il Situation Classifier riconosce il problema pertinente e li disattiva quando non servono.  

@@ -1,4 +1,4 @@
-# MASTER CRAFT TOOLBOX — Closed Pilot V0.3
+# MASTER CRAFT TOOLBOX — Public Stress Test V0.3
 
 ## Scopo
 

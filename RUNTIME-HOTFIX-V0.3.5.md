@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix V0.3.5
 
-Stato: **attivo durante il Closed Pilot V0.3**  
+Stato: **attivo durante il Public Stress Test V0.3**  
 Origine: hardening minimo derivato da audit su plot twist/reveal e ripetitività degli ability check.  
 Scopo: preservare sorpresa causale e varietà di approccio senza introdurre retcon, skill roulette o quote artificiali.
 

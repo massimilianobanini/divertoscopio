@@ -2,13 +2,15 @@
 
 **Public Stress Test V0.3**  
 Ultimo aggiornamento: **02/10/2026**  
-Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**
+Termini preparati per i nuovi test: **UGPN-PUBLIC-1.0**
+
+**Stato operativo: PREPARED — PENDING LIVE FORM + SCRIPT SYNC.** L’Ultra-Garanzia UGPN-PUBLIC-1.0 non è ancora ACTIVE: i nuovi test sotto questi termini iniziano soltanto dopo il superamento del final gate e l’aggiornamento di questo registro a ACTIVE.
 
 Il repository GitHub è pubblico. Non serve invito o preregistrazione per provare il Divertoscopio.
 
 ## Come funziona adesso
 
-Durante il Public Stress Test:
+Quando il Public Stress Test sarà **ACTIVE**:
 - chiunque può provare il Divertoscopio autonomamente;
 - il feedback è facoltativo;
 - non servono PRE-TEST, opt-in preventivi, Slot ID o Claim Form separati;
@@ -29,7 +31,7 @@ Durante il Public Stress Test:
 | Payout eseguiti | €0 |
 | Claim qualificati non ancora pagati | €0 |
 | Richieste reali UGPN-PUBLIC-1.0 ricevute | 0 |
-| Stato | **ACTIVE — PUBLIC STRESS TEST / UGPN-PUBLIC-1.0** |
+| Stato | **PREPARED — PENDING LIVE FORM + SCRIPT SYNC** |
 
 I dry-run interni e i test tecnici non vengono conteggiati come claim reali.
 

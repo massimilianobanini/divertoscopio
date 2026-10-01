@@ -8,7 +8,7 @@ Contatto privacy/progetto: **massimiliano.banini@yahoo.it**
 
 - Il Public Stress Test è aperto: non serve invito o preregistrazione per provare il Divertoscopio.
 - Esiste **un solo modulo facoltativo dopo l’esperienza**.
-- Puoi usare nome/cognome oppure un nickname.
+- Il modulo richiede nome e cognome.
 - Il modulo non deve raccogliere automaticamente l’email del tuo account Google.
 - Il feedback normale richiede solo i dati minimi per capire l’esperienza.
 - Se **non** vuoi €1, non vengono richiesti evidenza della chat o dati di pagamento.
@@ -36,7 +36,7 @@ La partecipazione al feedback e alla garanzia resta volontaria.
 ## 1. Dati del modulo unico
 
 Per chi sceglie di lasciare feedback possono essere raccolti:
-- nome/cognome o nickname;
+- nome e cognome;
 - identificativo tecnico interno, quando generato;
 - versione dei termini e del prodotto;
 - ruolo Player / Master / Both, quando disponibile;

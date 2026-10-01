@@ -3,7 +3,7 @@
 <!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2 e i delta V0.3.3 + V0.3.4 + V0.3.5 + V0.3.6. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Quando viene scelto un sistema, consulta anche `SYSTEM-SUPPORT.md` e mostra una sola volta il relativo box di supporto nel primo messaggio successivo. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
 
 <p align="center">
-  <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.svg" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
+  <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.png" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
 </p>
 
 **Lascia al caso i dadi, non il divertimento.**

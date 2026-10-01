@@ -470,7 +470,7 @@ This applies especially to subclasses, feats, spells, species, magic items, mons
 
 ## 11. PLAYER OWNERSHIP DURING LEVEL-UP
 
-Do not inherit the Closed Pilot's SRD 5.1 "XP by default" convention into this adapter automatically.
+Do not inherit the public SRD 5.1 vertical's "XP by default" convention into this adapter automatically.
 
 For SRD 5.2.1 play:
 - use the advancement method explicitly established by the adventure/campaign/table;

@@ -1,4 +1,4 @@
-PUBLIC STRESS TEST V0.3 — PLAYER ENTRY FLOW
+PUBLIC STRESS TEST V0.3 / V0.4 CANDIDATE — PLAYER ENTRY FLOW
 
 SCOPO  
 Portare il giocatore a un'esperienza realmente divertente il prima possibile, imparando progressivamente cosa gli piace senza trasformare il GDR in un questionario o in un corso da studiare.

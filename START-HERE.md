@@ -70,7 +70,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
-Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`: il router carica anche `RUNTIME-V0.4-CANDIDATE.md` nella branch V0.4 candidate. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
+Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`: il router carica anche `RUNTIME-V0.4-CANDIDATE.md` nel Public Stress Test corrente. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
 Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor e dei guardrail V0.3.5 su causal twist/reveal e check ecology e dei guardrail V0.3.6 su emotional dynamics.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.

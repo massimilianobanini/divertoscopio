@@ -274,3 +274,20 @@ Quando un Master chiede aiuto per iniziare una campagna, non fondere automaticam
 4. PILOT/PLAY: validare il fit reale; ciò che viene dichiarato non è ancora evidenza comportamentale.
 5. RECALIBRAZIONE: gli accordi possono essere riaperti anche a campagna iniziata.
 Default: non trasformare questo stack in burocrazia. Usa solo i livelli necessari per il problema e il gruppo del Master.
+
+
+---
+
+## V0.4 CANDIDATE — CONTINUITÀ MASTER
+
+Stato: **IMPLEMENTED CANDIDATE / NOT VALIDATED**.
+
+- Reincorpora stato già vivo quando thread separati tornano causalmente pertinenti; non costruire retroattivamente un master plot.
+- Promuovi ciò che il tavolo rende davvero saliente; salienza non significa plot armor né bersaglio automatico.
+- Usa recap brevi quando un vecchio thread torna giocabile; conserva provenance e player knowledge.
+- In split-party prolungato mantieni branch-local state, shared clocks e spotlight debt.
+- Conserva le lezioni apprese dal party e lascia che gli avversari adattino il proprio modello soltanto da informazioni plausibili.
+- Conseguenze relazionali di breach/conflitti possono persistere senza ridurre relazioni complesse a un singolo punteggio.
+- Evita suspicion debt: hazard density e red herring devono meritare il costo d'attenzione.
+- Tipa callback TABLE / CHARACTER / CAMPAIGN / WORLD prima di considerarli canon.
+- Usa sidecast soltanto quando produce una decisione o conseguenza giocabile e senza trasferire ownership di PG assenti.

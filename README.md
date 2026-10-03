@@ -178,6 +178,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md) — capacità candidate V0.4 incluse nel Public Stress Test.
 - [`V0.4-CANDIDATE.md`](V0.4-CANDIDATE.md) — stato dell'evidenza, confini e guardrail delle 10 capacità principali + 4 supplemental research-only.
 - [`testing/V0.4-CANDIDATE-GAUNTLET.md`](testing/V0.4-CANDIDATE-GAUNTLET.md) — gate statico V0.4.
+- [`testing/FIRST-USE-BLACK-BOX.md`](testing/FIRST-USE-BLACK-BOX.md) — regression suite black-box per utenti al primo utilizzo, onboarding, fallback, feedback e failure comuni.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.

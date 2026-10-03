@@ -1,16 +1,16 @@
 # Registro pubblico — Ultra-Garanzia del Prezzo Negativo
 
-**Public Stress Test V0.3**  
-Ultimo aggiornamento: **02/10/2026**  
-Termini preparati per i nuovi test: **UGPN-PUBLIC-1.0**
+**Public Stress Test V0.3 / V0.4 Candidate**  
+Ultimo aggiornamento: **03/10/2026**  
+Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**
 
-**Stato operativo: PREPARED — PENDING LIVE FORM + SCRIPT SYNC.** L’Ultra-Garanzia UGPN-PUBLIC-1.0 non è ancora ACTIVE: i nuovi test sotto questi termini iniziano soltanto dopo il superamento del final gate e l’aggiornamento di questo registro a ACTIVE.
+**Stato operativo: ACTIVE — UGPN-PUBLIC-1.0.** Il final gate backend è stato superato il 03/10/2026; i nuovi test possono maturare claim secondo i termini correnti e fino al cap previsto.
 
 Il repository GitHub è pubblico. Non serve invito o preregistrazione per provare il Divertoscopio.
 
 ## Come funziona adesso
 
-Quando il Public Stress Test sarà **ACTIVE**:
+Con il Public Stress Test **ACTIVE**:
 - chiunque può provare il Divertoscopio autonomamente;
 - il feedback è facoltativo;
 - non servono PRE-TEST, opt-in preventivi, Slot ID o Claim Form separati;
@@ -31,7 +31,7 @@ Quando il Public Stress Test sarà **ACTIVE**:
 | Payout eseguiti | €0 |
 | Claim qualificati non ancora pagati | €0 |
 | Richieste reali UGPN-PUBLIC-1.0 ricevute | 0 |
-| Stato | **PREPARED — PENDING LIVE FORM + SCRIPT SYNC** |
+| Stato | **ACTIVE — UGPN-PUBLIC-1.0** |
 
 I dry-run interni e i test tecnici non vengono conteggiati come claim reali.
 

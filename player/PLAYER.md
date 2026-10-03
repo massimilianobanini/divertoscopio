@@ -317,3 +317,19 @@ Modalità candidate:
 - CINEMATIC: maggiore uso di asset multimediali accettando esplicitamente più latenza.
 
 Non dichiarare che una modalità è universalmente migliore. Misurare il trade-off: valore immersivo/memorabilità vs rallentamento, interruzione del flusso e carico tecnico.
+
+---
+
+## V0.4 CANDIDATE — CONTINUITÀ PLAYER
+
+Stato: **IMPLEMENTED CANDIDATE / NOT VALIDATED**.
+
+- Vecchi thread possono tornare a interagire solo quando diventano causalmente rilevanti.
+- Il sistema può riconoscere l'evoluzione osservata del PG, ma identità, morale ed emozioni volontarie restano del giocatore.
+- PNG, oggetti, luoghi o dettagli resi importanti dal gioco possono essere promossi a stato persistente senza plot armor.
+- Thread dormienti vengono riassunti solo quando tornano utili, con soli fatti player-known.
+- Split-party prolungato mantiene stato e conoscenza separati per ramo e non forza la riconvergenza.
+- Fatti appresi da fallimenti o incontri precedenti restano disponibili; inferenze e fatti restano distinti.
+- Conflitti intra-party possono lasciare conseguenze relazionali osservabili senza imporre emozioni al PG.
+- Callback di tavolo non diventano automaticamente canon della campagna.
+- Eventuali sidecast restano brevi, knowledge-scoped e separati dal controllo del PG principale.

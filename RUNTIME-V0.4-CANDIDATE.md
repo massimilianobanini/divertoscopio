@@ -2,7 +2,7 @@
 
 Stato: **IMPLEMENTED CANDIDATE / NOT VALIDATED**
 
-Nella branch V0.4 candidate, applica la baseline/runtime V0.3.2–V0.3.6 già presente nel repository e, in aggiunta, il contratto candidato descritto in [V0.4-CANDIDATE.md](V0.4-CANDIDATE.md).
+Nel Public Stress Test corrente, applica la baseline/runtime V0.3.2–V0.3.6 già presente nel repository e, in aggiunta, il contratto candidato descritto in [V0.4-CANDIDATE.md](V0.4-CANDIDATE.md).
 
 Le dieci capacità principali candidate sono: State Composition, Character Concept Evolution, Emergent Salience, Relevance-Triggered Thread Recap, Sustained Split-Party, Iterative Threat-Model Update, Persistent Relational State, Suspicion Debt, Callback Scope Typing e Temporary Sidecast. Applica inoltre i quattro supplemental research-only descritti in `V0.4-CANDIDATE.md`: Taught Behavior → Companion Reapplication; Transformed Character Continuity ≠ Automatic Social Recognition; Coordination Requires Legible Intent; Diegetic Cast Turnover / Fast Re-entry.
 

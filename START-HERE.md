@@ -70,7 +70,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
-Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`, poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
+Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`: il router carica anche `RUNTIME-V0.4-CANDIDATE.md` nella branch V0.4 candidate. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
 Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor e dei guardrail V0.3.5 su causal twist/reveal e check ecology e dei guardrail V0.3.6 su emotional dynamics.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
@@ -237,6 +237,7 @@ STRUTTURA PUBBLICA SU GITHUB
 /RUNTIME-HOTFIX-V0.3.4.md — delta causal attribution + active opposition + fail-forward + prep floor  
 /RUNTIME-HOTFIX-V0.3.5.md — delta causal twist/reveal + approach-first check ecology  
 /RUNTIME-HOTFIX-V0.3.6.md — delta emotional dynamics: valued experience, earned stakes, aftermath, sacrifice/legacy  
+/RUNTIME-V0.4-CANDIDATE.md — capacità candidate V0.4: stato, continuità, salienza, recap, split-party, apprendimento, relazioni, suspicion debt, callback scope, sidecast  
 /core/CORE.md  
 /master/MASTER.md  
 /master/KIT-DI-SOPRAVVIVENZA-MASTER.pdf  
@@ -253,7 +254,7 @@ STRUTTURA PUBBLICA SU GITHUB
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
 1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2 e poi, in ordine, i delta V0.3.3, V0.3.4, V0.3.5 e V0.3.6  
+2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2, i delta V0.3.3–V0.3.6 e, nella branch candidate, `RUNTIME-V0.4-CANDIDATE.md`  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  

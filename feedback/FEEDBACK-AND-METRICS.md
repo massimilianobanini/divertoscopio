@@ -8,7 +8,7 @@ Misurare se il Divertoscopio produce realmente **divertimento**, **voglia volont
 
 **ASK ONLY WHAT CANNOT BE OBSERVED.**
 
-Per i nuovi test del Public Stress Test V0.3 / **UGPN-PUBLIC-1.0**, chi vuole lasciare feedback usa **un solo modulo dopo l’esperienza**.
+Per i nuovi test del Public Stress Test V0.3 / V0.4 Candidate / **UGPN-PUBLIC-1.0**, chi vuole lasciare feedback usa **un solo modulo user-facing**. Non duplicare prima in chat FUN, Desire to Return, Best Thing o Main Change.
 
 Non servono invito, preregistrazione, PRE-TEST, Slot ID o Pilot ID.
 
@@ -29,7 +29,7 @@ Se **SÌ**, nello stesso modulo:
 
 Vicino al campo 6 il modulo deve contenere istruzioni semplici per **condividere il link della chat ChatGPT usata** e un richiamo a controllare che non contenga dati personali/sensibili non necessari.
 
-Non inserire queste istruzioni nel normale onboarding del repository: servono soltanto a chi arriva volontariamente al modulo.
+Non inserire queste istruzioni nel normale onboarding del repository: servono soltanto a chi arriva volontariamente al modulo. Se una persona interrompe esplicitamente perché l'esperienza non funziona, è frustrante o non le piace, il Form può essere offerto una sola volta anche prima di una normale chiusura; una pausa neutra non è un failure.
 
 ## North Star
 
@@ -196,7 +196,7 @@ Fra i failure da classificare quando osservati:
 ## Versioning
 
 Versione prodotto corrente: **Public Stress Test V0.3**.  
-Runtime hardening della branch candidate: **baseline V0.3.2 + delta V0.3.3–V0.3.6 + RUNTIME-V0.4-CANDIDATE**. **Il questionario pubblico resta invariato.**  
+Runtime del Public Stress Test corrente: **baseline V0.3.2 + delta V0.3.3–V0.3.6 + RUNTIME-V0.4-CANDIDATE + V0.4-CANDIDATE**. **IMPLEMENTED ≠ VALIDATED. Il questionario pubblico resta unico.**  
 Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**.
 
 I test iniziati sotto termini precedenti restano attribuiti alla versione allora applicabile.

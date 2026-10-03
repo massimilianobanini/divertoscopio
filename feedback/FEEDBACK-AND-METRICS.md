@@ -196,7 +196,7 @@ Fra i failure da classificare quando osservati:
 ## Versioning
 
 Versione prodotto corrente: **Public Stress Test V0.3**.  
-Runtime hardening corrente: **baseline V0.3.2 + delta V0.3.3 + delta V0.3.4 + delta V0.3.5 + delta V0.3.6**.  
+Runtime hardening della branch candidate: **baseline V0.3.2 + delta V0.3.3–V0.3.6 + RUNTIME-V0.4-CANDIDATE**. **Il questionario pubblico resta invariato.**  
 Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**.
 
 I test iniziati sotto termini precedenti restano attribuiti alla versione allora applicabile.

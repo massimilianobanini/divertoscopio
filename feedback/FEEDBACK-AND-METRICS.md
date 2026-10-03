@@ -14,12 +14,12 @@ Non servono invito, preregistrazione, PRE-TEST, Slot ID o Pilot ID.
 
 Campi visibili a tutti:
 
-- nome e cognome;
+- nome e cognome; il help text deve chiedere **nome e cognome completi** e scoraggiare nickname, perché il limite economico è per persona fisica;
 1. **FUN** — Quanto ti sei divertito? 0–10;
 2. **DESIRE TO RETURN** — Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10;
 3. cosa migliore — facoltativo;
 4. cosa principale da cambiare — facoltativo;
-5. dopo averlo usato davvero, non sei soddisfatto e vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì.
+5. dopo averlo usato davvero, non sei soddisfatto e vuoi richiedere €1 con l’Ultra-Garanzia? — No / Sì. Nel help text del ramo economico deve essere esplicito che **Sì è riservato a 18+ e selezionarlo equivale a dichiarare di avere almeno 18 anni**.
 
 Se **NO**: submit e fine.
 

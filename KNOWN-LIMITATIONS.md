@@ -231,3 +231,22 @@ NON nasconderlo.
 NON svilupparlo preventivamente solo per poter dire che esiste.
 
 Dichiarare il limite, raccogliere evidenza e promuovere la capacità soltanto quando i test lo giustificano.
+
+---
+
+## V0.4 Candidate — limiti specifici
+
+Le dieci capacità V0.4 sono **implementate ma non human-validated**.
+
+Rischi aperti:
+- ricombinazione di stato troppo aggressiva può sembrare retcon;
+- salience promotion può sovra-pesare dettagli momentaneamente divertenti;
+- recap contestuale può fare knowledge leakage se la provenance è errata;
+- split-party prolungato può aumentare spotlight debt e latency;
+- threat-model update può diventare auto-ottimizzazione o onniscienza;
+- relational persistence può irrigidire dinamiche che il tavolo considera concluse;
+- suspicion-debt mitigation può appiattire paranoia/horror se applicata fuori contesto;
+- callback scope può essere classificato male;
+- sidecast può sottrarre troppo spotlight o trasferire informazioni non dovute.
+
+Questi rischi vanno verificati con actual play, correction burden, FUN e Desire to Return. **STATIC PASS ≠ VALIDATED.**

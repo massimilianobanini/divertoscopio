@@ -10,6 +10,8 @@ Il repository GitHub è pubblico. Non serve invito o preregistrazione per provar
 
 Dry-run end-to-end del 03/10/2026: **PASS** su entrambi i rami del modulo (feedback senza claim; richiesta €1 con claim creato `DA REVISIONARE` e nessun payout automatico). I dati di test sono stati poi rimossi con cleanup e il registro è tornato a 0 claim reali / capacità residua 100.
 
+First-use Form hardening del 03/10/2026: **PASS** — help identità chiarito su nome+cognome completi; ramo Sì chiarito come riservato a 18+ e come dichiarazione di maggiore età. Backend rvalidato PASS, stato rimasto ACTIVE.
+
 ## Come funziona adesso
 
 Con il Public Stress Test **ACTIVE**:

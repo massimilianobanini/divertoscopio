@@ -2,7 +2,7 @@
 
 Versione dei termini: **UGPN-PUBLIC-1.0** — applicabile ai nuovi test iniziati sotto questa versione  
 Stato: **Public Stress Test / sperimentale**  
-Data aggiornamento: **02/10/2026**
+Data aggiornamento: **03/10/2026**
 
 ## In 30 secondi
 

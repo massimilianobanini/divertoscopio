@@ -413,3 +413,13 @@ Stato generale: **IMPLEMENTED CANDIDATE / NOT VALIDATED**.
 Governor comune: **input del tavolo → conseguenza causale → stato persistente → salienza/conoscenza tipizzata → recupero quando rilevante → nuova scelta**.
 
 Guardrail: memoria ≠ spoiler; persistenza ≠ railroad; ricombinazione ≠ retcon; salienza ≠ manipolazione; character evolution ≠ character takeover; apprendimento ≠ onniscienza; split/sidecast ≠ ownership transfer.
+
+
+### Supplemental V0.4 research-only
+
+- **TAUGHT BEHAVIOR → COMPANION REAPPLICATION** — medium-high / research-only.
+- **TRANSFORMED CHARACTER CONTINUITY ≠ AUTOMATIC SOCIAL RECOGNITION** — research-only.
+- **COORDINATION REQUIRES LEGIBLE INTENT** — medium refinement candidate.
+- **DIEGETIC CAST TURNOVER / FAST RE-ENTRY** — medium / research-only.
+
+Questi elementi sono inclusi nel Public Stress Test per raccolta di evidenza, ma restano subordinati ai pattern già pubblici su Actor State, player ownership, knowledge provenance, participation continuity e multiplayer state.

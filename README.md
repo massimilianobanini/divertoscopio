@@ -100,7 +100,7 @@ La modalità multiplayer pubblica corrente è **HOSTED / SINGLE-CHAT**: una pers
 
 Questa modalità è implementata ma **l'actual play umano multiplayer resta OPEN**: pubblicazione e stress test statici non equivalgono a validazione di fun, clarity, latency o Desire to Return.
 
-Su questa branch candidate, se il repository è leggibile, l'AI usa [`START-HERE.md`](START-HERE.md) come router. Il router V0.3.x carica anche [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md), che contiene le capacità candidate aggiuntive. **IMPLEMENTED ≠ VALIDATED.**
+Nel Public Stress Test corrente, se il repository è leggibile, l'AI usa [`START-HERE.md`](START-HERE.md) come router. Il router V0.3.x carica anche [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md), che contiene le capacità candidate aggiuntive. **IMPLEMENTED ≠ VALIDATED.**
 
 Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
 

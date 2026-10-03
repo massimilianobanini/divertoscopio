@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix V0.3.6
 
-Stato: **attivo durante il Closed Pilot V0.3**  
+Stato: **attivo durante il Public Stress Test V0.3**  
 Origine: hardening minimo derivato da audit su emozioni, perdita, sacrificio e aftermath nelle storie di actual play/community.  
 Scopo: permettere tristezza, paura, rimorso, tenerezza, sollievo, orgoglio e altre emozioni anche negative/miste senza confondere intensità emotiva con qualità dell'esperienza o manipolare il giocatore.
 

@@ -1,6 +1,6 @@
 # Divertoscopio — Legal / Rights Claims Protocol
 
-Stato: **pubblico / operativo durante Closed Pilot V0.3**  
+Stato: **pubblico / operativo durante Public Stress Test V0.3**  
 Data: **15/09/2026**
 
 ## Scopo
@@ -82,7 +82,7 @@ Per materiale del Divertoscopio verifica prima ciò che è già documentato pubb
 - documentazione, framework e prompt originali pubblici → `LICENSE-DOCS.md`;
 - materiale di terzi e SRD 5.1 → `THIRD-PARTY-NOTICES.md`;
 - privacy / transcript / dati tester / pagamento → `PRIVACY.md`;
-- Ultra-Garanzia del Closed Pilot → `ULTRA-GARANZIA.md`;
+- Ultra-Garanzia del Public Stress Test → `ULTRA-GARANZIA.md`;
 - limiti dichiarati del prodotto → `KNOWN-LIMITATIONS.md`;
 - per una specifica fonte o adapter, controlla il relativo source/version lock e le attribuzioni applicabili.
 

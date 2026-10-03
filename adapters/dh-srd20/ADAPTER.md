@@ -1,4 +1,4 @@
-# System Adapter — SRD 2.0 / Closed Pilot V0.3
+# System Adapter — SRD 2.0 / Public Stress Test V0.3
 
 Questo file rende il Divertoscopio **Daggerheart™ Compatible** nel senso consentito dalla Darrington Press Community Gaming License (DPCGL). Non è materiale ufficiale, non è approvato né sponsorizzato da Darrington Press o Critical Role.
 
@@ -617,7 +617,7 @@ Master:
 
 Se l'utente specifica già il sistema, non chiederglielo di nuovo.
 
-Per feedback del Closed Pilot valgono le regole generali del repository.
+Per feedback del Public Stress Test valgono le regole generali del repository.
 
 ---
 

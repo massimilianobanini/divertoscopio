@@ -1,4 +1,4 @@
-# EXPERT CLEAN-ROOM TEST — Closed Pilot V0.3
+# EXPERT CLEAN-ROOM TEST — Public Stress Test V0.3
 
 ## Scopo
 

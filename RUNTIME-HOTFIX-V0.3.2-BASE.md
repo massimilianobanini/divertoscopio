@@ -1,7 +1,7 @@
 # Divertoscopio — Runtime Hotfix V0.3.2
 
-Stato: **attivo durante il Closed Pilot V0.3**  
-Origine: failure osservati in test PLAYER reali del Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026. Dal 15/09/2026 include anche due estensioni sperimentali bounded del Closed Pilot: **Comic Patch V0.1** e **Image-on-demand / Text-first**.  
+Stato: **attivo durante il Public Stress Test V0.3**  
+Origine: failure osservati in test PLAYER reali del precedente Closed Pilot + stress test del runtime pubblico; V0.3.2 aggiunge hardening sulla progressione/level-up dopo il re-test del Pilot 0 Ghosts of Saltmarsh del 07/09/2026. Dal 15/09/2026 include anche due estensioni sperimentali bounded introdotte durante il Closed Pilot: **Comic Patch V0.1** e **Image-on-demand / Text-first**.  
 Scopo: hardening minimo di regole già coerenti con il framework + due estensioni a basso attrito da validare durante il pilot, senza cambiare CORE, adapter o protocolli di sistema.
 
 ## Precedenza
@@ -81,7 +81,7 @@ Regole operative:
 3. **Progression audit.** Se il ruleset/campagna usa XP, milestone o altro avanzamento, verifica lo stato prima del capitolo successivo. Non assegnare automaticamente un livello solo perché “è finita un'avventura”; applica la fonte/modalità attiva. Per 5e/SRD 5.1 applica anche H6: il metodo deve essere inizializzato prima che la progressione venga prodotta, non ricostruito soltanto alla fine.
 4. **Level-up.** Se una soglia/trigger è realmente raggiunta, applica il level-up e propaga le modifiche pertinenti alla scheda/stato prima di riprendere il gioco.
 5. **Checkpoint/resume.** Offri una volta un punto di ripresa persistente o riepilogo di continuità quando utile. Non richiederlo per forza se il giocatore vuole continuare immediatamente nella stessa chat.
-6. **Closed Pilot feedback CTA.** Applica H7. Mostra il Feedback Player soltanto quando `closed_pilot_participant = YES`: https://docs.google.com/forms/d/e/1FAIpQLSc1JT6yfYhYokvZ2b1DKNeqKExl9PLGa2aMSMJGS_-XCs7ibg/viewform . Specifica che può compilarlo ora oppure dopo se vuole continuare subito. La semplice consultazione pubblica del repository NON rende una persona partecipante al Closed Pilot.
+6. **Public Stress Test feedback CTA.** Applica H7. Dopo un’unità significativa mostra una sola volta il modulo feedback facoltativo: https://docs.google.com/forms/d/e/1FAIpQLSc1JT6yfYhYokvZ2b1DKNeqKExl9PLGa2aMSMJGS_-XCs7ibg/viewform . Specifica che può compilarlo ora oppure dopo se vuole continuare subito. Non chiedere invito, preregistrazione, Slot ID o Pilot ID.
 7. **Continue / Pause.** Rendi esplicite entrambe le possibilità: continuare ora con il capitolo successivo oppure fermarsi e riprendere più avanti. Non usare cliffhanger/FOMO o pressione a continuare.
 
 Se il giocatore continua immediatamente, il feedback non deve bloccare il gioco: può compilarlo ora o dopo. Se invece la sessione/test termina, non chiudere con la sola parola `FINE` senza offrire il relativo handoff.
@@ -101,24 +101,22 @@ Quando il ruleset attivo è D&D 5e 2014 / SRD 5.1 e il giocatore entra tramite *
 
 Questa regola non aggiunge una domanda di onboarding e non implica che XP sia il metodo universale migliore: è soltanto il fallback deterministico del vertical 5e quando nessuna autorità superiore ha stabilito altro.
 
-## H7 — CLOSED PILOT PARTICIPATION STATE
+## H7 — PUBLIC STRESS TEST FEEDBACK CTA
 
-Mantieni quando pertinente un campo minimo:
-
-`closed_pilot_participant = YES | NO | UNKNOWN`
+Non esiste una lista di invitati da verificare durante il normale uso.
 
 Regole:
 
-- default: `UNKNOWN`;
-- `YES` soltanto se il contesto, l'invito o una dichiarazione esplicita permettono ragionevolmente di sapere che la persona è stata ammessa al Closed Pilot;
-- la semplice apertura, copia o uso del repository pubblico non basta per impostare `YES`;
-- non trasformare questo campo in una domanda obbligatoria di onboarding: se non è conoscibile, resta `UNKNOWN`;
-- mostra il Feedback Player/Ultra-Garanzia del Closed Pilot come percorso del test soltanto quando il valore è `YES`;
-- `UNKNOWN` non deve impedire il gioco né il normale feedback conversazionale.
+- non chiedere preregistrazione, codici, Slot ID o Pilot ID;
+- non interrompere onboarding o gioco per promuovere il feedback;
+- dopo una sessione, capitolo o altra unità significativa di gioco/lavoro, mostra una sola volta il modulo feedback facoltativo;
+- il modulo può includere il ramo Ultra-Garanzia secondo i termini correnti; il runtime non decide se un claim sarà qualificato;
+- se l’utente vuole continuare immediatamente, la CTA non deve bloccare il gioco;
+- il feedback conversazionale normale resta sempre possibile.
 
 ## H8 — DESIRE TO RETURN METRIC LOCK
 
-Nel debrief del Closed Pilot, la North Star non è “vuoi continuare adesso?”. Usa la formulazione canonica:
+Nel debrief del Public Stress Test, la North Star non è “vuoi continuare adesso?”. Usa la formulazione canonica:
 
 **“Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10.”**
 
@@ -269,7 +267,7 @@ Questo hotfix può essere consolidato dentro `player/PLAYER.md`, `core/CORE.md`,
 - a fine unità significativa, nessuna chiusura orfana: stato/ricompense e progressione vengono verificati quando pertinenti;
 - in ogni percorso PLAYER 5e l'`advancement_mode` è determinato prima che venga prodotta progressione;
 - se un level-up è dovuto, viene applicato prima della ripresa; se non è dovuto, non viene inventato;
-- un partecipante Closed Pilot con stato `YES` riceve la CTA feedback con il link corretto nel momento opportuno, mentre `NO/UNKNOWN` non vengono trattati come tester ammessi;
+- dopo un’unità significativa, ogni utente può ricevere una sola CTA feedback facoltativa con il link corretto, senza gating per invito o preregistrazione;
 - il debrief misura Desire to Return e non lo confonde con il continuare immediatamente;
 - il giocatore può scegliere chiaramente fra continuare e fermarsi senza pressione;
 - prima di ogni nuova fase rilevante di un'avventura pubblicata, nessun mismatch di livello/progressione passa inosservato quando la fonte è disponibile;

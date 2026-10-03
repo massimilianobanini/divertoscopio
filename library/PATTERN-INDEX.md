@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — PUBLIC PATTERN LIBRARY
+PUBLIC STRESS TEST V0.3 — PUBLIC PATTERN LIBRARY
 
 SCOPO  
 Questa libreria contiene pattern trasferibili e originali/riorganizzati. Non è una bibliografia né un'enciclopedia. Il motore consulta un pattern solo quando una situazione lo rende utile.
@@ -391,3 +391,35 @@ Un playstyle, cultura di tavolo o tradizione di adventure design non coincide co
 
 SOURCE / TABLE KNOWLEDGE PROVENANCE  
 “Abbiamo sempre giocato così”, sicurezza personale o insegnamento fra pari non sono prova automatica della fonte. Peer teaching e quick reference sono utili per imparare, ma quando una regola è materialmente rilevante o contestata risolvi contro sistema/edizione/fonte attiva e overlay espliciti. Distingui SOURCE / OPTIONAL / HOUSE / IMPORTED / PROVISIONAL. Assisted correct execution non dimostra da sola rule literacy; familiarità non dimostra source correctness.
+
+
+---
+
+## Q. V0.4 CANDIDATE — STATE, CONTINUITY & LEARNING
+
+Stato generale: **IMPLEMENTED CANDIDATE / NOT VALIDATED**.
+
+- **STATE COMPOSITION / CROSS-THREAD RECOMBINATION** — promotion-ready candidate.
+- **CHARACTER CONCEPT EVOLUTION / EMERGENT REAUTHORING** — promotion-ready candidate.
+- **EMERGENT SALIENCE / PROMOTION** — promotion-ready candidate.
+- **RELEVANCE-TRIGGERED THREAD RECAP** — high-priority candidate.
+- **SUSTAINED SPLIT-PARTY / PARALLEL PC ARC** — high-priority candidate.
+- **ITERATIVE THREAT-MODEL UPDATE / FAILURE → PLAN DELTA** — high-priority candidate.
+- **INTRA-PARTY BREACH → PERSISTENT RELATIONAL STATE** — high-priority candidate.
+- **SUSPICION DEBT / EXPLORATION CONFIDENCE ≠ SAFETY** — experimental refinement.
+- **CALLBACK SCOPE TYPING** — experimental refinement.
+- **TEMPORARY SIDECAST / CONSEQUENCE POV** — experimental / high-priority research candidate.
+
+Governor comune: **input del tavolo → conseguenza causale → stato persistente → salienza/conoscenza tipizzata → recupero quando rilevante → nuova scelta**.
+
+Guardrail: memoria ≠ spoiler; persistenza ≠ railroad; ricombinazione ≠ retcon; salienza ≠ manipolazione; character evolution ≠ character takeover; apprendimento ≠ onniscienza; split/sidecast ≠ ownership transfer.
+
+
+### Supplemental V0.4 research-only
+
+- **TAUGHT BEHAVIOR → COMPANION REAPPLICATION** — medium-high / research-only.
+- **TRANSFORMED CHARACTER CONTINUITY ≠ AUTOMATIC SOCIAL RECOGNITION** — research-only.
+- **COORDINATION REQUIRES LEGIBLE INTENT** — medium refinement candidate.
+- **DIEGETIC CAST TURNOVER / FAST RE-ENTRY** — medium / research-only.
+
+Questi elementi sono inclusi nel Public Stress Test per raccolta di evidenza, ma restano subordinati ai pattern già pubblici su Actor State, player ownership, knowledge provenance, participation continuity e multiplayer state.

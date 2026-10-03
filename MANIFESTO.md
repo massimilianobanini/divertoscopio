@@ -1,4 +1,4 @@
-MANIFESTO PUBBLICO — CLOSED PILOT V0.3  
+MANIFESTO PUBBLICO — PUBLIC STRESS TEST V0.3  
 # DIVERTOSCOPIO
 
 ## Lascia al caso i dadi, non il divertimento.

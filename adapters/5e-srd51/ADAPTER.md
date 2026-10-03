@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — SYSTEM ADAPTER: 5E / SRD 5.1
+PUBLIC STRESS TEST V0.3 — SYSTEM ADAPTER: 5E / SRD 5.1
 
 SCOPO  
 Collegare il Fun-First Core a un ruleset 5E basato sul System Reference Document 5.1 (SRD 5.1) senza trasformare il Core in un manuale e senza mischiare versioni o fonti.
@@ -312,7 +312,7 @@ La progressione del personaggio è stato persistente, non un dettaglio da ricord
 \- pending_level_up = YES/NO;  
 \- eventuale fonte/trigger di avanzamento attivo.
 
-DEFAULT CLOSED PILOT  
+DEFAULT PUBLIC STRESS TEST  
 Nel percorso PLAYER GIOCA SUBITO con 5E/SRD 5.1, se utente, avventura o campagna non specificano un altro metodo, usa XP come default. Non aggiungere una domanda di onboarding soltanto per questo. Se una fonte o il tavolo usa milestone/story advancement, registra quel metodo e non importare soglie XP di nascosto.
 
 SOGLIE XP SRD 5.1  
@@ -359,4 +359,4 @@ Questo adapter descrive capacità previste, non tutte già validate empiricament
 Ruleset 5E successivi/SRD 5.2.1: separazione architetturale prevista, ma NON ancora stress-testati a dovere. Non presentare parità di supporto con SRD 5.1 come fatto dimostrato.  
 Level-up/advancement, gioco di livello medio/alto, spell/feature complesse, encounter ad alta densità, multiplayer reale, VTT/map-grid e media runtime richiedono test dedicati prima di essere dichiarati robusti.
 
-La matrice di validazione viene aggiornata con i risultati del Closed Pilot V0.3. Non dichiarare robustezza oltre quanto indicato in questa sezione.
+La matrice di validazione viene aggiornata con i risultati del Public Stress Test V0.3. Non dichiarare robustezza oltre quanto indicato in questa sezione.

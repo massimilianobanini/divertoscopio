@@ -1,4 +1,4 @@
-LIMITI CONOSCIUTI — Closed Pilot V0.3
+LIMITI CONOSCIUTI — Public Stress Test V0.3
 
 IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
 
@@ -23,14 +23,14 @@ Se il tuo caso è diverso puoi comunque provarlo: consideralo un test esplorativ
 DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 
 Stato: pubblico per tester / sperimentale  
-Versione: Closed Pilot V0.3  
+Versione: Public Stress Test V0.3  
 Data: 18/09/2026
 
 SCOPO  
-Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il closed pilot deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
+Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il Public Stress Test deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
 
 1. PERIMETRO CONSIGLIATO — PLAYER  
-Il percorso Player del closed pilot è più maturo quando viene usato con:  
+Il percorso Player del Public Stress Test è più maturo quando viene usato con:  
 - D&D 5e 2014 / SRD 5.1;  
 - personaggi di livello 1;  
 - solo-player o solo/duet con compagni gestiti dall'AI;  
@@ -52,7 +52,7 @@ Il percorso Master è più maturo per:
 Non è ancora validato come copilot live avanzato che segue in tempo reale un intero tavolo umano complesso.
 
 3. D&D 2024 / SRD 5.2.1 — ADAPTER CANDIDATO, NON VALIDATO A DOVERE  
-È disponibile un adapter candidato separato in `adapters/5e-srd521/`, costruito sul current SRD 5.2.1 e su un audit interno esteso dei principali delta/meccanismi ad alto rischio. Questo riduce il rischio di contaminazione 2014→2024 ma NON equivale ancora a validazione esterna o actual play sufficiente. Il closed pilot deve evitare di presentare D&D 2024 come equivalente al supporto SRD 5.1 finché i test non lo giustificano.
+È disponibile un adapter candidato separato in `adapters/5e-srd521/`, costruito sul current SRD 5.2.1 e su un audit interno esteso dei principali delta/meccanismi ad alto rischio. Questo riduce il rischio di contaminazione 2014→2024 ma NON equivale ancora a validazione esterna o actual play sufficiente. Il Public Stress Test deve evitare di presentare D&D 2024 come equivalente al supporto SRD 5.1 finché i test non lo giustificano.
 
 4. LEVEL-UP — TEST PARZIALE  
 È stato eseguito un primo catch-up tecnico dal livello 1 al 3 durante il Pilot 0, che ha fatto emergere e correggere problemi reali su checkpoint di avanzamento, ownership delle scelte di build e metodo dei PF. Questo NON valida ancora la progressione completa: restano da stressare level-up naturali durante il gioco, più passaggi consecutivi, multiclassing reale, ASI/talenti, spellcaster complessi, continuità delle risorse e gioco prolungato dopo il level-up.
@@ -146,7 +146,7 @@ Il runtime pubblico usa **TEXT-FIRST** come principio e queste preferenze operat
 - `KEY_MOMENTS` — media nei momenti ad alto valore scelti/accettati dal giocatore;  
 - `ENHANCED_CINEMATIC` — media più frequenti, accettando maggiore latenza e interruzione del ritmo.
 
-Non è ancora stato determinato quale profilo aumenti davvero il divertimento per persone e situazioni diverse. Più asset non significa automaticamente più immersione o più divertimento: il closed pilot deve misurare il valore aggiunto rispetto al ritardo introdotto.
+Non è ancora stato determinato quale profilo aumenti davvero il divertimento per persone e situazioni diverse. Più asset non significa automaticamente più immersione o più divertimento: il Public Stress Test deve misurare il valore aggiunto rispetto al ritardo introdotto.
 
 10. IMMAGINI DURANTE LE SCENE — PATCH PUBBLICA, VALIDAZIONE ANCORA APERTA  
 Il Runtime Hotfix V0.3.2 include una modalità sperimentale **Image-on-demand / Text-first**: non aggiunge immagini al percorso Gioca Subito, mantiene il testo come source of truth e rende le immagini opt-in. Non è però ancora stato testato abbastanza se generare immagini durante il gioco:  
@@ -160,7 +160,7 @@ Il Runtime Hotfix V0.3.2 include una modalità sperimentale **Image-on-demand / 
 La musica è un ottimo strumento per un Master umano, ma non è ancora testato un sistema automatico affidabile che trovi/selezioni/cambi musica durante il gioco in chat senza creare attrito o ritardi.
 
 12. VTT / MAPPE / GRIGLIE — NON VALIDATI  
-Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma l'integrazione sincronizzata AI ↔ mappa ↔ stato ↔ combattimento non è parte validata del Closed Pilot V0.3.
+Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma l'integrazione sincronizzata AI ↔ mappa ↔ stato ↔ combattimento non è parte validata del Public Stress Test V0.3.
 
 13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON SUPPORTATI NELLA VERSIONE CORRENTE  
 La versione pubblica corrente è ottimizzata e supportata **solo su ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente.
@@ -171,7 +171,7 @@ La versione pubblica corrente è ottimizzata e supportata **solo su ChatGPT**. I
 
 Queste sono osservazioni di prodotto sul comportamento testato, non una diagnosi tecnica definitiva né una dichiarazione che Gemini o Claude non possano essere supportati in futuro.
 
-Una AI o modalità con maggiore capacità di ragionamento/contesto può comportarsi diversamente da una modalità orientata principalmente alla velocità. Il Divertoscopio non richiede come prerequisito una modalità “avanzata”, un piano specifico o istruzioni personalizzate dell'account, e il setup normale scelto spontaneamente dall'utente resta parte valida del Closed Pilot.
+Una AI o modalità con maggiore capacità di ragionamento/contesto può comportarsi diversamente da una modalità orientata principalmente alla velocità. Il Divertoscopio non richiede come prerequisito una modalità “avanzata”, un piano specifico o istruzioni personalizzate dell'account, e il setup normale scelto spontaneamente dall'utente resta parte valida del Public Stress Test.
 
 Se durante l'uso emergono errori ripetuti o forte insoddisfazione, il sistema può proporre una volta, quando disponibile, di privilegiare qualità/coerenza/ragionamento rispetto alla velocità. Questa escalation è opzionale e non cancella il failure già osservato: non attribuire retroattivamente il problema all'utente perché aveva scelto una modalità veloce/default.
 
@@ -218,11 +218,11 @@ Per dettagli scena-per-scena l'AI deve avere accesso a materiale che l'utente pu
 18. DIVERTOSCOPIO È ANCORA UN BRAND IN TEST  
 Nome, Visual Hammer, categoria e posizionamento stanno ancora attraversando test umani e stress test. Non presentare il naming come marchio registrato o definitivamente validato.
 
-19. ULTRA-GARANZIA — PILOT, NON PROVA DI PERFORMANCE  
+19. ULTRA-GARANZIA — PUBLIC STRESS TEST, NON PROVA DI PERFORMANCE  
 La presenza dell'Ultra-Garanzia e del suo simbolico indennizzo reputazionale dimostra che il progetto accetta una conseguenza economica sul fallimento dichiarato; non dimostra da sola che il prodotto aumenti il divertimento. La prova viene da uso reale, feedback, riuso, voglia di tornare a giocare, casi e iterazioni.
 
-20. UTENTI ESTERNI — È PROPRIO CIÒ CHE STIAMO PER TESTARE  
-I test interni hanno prodotto segnali utili, ma il closed pilot 10 Player + 10 Master serve precisamente a ottenere evidenza indipendente esterna. Prima del closed pilot non esiste ancora un volume sufficiente di casi terzi.
+20. UTENTI ESTERNI — È PROPRIO CIÒ CHE STIAMO TESTANDO  
+I test interni hanno prodotto segnali utili, ma non esiste ancora un volume sufficiente di casi terzi. Il Public Stress Test apre l’uso autonomo senza invito proprio per raccogliere evidenza indipendente su onboarding, fun, Desire to Return, correction burden, uso Master e failure reali.
 
 REGOLA DI COMUNICAZIONE  
 Se qualcosa non è stato validato:  
@@ -231,3 +231,22 @@ NON nasconderlo.
 NON svilupparlo preventivamente solo per poter dire che esiste.
 
 Dichiarare il limite, raccogliere evidenza e promuovere la capacità soltanto quando i test lo giustificano.
+
+---
+
+## V0.4 Candidate — limiti specifici
+
+Le dieci capacità V0.4 sono **implementate ma non human-validated**.
+
+Rischi aperti:
+- ricombinazione di stato troppo aggressiva può sembrare retcon;
+- salience promotion può sovra-pesare dettagli momentaneamente divertenti;
+- recap contestuale può fare knowledge leakage se la provenance è errata;
+- split-party prolungato può aumentare spotlight debt e latency;
+- threat-model update può diventare auto-ottimizzazione o onniscienza;
+- relational persistence può irrigidire dinamiche che il tavolo considera concluse;
+- suspicion-debt mitigation può appiattire paranoia/horror se applicata fuori contesto;
+- callback scope può essere classificato male;
+- sidecast può sottrarre troppo spotlight o trasferire informazioni non dovute.
+
+Questi rischi vanno verificati con actual play, correction burden, FUN e Desire to Return. **STATIC PASS ≠ VALIDATED.**

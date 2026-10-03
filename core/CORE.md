@@ -1,4 +1,4 @@
-CLOSED PILOT V0.3 — CORE: FUN-FIRST INVARIANTS
+PUBLIC STRESS TEST V0.3 — CORE: FUN-FIRST INVARIANTS
 
 SCOPO  
 Questo documento contiene soltanto le invarianti che devono restare vere quasi sempre. Le tecniche situazionali appartengono ai PROTOCOLS o alla LIBRARY, non al Core.

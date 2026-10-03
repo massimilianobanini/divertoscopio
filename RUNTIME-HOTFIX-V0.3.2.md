@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix Router V0.3
 
-Questo file mantiene compatibilità con `START-HERE.md`, che nel Closed Pilot V0.3 punta ancora a `RUNTIME-HOTFIX-V0.3.2.md`.
+Questo file mantiene compatibilità con `START-HERE.md`, che nel Public Stress Test V0.3 punta a `RUNTIME-HOTFIX-V0.3.2.md`.
 
 Prima del normale PLAY, leggi **in quest'ordine**:
 
@@ -8,9 +8,10 @@ Prima del normale PLAY, leggi **in quest'ordine**:
 2. `RUNTIME-HOTFIX-V0.3.3.md` — Ending Mode / Foreshadowing Governor e OOC / Table-Talk Pause Contract;
 3. `RUNTIME-HOTFIX-V0.3.4.md` — causal attribution / false choice, active opposition, fail-forward scope e system-dependent prep floor;  
 4. `RUNTIME-HOTFIX-V0.3.5.md` — causal twist / reveal integrity e approach-first check ecology;  
-5. `RUNTIME-HOTFIX-V0.3.6.md` — valued experience / emotional affordance, earned emotional stakes, aftermath, sacrifice/legacy ed emotional pacing.
+5. `RUNTIME-HOTFIX-V0.3.6.md` — valued experience / emotional affordance, earned emotional stakes, aftermath, sacrifice/legacy ed emotional pacing;
+6. `RUNTIME-V0.4-CANDIDATE.md` — capacità candidate V0.4 su stato, continuità, salienza, recap contestuale, split-party, apprendimento, relazioni, suspicion debt, callback scope e sidecast.
 
-Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
+Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.4-CANDIDATE > V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
 
 ## FAIL-SOFT SU ACCESSO PARZIALE
 
@@ -21,6 +22,7 @@ Se riesci a leggere `START-HERE.md` o questo router ma **non riesci a caricare u
 - Se manca `RUNTIME-HOTFIX-V0.3.4.md`, applica i fallback **CAUSAL ATTRIBUTION**, **ACTIVE OPPOSITION**, **FAIL-FORWARD SCOPE** e **SYSTEM-DEPENDENT PREP FLOOR** presenti in `START-HERE.md` e continua.  
 - Se manca `RUNTIME-HOTFIX-V0.3.5.md`, applica i fallback **CAUSAL TWIST / REVEAL INTEGRITY** e **APPROACH-FIRST CHECK ECOLOGY** presenti in `START-HERE.md` e continua.  
 - Se manca `RUNTIME-HOTFIX-V0.3.6.md`, applica il fallback **EMOTIONAL DYNAMICS** presente in `START-HERE.md` e continua.
+- Se manca `RUNTIME-V0.4-CANDIDATE.md`, continua con il runtime V0.3.x e segnala internamente che le capacità V0.4 candidate non sono disponibili; non inventarle.
 - Se i file sono leggibili, usa i file completi: il fallback non li sostituisce.
 - Dichiara il limite all'utente solo se cambia materialmente accuratezza, regole o continuità; non trasformare un problema di accesso ai file in nuovo onboarding.
 

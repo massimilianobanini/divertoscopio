@@ -1,6 +1,6 @@
 # Divertoscopio — Runtime Hotfix V0.3.4
 
-Stato: **attivo durante il Closed Pilot V0.3**  
+Stato: **attivo durante il Public Stress Test V0.3**  
 Origine: hardening minimo derivato da stress test e audit cross-system su agency, causalità, world-state, fail-forward e prep.  
 Scopo: impedire quattro failure ad alto impatto senza trasformare il runtime in una Library completa.
 

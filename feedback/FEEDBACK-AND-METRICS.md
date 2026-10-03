@@ -1,4 +1,4 @@
-# CLOSED PILOT V0.3 — FEEDBACK & METRICS
+# PUBLIC STRESS TEST V0.3 — FEEDBACK & METRICS
 
 ## Scopo
 
@@ -8,11 +8,13 @@ Misurare se il Divertoscopio produce realmente **divertimento**, **voglia volont
 
 **ASK ONLY WHAT CANNOT BE OBSERVED.**
 
-Per i nuovi test del Closed Pilot V0.3 / **UGPN-PILOT-1.3**, il tester usa **un solo modulo dopo l’esperienza**.
+Per i nuovi test del Public Stress Test V0.3 / **UGPN-PUBLIC-1.0**, chi vuole lasciare feedback usa **un solo modulo dopo l’esperienza**.
+
+Non servono invito, preregistrazione, PRE-TEST, Slot ID o Pilot ID.
 
 Campi visibili a tutti:
 
-- nome/cognome o nickname;
+- nome e cognome;
 1. **FUN** — Quanto ti sei divertito? 0–10;
 2. **DESIRE TO RETURN** — Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10;
 3. cosa migliore — facoltativo;
@@ -25,15 +27,17 @@ Se **SÌ**, nello stesso modulo:
 6. chat usata / prova equivalente;
 7. metodo + dato necessario al pagamento.
 
-Non usare PRE-TEST obbligatori, Feedback Master separati, Claim Form separati, Slot ID o Pilot ID esposti al tester per i nuovi test 1.3.
+Vicino al campo 6 il modulo deve contenere istruzioni semplici per **condividere il link della chat ChatGPT usata** e un richiamo a controllare che non contenga dati personali/sensibili non necessari.
+
+Non inserire queste istruzioni nel normale onboarding del repository: servono soltanto a chi arriva volontariamente al modulo.
 
 ## North Star
 
 ### 1. FUN
-Quanto ti sei divertito? `0–10`.
+Quanto ti sei divertito? 0–10.
 
 ### 2. DESIRE TO RETURN
-Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? `0–10`.
+Quanto vorresti tornare a giocare un'altra sessione perché questa esperienza ti è piaciuta? 0–10.
 
 Non usare Desire to Return per massimizzare durata compulsiva, cliffhanger artificiali o difficoltà a smettere.
 
@@ -47,7 +51,6 @@ Questi campi possono essere facoltativi: un punteggio autentico vale più di un 
 ## Metriche diagnostiche — osservare quando possibile
 
 Non trasformare automaticamente queste metriche in altre domande obbligatorie. Quando esiste un transcript o una sessione osservabile, ricavare direttamente:
-
 - libertà di scelta / agency;
 - pacing e turn latency;
 - Time to First Play;
@@ -59,17 +62,16 @@ Non trasformare automaticamente queste metriche in altre domande obbligatorie. Q
 - dice integrity / hidden fudging;
 - source fidelity;
 - continuity / resume accuracy;
-- correction burden: correzioni, reminder, rescue e hidden-GM work richiesti all’utente;
+- correction burden;
 - media/tool latency;
 - closure della sessione;
 - uso effettivo di prep/materiale per i Master.
 
-**UNKNOWN è un valore valido.** Non interrogare inutilmente il tester per riempire ogni colonna.
+**UNKNOWN è un valore valido.**
 
 ## Context fields
 
 Raccogliere automaticamente quando conoscibili senza attrito:
-
 - framework/product version;
 - data;
 - ruolo = PLAYER / MASTER / BOTH;
@@ -87,34 +89,31 @@ Non inventare dati mancanti.
 ## Master metrics
 
 Quando il test riguarda un Master umano, osservare o raccogliere solo se realmente utile:
-
 - PREP TIME ACTUAL;
 - PREP TIME COUNTERFACTUAL;
 - PREP USED / curation ratio;
 - GM friction/stress;
 - quale supporto ha fatto risparmiare lavoro;
 - quale supporto ha creato lavoro inutile;
-- **MASTER ROLE-ENTRY ENABLEMENT**: l’assistenza ha reso possibile masterare qualcosa che altrimenti non avrebbe preparato/gestito?
+- **MASTER ROLE-ENTRY ENABLEMENT**.
 
-Non creare un secondo questionario Master obbligatorio per il Closed Pilot 1.3.
+Non creare un secondo questionario Master obbligatorio.
 
 ## Provenienza dell’evidenza
 
 Ogni conclusione dovrebbe distinguere:
+- **DECLARED**;
+- **OBSERVED**;
+- **INFERRED**;
+- **CONFIDENCE**.
 
-- **DECLARED** — risposta esplicita del tester;
-- **OBSERVED** — comportamento/failure visibile nel transcript o nel test;
-- **INFERRED** — interpretazione;
-- **CONFIDENCE** — LOW / MEDIUM / HIGH o equivalente.
-
-Un utente può dichiarare di essersi divertito molto e, contemporaneamente, avere dovuto correggere spesso l’AI.
+Una persona può dichiarare di essersi divertita molto e, contemporaneamente, avere dovuto correggere spesso l’AI.
 
 **EXPERT RESCUE ≠ BASELINE PASS.**
 
 ## Correction burden
 
 Quando la chat è disponibile, contare o stimare separatamente:
-
 - correzioni di regole;
 - correzioni di stato/canon;
 - reminder di istruzioni già date;
@@ -123,40 +122,40 @@ Quando la chat è disponibile, contare o stimare separatamente:
 - reindirizzamenti verso la fonte/modulo;
 - altri interventi in cui il giocatore diventa di fatto hidden GM/debugger.
 
-## Ultra-Garanzia — UGPN-PILOT-1.3
+## Ultra-Garanzia — UGPN-PUBLIC-1.0
 
 Feedback e richiesta economica sono metriche diverse.
 
 Campi interni utili:
-
-- `claim_requested = YES / NO`;
-- `identity_match_status`;
-- `evidence_verified = YES / NO / PARTIAL`;
-- `lifetime_payout_check`;
-- `claim_qualified`;
-- `payout_status`;
-- `correction_burden` quando il transcript lo consente.
+- claim_requested = YES / NO;
+- evidence_verified = YES / NO / PARTIAL;
+- lifetime_payout_check;
+- claim_qualified;
+- qualified_claim_cap_position;
+- payout_status;
+- correction_burden quando il transcript lo consente.
 
 Interpretazione:
-
 - feedback negativo senza claim ≠ soddisfazione;
 - claim richiesto ≠ claim automaticamente qualificato;
 - claim qualificato ≠ payout automatico;
 - un dry-run interno ≠ claim reale;
 - transcript/evidenza richiesta soltanto nel ramo €1 o condivisa volontariamente per ricerca.
 
-Per UGPN-PILOT-1.3 tutti i tester ammessi al Closed Pilot sono automaticamente coperti; non esistono metriche operative di slot/pre-use per i nuovi test.
+Per UGPN-PUBLIC-1.0:
+- non serve appartenenza a una lista di invitati;
+- il feedback resta aperto;
+- l’Ultra-Garanzia ammette massimo **100 claim qualificati**;
+- richieste duplicate/incomplete/non qualificate non consumano capacità;
+- la priorità in caso di sovrapposizione al cap segue il timestamp di invio completo del modulo.
 
 ## Iteration loop
 
-`SESSION/USE → FEEDBACK → FAILURE/SUCCESS CLASSIFICATION → aggiornamento del modello Player/GM → 1–3 cambiamenti ad alto ROI → nuovo test`
-
-Non modificare dieci variabili contemporaneamente se vuoi capire cosa ha prodotto il risultato.
+SESSION/USE → FEEDBACK → FAILURE/SUCCESS CLASSIFICATION → aggiornamento del modello Player/GM → 1–3 cambiamenti ad alto ROI → nuovo test
 
 ## Failure examples
 
 Fra i failure da classificare quando osservati:
-
 - onboarding troppo lungo;
 - wrong experience match;
 - player-action takeover;
@@ -179,8 +178,6 @@ Fra i failure da classificare quando osservati:
 - repetitive loop / no state change;
 - no natural session closure.
 
-La tassonomia completa e gli stress test tecnici vivono nella documentazione interna/canonica; il modulo pubblico non deve riprodurli.
-
 ## Success examples
 
 - high agency;
@@ -198,9 +195,9 @@ La tassonomia completa e gli stress test tecnici vivono nella documentazione int
 
 ## Versioning
 
-Versione prodotto corrente: **Closed Pilot V0.3**.  
-Runtime hardening corrente: **baseline V0.3.2 + delta V0.3.3 + delta V0.3.4 + delta V0.3.5 + delta V0.3.6**.  
-Termini correnti per i nuovi test: **UGPN-PILOT-1.3**.
+Versione prodotto corrente: **Public Stress Test V0.3**.  
+Runtime hardening della branch candidate: **baseline V0.3.2 + delta V0.3.3–V0.3.6 + RUNTIME-V0.4-CANDIDATE**. **Il questionario pubblico resta invariato.**  
+Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**.
 
 I test iniziati sotto termini precedenti restano attribuiti alla versione allora applicabile.
 
@@ -208,6 +205,6 @@ I test iniziati sotto termini precedenti restano attribuiti alla versione allora
 
 Ridurre la frizione del feedback è un successo soltanto se non rende impossibile capire il risultato.
 
-Per il Closed Pilot corrente la priorità è:
+Per il Public Stress Test corrente la priorità è:
 
 **poche domande soggettive ad alto valore + osservazione tecnica dal transcript quando disponibile.**

@@ -1,32 +1,37 @@
 # Registro pubblico — Ultra-Garanzia del Prezzo Negativo
 
-**Closed Pilot V0.3**  
-Ultimo aggiornamento: **13/09/2026**  
-Termini correnti per i nuovi test: **UGPN-PILOT-1.3**
+**Public Stress Test V0.3**  
+Ultimo aggiornamento: **02/10/2026**  
+Termini preparati per i nuovi test: **UGPN-PUBLIC-1.0**
 
-Il repository GitHub è pubblico, ma l’Ultra-Garanzia di questa fase si applica soltanto alle persone ammesse al Closed Pilot.
+**Stato operativo: PREPARED — PENDING LIVE FORM + SCRIPT SYNC.** L’Ultra-Garanzia UGPN-PUBLIC-1.0 non è ancora ACTIVE: i nuovi test sotto questi termini iniziano soltanto dopo il superamento del final gate e l’aggiornamento di questo registro a ACTIVE.
+
+Il repository GitHub è pubblico. Non serve invito o preregistrazione per provare il Divertoscopio.
 
 ## Come funziona adesso
 
-Per UGPN-PILOT-1.3 tutti i tester ammessi al Closed Pilot sono automaticamente coperti. Non servono opt-in preventivo, slot o Claim Form separati.
-
-Dopo l’esperienza esiste **un solo modulo**:
+Quando il Public Stress Test sarà **ACTIVE**:
+- chiunque può provare il Divertoscopio autonomamente;
+- il feedback è facoltativo;
+- non servono PRE-TEST, opt-in preventivi, Slot ID o Claim Form separati;
 - chi vuole soltanto lasciare feedback sceglie **No** alla richiesta da €1 e conclude;
-- chi vuole richiedere €1 sceglie **Sì** e, nello stesso modulo, aggiunge evidenza dell’uso e metodo/dato di pagamento.
-
-Ogni persona fisica può ricevere al massimo **un solo payout da €1 nell’intero programma**, salvo futura apertura esplicita di un programma separato.
+- chi non è soddisfatto e vuole richiedere €1 sceglie **Sì** e, nello stesso modulo, aggiunge evidenza dell’uso e metodo/dato di pagamento;
+- l’Ultra-Garanzia ammette al massimo **100 claim qualificati** sotto UGPN-PUBLIC-1.0;
+- ogni persona fisica può ricevere al massimo **un solo payout da €1 nell’intero programma**.
 
 ## Stato economico della fase
 
 | Voce | Stato corrente |
 |---|---:|
 | Fondo nominale | €100 |
-| Tester massimi ammessi al Closed Pilot | 20 |
-| Esposizione teorica massima Closed Pilot | €20 |
+| Claim qualificati massimi — Public Stress Test | 100 |
+| Claim qualificati correnti — UGPN-PUBLIC-1.0 | 0 |
+| Capacità residua | 100 |
+| Esposizione teorica massima Public Stress Test | €100 |
 | Payout eseguiti | €0 |
 | Claim qualificati non ancora pagati | €0 |
-| Claim reali UGPN 1.3 ricevuti | 0 |
-| Stato | CLOSED PILOT — UGPN 1.3 / COPERTURA AUTOMATICA |
+| Richieste reali UGPN-PUBLIC-1.0 ricevute | 0 |
+| Stato | **PREPARED — PENDING LIVE FORM + SCRIPT SYNC** |
 
 I dry-run interni e i test tecnici non vengono conteggiati come claim reali.
 
@@ -36,24 +41,34 @@ I dry-run interni e i test tecnici non vengono conteggiati come claim reali.
 
 L’assenza di claim non viene interpretata automaticamente come soddisfazione.
 
+Non esiste un cap al numero di persone che possono provare il repository o lasciare feedback; il cap riguarda soltanto i claim qualificati della fase.
+
 ## Richieste accolte
 
-Nessuna richiesta reale accolta al momento.
+Nessuna richiesta reale accolta al momento sotto UGPN-PUBLIC-1.0.
 
 Quando arriveranno richieste valide, potranno essere registrate in forma anonima o pseudonima con informazioni come:
 
-`ID pubblico | data | Player/Master | versione | motivo sintetico | importo | stato pagamento | cosa è stato modificato`
+ID pubblico | data | Player/Master | versione | motivo sintetico | importo | stato pagamento | cosa è stato modificato
 
 Non vengono pubblicati email, destinazioni di pagamento, transcript/chat, shared-link, prove private di pagamento, chiavi anti-duplicazione o dettagli tecnici antifrode.
 
+## Cap e chiusura
+
+La fase prevede al massimo **100 claim qualificati**.
+
+Richieste duplicate, incomplete o non qualificabili non consumano capacità. Se più richieste potenzialmente qualificabili arrivano prima dell’aggiornamento che chiude il cap, la priorità segue il timestamp di invio completo del modulo.
+
+Al raggiungimento del centesimo claim qualificato:
+- lo stato viene aggiornato a **CAP REACHED / GUARANTEE CLOSED FOR NEW CLAIMS**;
+- il feedback può continuare;
+- nuovi claim economici non maturano sotto questa fase;
+- i claim già qualificati o validamente maturati prima della chiusura restano gestiti.
+
 ## Sostenibilità e pausa diagnostica
 
-Il Closed Pilot è limitato a 20 tester; con massimo €1 per persona l’esposizione teorica della fase è €20.
+Se emerge un abuso sistematico, una vulnerabilità tecnica, un problema normativo o un altro rischio materiale, il progetto può sospendere **nuovi claim futuri** e aprire una **PAUSA DIAGNOSTICA**.
 
-Se emerge un abuso sistematico, una vulnerabilità tecnica, un problema normativo o un altro rischio materiale, il progetto può sospendere **nuove ammissioni / nuovi test futuri** e aprire una **PAUSA DIAGNOSTICA**.
+Una sospensione futura non cancella retroattivamente un claim già qualificato o validamente maturato sotto i termini applicabili.
 
-Una sospensione futura non cancella retroattivamente un claim valido maturato da un tester già ammesso sotto i termini applicabili.
-
-Per una futura fase più ampia potranno essere introdotti limiti di capacità diversi, dichiarati prima dell’uso e senza applicazione retroattiva.
-
-Per le condizioni complete vedi [`ULTRA-GARANZIA.md`](ULTRA-GARANZIA.md). Per il trattamento dei dati vedi [`PRIVACY.md`](PRIVACY.md).
+Per le condizioni complete vedi ULTRA-GARANZIA.md. Per il trattamento dei dati vedi PRIVACY.md.

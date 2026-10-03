@@ -1,17 +1,19 @@
-# INFORMATIVA PRIVACY — DIVERTOSCOPIO CLOSED PILOT V0.3
+# INFORMATIVA PRIVACY — DIVERTOSCOPIO PUBLIC STRESS TEST V0.3
 
-Versione operativa: **UGPN-PILOT-1.3 / modulo unico**  
-Data aggiornamento: **13/09/2026**  
+Versione operativa: **UGPN-PUBLIC-1.0 / modulo unico**  
+Data aggiornamento: **02/10/2026**  
 Contatto privacy/progetto: **massimiliano.banini@yahoo.it**
 
 ## In breve
 
-- Per i nuovi test del Closed Pilot esiste **un solo modulo dopo l’esperienza**.
-- Puoi usare nome/cognome oppure il nickname con cui sei stato invitato.
+- Il Public Stress Test è aperto: non serve invito o preregistrazione per provare il Divertoscopio.
+- Esiste **un solo modulo facoltativo dopo l’esperienza**.
+- Il modulo richiede nome e cognome.
 - Il modulo non deve raccogliere automaticamente l’email del tuo account Google.
 - Il feedback normale richiede solo i dati minimi per capire l’esperienza.
 - Se **non** vuoi €1, non vengono richiesti evidenza della chat o dati di pagamento.
 - Se scegli **Sì, voglio €1**, nello stesso modulo vengono chiesti soltanto evidenza dell’uso e metodo/dato necessario al pagamento.
+- Le istruzioni per creare/copiare il link della chat ChatGPT devono comparire **solo nel modulo**, vicino al campo dell’evidenza.
 - Transcript, shared-link, dati di pagamento e controlli antifrode restano privati.
 - Per far rispettare la regola “un solo payout per persona”, il progetto può mantenere un indicatore anti-duplicazione minimo/pseudonimizzato.
 - Nessuna decisione di payout viene affidata esclusivamente a un processo automatizzato.
@@ -23,20 +25,21 @@ Contatto privacy e diritti: **massimiliano.banini@yahoo.it**.
 
 ## Base giuridica — sintesi
 
-- gestione del Closed Pilot, collegamento minimo delle risposte, analisi del feedback e miglioramento del prodotto: legittimo interesse, art. 6(1)(f) GDPR;
-- verifica dei requisiti UGPN e pagamento richiesto dal partecipante: esecuzione delle condizioni dell’Ultra-Garanzia su richiesta dell’interessato, art. 6(1)(b), nei limiti applicabili;
-- prevenzione di duplicazioni/abusi: legittimo interesse alla sostenibilità e sicurezza del programma, art. 6(1)(f), con controlli proporzionati;
+- gestione del Public Stress Test, analisi del feedback e miglioramento del prodotto: legittimo interesse, art. 6(1)(f) GDPR;
+- verifica dei requisiti UGPN e pagamento richiesto dall’interessato: esecuzione delle condizioni dell’Ultra-Garanzia su richiesta dell’interessato, art. 6(1)(b), nei limiti applicabili;
+- prevenzione di duplicazioni/abusi e gestione del cap dei 100 claim qualificati: legittimo interesse alla sostenibilità e sicurezza del programma, art. 6(1)(f), con controlli proporzionati;
 - eventuali obblighi legali/fiscali: art. 6(1)(c), quando applicabile;
 - eventuali aggiornamenti/marketing: consenso separato, art. 6(1)(a).
 
-La partecipazione resta volontaria.
+La partecipazione al feedback e alla garanzia resta volontaria.
 
 ## 1. Dati del modulo unico
 
-Per tutti i tester possono essere raccolti:
-- nome/cognome o nickname;
-- identificativo interno associato, quando riconosciuto;
+Per chi sceglie di lasciare feedback possono essere raccolti:
+- nome e cognome;
+- identificativo tecnico interno, quando generato;
 - versione dei termini e del prodotto;
+- ruolo Player / Master / Both, quando disponibile;
 - Fun 0–10;
 - Desire to Return 0–10;
 - “cosa migliore”;
@@ -49,27 +52,32 @@ Non inserire dati personali o sensibili non necessari, soprattutto relativi a te
 
 ## 2. Dati aggiuntivi solo se viene richiesto €1
 
-Se il tester sceglie **Sì**, nello stesso modulo vengono raccolti:
+Se la persona sceglie **Sì**, nello stesso modulo vengono raccolti:
 - link alla chat usata oppure descrizione/prova equivalente;
 - metodo e dato necessario al pagamento.
 
 Il backend può inoltre registrare:
 - Claim ID;
+- timestamp del modulo;
 - esito della verifica di uso reale;
 - controllo “un solo payout per persona”;
+- stato di capacità rispetto al cap dei 100 claim qualificati;
 - stato/data/importo del payout;
 - eventuale prova privata della transazione;
 - note minime necessarie alla gestione.
 
-Questi dati non vengono copiati nel registro pubblico.
+Questi dati non vengono copiati nel registro pubblico in forma identificativa.
 
 ## 3. Evidenza chat / transcript
 
 La forma preferita è una chat dedicata al test.
 
+Il modulo deve spiegare, in modo semplice, come creare e copiare un link condiviso della chat ChatGPT. Queste istruzioni non sono necessarie nel normale onboarding del repository.
+
 Se la piattaforma non consente un link condivisibile, possono essere usati export, copia testuale/PDF o altra prova equivalente.
 
 Prima della condivisione:
+- controlla ciò che stai condividendo;
 - rimuovi/oscuri contenuti estranei;
 - evita categorie particolari di dati;
 - evita dati personali non necessari;
@@ -83,11 +91,11 @@ L’evidenza può essere usata per:
 
 ## 4. Identità e anti-duplicazione
 
-Il modulo non chiede al tester di conoscere Pilot ID, Slot ID o Claim ID.
+Non esiste più un requisito di appartenenza a una lista di invitati per UGPN-PUBLIC-1.0.
 
-Il sistema prova a collegare il nome/nickname al registro interno. Se non riesce, la richiesta viene messa in revisione umana senza chiedere automaticamente un secondo modulo.
+Il modulo non chiede di conoscere Pilot ID, Slot ID o Claim ID.
 
-Per applicare la regola **un solo pagamento per persona nell’intero programma**, il progetto può confrontare in modo proporzionato informazioni già disponibili nel pilot/claim/pagamento.
+Per applicare la regola **un solo pagamento per persona nell’intero programma**, il progetto può confrontare in modo proporzionato informazioni già disponibili nel claim/pagamento e, quando pertinente, record storici di payout.
 
 Non viene richiesta identificazione invasiva a tutti per default. In caso di anomalie concrete può essere richiesta la minima verifica supplementare necessaria.
 
@@ -99,9 +107,11 @@ Il progetto può pubblicare soltanto dati aggregati o privacy-safe, ad esempio:
 - fondo nominale;
 - payout eseguiti;
 - claim qualificati non ancora pagati;
-- tester massimi coperti nella fase;
+- claim qualificati totali della fase;
+- capacità residua rispetto al cap di 100;
 - esposizione economica teorica;
-- numero di claim reali;
+- numero di richieste reali;
+- stato ACTIVE / PAUSA DIAGNOSTICA / CAP REACHED;
 - casi anonimi/pseudonimi dopo controllo privacy.
 
 Non vengono pubblicati transcript/chat, shared-link, email, destinazioni di pagamento, prove private o dettagli tecnici antifrode.
@@ -109,18 +119,19 @@ Non vengono pubblicati transcript/chat, shared-link, email, destinazioni di paga
 ## 6. Finalità
 
 I dati vengono usati per:
-- gestire il Closed Pilot;
+- gestire il Public Stress Test;
 - misurare Fun, Desire to Return e frizioni;
 - migliorare Divertoscopio, Kit, protocolli e onboarding;
 - distinguere DECLARED / OBSERVED / INFERRED;
 - verificare uso reale quando viene richiesto €1;
 - prevenire duplicazioni/abusi;
+- applicare il cap dei 100 claim qualificati;
 - eseguire eventuali payout;
 - produrre statistiche aggregate privacy-safe.
 
 ## 7. Conservazione
 
-Policy operativa del Closed Pilot:
+Policy operativa del Public Stress Test:
 - feedback identificati: fino a 24 mesi, salvo anonimizzazione/cancellazione anticipata o necessità documentata di ricerca/versioning;
 - transcript/evidenza: fino a 24 mesi solo quando ancora necessari per verifica, diagnosi o versioning; quando basta una sintesi/estratto, minimizzare o eliminare prima il materiale integrale;
 - record claim/payout: per il tempo necessario alla gestione e agli eventuali obblighi applicabili;
@@ -131,9 +142,9 @@ Se l’evidenza è fornita tramite link condiviso, il partecipante può revocarl
 
 ## 8. Accesso e sicurezza
 
-Database di feedback, claim/payout, recruiting ed evidenze sono interni e non devono essere pubblicati su GitHub.
+Database di feedback, claim/payout ed evidenze sono interni e non devono essere pubblicati su GitHub.
 
-L’accesso è limitato a chi gestisce il pilot.
+L’accesso è limitato a chi gestisce il programma.
 
 Le notifiche operative via email non devono contenere transcript integrali o dati di pagamento non necessari.
 
@@ -159,16 +170,14 @@ Le decisioni di qualificazione/pagamento vengono revisionate da una persona.
 
 ## 12. Accountability e riesame
 
-Il titolare mantiene internamente un Legitimate Interest Assessment (LIA).
+UGPN-PUBLIC-1.0 mantiene il principio di minima frizione del precedente pilot:
+- nessun PRE-TEST obbligatorio;
+- nessun opt-in economico pre-use;
+- nessun invito o slot visibile da attivare;
+- nessun Claim Form separato;
+- un solo modulo con branching;
+- dati economici richiesti soltanto a chi chiede davvero €1.
 
-UGPN-PILOT-1.3 riduce la frizione e la raccolta rispetto alla precedente architettura 1.2:
-- elimina PRE-TEST obbligatorio;
-- elimina opt-in economico pre-use;
-- elimina slot visibili/da attivare;
-- elimina Claim Form separato;
-- mantiene un solo modulo con branching;
-- limita i dati economici ai soli tester che chiedono davvero €1.
-
-Il LIA e questa informativa devono essere riesaminati prima di una Public Alpha o se aumentano significativamente scala, categorie di dati, fornitori o intensità dei controlli antifrode.
+L’apertura da Closed Pilot a Public Stress Test aumenta la scala potenziale e rimuove la verifica preventiva di ammissione. Il LIA, l’informativa, le misure antifrode e la gestione dei pagamenti devono essere riesaminati se aumentano significativamente scala, categorie di dati, fornitori o intensità dei controlli.
 
 Questa informativa non costituisce un parere legale.

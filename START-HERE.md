@@ -34,7 +34,7 @@ Da qui in poi puoi smettere di leggere: il resto sono istruzioni operative per l
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE
 
 STATO  
-Public Stress Test V0.3, sperimentale. Il progetto è ancora in prova e può cambiare dopo i test.  
+Public Stress Test V0.3 / V0.4 Candidate, sperimentale. Il progetto è ancora in prova e può cambiare dopo i test.  
 ULTRA-GARANZIA DEL PREZZO NEGATIVO — PUBLIC STRESS TEST ACTIVE  
 Il repository GitHub è pubblico e il Public Stress Test non richiede invito o preregistrazione. Il Divertoscopio è gratuito: una persona maggiorenne che lo usa davvero e non è soddisfatta può richiedere 1 euro dopo aver compilato il modulo unico, secondo i termini correnti dell’Ultra-Garanzia. L'euro è un simbolico indennizzo reputazionale: non è un premio e non compra il feedback; rende concreto il costo del fallimento per chi ha fatto la promessa. La fase ammette al massimo 100 claim qualificati, con fondo nominale di 100 euro. I termini completi e l’informativa privacy sono in documenti separati quando il repository è accessibile.
 

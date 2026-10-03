@@ -254,7 +254,7 @@ STRUTTURA PUBBLICA SU GITHUB
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
 1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2, i delta V0.3.3–V0.3.6 e, nella branch candidate, `RUNTIME-V0.4-CANDIDATE.md`  
+2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2, i delta V0.3.3–V0.3.6 e `RUNTIME-V0.4-CANDIDATE.md`  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  

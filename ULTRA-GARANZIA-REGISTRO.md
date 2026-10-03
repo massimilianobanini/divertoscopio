@@ -8,6 +8,8 @@ Termini correnti per i nuovi test: **UGPN-PUBLIC-1.0**
 
 Il repository GitHub è pubblico. Non serve invito o preregistrazione per provare il Divertoscopio.
 
+Dry-run end-to-end del 03/10/2026: **PASS** su entrambi i rami del modulo (feedback senza claim; richiesta €1 con claim creato `DA REVISIONARE` e nessun payout automatico). I dati di test sono stati poi rimossi con cleanup e il registro è tornato a 0 claim reali / capacità residua 100.
+
 ## Come funziona adesso
 
 Con il Public Stress Test **ACTIVE**:

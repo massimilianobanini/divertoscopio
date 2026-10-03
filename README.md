@@ -175,6 +175,9 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`RUNTIME-HOTFIX-V0.3.4.md`](RUNTIME-HOTFIX-V0.3.4.md) — delta causal attribution / false choice + active opposition + fail-forward scope + system-dependent prep floor.
 - [`RUNTIME-HOTFIX-V0.3.5.md`](RUNTIME-HOTFIX-V0.3.5.md) — delta causal twist / reveal integrity + approach-first check ecology.
 - [`RUNTIME-HOTFIX-V0.3.6.md`](RUNTIME-HOTFIX-V0.3.6.md) — delta emotional dynamics: valued experience, earned stakes, aftermath, sacrifice/legacy e recovery.
+- [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md) — capacità candidate V0.4 incluse nel Public Stress Test.
+- [`V0.4-CANDIDATE.md`](V0.4-CANDIDATE.md) — stato dell'evidenza, confini e guardrail delle 10 capacità.
+- [`testing/V0.4-CANDIDATE-GAUNTLET.md`](testing/V0.4-CANDIDATE-GAUNTLET.md) — gate statico V0.4.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.

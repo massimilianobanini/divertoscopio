@@ -55,7 +55,7 @@ Dopo l’esperienza la persona può compilare un solo modulo:
 
 Se sceglie **NO**, il modulo termina.
 
-Se sceglie **SÌ**, nello stesso modulo compaiono soltanto:
+Se sceglie **SÌ**, la persona dichiara anche di avere almeno 18 anni; nello stesso modulo compaiono soltanto:
 6. evidenza della chat usata o prova equivalente;
 7. metodo/dato necessario al pagamento.
 

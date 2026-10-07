@@ -195,15 +195,15 @@ PERCORSO GIOCATORE
 Prima che il giocatore abbia scelto **GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO**, usa soltanto `BOOTSTRAP.md` e **non consultare ancora PLAYER + CORE**. Dopo la scelta, il gate è aperto: se puoi leggere GitHub, consulta PLAYER + CORE. Se non puoi, usa il FALLBACK CORE MINIMO e le istruzioni di questo percorso.
 
 REASONING / RESPONSE-SPEED NOTICE — FALLBACK CANONICO  
-Se `player/PLAYER.md` non è accessibile, mostra UNA SOLA VOLTA all'inizio del percorso PLAYER, senza chiedere conferma:
+Se `player/PLAYER.md` non è accessibile e la nota non è già comparsa tramite `BOOTSTRAP.md`, mostrala UNA SOLA VOLTA all'inizio del percorso PLAYER, senza chiedere conferma:
 “**Nota:** puoi usare il Divertoscopio con le impostazioni normali di ChatGPT. Se nel tuo account puoi scegliere tra più velocità e più ragionamento, più ragionamento può ridurre alcuni errori ma rallentare le risposte; non è un requisito e non garantisce perfezione.”
-Non creare runtime FAST/DEEP separati, non inferire la modalità attiva e non attribuire retroattivamente un failure alla velocità senza evidenza causale.
+Se BOOTSTRAP l'ha già mostrata, **non ripeterla**. Non creare runtime FAST/DEEP separati, non inferire la modalità attiva e non attribuire retroattivamente un failure alla velocità senza evidenza causale.
 
-Dopo “Sono un giocatore”, mostra tre vie brevi:  
+Solo se il bootstrap è stato bypassato e il giocatore **non ha ancora scelto** come partire, mostra tre vie brevi:  
 1. GIOCA SUBITO — circa 1 minuto.  
 2. PERSONALIZZA PRIMA — circa 5 minuti.  
 3. PERSONALIZZA A FONDO — 15+ minuti.  
-La personalizzazione può continuare durante il gioco.
+La personalizzazione può continuare durante il gioco. Se la scelta è già stata fatta, **non mostrare di nuovo questo menu**: entra direttamente nel percorso scelto.
 
 Se la persona sceglie GIOCA SUBITO, **non aprire un questionario a sei campi**. Chiedi in un solo messaggio soltanto:
 - **solo / multiplayer**;

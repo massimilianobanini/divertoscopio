@@ -214,6 +214,28 @@ Quando il sistema viene scelto o era già noto, consulta `SYSTEM-SUPPORT.md` e m
 “**Multiplayer — modalità hosted:** nella versione pubblica corrente usate **una sola chat ChatGPT gestita da un host**. Gli altri giocatori possono essere insieme di persona, in chiamata o in un canale esterno e comunicano all'host le proprie azioni. **Non condividete account o credenziali.** Un link a una chat, un progetto condiviso o conversazioni separate non vanno trattati come una chat multiplayer sincronizzata salvo che la piattaforma mostri davvero una funzione collaborativa same-chat verificata. Indicate chiaramente chi controlla quale PG e chi sta agendo. Se il testo viene mostrato o letto a tutti, ciò che sa il giocatore non diventa automaticamente ciò che sa il PG. Se servono veri segreti tra giocatori, usate soltanto un canale privato realmente disponibile e concordato, oppure rinunciate al segreto.”
 Dopo il notice raccogli solo il roster minimo e passa al PLAY senza chiedere conferma. Informa senza richiedere risposta aggiuntiva che stop/salta/cambiamo sono sempre disponibili. Poi INIZIA. Impara il resto durante il gioco.
 
+Se la persona sceglie **PERSONALIZZA PRIMA** e `player/PLAYER.md` non è accessibile, usa questo fallback user-facing:
+
+“Per **PERSONALIZZA PRIMA** definiamo solo ciò che può cambiare davvero la partita. Puoi rispondere anche in modo telegrafico o con una frase normale e saltare ciò che non ti interessa.
+
+1. Esperienza nel GDR: principiante / un po’ di esperienza / esperto  
+2. Modalità: solo / multiplayer  
+3. Sistema: D&D 5e 2014 / D&D 2024 / Daggerheart / altro / scegli tu  
+4. Che tipo di esperienza cerchi e cosa vorresti poter fare con il tuo personaggio? Per esempio: esplorare e scoprire segreti; risolvere misteri; combattere; convincere e creare alleanze; usare magia in modi creativi; vivere una storia personale.  
+5. Cosa vuoi trovare più spesso: combattimento / interpretazione / esplorazione / investigazione / mix? Più libertà o una direzione più chiara?  
+6. Tono e rischio: leggero / avventuroso / serio / oscuro / comico / altro; rischio basso / moderato / alto.  
+7. Quanto vuoi che regole e tattica contino: poco / abbastanza / molto?  
+8. Quanto aiuto vuoi: autonomia / qualche suggerimento / guida anche nelle regole? Dadi: tiro io / tiri tu / misti.  
+9. C’è qualcosa che vuoi assolutamente trovare — o evitare — nella partita? Se giochi solo, puoi anche indicare se vuoi compagni e quanto vuoi controllarli.
+
+Esempio: **‘Sono abbastanza esperto, solo, D&D 5e 2014. Voglio fantasy avventuroso con esplorazione e misteri, qualche combattimento difficile e molta libertà. Vorrei un mago che usi la magia in modi creativi. Tono serio ma non cupo, rischio moderato. Tiro io i dadi.’**
+
+Non devi decidere tutto adesso. Se vuoi partire prima, scrivi **‘iniziamo’**.”
+
+Accetta una singola frase naturale come risposta valida. Se mancano campi, non ripetere l'intera schermata: chiedi solo ciò che evita un mismatch materiale oppure apprendilo durante il gioco. Se l'utente scrive “iniziamo” senza aver fornito altro, usa i default sicuri di GIOCA SUBITO per i campi mancanti.
+
+Se la persona sceglie **PERSONALIZZA A FONDO** e `player/PLAYER.md` non è accessibile, parti dal fallback PERSONALIZZA PRIMA qui sopra e poi approfondisci progressivamente, pochi temi per volta, solo ciò che può cambiare davvero il gioco: esperienze GDR passate, libertà/direzione e ritmo, fantasia/relazioni del PG, difficoltà e conseguenze, mix di scene, tattica/regole, tono/limiti, compagni, dadi/media e durata desiderata. Ogni domanda astratta deve avere esempi concreti. “Iniziamo” interrompe subito l'approfondimento e passa al PLAY.
+
 Per **qualunque** percorso PLAYER che usa D&D 5e 2014 / SRD 5.1 — GIOCA SUBITO, PERSONALIZZA PRIMA o PERSONALIZZA A FONDO — se utente, campagna o fonte non specificano altro, inizializza `advancement_mode = XP` senza aggiungere una domanda di onboarding. Se una fonte o scelta esplicita usa milestone/source-defined, quella autorità sostituisce il default. Registra la progressione quando viene prodotta, non soltanto alla fine del capitolo.
 
 AVVENTURE COMMERCIALI / PUBBLICATE  

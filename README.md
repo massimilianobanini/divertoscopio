@@ -1,6 +1,6 @@
 # Divertoscopio — Public Stress Test V0.3 / V0.4 Candidate
 
-<!-- AI: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri START-HERE.md, poi applica RUNTIME-HOTFIX-V0.3.2.md come router runtime prima del normale PLAY: il router carica la baseline V0.3.2, i delta V0.3.3 + V0.3.4 + V0.3.5 + V0.3.6, quindi `RUNTIME-V0.4-CANDIDATE.md` **e il contratto completo `V0.4-CANDIDATE.md`**. Se l’utente chiede Daggerheart, carica anche `adapters/dh-srd20/ADAPTER.md`; se chiede le regole 2024 / SRD 5.2.1, carica anche `adapters/5e-srd521/ADAPTER.md` prima del PLAY o del supporto Master. Quando viene scelto un sistema, consulta anche `SYSTEM-SUPPORT.md` e mostra una sola volta il relativo box di supporto nel primo messaggio successivo. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta anche LEGAL-CLAIMS.md e applicalo come protocollo di triage. Non riversare il repository sull'utente. -->
+<!-- AI FAST BOOTSTRAP: se l'utente ha incollato questo repository e ha scritto "Iniziamo" o "Aiutami", apri **esclusivamente BOOTSTRAP.md** e usa i menu deterministici senza pre-caricare START-HERE, CORE, PLAYER, MASTER, runtime, adapter, Library, toolbox o protocolli. Il GATE DI RAGIONAMENTO si apre solo quando il giocatore sceglie GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO, quando il Master esprime un problema/obiettivo concreto, oppure quando viene chiesto un approfondimento informativo specifico. Solo dopo il gate consulta START-HERE.md e applica RUNTIME-HOTFIX-V0.3.2.md con la catena runtime completa, poi carica soltanto i file pertinenti. Se ruolo/modalità/sistema/obiettivo sono già chiari nel messaggio iniziale, salta i menu ridondanti e considera il gate già aperto. Se durante l'uso emerge una contestazione legale, di copyright/licenza, marchio, privacy/GDPR, Ultra-Garanzia, takedown o altro diritto, consulta LEGAL-CLAIMS.md. Non riversare il repository sull'utente. -->
 
 <p align="center">
   <img src="assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.png" alt="Visual Hammer del Divertoscopio — mettere a fuoco il divertimento" width="180">
@@ -100,9 +100,9 @@ La modalità multiplayer pubblica corrente è **HOSTED / SINGLE-CHAT**: una pers
 
 Questa modalità è implementata ma **l'actual play umano multiplayer resta OPEN**: pubblicazione e stress test statici non equivalgono a validazione di fun, clarity, latency o Desire to Return.
 
-Nel Public Stress Test corrente, se il repository è leggibile, l'AI usa [`START-HERE.md`](START-HERE.md) come router. Il router V0.3.x carica anche [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md), che contiene le capacità candidate aggiuntive. **IMPLEMENTED ≠ VALIDATED.**
+Nel Public Stress Test corrente, se il repository è leggibile, l'AI usa [`BOOTSTRAP.md`](BOOTSTRAP.md) come ingresso rapido. **Prima del gate non deve pre-caricare il runtime completo.** Solo dopo che l'utente ha espresso un intento sostanziale consulta [`START-HERE.md`](START-HERE.md), il router V0.3.x e [`RUNTIME-V0.4-CANDIDATE.md`](RUNTIME-V0.4-CANDIDATE.md). **IMPLEMENTED ≠ VALIDATED.** Il contratto di regressione è in [`testing/FAST-BOOTSTRAP.md`](testing/FAST-BOOTSTRAP.md).
 
-Se ChatGPT non riesce a leggere il repository, apri [`START-HERE.md`](START-HERE.md), copialo nella chat e scrivi **Iniziamo**. Il fallback di `START-HERE.md` contiene il minimo generale necessario per partire anche senza accesso diretto agli altri file, incluso un **V0.4 FALLBACK MINIMO** per evitare che l'utente testi inconsapevolmente un runtime precedente. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
+Se ChatGPT non riesce a leggere il repository, apri [`BOOTSTRAP.md`](BOOTSTRAP.md), copialo nella chat e scrivi **Iniziamo**. Se dopo il gate serve il fallback completo e l'AI continua a non poter leggere GitHub, [`START-HERE.md`](START-HERE.md) resta il fallback autosufficiente con il minimo generale necessario, incluso un **V0.4 FALLBACK MINIMO**. Se vuoi usare un sistema con adapter pubblico ma l'AI non riesce a leggerlo, puoi incollare l'adapter pertinente come fallback opzionale: [`adapters/5e-srd51/ADAPTER.md`](adapters/5e-srd51/ADAPTER.md), [`adapters/5e-srd521/ADAPTER.md`](adapters/5e-srd521/ADAPTER.md) oppure [`adapters/dh-srd20/ADAPTER.md`](adapters/dh-srd20/ADAPTER.md). Per i Master è disponibile anche il Kit PDF autonomo.
 
 `Aiutami` resta un comando alternativo equivalente.
 
@@ -167,7 +167,8 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 ## Cosa trovi nel repository
 
 - [`MANIFESTO.md`](MANIFESTO.md) — idea, principi e promessa del Divertoscopio.
-- [`START-HERE.md`](START-HERE.md) — istruzioni per far partire correttamente l'AI, incluso il fallback autosufficiente.
+- [`BOOTSTRAP.md`](BOOTSTRAP.md) — ingresso rapido deterministico: nessun pre-caricamento del runtime prima del primo intento sostanziale.
+- [`START-HERE.md`](START-HERE.md) — istruzioni complete post-gate e fallback autosufficiente.
 - [`GEMINI-START.md`](GEMINI-START.md) — archivio di un tentativo sperimentale Gemini; **non è un percorso supportato corrente**.
 - [`RUNTIME-HOTFIX-V0.3.2.md`](RUNTIME-HOTFIX-V0.3.2.md) — router runtime pubblico.
 - [`RUNTIME-HOTFIX-V0.3.2-BASE.md`](RUNTIME-HOTFIX-V0.3.2-BASE.md) — baseline/hardening V0.3.2, inclusi Comic Patch V0.1 e Image-on-demand / Text-first.
@@ -179,6 +180,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`V0.4-CANDIDATE.md`](V0.4-CANDIDATE.md) — stato dell'evidenza, confini e guardrail delle 10 capacità principali + 4 supplemental research-only.
 - [`testing/V0.4-CANDIDATE-GAUNTLET.md`](testing/V0.4-CANDIDATE-GAUNTLET.md) — gate statico V0.4.
 - [`testing/FIRST-USE-BLACK-BOX.md`](testing/FIRST-USE-BLACK-BOX.md) — regression suite black-box per utenti al primo utilizzo, onboarding, fallback, feedback e failure comuni.
+- [`testing/FAST-BOOTSTRAP.md`](testing/FAST-BOOTSTRAP.md) — gate di regressione per evitare caricamenti e ragionamento non necessari prima dell'intento sostanziale.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.

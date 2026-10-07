@@ -155,3 +155,34 @@ Ripetere il clean-room live almeno su:
 4. se utile, una configurazione di ragionamento diversa per separare bootstrap strutturale e latenza di piattaforma.
 
 **1 LIVE PASS ≠ VALIDAZIONE GENERALE.**
+
+## Post-UX first-impression stress — 2026-10-07
+
+Scope: regression/static-synthetic pass dopo PR #32 (`Make first-use information concrete and jargon-free`). Questo pass verifica che il nuovo “In 30 secondi”, gli esempi Master e il linguaggio semplificato non rompano fast bootstrap, routing o catena runtime.
+
+### Risultato
+
+**72/72 PASS**
+
+Breakdown:
+- **49/49** controlli di coerenza e routing su README, BOOTSTRAP, START-HERE, PLAYER, MASTER, FAST-BOOTSTRAP, FIRST-USE e risultato live;
+- **15/15** file critici post-gate accessibili su `main` (runtime V0.3.2–V0.3.6, V0.4 candidate, CORE, SYSTEM-SUPPORT, adapter 5E 2014/2024, Daggerheart e Library Master);
+- **8/8** controlli router: baseline + delta V0.3.3/0.3.4/0.3.5/0.3.6 + V0.4 referenziati correttamente, con zero-preload e BOOTSTRAP-only prima del gate.
+
+### Casi critici verificati
+
+- README: posizionamento Ultra-Garanzia resta prima di “In 30 secondi”;
+- README: “In 30 secondi” distingue PLAYER e MASTER con esempi pratici e senza gergo tecnico come agency/payoff/friction/framework;
+- MASTER pre-gate: mostra esempi concreti ma non apre il gate finché l'utente non esprime un problema/obiettivo;
+- PLAYER pre-gate: menu e nota velocità/ragionamento invariati;
+- GIOCA SUBITO: restano canonici solo/multiplayer spiegati, esempi *fantasy avventuroso / dark fantasy / comico-demenziale / horror investigativo*, “scegli tutto tu” e passaggio al gioco reale senza questionario aggiuntivo;
+- INFORMAZIONI: posizionamento + Battlecry + “In 30 secondi” + tre CTA; nessun preload di MANIFESTO;
+- START-HERE fallback: riproduce la stessa struttura quando BOOTSTRAP non è disponibile;
+- catena post-gate: START-HERE → router V0.3.2 → baseline/delta V0.3.x → V0.4 → CORE → PLAYER/MASTER → adapter/toolbox pertinenti.
+
+### Esito
+
+**PASS — nessuna regressione trovata, nessun fix aggiuntivo necessario.**
+
+Limite epistemico: questo è uno stress test statico/sintetico della struttura pubblica e dei contratti di routing. Non sostituisce un nuovo clean-room umano in una chat separata né un actual play lungo. Il live PLAYER già registrato resta l'evidenza empirica di Time to First Play < 2 minuti per un singolo run.
+

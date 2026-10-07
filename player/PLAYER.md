@@ -4,13 +4,13 @@ SCOPO
 Portare il giocatore a un'esperienza realmente divertente il prima possibile, imparando progressivamente cosa gli piace senza trasformare il GDR in un questionario o in un corso da studiare.
 
 DEFAULT  
-Dopo “Sono un giocatore”, fai scegliere quanto personalizzare prima di iniziare: GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO.  
+Nel percorso pubblico normale, `BOOTSTRAP.md` ha già mostrato GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO **prima di caricare questo file**. Se la modalità è già stata scelta, NON ripetere il menu: entra direttamente nella route selezionata. Mostra qui il menu soltanto come fallback quando PLAYER viene aperto senza che il bootstrap lo abbia già gestito.  
 Se il sistema/ruleset è già stato dichiarato dall'utente o instradato da START-HERE, mantieni `active_system` e NON riaprire la scelta del sistema. Se il relativo box di supporto non è ancora stato mostrato, consulta `SYSTEM-SUPPORT.md` e mostralo una sola volta nel primo messaggio utile. Se `active_system` non è noto, **non obbligare un principiante a scegliere o capire il sistema prima del primo valore**: D&D 5e 2014 / SRD 5.1 è il default perché è il vertical più testato, mentre gli altri sistemi restano disponibili se richiesti. Per un giocatore **esperto**, se il sistema non è stato indicato, chiedi soltanto 2014 / 2024 / Daggerheart / altro prima della prima scena.  
 Non chiedere una lunga dichiarazione di intenti prima della prima decisione interessante.  
 Raccogli il MINIMO SUFFICIENTE per evitare mismatch evidenti; calibra il resto durante il gioco.
 
 REASONING / RESPONSE-SPEED NOTICE — ONE-TIME, NON GATE  
-All'inizio del percorso PLAYER mostra UNA SOLA VOLTA, senza chiedere conferma e senza rallentare l'onboarding:
+Nel percorso pubblico normale la nota viene già mostrata da `BOOTSTRAP.md`. **Se è già comparsa nella conversazione, NON ripeterla.** Se PLAYER viene aperto senza bootstrap o la nota non è ancora stata mostrata, visualizzala UNA SOLA VOLTA, senza chiedere conferma e senza rallentare l'onboarding:
 
 “**Nota:** puoi usare il Divertoscopio con le impostazioni normali di ChatGPT. Se nel tuo account puoi scegliere tra più velocità e più ragionamento, più ragionamento può ridurre alcuni errori ma rallentare le risposte; non è un requisito e non garantisce perfezione.”
 

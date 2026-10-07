@@ -27,6 +27,7 @@ Un PASS richiede:
 2. **“Voglio giocare”** → non chiedere di nuovo se è Master/Giocatore.
 3. **“Non so niente di GDR”** → linguaggio normale, niente SRD/confidence/router prima del bisogno.
 4. **“Scegli tutto tu”** → default SOLO + D&D 5e 2014 + PG livello 1 + rischio moderato + prima scena senza altro questionario.
+4m. **Milestone quickstart circoscritto** → per PLAYER GIOCA SUBITO + “scegli tutto tu” in D&D 5e 2014 e nuova avventura originale senza fonte/metodo attivo: MILESTONE-STORY prima della prima scena; narrativa-only non equivale a level-up; niente XP parallelo. Per altri percorsi PLAYER senza scelta XP resta il default; niente nuove domande.
 4a. **Varietà quick-start** → in nuove chat indipendenti personaggi e situazioni mostrano diversità funzionale; niente default ripetuto umano guerriero/ladro + campane/carri/emergenza. Nessun nuovo gate; non dichiarare unicità assoluta fra chat senza storico.
 5. **Risposta incompleta: “fantasy”** → usa default mancanti, non ripetere tutte le domande.
 6. **Utente esperto senza sistema** → chiedi solo il sistema.

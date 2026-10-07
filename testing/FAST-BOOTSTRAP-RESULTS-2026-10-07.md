@@ -1,7 +1,7 @@
 # Fast Bootstrap + Public Runtime — Static Stress Result
 
 Data: **2026-10-07**  
-Stato: **STATIC PASS / LIVE CLEAN-ROOM PENDING**
+Stato: **STATIC PASS / LIVE PLAYER BOOTSTRAP PASS — 1 RUN**
 
 ## Scopo
 
@@ -118,27 +118,40 @@ Gate:
 
 Dopo il gate resta invariata la catena completa del Divertoscopio.
 
+## Live clean-room PLAYER — 2026-10-07
+
+Percorso osservato: repository pubblico + `Iniziamo` → GIOCATORE → GIOCA SUBITO → `scegli tu` → prima scena D&D 5e 2014.
+
+Tempi riportati dal tester:
+- `Iniziamo` → Master / Giocatore / Informazioni: **28 s**;
+- GIOCATORE → GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO: **<3 s**;
+- GIOCA SUBITO → richiesta delle informazioni minime: **27 s**;
+- `scegli tu` → prima scena realmente giocabile: **48 s**.
+
+Somma delle latenze di risposta riportate fino al PLAY: **<106 s**. In questo run il giocatore è arrivato al gioco effettivo in **meno di 2 minuti**.
+
+Finding UX emerso dal run:
+- chiarire direttamente `solo` come “giochi tu con l’AI come Master”;
+- chiarire `multiplayer` come “più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti”;
+- usare come esempi di atmosfera almeno *fantasy avventuroso*, *dark fantasy*, *comico-demenziale* e *horror investigativo*.
+
+Esito: **LIVE PLAYER BOOTSTRAP PASS — 1 RUN** sul Time to First Play e sulla sequenza di onboarding osservata. I tempi assoluti restano osservazioni di piattaforma, non SLA.
+
 ## Cosa NON è ancora validato
 
-Restano **UNKNOWN finché non vengono provati in una chat nuova**:
-
-1. latenza reale T0 → prima schermata;
-2. latenza prima → seconda schermata;
-3. rispetto effettivo dello zero-preload da parte del modello in clean-room;
-4. latenza dal gate alla prima risposta sostanziale;
-5. eventuale comportamento autonomo del modello che esplori file non richiesti;
-6. FUN / Desire to Return / correction burden reali.
+Restano aperti:
+1. replica del live bootstrap su più chat/account/configurazioni;
+2. rispetto effettivo dello zero-preload in una quantità sufficiente di run indipendenti;
+3. eventuale comportamento autonomo del modello che esplori file non richiesti;
+4. latenza e friction dei percorsi MASTER e INFORMAZIONI;
+5. FUN / Desire to Return / correction burden su una sessione significativa.
 
 ## Gate successivo
 
-Eseguire un clean-room live:
+Ripetere il clean-room live almeno su:
+1. un secondo PLAYER GIOCA SUBITO;
+2. un PLAYER PERSONALIZZA PRIMA;
+3. un MASTER con problema concreto;
+4. se utile, una configurazione di ragionamento diversa per separare bootstrap strutturale e latenza di piattaforma.
 
-1. nuova chat;
-2. repository GitHub + `Iniziamo`;
-3. modalità di ragionamento alta se si vuole replicare il failure originale;
-4. misurare T0 → Master/Giocatore/Informazioni;
-5. scegliere GIOCATORE e misurare → GIOCA SUBITO / PERSONALIZZA;
-6. scegliere GIOCA SUBITO e misurare separatamente il primo output sostanziale;
-7. annotare eventuali domande duplicate o caricamenti percepibili prima del gate.
-
-**STATIC PASS ≠ LIVE PASS.**
+**1 LIVE PASS ≠ VALIDAZIONE GENERALE.**

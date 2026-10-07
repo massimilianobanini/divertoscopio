@@ -2,7 +2,13 @@
 
 Questo file mantiene compatibilità con `START-HERE.md`, che nel Public Stress Test V0.3 punta a `RUNTIME-HOTFIX-V0.3.2.md`.
 
-Prima del normale PLAY, leggi **in quest'ordine**:
+## LOAD GATE
+
+Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima del GATE DI RAGIONAMENTO usa `BOOTSTRAP.md` soltanto. Il gate si apre quando il PLAYER sceglie la modalità di partenza, quando il MASTER esprime un problema/obiettivo concreto o quando viene richiesto un approfondimento informativo specifico.
+
+Se questo file è stato aperto prima del gate, non continuare a leggere la catena runtime: torna al menu deterministico e attendi l'intento sostanziale.
+
+**Dopo il gate**, prima del normale PLAY o del lavoro Master sostanziale, leggi **in quest'ordine**:
 
 1. `RUNTIME-HOTFIX-V0.3.2-BASE.md` — baseline/hardening V0.3.2 già attivo;
 2. `RUNTIME-HOTFIX-V0.3.3.md` — Ending Mode / Foreshadowing Governor e OOC / Table-Talk Pause Contract;

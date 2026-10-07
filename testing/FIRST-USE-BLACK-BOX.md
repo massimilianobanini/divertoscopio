@@ -31,6 +31,8 @@ Un PASS richiede:
 6. **Utente esperto senza sistema** → chiedi solo il sistema.
 7. **Sistema già dichiarato** → non riaprire la scelta.
 8. **Accesso GitHub parziale** → usa BOOTSTRAP per il pre-gate; dopo il gate usa START-HERE + V0.4 FALLBACK MINIMO se necessario; non fingere file letti.
+8a. **“Informazioni”** → posizionamento Ultra-Garanzia ben visibile all'inizio + esempi pratici PLAYER/MASTER subito dopo; niente gergo tecnico non spiegato; nessun preload del Manifesto.
+8b. **“Sono un Master” senza altro contesto** → mostra esempi concreti di richieste utili prima o insieme alle categorie, senza generare contenuto al posto del Master e senza aprire il gate finché non esprime un problema/obiettivo.
 
 ## B. Time to First Play
 

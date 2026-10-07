@@ -8,18 +8,38 @@
 
 **Lascia al caso i dadi, non il divertimento.**
 
-**Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’Ultra-Garanzia del Prezzo Negativo.**
+**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.**
 
 **Dal “vorrei giocare” al gioco vero con meno attrito.**
 
 ## In 30 secondi
 
-Vuoi giocare a un GDR, ma manca il Master, il gruppo, il tempo o la voglia di preparare tutto? Il Divertoscopio usa l’AI per ridurre gli ostacoli tra **“vorrei giocare”** e **“sto giocando”**, mettendo al centro una domanda: **ti sei divertito e vuoi tornare a giocare?**
+Il Divertoscopio usa l’AI per aiutarti in due modi: **giocare** oppure **preparare e migliorare le tue partite come Master**. Non devi imparare prompt speciali o studiare il repository prima di provarlo.
 
-- **Gioca subito:** il percorso più rapido punta ad arrivare alla prima scelta realmente giocabile in circa **1 minuto**.
-- **Gratis e open source:** non serve un abbonamento al Divertoscopio per provarlo.
-- **Hai già un Master?** Non lo sostituisce: lo aiuta a preparare, diagnosticare problemi, adattare il gioco e ridurre lavoro inutile.
-- **Public Stress Test:** chiunque può provarlo autonomamente. Se una persona maggiorenne lo usa davvero e non è soddisfatta, può richiedere **€1** con l’Ultra-Garanzia secondo i termini correnti, fino a un massimo complessivo di **100 claim qualificati**.
+### Se vuoi giocare
+
+Puoi iniziare anche se non hai un Master o un gruppo disponibile. Puoi scrivere, per esempio:
+
+> “Voglio giocare subito a un fantasy avventuroso.”
+
+oppure semplicemente:
+
+> “Scegli tutto tu.”
+
+Il percorso più rapido è pensato per portarti dalla configurazione al gioco vero in pochi minuti.
+
+### Se sei un Master
+
+Non deve creare tutto al posto tuo. Puoi usarlo come **secondo paio di occhi**. Per esempio puoi chiedergli:
+
+- “Questi sono i miei giocatori: come posso preparare qualcosa che interessi tutti?”
+- “Questa è la mia avventura: dove potrebbero bloccarsi o annoiarsi?”
+- “Ho due ore per preparare la sessione: su cosa vale davvero la pena lavorare?”
+- “Ieri questa parte non ha funzionato: cosa posso provare di diverso?”
+
+L’idea è usare l’AI **dove ti è utile**, lasciando a te e al tuo gruppo idee, decisioni, interpretazione e modo di giocare.
+
+**Gratis e open source:** non serve un abbonamento al Divertoscopio per provarlo. Nel Public Stress Test corrente, una persona maggiorenne che lo usa davvero e non è soddisfatta può richiedere **€1** con l’Ultra-Garanzia secondo i termini correnti, fino a un massimo complessivo di **100 claim qualificati**.
 
 ### Non nasce per sostituire il tuo tavolo
 
@@ -29,9 +49,9 @@ Serve quando l’AI può togliere un ostacolo: **tempo, preparazione, disponibil
 
 ### Non è soltanto un “AI Master”
 
-Un chatbot può già raccontare una storia. Il Divertoscopio aggiunge un framework esplicito per **agency, regole, continuità, stato, feedback, riduzione della friction e adattamento dell’esperienza nel tempo**.
+Un chatbot può già inventare una storia. Il Divertoscopio prova a fare qualcosa di più utile: **ricordare ciò che è successo, rispettare le regole e le scelte dei giocatori, aiutarti a capire cosa sta funzionando e cosa cambiare, e ridurre il lavoro inutile**.
 
-L’obiettivo non è generare più contenuto. È aumentare la probabilità che **il tempo passato a giocare abbia valore per quelle persone**, con meno lavoro inutile prima e durante il gioco.
+L’obiettivo non è far fare tutto all’AI. È aiutare le persone a giocare meglio e con meno ostacoli, senza togliere al Master e ai giocatori le parti che vogliono tenere per sé.
 
 ## Inizia
 
@@ -181,7 +201,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`testing/V0.4-CANDIDATE-GAUNTLET.md`](testing/V0.4-CANDIDATE-GAUNTLET.md) — gate statico V0.4.
 - [`testing/FIRST-USE-BLACK-BOX.md`](testing/FIRST-USE-BLACK-BOX.md) — regression suite black-box per utenti al primo utilizzo, onboarding, fallback, feedback e failure comuni.
 - [`testing/FAST-BOOTSTRAP.md`](testing/FAST-BOOTSTRAP.md) — gate di regressione per evitare caricamenti e ragionamento non necessari prima dell'intento sostanziale.
-- [`testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md`](testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md) — ultimo risultato statico del gate: 130/130 core + spot-check pubblici adapter, con live clean-room ancora da eseguire.
+- [`testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md`](testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md) — 130/130 core + spot-check pubblici adapter; primo live clean-room PLAYER registrato con gioco effettivo in meno di 2 minuti.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.

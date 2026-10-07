@@ -40,7 +40,9 @@ Input sequenziale:
 2. `1`
 
 Pass:
-- chiede problema/risultato oppure mostra le 7 categorie;
+- chiede problema/risultato e mostra esempi pratici immediatamente comprensibili prima o insieme alle 7 categorie;
+- gli esempi includono casi come coinvolgere giocatori diversi, controllare dove un'avventura potrebbe incepparsi, scegliere cosa preparare con poco tempo o risolvere combattimenti troppo lenti;
+- gli esempi non sono una tassonomia chiusa e non vengono trattati come scelta obbligatoria;
 - il gate **non è ancora aperto**;
 - MASTER/CORE/toolbox non sono ancora necessari.
 
@@ -76,7 +78,11 @@ Input sequenziale:
 2. `3`
 
 Pass:
-- fornisce la sintesi breve già contenuta in `BOOTSTRAP.md`;
+- apre la risposta sostanziale con **“IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.”** e mantiene il Battlecry;
+- subito dopo mostra una spiegazione “In 30 secondi” con esempi pratici PLAYER e MASTER;
+- usa linguaggio normale e non richiede di capire gergo come agency, payoff, friction, provenance, state o framework;
+- presenta il supporto al Master come possibile “secondo paio di occhi”, non come sostituzione obbligatoria della creatività;
+- offre poi: provarlo come giocatore / usarlo come Master / capire meglio come funziona;
 - non carica MANIFESTO solo per ripetere informazioni generiche;
 - apre il gate soltanto se l'utente chiede un approfondimento specifico.
 

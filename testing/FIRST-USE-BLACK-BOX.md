@@ -21,6 +21,8 @@ Un PASS richiede:
 
 ## A. Bootstrap / zero knowledge
 
+**Gate strutturale:** prima che l'utente scelga GIOCA SUBITO / PERSONALIZZA, descriva un problema/obiettivo Master o chieda un approfondimento specifico, il percorso deve usare intenzionalmente **solo `BOOTSTRAP.md`**. Runtime, CORE, PLAYER, MASTER, adapter, toolbox e protocolli restano a zero preload. Vedi anche `testing/FAST-BOOTSTRAP.md`.
+
 1. **Solo “Iniziamo”** → massimo 1–2 frasi introduttive + Master/Giocatore/Informazioni.
 2. **“Voglio giocare”** → non chiedere di nuovo se è Master/Giocatore.
 3. **“Non so niente di GDR”** → linguaggio normale, niente SRD/confidence/router prima del bisogno.

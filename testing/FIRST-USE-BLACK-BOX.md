@@ -40,6 +40,9 @@ Un PASS richiede:
 10. **Principiante** → può delegare dadi/personaggio; spiegazioni just-in-time.
 11. **Cambio idea durante onboarding: “iniziamo e basta”** → interrompi configurazione e passa al PLAY.
 12. **Preferenza insolita** → accetta testo libero senza obbligare a riclassificare.
+12a. **PERSONALIZZA PRIMA — domanda sul tipo di esperienza** → “Che tipo di esperienza cerchi?” e la fantasia/capacità del PG sono accompagnate da esempi concreti; niente foglio bianco astratto.
+12b. **PERSONALIZZA PRIMA — risposta naturale** → la schermata mostra almeno un esempio di frase completa che combina più preferenze; il giocatore può rispondere con una frase libera senza compilare i punti uno per uno.
+12c. **PERSONALIZZA PRIMA — campi mancanti** → non ripetere l'intera schermata; chiedi solo ciò che evita un mismatch materiale o apprendi il resto durante il gioco.
 
 ## C. Rules / system integrity
 

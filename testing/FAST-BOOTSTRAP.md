@@ -50,6 +50,8 @@ Input successivo a FB-02: `Gioca subito`
 Pass:
 - da questo momento può caricare START-HERE + runtime + CORE + PLAYER e gli altri file pertinenti;
 - non ripete la scelta PLAYER;
+- nel messaggio canonico di GIOCA SUBITO chiarisce **solo** come “giochi tu con l’AI come Master” e **multiplayer** come “più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti”;
+- gli esempi di atmosfera includono come riferimenti almeno *fantasy avventuroso*, *dark fantasy*, *comico-demenziale* e *horror investigativo*, senza trasformarli in una tassonomia chiusa;
 - punta alla prima decisione realmente giocabile con il minimo onboarding.
 
 ### FB-05 — MASTER apre il gate

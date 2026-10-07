@@ -37,8 +37,8 @@ Se `active_system` è già noto, non riaprire la scelta del sistema. Altrimenti 
 
 “Possiamo partire in circa 1 minuto.  
 Scrivimi anche solo:
-- **solo** oppure **multiplayer**;
-- che atmosfera/idea vuoi, per esempio *fantasy avventuroso*, *horror investigativo*, *western oscuro*.
+- **solo** *(giochi tu con l’AI come Master)* oppure **multiplayer** *(più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti)*;
+- che atmosfera/idea vuoi, per esempio *fantasy avventuroso*, *dark fantasy*, *comico-demenziale*, *horror investigativo*, ecc.
 
 Oppure scrivi semplicemente **‘scegli tutto tu’**.
 

@@ -59,6 +59,7 @@ La ricerca privata che alimenta la libreria pubblica ha inoltre confrontato oper
 
 - **Dungeon Crawler Carl** — Matt Dinniman; usato come riferimento narrativo per audience, reputazione, incentivi, stato persistente e contrasto fra comicità e pressione reale.
 - **Improv for Gamers** — Karen Twelves; confrontato per improvvisazione, collaborazione, spotlight, adattamento degli esercizi e costruzione progressiva dei personaggi.
+- **Midnight: Il Retaggio dell'Oscurità** — Greg Benage e Robert Vaughn (ambientazione), edizione 5e Edge Studio/Need Games; esaminato criticamente per speranza locale, scarsità, conoscenza differenziata, avventure reinterpretate e ricompense significative. Analisi e pattern sono originali; non vengono ripubblicati lore, illustrazioni o testo protetto.
 - **Mogworld** — Yahtzee Croshaw; usato come riferimento per traduzione diegetica delle meccaniche, conoscenza limitata dei personaggi e conseguenze sistemiche.
 - **Orconomics** — J. Zachary Pike; confrontato per istituzioni, incentivi, economia, comportamento emergente e comicità sistemica.
 - **Play Unsafe** — Graham Walmsley; confrontato per improvvisazione, preparazione leggera, ascolto, status e capacità di non trasformare la prep in un risultato obbligato.

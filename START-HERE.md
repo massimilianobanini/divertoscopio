@@ -9,7 +9,7 @@ Nella versione pubblica, apri una nuova chat, incolla il link GitHub ufficiale d
 
 “Iniziamo.”
 
-Se l’intelligenza artificiale non riesce a leggere il repository GitHub, apri START-HERE.md su GitHub, copia il suo contenuto nella chat e scrivi “Iniziamo”. Questo file contiene anche un fallback minimo autosufficiente: l'AI deve poter partire senza costringere l'utente a recuperare altri file. Se scrivi “Aiutami”, trattalo come alias equivalente e avvia comunque lo stesso percorso.
+Se l’intelligenza artificiale non riesce a leggere il repository GitHub, apri prima BOOTSTRAP.md su GitHub, copia il suo contenuto nella chat e scrivi “Iniziamo”. Se dopo il GATE DI RAGIONAMENTO l'AI continua a non poter leggere il repository e serve il contratto completo, allora START-HERE.md resta il fallback autosufficiente da copiare. Se scrivi “Aiutami”, trattalo come alias equivalente e avvia comunque lo stesso percorso.
 
 IN 20 SECONDI  
 - **Dal “vorrei giocare” al gioco vero con meno attrito:** il percorso più rapido punta alla prima scelta realmente giocabile in circa 1 minuto.  
@@ -29,7 +29,7 @@ Non inferire una causa tecnica più specifica di questi sintomi e non presentare
 
 Poi scegli se vuoi usarlo come giocatore, come Master oppure se vuoi soltanto informazioni.
 
-Quando l'utente entra nel percorso PLAYER, `player/PLAYER.md` deve mostrare **una sola volta** la nota canonica sul trade-off tra velocità delle risposte e livello di ragionamento di ChatGPT. La nota non è una domanda, non blocca il gioco e non crea un profilo/runtime alternativo.
+Quando l'utente entra nel percorso PLAYER, `BOOTSTRAP.md` mostra **una sola volta** la nota canonica sul trade-off tra velocità delle risposte e livello di ragionamento di ChatGPT. Se il bootstrap è stato bypassato, `player/PLAYER.md` la mostra come fallback. La nota non è una domanda, non blocca il gioco e non crea un profilo/runtime alternativo.
 
 Da qui in poi puoi smettere di leggere: il resto sono istruzioni operative per l’intelligenza artificiale.
 

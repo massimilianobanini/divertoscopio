@@ -181,6 +181,7 @@ Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, for
 - [`testing/V0.4-CANDIDATE-GAUNTLET.md`](testing/V0.4-CANDIDATE-GAUNTLET.md) — gate statico V0.4.
 - [`testing/FIRST-USE-BLACK-BOX.md`](testing/FIRST-USE-BLACK-BOX.md) — regression suite black-box per utenti al primo utilizzo, onboarding, fallback, feedback e failure comuni.
 - [`testing/FAST-BOOTSTRAP.md`](testing/FAST-BOOTSTRAP.md) — gate di regressione per evitare caricamenti e ragionamento non necessari prima dell'intento sostanziale.
+- [`testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md`](testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md) — ultimo risultato statico del gate: 130/130 core + spot-check pubblici adapter, con live clean-room ancora da eseguire.
 - [`LEGAL-CLAIMS.md`](LEGAL-CLAIMS.md) — protocollo pubblico per contestazioni legali, licenze, privacy, takedown e altri diritti.
 - [`SYSTEM-SUPPORT.md`](SYSTEM-SUPPORT.md) — matrice canonica pubblica della confidence di supporto per ciascun GDR.
 - [`core/CORE.md`](core/CORE.md) — principi di base che restano validi anche cambiando GDR.

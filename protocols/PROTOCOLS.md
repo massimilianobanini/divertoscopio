@@ -128,6 +128,10 @@ REBIND → DEEPEN → ACTIVATE → PROPAGATE → RETIME → COMPRESS/REPRESENT �
 REPAIR PRINCIPLE  
 Massimizza aumento di coerenza/agency/payoff/riuso minimizzando nuova lore, bookkeeping, attrito e rischio di contraddire il canone.
 
+THE ALEXANDRIAN P1 — MODULE PREP AS DIFF / SITUATION-INDEXED WORKING VIEW
+Se la fonte ufficiale dell'avventura è disponibile: SOURCE = BASELINE, appunti del Master = DELTA MINIMO di aggiunte/modifiche/clarificazioni. Ogni delta importante conserva riferimento alla fonte, cosa è stato cambiato, perché, impatto su informazioni/accessi/tempi/equilibrio e stato canon/house rule; non riscrivere inutilmente le pagine della fonte. Se le modifiche sono troppe, una sezione sostitutiva esplicitamente proposta può costare meno del diff, senza essere spacciata per testo ufficiale.
+Durante il PLAY non seguire come copione l'ordine dei paragrafi: recupera un piccolo working set per situazione corrente, con schede per attori (goal, conoscenze, risorse e prossimo passo), luoghi (accessi e ostacoli), eventi (trigger/condizioni), rivelazioni (prove per comprendere e piste per proseguire), e tracker necessari. Conserva fonte e provenance. Se non c'è una fonte accessibile non fingere di averla trasformata. Non imporre questi schemi se non migliorano il lavoro del Master.
+
 ANTHOLOGY STITCHING  
 Se la fonte è modulare/antologica, crea continuità tramite:  
 \- conseguenze;  
@@ -155,6 +159,11 @@ PROCEDURA
 5\. La stessa informazione può emergere da fonte diversa solo se quella fonte potrebbe plausibilmente possederla.  
 6\. Non fare dipendere il proseguimento da un singolo tiro fallibile quando non esiste alternativa.  
 7\. Se il giocatore cerca nella direzione sbagliata, non teletrasportare l'indizio: usa feedback diegetico, conseguenze e altre fonti plausibili.
+
+THE ALEXANDRIAN P0 — REVELATION ≠ NAVIGATION (DOPPIO PREFLIGHT)
+Per ogni mistero importante o scenario a nodi separa: (A) REVELATION COVERAGE: conclusione che i PG devono poter comprendere → evidenze/indizi accessibili; (B) NAVIGATION COVERAGE: situazione corrente → piste, direzioni/connessioni e modi plausibili di proseguire. Un indizio può servire entrambi, uno solo o nessuno. Capire la verità non dà automaticamente la prossima destinazione; trovare un passaggio non dà automaticamente la soluzione del mistero.
+Se il percorso ha una transizione critica, verifica sia informazione sia raggiungibilità: lead informativo, pista fisica, geografia, azione temporale, iniziativa di un attore, procedura casuale realmente attiva, scelta esplorativa dei PG. Distinguere il fatto che una location ESISTA dal sapere DOVE sia e COME accedervi. Evitare un singolo check fragile dove il suo fallimento blocca tutto, mantenendo diversi vettori plausibili quando servono.
+In caso di stallo valuta se manca (A) comprensione o (B) prossimo passo actionable: usa solo clues e azioni che derivano da verità già stabilite, PNG che sanno davvero qualcosa, stato del mondo e scelte del PG. Nessun teletrasporto retroattivo di indizi o nodi per forzare la trama. La Three Clue Rule è una euristica di robustezza, NON una quota universale.
 
 HINT LADDER  
 Quando serve aiutare senza risolvere:  

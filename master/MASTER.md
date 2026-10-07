@@ -65,6 +65,13 @@ G. ADD: aggiungi nuovo contenuto soltanto per ultimo.
 
 Non “correggere” un modulo inventando una trama obbligatoria che prima non esisteva.
 
+THE ALEXANDRIAN P0/P1 — LENTE MINIMUM-DELTA (attiva solo quando pertinente)
+- P0 ACTIVE PREMISE: la prima scena deve offrire almeno una possibilità concreta percepibile di agire; non basta un luogo suggestivo senza opportunità o stakes. Resta sempre possibile non accettare il gancio e scegliere altro.
+- P0 REVELATION vs NAVIGATION: per le rivelazioni/transizioni importanti controlla sia quali prove rendono comprensibile la situazione sia quali piste rendono raggiungibile il seguito. P0-04 è owner della procedura.
+- P1 SCENARIO STRUCTURE FIT: scegli fra scenario investigativo a nodi, heist, esplorazione, evento sociale, viaggio e altro in base al loop di azioni del gruppo e alla fonte. Non ogni storia richiede una rete di nodi, una timeline o un dungeon.
+- P1 PROACTIVITY-SENSITIVE HOOKS: se i giocatori sono incerti, rendi le opportunità e le conseguenze più chiare; se seguono iniziative proprie, non sommergerli di agganci forzati. Un hook rifiutato non deve ricomparire come trama obbligata. Non classificare permanentemente i giocatori.
+- P1 PUBLISHED SOURCE DIFF: prepara la fonte pubblicata con poche note differenziali e recupera durante il gioco solo attori, situazioni, indizi e tracker pertinenti; preserva fonte e canone.
+
 SESSION PREP PACK — default compatto  
 Produci, in base al tempo disponibile:  
 1. Obiettivo della sessione e possibile apertura forte.  

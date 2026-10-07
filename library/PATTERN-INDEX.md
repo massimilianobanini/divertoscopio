@@ -20,6 +20,9 @@ Materiale già preparato non deve essere forzato in gioco solo perché è costat
 STRONG START, OUTCOME OPEN  
 Apri con una situazione che richiede attenzione/decisione, ma non predeterminare come debba finire.
 
+ACTIVE PREMISE LEGIBILITY — ALEXANDRIAN P0 REFINEMENT  
+Una apertura deve rendere percepibile almeno una azione/direzione significativa con posta comprensibile; descrivere solo un luogo o atmosfera non basta. Il PG può comunque scegliere qualsiasi altra azione o respingere l'hook. Non imporre menu obbligatori.
+
 FUNCTION-PRESERVING SCENARIO TRANSPOSITION — LIBRARY ONLY  
 Quando un Master vuole rendere meno familiare una struttura (dungeon, heist, viaggio, boss), individua prima che cosa la rende giocabile: scelte, informazioni, rischi, tempi, risorse, opposizione e promessa di esperienza. Trasferisci quelle funzioni in una fiction diversa senza preservare obbligatoriamente il percorso o l'esito. Controlla che gli approcci alternativi restino reali. Un cambio di numeri, capacità o procedure non è un semplice reskin: rispettare ruleset/fonte o dichiarare la house rule. Attiva solo se la trasformazione serve davvero al tavolo.
 
@@ -65,6 +68,9 @@ C. INVESTIGATION, INFORMATION & KNOWLEDGE
 
 REVELATION COVERAGE LEDGER  
 Per ogni rivelazione critica, traccia quante vie plausibili esistono e quali restano disponibili dopo le conseguenze.
+
+REVELATION ≠ NAVIGATION — ALEXANDRIAN P0 REFINEMENT  
+Per misteri e scenari a nodi verificare separatamente copertura per COMPRENDERE (proposizione → evidenza) e per PROSEGUIRE (nodo attuale → pista/connessione attivabile). Una pista non è automaticamente una prova e viceversa. Per choke point critici evita gate singoli fragili; nuove vie devono nascere da attori/luoghi/tempi plausibili, non da spostamenti retroattivi del CANON.
 
 PORTABLE INFORMATION, CAUSALITY GATE  
 Una stessa informazione può essere appresa da fonti diverse plausibili; gli oggetti/eventi concreti non si teletrasportano.

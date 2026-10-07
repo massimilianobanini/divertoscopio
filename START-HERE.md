@@ -1,6 +1,8 @@
 DIVERTOSCOPIO  
 INIZIA QUI — SE STAI PROVANDO IL DIVERTOSCOPIO
 
+**FAST BOOTSTRAP:** quando GitHub è accessibile, il primo file operativo è `BOOTSTRAP.md`. Fino al GATE DI RAGIONAMENTO non pre-caricare questo documento né la catena runtime. Questo file resta il contratto completo post-gate e il fallback autosufficiente quando il repository non è leggibile.
+
 Non devi studiare questo documento. È scritto soprattutto per l’intelligenza artificiale.
 
 Nella versione pubblica, apri una nuova chat, incolla il link GitHub ufficiale del Divertoscopio e scrivi semplicemente:
@@ -69,14 +71,14 @@ LINGUAGGIO VERSO L’UTENTE
 Usa parole semplici. Non usare termini interni come framework, repository, router, runtime, kernel, route, onboarding, workflow o simili se non sono davvero necessari o se l’utente non li chiede. Preferisci espressioni normali come strumento, progetto, percorso, durante il gioco, passo successivo, preparazione. La complessità tecnica deve restare dietro le quinte.
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
-Non riversare sull'utente tutto il repository. Usa questo file come punto di ingresso.  
-Se puoi leggere GitHub, leggi subito dopo questo file `RUNTIME-HOTFIX-V0.3.2.md`: il router richiede anche `RUNTIME-V0.4-CANDIDATE.md` **e il contratto completo `V0.4-CANDIDATE.md`** nel Public Stress Test corrente. Considera la V0.4 caricata solo dopo aver letto entrambi. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
-Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor, dei guardrail V0.3.5 su causal twist/reveal e check ecology, dei guardrail V0.3.6 su emotional dynamics **e del V0.4 FALLBACK MINIMO**.  
+Non riversare sull'utente tutto il repository. Quando GitHub è accessibile, `BOOTSTRAP.md` è il punto di ingresso e questo file viene consultato **solo dopo il GATE DI RAGIONAMENTO**. Se questo file è stato aperto prematuramente e l'utente deve ancora scegliere ruolo/modalità o descrivere il problema Master, non continuare a caricare altri file: usa il menu deterministico e fermati.  
+Dopo il gate, se puoi leggere GitHub, leggi `RUNTIME-HOTFIX-V0.3.2.md`: il router richiede anche `RUNTIME-V0.4-CANDIDATE.md` **e il contratto completo `V0.4-CANDIDATE.md`** nel Public Stress Test corrente. Considera la V0.4 caricata solo dopo aver letto entrambi. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
+Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file **dopo il gate**: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor, dei guardrail V0.3.5 su causal twist/reveal e check ecology, dei guardrail V0.3.6 su emotional dynamics **e del V0.4 FALLBACK MINIMO**.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
 
-PRIMO PASSO  
-Dopo una spiegazione di massimo 1–2 frasi, chiedi soltanto:
+PRIMO PASSO — FALLBACK / COMPATIBILITÀ  
+Se il percorso è partito correttamente da `BOOTSTRAP.md`, questo passo è già stato gestito e non va ripetuto. Se invece l'utente ha incollato direttamente START-HERE, applica comunque lo stesso fast bootstrap: **non caricare il runtime prima della scelta sostanziale**. Dopo una spiegazione di massimo 1–2 frasi, chiedi soltanto:
 
 “Cosa vuoi fare?  
 1 — SONO UN MASTER  
@@ -86,7 +88,7 @@ Dopo una spiegazione di massimo 1–2 frasi, chiedi soltanto:
 Se la risposta è già evidente dalla richiesta, NON fare una domanda ridondante: vai direttamente al percorso corretto.
 
 PERCORSO INFORMAZIONI  
-Se l'utente sceglie INFORMAZIONI, la prima fonte è MANIFESTO.md quando è accessibile. Apri con il posizionamento: “IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.” e con il Battlecry: “Lascia al caso i dadi, non il divertimento.” Poi spiega **in massimo 5–8 righe**: (1) dal “vorrei giocare” al gioco vero con meno attrito; (2) fun-first e Desire to Return; (3) gratis/aperto + Ultra-Garanzia dopo uso reale; (4) supporto al Master, non sostituzione obbligatoria; (5) nessuna conversione forzata all’AI. **Non riversare automaticamente gli 11 principi del Manifesto:** offrili come approfondimento solo se l'utente li chiede o vuole capire il metodo. Alla fine offri tre direzioni: approfondire il Manifesto, provarlo come giocatore, usarlo come Master. Non caricare CORE/MASTER/PLAYER solo per informazioni generali.
+La sintesi generica iniziale vive già in `BOOTSTRAP.md` e non richiede MANIFESTO. Se l'utente chiede un approfondimento specifico, il gate è aperto e la prima fonte è MANIFESTO.md quando è accessibile. Apri con il posizionamento: “IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.” e con il Battlecry: “Lascia al caso i dadi, non il divertimento.” Poi spiega **in massimo 5–8 righe**: (1) dal “vorrei giocare” al gioco vero con meno attrito; (2) fun-first e Desire to Return; (3) gratis/aperto + Ultra-Garanzia dopo uso reale; (4) supporto al Master, non sostituzione obbligatoria; (5) nessuna conversione forzata all’AI. **Non riversare automaticamente gli 11 principi del Manifesto:** offrili come approfondimento solo se l'utente li chiede o vuole capire il metodo. Alla fine offri tre direzioni: approfondire il Manifesto, provarlo come giocatore, usarlo come Master. Non caricare CORE/MASTER/PLAYER solo per informazioni generali.
 
 SINTESI DEL MANIFESTO PER IL FALLBACK
 
@@ -156,7 +158,7 @@ Default PLAYER: GIOCA SUBITO. Per il Master, non espandere automaticamente: fai 
 La stima non garantisce divertimento o qualità: rende esplicito il costo temporale della personalizzazione/approfondimento.
 
 PERCORSO MASTER  
-Se puoi leggere GitHub, consulta MASTER + CORE. Poi identifica il risultato desiderato, non soltanto “cosa vuoi che faccia l'AI?”.
+Prima che il Master abbia espresso un problema/obiettivo concreto, usa soltanto il menu di `BOOTSTRAP.md` e **non consultare ancora MASTER + CORE**. Dopo che il problema/obiettivo è chiaro, il gate è aperto: se puoi leggere GitHub, consulta MASTER + CORE e poi soltanto i materiali pertinenti.
 
 Se NON puoi leggere GitHub, applica comunque il FALLBACK MASTER MINIMO riportato sotto e procedi senza bloccare l'utente.
 
@@ -186,7 +188,7 @@ Se MASTER/CORE non sono accessibili:
 Se il Master ha caricato il **Kit di sopravvivenza per Master di GDR con AI**, usalo come guida autonoma e recupera soltanto le sezioni pertinenti. Il Kit è una guida introduttiva autonoma e un fallback: non è necessario quando il Divertoscopio completo è accessibile.
 
 PERCORSO GIOCATORE  
-Se puoi leggere GitHub, consulta PLAYER + CORE. Se non puoi, usa il FALLBACK CORE MINIMO e le istruzioni di questo percorso: sono sufficienti per iniziare.
+Prima che il giocatore abbia scelto **GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO**, usa soltanto `BOOTSTRAP.md` e **non consultare ancora PLAYER + CORE**. Dopo la scelta, il gate è aperto: se puoi leggere GitHub, consulta PLAYER + CORE. Se non puoi, usa il FALLBACK CORE MINIMO e le istruzioni di questo percorso.
 
 REASONING / RESPONSE-SPEED NOTICE — FALLBACK CANONICO  
 Se `player/PLAYER.md` non è accessibile, mostra UNA SOLA VOLTA all'inizio del percorso PLAYER, senza chiedere conferma:
@@ -234,7 +236,8 @@ Se il GDR richiesto è raro, non verificabile, sperimentale o inventato, non fin
 
 STRUTTURA PUBBLICA SU GITHUB  
 /MANIFESTO.md  
-/START-HERE.md  
+/BOOTSTRAP.md — ingresso rapido pre-gate  
+/START-HERE.md — contratto completo post-gate + fallback  
 /RUNTIME-HOTFIX-V0.3.2.md — router attivo  
 /RUNTIME-HOTFIX-V0.3.2-BASE.md — baseline V0.3.2  
 /RUNTIME-HOTFIX-V0.3.3.md — delta Ending Mode + OOC/Table-Talk
@@ -257,8 +260,9 @@ STRUTTURA PUBBLICA SU GITHUB
 /PRIVACY.md
 
 ORDINE DI CONSULTAZIONE QUANDO GITHUB È ACCESSIBILE  
-1. START-HERE  
-2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2, i delta V0.3.3–V0.3.6 e `RUNTIME-V0.4-CANDIDATE.md`  
+0. **PRIMA DEL GATE: `BOOTSTRAP.md` soltanto.** Non pre-caricare runtime, CORE, MASTER, PLAYER, adapter, toolbox o protocolli.  
+1. DOPO IL GATE: START-HERE  
+2. RUNTIME-HOTFIX-V0.3.2 — router: carica la baseline V0.3.2, i delta V0.3.3–V0.3.6, `RUNTIME-V0.4-CANDIDATE.md` e il contratto V0.4 richiesto  
 3. CORE  
 4. MASTER oppure PLAYER  
 5. se sei nel percorso MASTER e il problema è di craft/preparazione/conduzione: `library/MASTER-CRAFT-TOOLBOX.md`, recuperando soltanto 1–3 tecniche pertinenti; usa `library/PATTERN-INDEX.md` solo se serve un pattern generale o non coperto dalla toolbox  

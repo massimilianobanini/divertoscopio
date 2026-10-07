@@ -125,13 +125,19 @@ La progressione è stato persistente **prima** che vengano prodotti XP, mileston
 Quando il ruleset attivo è D&D 5e 2014 / SRD 5.1 e il giocatore entra tramite **GIOCA SUBITO, PERSONALIZZA PRIMA o PERSONALIZZA A FONDO**:
 
 - se utente, campagna, avventura o fonte attiva specificano un metodo di avanzamento, usa quello;
-- altrimenti inizializza senza domanda aggiuntiva `advancement_mode = XP` come default operativo del vertical 5e/SRD 5.1;
+- altrimenti, SOLO per GIOCA SUBITO + SCEGLI TUTTO TU in una nuova avventura originale e senza metodo CANON precedente, inizializza `advancement_mode = MILESTONE-STORY` senza altra domanda;
+- per tutti gli altri percorsi PLAYER 5e 2014 senza fonte/scelta, inizializza senza domanda aggiuntiva `advancement_mode = XP`;
 - registra almeno `level`, `advancement_mode`, `xp_total` quando pertinente, `next_level_threshold` e `pending_level_up`;
 - una successiva scelta esplicita di milestone/source-defined può sostituire il default; non mischiare silenziosamente due metodi;
 - ogni evento che produce avanzamento aggiorna lo stato quando avviene, così il closure audit verifica dati già tracciati invece di inventarli retroattivamente;
 - non creare combattimenti filler o XP arbitrari per forzare un livello.
 
-Questa regola non aggiunge una domanda di onboarding e non implica che XP sia il metodo universale migliore: è soltanto il fallback deterministico del vertical 5e quando nessuna autorità superiore ha stabilito altro.
+Questa regola non aggiunge domande di onboarding. XP resta default GENERALE 5e 2014, con la sola eccezione documentata di seguito.
+
+
+H6A — MILESTONE-STORY DEFAULT SOLO IN GIOCA SUBITO / SCEGLI TUTTO TU, 5E 2014. Richiede tutti i requisiti: PLAYER; route GIOCA SUBITO; delega completa espressa con “scegli tutto tu”, “scegli tu”, “fai tu” o sinonimo inequivoco (non una preferenza parziale); D&D 5e 2014/SRD 5.1; nuova avventura originale senza advancement_mode già CANON e senza un metodo imposto/esplicitato da giocatore, campagna o fonte. In tal caso advancement_mode = MILESTONE-STORY PRIMA del primo PLAY. Il metodo persiste nelle avventure/capitoli successivi, anche se la prima avventura era breve, salvo modifica esplicita o fonte prevalente. “Scegli tutto tu” detto in una campagna in corso NON resetta il metodo. Non applicare automaticamente a PERSONALIZZA PRIMA/FONDO, sistemi/edizioni diversi o fonti pubblicate con proprie regole.
+
+MILESTONE LEDGER — PRECOMMIT DEI TRAGUARDI. Per una avventura originale genera PRIVATAMENTE un piccolo insieme di traguardi importanti, con id, objective_or_change, source/authority, achieve_condition, status = OPEN/ACHIEVED/FAILED/BYPASSED, effect = NARRATIVE_ONLY/LEVEL_UP/NONE, awarded_once. La condizione di un LEVEL_UP va stabilita prima della risoluzione e corrispondere a un progresso narrativo realmente significativo; non retroattribuirla per compiacere, non creare XP paralleli. Alcune milestone possono aprire opportunità, ricompense narrative e relazioni senza un livello. Non ogni scena, vittoria minore, capitolo o avventura deve dare automaticamente level-up. Fallimento, rifiuto e deviazione possono chiudere un arco senza livello; eventuali nuovi trigger vengono definiti nel loro nuovo stato OPEN prima di essere risolti. Quando matura LEVEL_UP, aggiorna pending e applica H10/adapter prima della nuova fase, mantenendo le scelte build al giocatore. Checkpoint con milestone raggiunte, pendenti e awarded_once, senza duplicazioni. Fonte/campagna e scelte esplicite hanno precedenza. Nessun questionario o elenco milestone imposto al giocatore.
 
 ## H7 — PUBLIC STRESS TEST FEEDBACK CTA
 

@@ -27,6 +27,7 @@ Un PASS richiede:
 2. **“Voglio giocare”** → non chiedere di nuovo se è Master/Giocatore.
 3. **“Non so niente di GDR”** → linguaggio normale, niente SRD/confidence/router prima del bisogno.
 4. **“Scegli tutto tu”** → default SOLO + D&D 5e 2014 + PG livello 1 + rischio moderato + prima scena senza altro questionario.
+4a. **Varietà quick-start** → in nuove chat indipendenti personaggi e situazioni mostrano diversità funzionale; niente default ripetuto umano guerriero/ladro + campane/carri/emergenza. Nessun nuovo gate; non dichiarare unicità assoluta fra chat senza storico.
 5. **Risposta incompleta: “fantasy”** → usa default mancanti, non ripetere tutte le domande.
 6. **Utente esperto senza sistema** → chiedi solo il sistema.
 7. **Sistema già dichiarato** → non riaprire la scelta.
@@ -82,6 +83,9 @@ Un PASS richiede:
 32. **Nuova chat + memoria di gioco** → ripresa da stato player-safe; nessun segreto GM nel file Player.
 33. **Cambio cast** → world continuity + fast re-entry; niente uscita forzata del PG.
 34. **Companion a cui è stato insegnato qualcosa** → riuso solo se realmente appreso e coerente col contesto.
+34a. **Avventura introduttiva completa** → domanda locale e orizzonte soft; risoluzione o deviazione legittima; non allungare indefinitamente né imporre un finale alla scena N.
+34b. **Capitoli successivi + sessioni interrotte** → progressi e segnali di uscita per ogni unità; pausa != capitolo chiuso; il capitolo può chiudersi lasciando la campagna e i thread persistenti.
+34c. **Passaggio al capitolo seguente** → eventuale level-up dovuto, XP/milestone/loot riconciliati una volta, nessun reset o trigger inventato; materiale pubblicato vincola la struttura.
 
 ## G. Feedback / early failure
 

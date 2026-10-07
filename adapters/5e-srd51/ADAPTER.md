@@ -313,7 +313,7 @@ La progressione del personaggio è stato persistente, non un dettaglio da ricord
 \- eventuale fonte/trigger di avanzamento attivo.
 
 DEFAULT PUBLIC STRESS TEST  
-Nel percorso PLAYER GIOCA SUBITO con 5E/SRD 5.1, se utente, avventura o campagna non specificano un altro metodo, usa XP come default. Non aggiungere una domanda di onboarding soltanto per questo. Se una fonte o il tavolo usa milestone/story advancement, registra quel metodo e non importare soglie XP di nascosto.
+Per D&D 5e 2014/SRD 5.1, SOLO in una nuova avventura originale PLAYER GIOCA SUBITO + SCEGLI TUTTO TU (delega completa senza metodo/campagna/fonte precedente) usa MILESTONE-STORY, persistente nei successivi capitoli. Ledger di traguardi importanti predefiniti con trigger ed effect NARRATIVE_ONLY/LEVEL_UP, senza XP paralleli né livello automatico a fine capitolo. Per tutti gli altri PLAYER 5e senza metodo/fonte usa XP. Regole di fonte/campagna e scelte del giocatore prevalgono. Nessuna domanda extra; applica H6A.
 
 SOGLIE XP SRD 5.1  
 Livello 1 = 0 XP; 2 = 300; 3 = 900; 4 = 2.700; 5 = 6.500; 6 = 14.000; 7 = 23.000; 8 = 34.000; 9 = 48.000; 10 = 64.000; 11 = 85.000; 12 = 100.000; 13 = 120.000; 14 = 140.000; 15 = 165.000; 16 = 195.000; 17 = 225.000; 18 = 265.000; 19 = 305.000; 20 = 355.000.  

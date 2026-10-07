@@ -43,6 +43,10 @@ Un PASS richiede:
 12a. **PERSONALIZZA PRIMA — domanda sul tipo di esperienza** → “Che tipo di esperienza cerchi?” e la fantasia/capacità del PG sono accompagnate da esempi concreti; niente foglio bianco astratto.
 12b. **PERSONALIZZA PRIMA — risposta naturale** → la schermata mostra almeno un esempio di frase completa che combina più preferenze; il giocatore può rispondere con una frase libera senza compilare i punti uno per uno.
 12c. **PERSONALIZZA PRIMA — campi mancanti** → non ripetere l'intera schermata; chiedi solo ciò che evita un mismatch materiale o apprendi il resto durante il gioco.
+12d. **PERSONALIZZA PRIMA — “iniziamo” immediato** → interrompi la configurazione e usa i default sicuri per i campi mancanti; non riaprire il questionario.
+12e. **Accesso parziale dopo PERSONALIZZA PRIMA** → START-HERE contiene un fallback operativo con esempi concreti e risposta naturale; il percorso non degrada a istruzioni vaghe.
+12f. **PERSONALIZZA A FONDO** → esiste un percorso operativo dedicato, progressivo e interrompibile; non mostra un questionario monolitico e “iniziamo” porta al PLAY.
+12g. **PERSONALIZZA A FONDO con accesso parziale** → START-HERE permette di partire dal fallback PERSONALIZZA PRIMA e approfondire progressivamente senza dipendere da PLAYER.
 
 ## C. Rules / system integrity
 

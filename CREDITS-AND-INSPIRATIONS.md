@@ -32,6 +32,7 @@ Elenco alfabetico, senza gerarchie. Quando una fonte ha prodotto un contributo t
 Anche qui l’ordine è alfabetico e non rappresenta una graduatoria. Alcune fonti hanno fornito esempi positivi, altre controesempi o failure mode; entrambe le cose sono utili alla ricerca.
 
 - **Bob World Builder** — contenuti e riflessioni GDR considerati nel confronto comparativo su Mastering, gioco al tavolo e design dell’esperienza.
+- **The Alexandrian / Justin Alexander** — ricerca comparativa su design degli indizi, preparazione di scenari, strutture a nodi e interpretazione delle scelte dei giocatori. L'audit completo del dominio è ancora in corso: l'integrazione selettiva non implica validazione o approvazione dell'autore.
 - **Crispy’s Tavern** — contenuti GDR considerati come materiale di confronto su esperienza di gioco, Mastering e pratiche di community.
 - **Dani Krossing** — contenuti e prospettive GDR considerati nella ricerca comparativa del progetto.
 - **Deck of DM Things** — contenuti e strumenti di Mastering considerati nel confronto su prep, procedure e gestione pratica della sessione.

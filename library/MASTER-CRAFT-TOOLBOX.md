@@ -75,6 +75,12 @@ Se sei spiazzato, una pausa breve costa meno di una grande invenzione incoerente
 ### RESKIN / REFLAVOR WITH MECHANICAL FIREWALL
 Cambia descrizione, estetica o fiction liberamente quando la meccanica resta invariata e il sistema lo consente. Se cambiano capacità, permission o numeri, dichiaralo come adattamento/house rule invece di farlo passare per semplice reflavor.
 
+### MODULE PREP AS DIFF / SITUATION VIEW — ALEXANDRIAN P1
+Se la fonte pubblicata è accessibile, annota solo le differenze e usa il modulo come baseline. Ogni variazione rilevante ha anchor, motivazione e impatti su rivelazioni, accessi, bilanciamento e canone. Per condurre il gioco, recupera le schede attori/luoghi/eventi/indizi utili alla situazione attuale, non una sequenza di scene obbligate. Quando il diff costa troppo, una sostituzione locale dichiarata può essere più efficiente, ma non equivale al testo ufficiale.
+
+### SCENARIO STRUCTURE FIT / ACTIVE PREMISE — ALEXANDRIAN P0/P1
+Una scena introduttiva deve presentare una possibilità percepibile di agire, non solo atmosfera. Prepara la struttura coerente con l'attività reale (indagine a nodi, negoziato, esplorazione, heist, ecc.), senza imporla ai PG. Giocatori proattivi non vanno ricondotti a hook prefabbricati; giocatori incerti possono ricevere appigli più leggibili senza perdere ownership.
+
 ### PREP DELIGHT ≠ PREP OBLIGATION
 Alcuni Master amano creare mappe, token, props e worldbuilding. Non eliminarli se sono parte del loro divertimento; distingui però hobby creativo volontario da preparazione necessaria per giocare bene.
 

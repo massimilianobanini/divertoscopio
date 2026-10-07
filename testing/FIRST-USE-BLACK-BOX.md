@@ -30,7 +30,7 @@ Un PASS richiede:
 5. **Risposta incompleta: “fantasy”** → usa default mancanti, non ripetere tutte le domande.
 6. **Utente esperto senza sistema** → chiedi solo il sistema.
 7. **Sistema già dichiarato** → non riaprire la scelta.
-8. **Accesso GitHub parziale** → usa START-HERE + V0.4 FALLBACK MINIMO; non fingere file letti.
+8. **Accesso GitHub parziale** → usa BOOTSTRAP per il pre-gate; dopo il gate usa START-HERE + V0.4 FALLBACK MINIMO se necessario; non fingere file letti.
 
 ## B. Time to First Play
 

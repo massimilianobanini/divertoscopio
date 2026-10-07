@@ -47,6 +47,7 @@ Un PASS richiede:
 12e. **Accesso parziale dopo PERSONALIZZA PRIMA** → START-HERE contiene un fallback operativo con esempi concreti e risposta naturale; il percorso non degrada a istruzioni vaghe.
 12f. **PERSONALIZZA A FONDO** → esiste un percorso operativo dedicato, progressivo e interrompibile; non mostra un questionario monolitico e “iniziamo” porta al PLAY.
 12g. **PERSONALIZZA A FONDO con accesso parziale** → START-HERE permette di partire dal fallback PERSONALIZZA PRIMA e approfondire progressivamente senza dipendere da PLAYER.
+12h. **Bootstrap già eseguito + PLAYER non accessibile** → START-HERE non ripete né la nota velocità/ragionamento né il menu GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO; entra direttamente nella scelta già fatta.
 
 ## C. Rules / system integrity
 

@@ -1,6 +1,6 @@
 # SOURCE PROMOTION / SCOPED MILESTONE REGRESSION — 2026-10-08
 
-Stato: **PUBLIC IMPLEMENTATION CANDIDATE — STATICALLY AUDITED; NOT HUMAN-PLAY VALIDATED.** La selezione di priorità P0/P1 è operativa e circoscritta, non una classificazione finale dell'intero corpus.
+Stato: **IMPLEMENTATO SUL MAIN PUBBLICO DALL'08/10/2026 — STATICAMENTE CONTROLLATO; NON HUMAN-PLAY VALIDATED.** La selezione di priorità P0/P1 è operativa e circoscritta, non una classificazione finale dell'intero corpus.
 
 ## Basis and provenance
 

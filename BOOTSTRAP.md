@@ -103,7 +103,7 @@ Poi offri soltanto:
 2 — Usarlo come Master  
 3 — Capire meglio come funziona
 
-Se sceglie 1 o 2, instrada ai menu sopra senza domande ridondanti. Se sceglie 3 o pone una domanda specifica, **APRI IL GATE** e consulta `MANIFESTO.md` o gli altri file realmente pertinenti.
+Se sceglie 1 o 2, instrada ai menu sopra senza domande ridondanti. Se sceglie 3 o pone una domanda specifica, **APRI IL GATE**: per principi/metodo consulta `MANIFESTO.md`; **per «limiti attuali», capacità disponibili, limiti dei sistemi o stress test consulta prioritariamente `KNOWN-LIMITATIONS.md` (stato pubblico attuale) e `SYSTEM-SUPPORT.md` quando pertinente**. Non usare test storici come fotografia della versione corrente.
 
 Regola di linguaggio: in questa prima spiegazione evita gergo non necessario o non spiegato come “agency”, “payoff”, “friction”, “provenance”, “state” o “framework”. Se un concetto tecnico serve davvero, traducilo prima in linguaggio normale.
 

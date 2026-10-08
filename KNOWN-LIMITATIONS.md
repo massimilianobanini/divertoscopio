@@ -11,7 +11,7 @@ La matrice corrente delle confidence per i sistemi con supporto pubblico è mant
 > **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
 - per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
 - D&D 2024 / SRD 5.2.1 ha ora un adapter candidato separato e un ampio audit interno, ma actual-play e validazione esterna sono ancora insufficienti; personaggi di livello più alto e combattimenti molto complessi restano poco testati;  
-- il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  
+- la **modalità multiplayer HOSTED / SINGLE-CHAT è implementata** (un host inoltra le azioni del gruppo), ma **non ancora validata** con più persone reali in partite complete;  
 - usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
 - immagini, musica e mappe possono essere utili, ma possono anche rallentare il gioco: stiamo ancora capendo quando valgono davvero l'attesa;  
 - **Daggerheart** ha ora un adapter candidato pubblico basato su SRD 2.0 e fonti ufficiali correnti: ha superato stress test statici interni, ma non ha ancora validazione esterna/actual-play sufficiente; altri GDR e altre piattaforme di intelligenza artificiale possono funzionare, ma non sono stati provati quanto il caso principale;  
@@ -20,11 +20,37 @@ La matrice corrente delle confidence per i sistemi con supporto pubblico è mant
 
 Se il tuo caso è diverso puoi comunque provarlo: consideralo un test esplorativo e raccontaci chiaramente cosa succede.
 
+
+## STATO PUBBLICO ATTUALE — 8 OTTOBRE 2026
+
+Questa è la **fotografia del repository oggi**, distinta dagli esiti dei test di agosto/settembre riportati sotto. `IMPLEMENTATO` significa che le istruzioni e i controlli di comportamento sono disponibili su GitHub; `VALIDATO` richiede risultati osservati in partite indipendenti. Una suite documentale PASS **non** dimostra che ChatGPT eseguirà sempre quelle istruzioni.
+
+| Funzionalità | Cosa è disponibile nel repository pubblico | Evidenza effettiva / limite oggi |
+|---|---|---|
+| **Gioca subito, anche «scegli tutto tu»** | Fast Bootstrap, generazione del PG giocabile, prima situazione con scelta reale, default SOLO e D&D 5e 2014 se pertinenti | **Un** avvio PLAYER clean-room osservato il 07/10/2026, **prima delle modifiche dell'08/10**: meno di 2 minuti dal primo menu alla fiction. Non è una garanzia di tempo per altri utenti o modalità; la configurazione «circa 1 minuto» non misura l'intero percorso |
+| **Varietà dell'avventura iniziale** | Generazione privata di classi/specie legali, obiettivi, struttura dell'apertura e conflitti differenti, con controllo anti-cliché | Implementata 08/10; **non** validata su 20 chat nuove indipendenti. Nessuna garanzia di unicità fra chat senza storico condiviso |
+| **Avventure e capitoli successivi** | H5A: obiettivo/domanda locale, segnali di risoluzione, epilogo e continuazione; separazione fra pausa, fine capitolo e fine campagna | Implementata 08/10; non ancora verificata in 5 avventure complete e 3 capitoli consecutivi. L'orizzonte **4–6 scene è solo indicativo per una prima mini-avventura originale**, non un limite universale |
+| **Milestone del PG** | Per nuova avventura originale **Gioca subito → Scegli tutto tu** in D&D 5e 2014, `MILESTONE-STORY` come default, mantenuto nei capitoli seguenti; altre route 5e 2014 senza metodo/fonte restano XP | Implementata 08/10; una milestone narrativa **non** implica automaticamente un nuovo livello; trigger, registrazione persistente e level-up naturali richiedono actual play |
+| **Continuità, checkpoint, XP e level-up** | Stato persistente, handoff, verifiche di fonte, punti di ripresa e possibilità di continuare dopo ogni unità significativa | Contratti presenti e precedente catch-up tecnico 1→3, ma progressione multi-capitolo, spellcaster complessi e ripresa dopo settimane non ancora dimostrati affidabili |
+| **Supporto Master** | Analisi di problemi, preparazione rapida, miglioramento di avventure pubblicate (se fonte accessibile), situazioni, investigazione, PNG e strumenti mirati | Area più matura per preparazione/analisi; nessuna validazione generale come copilota che segue un tavolo umano complesso in tempo reale |
+| **The Alexandrian / Midnight** | Rafforzamenti P0/P1: indizi per comprendere vs piste per proseguire, prep come delta, apertura giocabile, pattern opzionali di vittorie locali e premi significativi | Implementati 08/10 come contratti/pattern selettivi. Non sono importazioni di regole/ambientazioni proprietarie, né studi di efficacia con gruppi umani |
+| **D&D 5e 2014 / SRD 5.1** | Adapter pubblico principale, con creazione del PG e regole/avanzamento specifici | È il sistema più testato ma soprattutto a **livello 1 / solo / chat**. Non garantisce tutte le interazioni del regolamento |
+| **D&D 2024 / SRD 5.2.1 e Daggerheart / SRD 2.0** | Adapter pubblici separati e stress test statici/sintetici specifici | **Supporto candidato**, non equivalenza di affidabilità con 5e 2014; actual play esterno e campagne lunghe ancora insufficienti |
+| **Multiplayer** | Modalità HOSTED / SINGLE-CHAT: un host umano inoltra le azioni degli altri; ownership, roster, segreti PG e dadi separati sono previsti | Contratto implementato, ma multiplayer con più esseri umani **non ancora validato**. Non promette una chat collaborativa sincronizzata fra account |
+| **Immagini, musica, mappe e VTT** | Default TEXT-FIRST; immagini eventualmente su richiesta, strumenti/idee per il Master quando utili | Generazione media e integrazioni sincronizzate non convalidate come esperienza senza attrito; nessun VTT sincronizzato end-to-end validato |
+| **Funzionalità V0.4** | Dieci capacità candidate di stato/continuità, relazioni, salienza, split-party e aggiornamento delle minacce, più ricerca supplementare | **Implementate ma non human-validated**. Rischi specifici nell'ultima sezione di questo documento |
+
+**Piattaforme:** il progetto dichiara attualmente supporto pubblico **solo per ChatGPT**. I fallimenti Gemini/Claude riportati nei test precedenti sono **osservazioni datate di specifiche prove**, non dimostrazioni che quelle piattaforme non possano mai funzionare.
+
+**Evidenza più recente disponibile:** [stress test statico pubblico 08/10/2026](testing/PUBLIC-RELEASE-STRESS-2026-10-08.md) (copertura dei contratti, non partite indipendenti), [test Fast Bootstrap 07/10/2026](testing/FAST-BOOTSTRAP-RESULTS-2026-10-07.md) (un run live PLAYER), [test personalizzazione 08/10/2026](testing/PLAYER-PERSONALIZATION-STRESS-TEST-2026-10-08.md) (statico). Le percentuali interne per ciascun GDR rimangono **solo** in [SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md) e non sono probabilità di successo.
+
 DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 
 Stato: pubblico per tester / sperimentale  
-Versione: Public Stress Test V0.3  
-Data: 18/09/2026
+Versione corrente: Public Stress Test V0.3 / V0.4 Candidate  
+Prima ricognizione dettagliata: 18/09/2026  
+**Ultima revisione documentale: 08/10/2026** (nuove capacità e suite statiche; NON nuova validazione di actual play)  
+Le date precedenti nelle sezioni tecniche indicano quando una specifica prova è stata effettuata, non la data dell'ultima versione.
 
 SCOPO  
 Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il Public Stress Test deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
@@ -69,7 +95,7 @@ Non sono stati stressati seriamente:
 - interazioni rare o edge case avanzati.
 
 6. MULTIPLAYER REALE — HOSTED / SINGLE-CHAT IMPLEMENTATO, ACTUAL PLAY ANCORA OPEN  
-**Verifica capability ChatGPT: 26/09/2026.** Il multiplayer pubblico corrente del Divertoscopio NON presume più che più account possano scrivere sincronicamente nella stessa conversazione ChatGPT.
+**Ultima verifica di piattaforma documentata in questo progetto: 26/09/2026 (dato storico, non una verifica rinnovata l'08/10).** La modalità multiplayer pubblicamente dichiarata dal Divertoscopio resta HOSTED / SINGLE-CHAT. Non presumere che più account scrivano sincronicamente nella stessa conversazione senza una nuova verifica della capability.
 
 OpenAI ha iniziato il ritiro delle Group Chat dal 9 luglio 2026: non è più possibile crearne di nuove, convertire una conversazione in Group Chat o far entrare nuovi partecipanti tramite invite link. I **progetti condivisi** permettono ai membri di vedere il contesto e creare/diramare chat, ma la documentazione corrente specifica che le chat non vengono modificate collaborativamente e sincronicamente. Un normale link di condivisione della conversazione non va quindi trattato come trasporto multiplayer sincronizzato. Inoltre, gli account OpenAI sono destinati all'uso individuale: il Divertoscopio non deve chiedere né suggerire la condivisione di credenziali.
 
@@ -236,7 +262,7 @@ Dichiarare il limite, raccogliere evidenza e promuovere la capacità soltanto qu
 
 ---
 
-## V0.4 Candidate — limiti specifici
+## V0.4 Candidate — limiti specifici (stato pubblico ricontrollato 08/10/2026)
 
 Le dieci capacità V0.4 sono **implementate ma non human-validated**.
 

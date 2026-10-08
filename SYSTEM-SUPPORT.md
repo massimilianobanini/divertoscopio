@@ -10,7 +10,7 @@ Le percentuali non devono essere duplicate o mantenute manualmente in altri file
 |---|---:|---|
 | **D&D 5e 2014 / SRD 5.1** | **85%** | sistema pubblico più testato finora |
 | **D&D 2024 / SRD 5.2.1** | **75%** | supporto pubblico in validazione |
-| **Daggerheart / SRD 2.0** | **70%** | supporto pubblico in validazione |
+| **Daggerheart™ Compatible / SRD 2.0** | **70%** | supporto pubblico in validazione |
 
 > **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
 

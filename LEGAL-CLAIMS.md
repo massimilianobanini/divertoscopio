@@ -149,7 +149,7 @@ Se qualcuno contesta l'uso di un GDR, una regola o una fonte:
 5. non riprodurre ulteriore materiale proprietario solo per “dimostrare” la questione;
 6. se il problema è limitato a un asset/testo/adattatore, considera prima una correzione o isolamento mirato, non la cancellazione dell'intero framework.
 
-Per SRD 5.1, consulta `THIRD-PARTY-NOTICES.md` e l'adapter relativo; non presumere che tale licenza copra automaticamente ogni contenuto D&D o Wizards.
+Per SRD 5.1 e SRD 5.2.1, consulta `THIRD-PARTY-NOTICES.md` e gli adapter relativi; non presumere che le licenze coprano automaticamente ogni contenuto D&D o Wizards. Per Daggerheart, verifica anche che il formato e l'uso dei marchi siano compatibili con i termini DPCGL 2.0: il relativo chiarimento giuridico è ancora aperto.
 
 ## Marchi / brand / affiliazione
 

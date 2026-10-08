@@ -1,6 +1,6 @@
 # MIDNIGHT — SIX-CRITERIA TRANSFER AUDIT / REGRESSION CANDIDATE
 
-Stato: **CANDIDATE, NON VALIDATO IN ACTUAL PLAY** — 2026-10-08. Fonte di confronto: *Midnight: Il Retaggio dell'Oscurità* (ed. italiana 2024), soprattutto cap. 5 e 12. Questa scheda traduce spunti generali in test originali, non riproduce testo o ambientazione protetti. Non è un SYSTEM ADAPTER per Midnight.
+Stato: **3 pattern LIBRARY ONLY già presenti sul main pubblico dall'08/10/2026; NON VALIDATI IN ACTUAL PLAY**. I test sotto sono ancora da eseguire. Fonte di confronto: *Midnight: Il Retaggio dell'Oscurità* (ed. italiana 2024), soprattutto cap. 5 e 12. Questa scheda traduce spunti generali in test originali, non riproduce testo o ambientazione protetti. Non è un SYSTEM ADAPTER per Midnight.
 
 ## Esito dell'audit comparativo (baseline GitHub prima di questa patch)
 
@@ -43,11 +43,11 @@ Tre pattern aggiunti in `library/PATTERN-INDEX.md`, classificati **LIBRARY ONLY*
 
 **MID-13 — Autonomia emotiva e sicurezza.** Gruppo vuole una tragedia senza speranza obbligatoria. PASS: il pattern LOCAL HOPE resta facoltativo, nessuna emozione viene prescritta, stop/skip rimangono disponibili. FAIL: obbligo di redenzione/successo o negazione del fallimento.
 
-## Gate prima di promuovere
+## Gate prima di considerare validati o ampliare i pattern già pubblicati
 
 1. **Static check**: testi presenti, ancore univoche, nessuna regressione di bootstrap; nessun CORE o adapter modificato.
 2. **Clean-room comportamento**: eseguire MID-01–13 in una chat nuova, con almeno un caso PLAYER e un caso MASTER, registrando effettivo PASS/FAIL; audit statico non equivale a test comportamentale.
 3. **Micro-pilot comparativo**: baseline vs pattern quando pertinenti. Raccogliere FUN 0–10, desire to return 0–10, tempo alla prima scelta, latenza per turno, errori di causalità/continuity, scelta percepita e lavoro Master. Non aggiungere questionari nel bootstrap; usare feedback già previsto.
-4. **Decisione**: promuovere/estendere soltanto i pattern che migliorano esiti misurati senza rallentare l'avvio o introdurre false scelte, metagaming o modifiche tacite al ruleset.
+4. **Decisione**: confermare/estendere come capacità validate soltanto i pattern che migliorano esiti misurati senza rallentare l'avvio o introdurre false scelte, metagaming o modifiche tacite al ruleset. La presenza sulla Library pubblica non soddisfa questo gate.
 
 **Nota IP:** questa analisi usa idee generali, riferimenti descrittivi e test nuovi. Non copiare nel repository illustrazioni, mappe, nomi proprietari, lore o brani del manuale. La designazione OGL va verificata puntualmente prima di qualsiasi riuso di testo/meccaniche con condizioni di licenza.

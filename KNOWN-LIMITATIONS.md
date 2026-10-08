@@ -209,7 +209,7 @@ Le istruzioni personalizzate possono cambiare il comportamento del modello o ent
 Il Core non dipende da uno specifico GDR, da un singolo regolamento o da un particolare meccanismo di risoluzione e può essere adattato a d20, d10, d6, pool di dadi, carte, token, giochi senza dadi o altri meccanismi. Il vertical 5E/SRD 5.1 resta quello con più uso reale accumulato. Questa flessibilità progettuale NON significa accuratezza già validata su tutti i sistemi.
 
 14A. ADAPTER CANDIDATO SRD 2.0 — TEST ESTERNO APERTO  
-È ora pubblico `adapters/dh-srd20/ADAPTER.md`, un adapter **Daggerheart™ Compatible** costruito sul Daggerheart SRD 2.0, errata/fonti ufficiali correnti e procedure originali del Divertoscopio.
+È ora pubblico `adapters/dh-srd20/ADAPTER.md`, un adapter progettato per l'uso **Daggerheart™ Compatible**, basato sul Daggerheart SRD 2.0, errata/fonti ufficiali correnti e procedure originali del Divertoscopio. **Separatamente dalla validazione del gioco, l'applicabilità dei formati di distribuzione DPCGL 2.0 a un adapter Markdown utilizzato da un assistente AI è ancora da chiarire.** Non presentare la sola attribuzione come certificazione di conformità. Vedi `THIRD-PARTY-NOTICES.md`.
 
 Evidenza disponibile prima del test esterno:
 - audit interno completo del Core Rulebook;

@@ -223,7 +223,7 @@ Se la persona sceglie **PERSONALIZZA PRIMA** e `player/PLAYER.md` non è accessi
 
 1. Esperienza nel GDR: principiante / un po’ di esperienza / esperto  
 2. Modalità: solo / multiplayer  
-3. Sistema: D&D 5e 2014 / D&D 2024 / Daggerheart / altro / scegli tu  
+3. Sistema: D&D 5e 2014 / D&D 2024 / Daggerheart™ Compatible (SRD 2.0) / altro / scegli tu  
 4. Che tipo di esperienza cerchi e cosa vorresti poter fare con il tuo personaggio? Per esempio: esplorare e scoprire segreti; risolvere misteri; combattere; convincere e creare alleanze; usare magia in modi creativi; vivere una storia personale.  
 5. Cosa vuoi trovare più spesso: combattimento / interpretazione / esplorazione / investigazione / mix? Più libertà o una direzione più chiara?  
 6. Tono e rischio: leggero / avventuroso / serio / oscuro / comico / altro; rischio basso / moderato / alto.  
@@ -254,7 +254,7 @@ Il CORE è indipendente dallo specifico GDR: il Divertoscopio non dipende da un 
 ROUTING PUBBLICO E SYSTEM SUPPORT:  
 - D&D 5e 2014 / SRD 5.1 → `adapters/5e-srd51/ADAPTER.md`;  
 - D&D 2024 / regole revisionate 2024 / 5.5e / SRD 5.2.1 → `adapters/5e-srd521/ADAPTER.md`;  
-- Daggerheart / SRD 2.0 → `adapters/dh-srd20/ADAPTER.md`;  
+- Daggerheart™ Compatible / SRD 2.0 → `adapters/dh-srd20/ADAPTER.md`;  
 - altri sistemi senza adapter pubblico → identifica esattamente sistema/versione e usa Unknown System Discovery / fonti verificabili; non fingere equivalenza.  
 La confidence pubblica vive esclusivamente in `SYSTEM-SUPPORT.md`. Dopo la scelta di `active_system`, mostra una sola volta il box canonico nel primo messaggio successivo. Per un sistema non presente nella tabella usa **non valutata** e non inventare percentuali.  
 Se l'utente ha già indicato uno dei sistemi/edizioni, NON chiedere di nuovo il sistema: carica direttamente l'adapter corrispondente. Non inferire mai il sistema dall'identità dell'utente, dal suo livello di esperienza, dai creator che segue o dalle fonti che hanno contribuito alla ricerca.  

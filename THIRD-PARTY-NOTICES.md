@@ -39,6 +39,11 @@ Il repository non ripubblica il testo completo dei manuali, dei Campaign Frame, 
 
 Le parti del repository che costituiscono o incorporano Public Game Content / Adaptive Content DPCGL restano soggette alla DPCGL. La licenza generale della documentazione del Divertoscopio non sostituisce né limita gli obblighi DPCGL applicabili.
 
+### Verifica di conformità della distribuzione — APERTA (08/10/2026)
+La DPCGL 2.0 distingue la condivisione del **Public Game Content** (sezione 2.1(a)) dall'**Adaptive Content** (sezione 2.1(b)), per il quale richiede i **Permitted Formats** definiti nella sezione 1.9. I formati elencati includono supplementi/manuali/libri digitali, contenuti audio-video e VTT approvati. **La qualificazione di un adapter Markdown operativamente utilizzabile da un assistente AI, distribuito tramite repository GitHub, non è stata verificata formalmente**: potrebbe richiedere una valutazione sul formato effettivo, sulla natura di ogni parte (testo originale / Public Game Content / Adaptive Content) e, se necessario, un'autorizzazione o chiarimento scritto dall'editore. La pubblicazione del presente avviso e la presenza dell'attribuzione richiesta **non certificano** la conformità dell'intero adapter. Nessuna violazione è qui accertata. Non aggiungere contenuti proprietari o espandere materiale derivato da DPCGL prima di questa verifica; mantenere separati i componenti originali e le eventuali parti soggette a licenza.
+
+**Marchi e pubblicazione:** applicare le limitazioni sui *Name Marks* (sezione 2.5), incluso l'uso descrittivo di **Daggerheart™ Compatible**, senza usare il marchio nel titolo del prodotto/capitolo o suggerire affiliazione. Le parole "compatible" e "open source" non sostituiscono gli obblighi della licenza. Testo ufficiale: https://darringtonpress.com/license/.
+
 ## System Reference Document 5.2.1 — Wizards of the Coast LLC
 
 Il repository include un adapter candidato procedurale per **5E / SRD 5.2.1**, basato sul **System Reference Document 5.2.1 (SRD 5.2.1)**, distribuito da Wizards of the Coast LLC sotto licenza Creative Commons Attribution 4.0 International.
@@ -48,7 +53,7 @@ Licenza CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode
 
 Attribuzione richiesta:
 
-> This work includes material taken from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC and available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
+> This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 ### Nota sulle modifiche
 

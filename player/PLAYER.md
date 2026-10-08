@@ -100,7 +100,7 @@ TESTO USER-FACING CANONICO — PERSONALIZZA PRIMA
 
 2. **Modalità:** solo / multiplayer
 
-3. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart / altro / scegli tu
+3. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart™ Compatible (SRD 2.0) / altro / scegli tu
 
 4. **Che tipo di esperienza cerchi? E cosa vorresti poter fare con il tuo personaggio?**  
    Per esempio:

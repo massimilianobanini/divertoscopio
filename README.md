@@ -182,7 +182,7 @@ Il repository pubblico **non contiene il testo di avventure commerciali** né ma
 
 Per il supporto 5E viene usato anche il **System Reference Document 5.1 (SRD 5.1)**, pubblicato da Wizards of the Coast con licenza **CC BY 4.0** e attribuito in [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
 
-L’adapter Daggerheart™ Compatible usa materiale del **Daggerheart System Reference Document 2.0** nei limiti della **Darrington Press Community Gaming License 2.0 (DPCGL)**. Non ripubblica Campaign Frame o testo proprietario non qualificato come Public Game Content. Attribuzione e condizioni: [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
+L’adapter **Daggerheart™ Compatible** è basato sul **Daggerheart System Reference Document 2.0** e rimanda alla **Darrington Press Community Gaming License 2.0 (DPCGL)**. Non ripubblica Campaign Frame o testo proprietario non qualificato come Public Game Content. **Verifica legale ancora aperta:** non è stata confermata l'applicabilità dei formati di distribuzione consentiti dalla DPCGL a un adapter testuale usato da un assistente AI e pubblicato su GitHub. La presenza dell'attribuzione non equivale a conformità certificata. Condizioni, fonti e stato della verifica: [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
 
 Se vuoi lavorare con precisione scena per scena su un'avventura commerciale, fornisci alla tua AI il materiale che possiedi legalmente oppure una fonte a cui possa accedere legittimamente. Senza quel materiale, il Divertoscopio deve limitarsi a conoscenze generali, fonti pubblicamente accessibili, esperienze della community e proposte dichiarate come tali.
 

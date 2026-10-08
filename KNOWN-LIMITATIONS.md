@@ -57,6 +57,8 @@ Non è ancora validato come copilot live avanzato che segue in tempo reale un in
 4. LEVEL-UP — TEST PARZIALE  
 È stato eseguito un primo catch-up tecnico dal livello 1 al 3 durante il Pilot 0, che ha fatto emergere e correggere problemi reali su checkpoint di avanzamento, ownership delle scelte di build e metodo dei PF. Questo NON valida ancora la progressione completa: restano da stressare level-up naturali durante il gioco, più passaggi consecutivi, multiclassing reale, ASI/talenti, spellcaster complessi, continuità delle risorse e gioco prolungato dopo il level-up.
 
+**Aggiornamento 08/10/2026 — novità pubbliche ancora da validare in actual play.** In D&D 5e 2014/SRD 5.1, solo una nuova avventura originale avviata dal percorso GIOCA SUBITO con delega completa «scegli tutto tu» usa ora MILESTONE-STORY come default; gli altri percorsi non ereditano automaticamente questa impostazione. I traguardi narrativi non producono automaticamente level-up. Il nuovo H5A prepara e riconosce la conclusione di avventure e capitoli successivi, preservando pause e progressione. **Sono contratti implementati e controllati staticamente, non risultati di gioco completo indipendente:** resta possibile che il modello dimentichi la milestone, allunghi una storia, salti l'handoff o perda continuità. La varietà degli inizi e la latenza reale della configurazione non sono garantite. Verificare con trascrizioni prima di presentare queste capacità come affidabili.
+
 5. LIVELLI MEDIO/ALTI — NON TESTATI A DOVERE  
 Non sono stati stressati seriamente:  
 - personaggi di medio/alto livello;  

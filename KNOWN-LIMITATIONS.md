@@ -11,7 +11,7 @@ La matrice corrente delle confidence per i sistemi con supporto pubblico è mant
 > **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
 - per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
 - D&D 2024 / SRD 5.2.1 ha ora un adapter candidato separato e un ampio audit interno, ma actual-play e validazione esterna sono ancora insufficienti; personaggi di livello più alto e combattimenti molto complessi restano poco testati;  
-- il gioco con più persone reali insieme è previsto, ma non è ancora stato provato abbastanza;  
+- la **modalità multiplayer HOSTED / SINGLE-CHAT è implementata** (un host inoltra le azioni del gruppo), ma **non ancora validata** con più persone reali in partite complete;  
 - usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
 - immagini, musica e mappe possono essere utili, ma possono anche rallentare il gioco: stiamo ancora capendo quando valgono davvero l'attesa;  
 - **Daggerheart** ha ora un adapter candidato pubblico basato su SRD 2.0 e fonti ufficiali correnti: ha superato stress test statici interni, ma non ha ancora validazione esterna/actual-play sufficiente; altri GDR e altre piattaforme di intelligenza artificiale possono funzionare, ma non sono stati provati quanto il caso principale;  

@@ -352,11 +352,11 @@ Ogni MEMORY/CHECKPOINT/PLAYER NOTEBOOK di una campagna deve includere il progres
 AUDIT MINIMO  
 Esegui un controllo di progressione almeno a fine sessione/unità significativa e dopo ricompense XP/materiali rilevanti. Se soglia, XP o feature non sono verificabili, dichiara il limite e fai lookup della fonte invece di inventare. La progressione deve poter continuare per campagne lunghe senza restare accidentalmente bloccata al livello iniziale.
 
-VALIDATION STATUS — 30/08/2026  
+VALIDATION STATUS — SNAPSHOT STORICO 30/08/2026 (NON LO STATO AGGIORNATO)  
 Questo adapter descrive capacità previste, non tutte già validate empiricamente.
 
 5E/SRD 5.1: è il vertical attualmente più testato, ma i test interni precedenti hanno coperto soprattutto gioco di livello 1 e non costituiscono validazione dell’intero ruleset.  
 Ruleset 5E successivi/SRD 5.2.1: separazione architetturale prevista, ma NON ancora stress-testati a dovere. Non presentare parità di supporto con SRD 5.1 come fatto dimostrato.  
 Level-up/advancement, gioco di livello medio/alto, spell/feature complesse, encounter ad alta densità, multiplayer reale, VTT/map-grid e media runtime richiedono test dedicati prima di essere dichiarati robusti.
 
-La matrice di validazione viene aggiornata con i risultati del Public Stress Test V0.3. Non dichiarare robustezza oltre quanto indicato in questa sezione.
+**AGGIORNAMENTO PUBBLICO 08/10/2026 — NON NUOVA VALIDAZIONE HUMAN.** Il vertical D&D 5e 2014 rimane il più testato; l'eccezione di default **MILESTONE-STORY** per GIOCA SUBITO → SCEGLI TUTTO TU e la struttura H5A delle avventure/capitoli successivi sono state aggiunte ai contratti pubblici, ma non validate con una lunga campagna indipendente. L'adapter separato per **D&D 2024 / SRD 5.2.1** è ormai pubblico ed è stato sottoposto a stress test statici/sintetici estesi: la frase storica «non ancora stress-testati a dovere» sopra si riferisce allo snapshot del 30/08, NON all'assenza di quei test successivi. L'actual play D&D 2024 è tuttora insufficiente per dichiarare parità di affidabilità con D&D 2014. **Stato corrente e grado di evidenza:** `KNOWN-LIMITATIONS.md` e `SYSTEM-SUPPORT.md`; stress test statico più recente `testing/PUBLIC-RELEASE-STRESS-2026-10-08.md`. Non aumentare confidence né promettere accuratezza sulla sola base di questi contratti.

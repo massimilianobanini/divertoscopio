@@ -4,19 +4,19 @@
 
 ## Problema ricontrollato
 
-Il documento user-facing KNOWN-LIMITATIONS.md mostrava ancora Data: 18/09/2026 e uno snapshot adapter 5e 2014 del 30/08/2026, nonostante modifiche successive a Gioca subito, milestone, lifecycle dei capitoli, fast bootstrap, V0.4, Alexandrian e Midnight. Nel fallback START-HERE le richieste specifiche di approfondimento venivano generalmente instradate verso MANIFESTO, anche quando l'intento era conoscere limiti e prove correnti.
+Il documento user-facing KNOWN-LIMITATIONS.md mostrava ancora Data: 18/09/2026 e uno snapshot adapter 5e 2014 del 30/08/2026, nonostante modifiche successive a Gioca subito, milestone, lifecycle dei capitoli, fast bootstrap, V0.4, copertura degli indizi, varietà dell'apertura e ricompense pertinenti. Nel fallback START-HERE le richieste specifiche di approfondimento venivano generalmente instradate verso MANIFESTO, anche quando l'intento era conoscere limiti e prove correnti.
 
 ## Correzione minima
 
 - Prima risposta informativa generica: BOOTSTRAP soltanto; nessun preload extra.
 - Quando l'utente esprime il vero intento limiti/test/capacità, il gate si apre e si recupera direttamente KNOWN-LIMITATIONS (stato attuale) e, solo quando pertinente, SYSTEM-SUPPORT. Per principi e metodo: MANIFESTO.
 - KNOWN-LIMITATIONS conserva la cronologia precedente, ma rende visibile subito la fotografia dell'08/10/2026 con classificazione IMPLEMENTATO vs TESTATO IN ACTUAL PLAY, per ogni area rilevante.
-- README rimanda esplicitamente alla fotografia aggiornata; adapter 2014 marca il 30/08 come storico; V0.4 e Midnight distinguono presenza sul main da validazione umana.
+- README rimanda esplicitamente alla fotografia aggiornata; adapter 2014 marca il 30/08 come storico; le capacità V0.4 e i tre pattern narrativi opzionali distinguono presenza sul main da validazione umana.
 - Non modificare le tre confidence system-specific 85% / 75% / 70% senza nuova evidenza. Non aumentare le promesse o introdurre menu aggiuntivi.
 
 ## Test statici eseguiti — GitHub branch readback
 
-17/17 verifiche di contenuto con controllo di: data 08/10, data storica 18/09, avvio live 07/10 datato **prima** dei cambi 08/10, matrice attuale, milestone con scope corretto, H5A senza limite universale, hosted multiplayer implementato ma unvalidated, informazioni puntate a KNOWN, gate zero-preload preservato, README aggiornato, snapshot adapter 30/08 esplicitamente storico, test statici D&D 2024 non cancellati, V0.4 e Midnight già su main ma unvalidated, source promotion marcata main, e riferimenti relativi Markdown validi.
+17/17 verifiche di contenuto con controllo di: data 08/10, data storica 18/09, avvio live 07/10 datato **prima** dei cambi 08/10, matrice attuale, milestone con scope corretto, H5A senza limite universale, hosted multiplayer implementato ma unvalidated, informazioni puntate a KNOWN, gate zero-preload preservato, README aggiornato, snapshot adapter 30/08 esplicitamente storico, test statici D&D 2024 non cancellati, V0.4 e tre pattern narrativi opzionali già su main ma non ancora validati nel gioco umano, source promotion marcata main, e riferimenti relativi Markdown validi.
 
 **80/80 riferimenti Markdown relativi nei 8 documenti modificati risolti nella tree main esistente, 0 mancanti.** Non è verifica di link HTTP esterni o Form; non dimostra il comportamento del modello nelle chat indipendenti.
 

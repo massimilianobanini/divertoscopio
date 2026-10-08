@@ -12,7 +12,7 @@
 | Integrità file | 50 file `.md`/`LICENSE` letti attraverso l'API GitHub | PASS / STATIC |
 | Collegamenti Markdown interni | 86/86 riferimenti relativi risolti sulla tree GitHub ricorsiva; 0 mancanti | PASS / STATIC |
 | Bootstrap/routing/USER/Master/fallback | 76 controlli di copertura: 75 match letterali, 1 formula semanticamente equivalente verificata manualmente | PASS / CONTRACT-ONLY |
-| Nuovi requisiti milestone/archi/varietà/Alexandrian/Midnight | 36 scenari di copertura documentale: 35 match diretti, 1 formulazione equivalente verificata manualmente (MS-06: milestone narrativa senza level-up) | PASS / CONTRACT-ONLY |
+| Nuovi requisiti milestone/archi/varietà/indizi/scenari/ricompense | 36 scenari di copertura documentale: 35 match diretti, 1 formulazione equivalente verificata manualmente (MS-06: milestone narrativa senza level-up) | PASS / CONTRACT-ONLY |
 | XP D&D 2014 | 20 soglie cumulative da 0 a 355000 XP ordinate, senza intervalli sovrapposti; 8 casi numerici di boundary (0, 275, 299, 300, 899, 900, 2700, 355000) | PASS / STATIC DETERMINISTIC |
 | V0.3.2→V0.3.6 + V0.4 | Documenti del router e dei delta presenti; gerarchia condizionale e fallback indicati | PASS / CONTRACT-ONLY |
 | D&D 2024 / SRD 5.2.1 | Adapter separato, niente XP/MILESTONE default 2014 importato; avanza con metodo source/table e rinvia scelta quando non pertinente | PASS / CONTRACT-ONLY |
@@ -33,7 +33,7 @@
 - Milestone `NARRATIVE_ONLY`: conseguenze e ricompense ma non level-up. Milestone `LEVEL_UP`: trigger precommitted, scelte del PG e aggiornamento scheda; niente XP parallelo, niente doppio premio.
 - Le scene della prima mini-avventura hanno orizzonte indicativo 4–6, non vincolo; capitoli successivi non hanno quota universale. Pausa reale ≠ fine capitolo; chiusura di unità ≠ progressione automatica.
 - Indizi per CAPIRE e piste per PROSEGUIRE sono due assi distinti, con causalità/scope fonte e no clue teleport.
-- Midnight local hope e reward fit rimangono pattern situazionali, non garanzie di successo o adattamento arbitrario della fonte.
+- Vittorie locali durevoli e ricompense pertinenti rimangono pattern situazionali, non garanzie di successo o adattamento arbitrario della fonte.
 - Quickstart anti-cliché favorisce varietà funzionale senza garantire unicità assoluta tra chat indipendenti.
 
 ## Issue trovate e correzioni nell'audit

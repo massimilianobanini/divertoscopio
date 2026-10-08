@@ -2,29 +2,29 @@
 
 Stato: **IMPLEMENTATO SUL MAIN PUBBLICO DALL'08/10/2026 — STATICAMENTE CONTROLLATO; NON HUMAN-PLAY VALIDATED.** La selezione di priorità P0/P1 è operativa e circoscritta, non una classificazione finale dell'intero corpus.
 
-## Basis and provenance
+## Ambito e verifiche di coerenza
 
 - *The Alexandrian*, metodologia primaria di Justin Alexander. Audit canonico Doc15 [Biblioteca GDR Esterna](https://docs.google.com/document/d/1RiHotB_1Vf9t5CVaKNAGh25N-dt_XOzWd7wo5cMvNMA/edit), cluster A1/A2/A4: Node-Based Scenario Design, Three Clue Rule, How to Prep a Module, The Lion, the Witch and the Scenario Hook, How to Remix an Adventure, The Rachov Principle, Smart Prep. L'audit dell'intero dominio NON è ancora concluso: C/D e F–N/J restano in diversi stati di completamento. La precedente scelta di HOLD fino alla deduplica globale è qui convertita SOLO in **promozione sperimentale mirata** su richiesta, senza claim di completezza.
-- *Midnight: Il Retaggio dell'Oscurità*, manuale italiano 5e (cap. 12, pp. 344–366; cap. 3/5, pp. 60–85/111/120–124), analisi di principi astratti. Non copiare meccaniche non libere, lore, nomi proprietari o illustrazioni.
-- Repository CORE/PLAYER/MASTER/PROTOCOLS/PATTERN-INDEX e candidati PR #34/#35: confronto anti-duplicazione.
+- Pattern narrativi opzionali verificati: successi locali durevoli, trasposizione funzionale degli scenari e ricompense pertinenti ai comportamenti/interessi osservati. Nessuna meccanica proprietaria, testo o ambientazione di terze parti incorporati.
+- Repository CORE/PLAYER/MASTER/PROTOCOLS/PATTERN-INDEX: confronto di copertura e anti-duplicazione fra contratti operativi, adapter e pattern facoltativi.
 
 ## Implementati: P0 (priorità funzionale/reliability)
 1. **Milestone per FULL DELEGATION nel quickstart**: PLAYER GIOCA SUBITO → "scegli tutto tu" in nuova avventura originale D&D 2014/SRD 5.1 usa MILESTONE-STORY se nessuna autorità più forte dispone diversamente. Conservarlo nei capitoli futuri; milestone narrative ≠ livelli automatici; XP resta per gli altri default.
 2. **Convergenza narrativa di ogni avventura e capitolo**: H5A/H5/H11/H9 dalla PR #35: domanda locale, orizzonte soft (4–6 scene soltanto prima mini-avventura originale), exit/stagnation checks, distinzione fra fine sessione e fine capitolo, handoff di stato/ricompense/progressione/Form/pause o continuazione.
 3. **The Alexandrian — REVELATION ≠ NAVIGATION**: P0-04 e Pattern Index distinguono indizi che permettono di CAPIRE da piste che permettono di PROSEGUIRE; copertura e accessibilità causale dei choke point.
 4. **The Alexandrian — ACTIVE PREMISE LEGIBILITY**: un'apertura deve mostrare un'opportunità percepibile e una scelta vera, non soltanto atmosfera; nessun hook obbligatorio.
-5. **Midnight — LOCAL HOPE / DURABLE VICTORY**: Library only (da PR #34), successi locali reali e conseguenze durevoli nelle esperienze che lo consentono; non promettere successo né negare il fallimento.
+5. **LOCAL HOPE / DURABLE VICTORY — vittorie locali durevoli**: Library only, successi locali reali e conseguenze durevoli nelle esperienze che lo consentono; non promettere successo né negare il fallimento.
 
 ## Implementati: P1 (rafforzamenti contestuali)
 6. **The Alexandrian — MODULE PREP AS DIFF**: PROTOCOLS/MASTER/TOOLBOX: fonte disponibile come baseline, delta ancorato, rettifiche trasparenti e rischio di contraddizione.
 7. **The Alexandrian — SITUATION-INDEXED WORKING VIEW**: retrieve solo attori/luoghi/eventi/indizi pertinenti alla situazione invece di leggere come copione il sommario della fonte.
 8. **The Alexandrian — SCENARIO STRUCTURE FIT + PROACTIVITY-SENSITIVE HOOKS**: non imporre un graph/timeline a ogni scenario; più appigli per i giocatori incerti, meno hook coercitivi per quelli proattivi.
-9. **Midnight — FUNCTION-PRESERVING SCENARIO TRANSPOSITION**: Library only, trasforma fiction mantenendo funzione giocabile e dichiarando house rule se si cambiano meccaniche.
-10. **Midnight — EARNED REWARD–PLAYER VALUE FIT**: Library only, ricompense pertinenti e guadagnate, con preferenze a confidence e senza retcon.
+9. **FUNCTION-PRESERVING SCENARIO TRANSPOSITION — trasposizione funzionale**: Library only, trasforma fiction mantenendo funzione giocabile e dichiarando house rule se si cambiano meccaniche.
+10. **EARNED REWARD–PLAYER VALUE FIT — ricompense pertinenti**: Library only, ricompense pertinenti e guadagnate, con preferenze a confidence e senza retcon.
 11. **Quickstart diversity**: PG/obiettivi/aperture meno stereotipati, non solo cambi di nomi e mai unicità garantita fra chat senza memoria (PR #35).
 
 ## Già implementati PRIMA — nessuna duplicazione
-- Midnight: DM truth / PC known / player visible; apertura playable; location identity/actors/clocks; limiti e safety.
+- Conoscenza del Master / conoscenza del PG / contenuti visibili al giocatore; apertura giocabile; identità di luoghi, attori e clock; limiti e safety.
 - The Alexandrian: clue redundancy/Three Clue Rule come euristica, prep situations not plots, causal NPC/faction state, no quantum clues, no hidden railroading, JIT depth, meaningful choice, theatrical roleplay vs competence and fail-state.
 - Regole di classe/razza/avanzamento di setting o sistema non diventano principi generici.
 
@@ -33,8 +33,8 @@ Stato: **IMPLEMENTATO SUL MAIN PUBBLICO DALL'08/10/2026 — STATICAMENTE CONTROL
 - **Alexandrian — cue/tempo situazionali**: facilitation timer vs fiction clock, iniziativa leggera per dialoghi in combattimento, open-table variable attendance/team formation, event timeline e dormant-world simulation. Non è prova che ogni campagna ne abbia bisogno.
 - **Alexandrian — piattaforma deterministica**: graph engine persistente, spatial typed overlay, node retrieval, storico eventi + working set automatizzato (oltre ai contratti testuali attuali).
 - **Alexandrian — ricerca ancora aperta**: passaggi non completati dell'audit full-domain (inclusi video cross-medium J, sezioni D/F–N e orphan sweep, in base allo stato attuale del ledger); niente claim "tutte le priorità dell'intero Alexandrian".
-- **Midnight — opzionali**: risorse/scarsità/baratto come scelte, Power Nodes/location-specific mechanics, percorsi eroici, mostri recontestualizzati, shared-party origin e ricompense emotive extra; alcune sono già coperte genericamente, ma non promosse come nuove implementazioni specifiche.
-- **Midnight — da NON importare**: setting originale, permessi di magia/classi, class/race bans, heroic path feats o altre meccaniche ambientazione-specifiche senza adapter/licenza e consenso.
+- **P2 opzionali — risorse e luoghi**: rendere scarsità, baratto, luoghi speciali, reinterpretazione di antagonisti, origini condivise e ricompense non meccaniche più giocabili quando i test ne dimostrano il valore; alcuni principi sono già presenti genericamente.
+- **Meccaniche specifiche di singole ambientazioni — da NON importare universalmente**: limitazioni della magia, classi, talenti, percorsi speciali o altre regole contestuali richiedono fonte, licenza/permesso e accordo del tavolo.
 - **Evidenza da raccogliere**: affidabilità reale su sessioni complete, varietà cross-chat, progressione/level-up lunga, Fun/Desire to Return. STATIC PASS NON equivale a convalida comportamentale.
 
 ## Regressioni da eseguire in clean-room
@@ -55,7 +55,7 @@ Stato: **IMPLEMENTATO SUL MAIN PUBBLICO DALL'08/10/2026 — STATICAMENTE CONTROL
 - **AL-05** — Modulo già leggibile, due errori da correggere: diff con anchor e impact; niente riscrittura integrale.
 - **AL-06** — Scenario sociale/di viaggio: sceglie struttura appropriata, non node graph forzato.
 - **AL-07** — Gruppo proattivo ignora hook: prosegue senza coercizione; gruppo esitante riceve leve leggibili.
-- **MID** — Applicare MID-01–13 del test dedicato. **ARC/VAR** — Applicare ARC-01–15 e VAR-01–05 nel test dedicato.
+- **PATTERN NARRATIVI** — Applicare OPT-01–13 di `testing/OPTIONAL-NARRATIVE-PATTERNS-2026-10-08.md`. **ARC/VAR** — Applicare ARC-01–15 e VAR-01–05 nel test dedicato.
 
 ## Release gate
 

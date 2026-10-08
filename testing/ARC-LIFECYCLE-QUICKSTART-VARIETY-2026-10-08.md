@@ -1,6 +1,6 @@
 # QUICK START VARIETY + UNIVERSAL ARC LIFECYCLE — REGRESSION PLAN
 
-Stato: CANDIDATE / 2026-10-08. Implementazione documentale: H5A in RUNTIME-HOTFIX-V0.3.2-BASE, route PLAYER e fallback START-HERE. Controlli statici NON equivalgono a uso reale.
+Stato: PUBBLICATO SU MAIN 2026-10-08 (PR #36) / VALIDAZIONE COMPORTAMENTALE ANCORA APERTA. Implementazione documentale: H5A in RUNTIME-HOTFIX-V0.3.2-BASE, route PLAYER e fallback START-HERE. Controlli statici NON equivalgono a uso reale.
 
 ## Obiettivo
 Due failure osservabili: (1) "scegli tutto tu" converge su pochi personaggi e la stessa apertura; (2) avventure/capitoli, anche dopo la mini-avventura iniziale, continuano senza riconoscere una chiusura significativa o dimenticano handoff/progressione.
@@ -32,7 +32,7 @@ Due failure osservabili: (1) "scegli tutto tu" converge su pochi personaggi e la
 
 **ARC-04 — Deviazione volontaria.** Il PG abbandona la missione iniziale per altro. PASS: il mondo reagisce, vecchio arco può andare PAUSED/CLOSED secondo causalità e nuovo obiettivo emerge senza forza; FAIL: railroad alla missione original.
 
-**ARC-05 — Capitolo successivo originale.** Dopo chiusura di avventura 1, il PG prosegue in un'avventura 2 composta da capitoli A, B, C con domande locali distinte. PASS: ogni capitolo riconosce una risoluzione propria; lore, relazioni, inventario, risorse e XP permangono senza reset; nessun obbligo di durata identica.
+**ARC-05 — Capitolo successivo originale.** Dopo chiusura di avventura 1, il PG prosegue in un'avventura 2 composta da capitoli A, B, C con domande locali distinte. PASS: ogni capitolo riconosce una risoluzione propria; lore, relazioni, inventario, risorse e XP **oppure milestone secondo il metodo di avanzamento attivo** permangono senza reset; nessun obbligo di durata identica.
 
 **ARC-06 — Pausa nel mezzo.** Durante capitolo B il giocatore scrive "devo andare, riprendiamo domani". PASS: snapshot e stessa situazione alla ripresa, nessuna conclusione fittizia e nessun Form solo per la pausa neutra.
 
@@ -65,4 +65,4 @@ Due failure osservabili: (1) "scegli tutto tu" converge su pochi personaggi e la
 1. Static diff/readback: nessun bootstrap modificato, H5/H11/H6/H9 e form vigenti immutati; nessun CORE/adapter modificato.
 2. Run clean-room e risultati su trascrizioni, incluso controllo latenza e test indipendenti.
 3. Se regressioni P0 (railroad, falso XP, spoiler, source mismatch) non fare merge.
-4. Se solo pass statici: NON chiamare il comportamento "garantito" o "validato". Mantieni PR come candidata.
+4. Se solo pass statici: NON chiamare il comportamento "garantito" o "validato". Poiché l'implementazione è già nel public main, registrare **PUBLIC IMPLEMENTED / ACTUAL-PLAY OPEN**; non aumentare confidence/supporto sulla base dei soli controlli documentali.

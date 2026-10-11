@@ -235,7 +235,9 @@ Questo repository **non** contiene database dei tester, risposte private, transc
 
 Il Divertoscopio è un progetto originale, ma è stato migliorato anche studiando e confrontando il lavoro pubblico di numerosi Master, giocatori, autori e divulgatori del GDR. Fra le fonti considerate ci sono creator e realtà italiane come **Caotico Pigro, The Prof. Player, 20 Facce, Dottor Morgan, D20 Nation, La Tana dell’Occhio, Wikirole, Nicola De Gobbis e Andrea “Il Rosso” Lucca / La Locanda del Drago Rosso**, oltre a numerose fonti internazionali.
 
-[`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) raccoglie in modo uniforme fonti, ispirazioni, community e interlocutori considerati. Una citazione **non implica approvazione, collaborazione o affiliazione**.
+Il Divertoscopio è stato ideato e sviluppato da **Massimiliano Banini** a partire da esperienza diretta come Master e giocatore, appunti di preparazione, analisi di sessioni e campagne, ricerca mirata su risorse pubbliche e test del progetto. È una **struttura di istruzioni e procedure per modelli AI**, non un modello linguistico addestrato da zero. L'obiettivo è offrire supporto trasversale ai sistemi di gioco e migliorare, tramite prove e riscontri, la qualità dell'esperienza; non è una garanzia che ogni sessione sarà divertente.
+
+[`CREDITS-AND-INSPIRATIONS.md`](CREDITS-AND-INSPIRATIONS.md) documenta anche l'origine e raccoglie in modo uniforme fonti, ispirazioni, community e interlocutori considerati. Una citazione **non implica approvazione, collaborazione o affiliazione**.
 
 ## Licenze
 

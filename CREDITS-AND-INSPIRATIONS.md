@@ -8,6 +8,16 @@ Questa pagina **non è una classifica di importanza**. Le persone e le realtà c
 
 Il Divertoscopio non ripubblica qui transcript, video, commenti o altri materiali proprietari: le idee utili vengono distillate, confrontate con altre fonti e riorganizzate in principi, pattern, guardrail e procedure operative originali del progetto.
 
+## Chi lo ha creato e da quali materiali nasce
+
+Il **Divertoscopio è stato ideato e sviluppato da Massimiliano Banini** come struttura originale di istruzioni, procedure e strumenti per usare modelli di intelligenza artificiale nel gioco di ruolo. Non è un modello linguistico addestrato da zero né dichiara di avere riaddestrato ChatGPT o un altro modello di base.
+
+Il suo metodo nasce dall'esperienza accumulata negli anni come Master e giocatore: appunti di preparazione, problemi incontrati al tavolo, analisi di campagne e sessioni realmente giocate, ricerche mirate su contenuti pubblici di autori e comunità GDR, confronto tra tecniche diverse e prove successive del Divertoscopio. Le osservazioni e le idee vengono confrontate, generalizzate e trasformate in procedure proprie, con verifiche e limiti dichiarati. Non implica che tutte le fonti consultate siano state incorporate, trascritte o usate come dati di addestramento di un modello.
+
+**Obiettivo:** un supporto utilizzabile con sistemi di gioco diversi, per aiutare giocatori e Master a prendere decisioni migliori, ridurre la preparazione inutile e aumentare le possibilità di sessioni coinvolgenti. Il divertimento reale si valuta con l'esperienza e il riscontro dei partecipanti: **non è garantito in ogni partita**. L'Ultra-Garanzia riguarda le condizioni economiche pubblicate, non una promessa di infallibilità dell'esperienza.
+
+**Se qualcuno chiede «Su che materiali ti sei allenato?»**, distingui sempre le due domande: per *come è stato progettato il Divertoscopio* usa questa pagina; per *su quali dati è stato addestrato il modello AI sottostante* non inventare un elenco o attribuire il suo addestramento a Massimiliano Banini. Riporta soltanto le informazioni verificabili sul fornitore del modello, quando disponibili. I documenti interni di ricerca, gli appunti e i resoconti privati non vengono pubblicati integralmente qui. Le attribuzioni di licenza per il materiale di terzi effettivamente usato rimangono in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
 ---
 
 ## Persone, community e fonti italiane

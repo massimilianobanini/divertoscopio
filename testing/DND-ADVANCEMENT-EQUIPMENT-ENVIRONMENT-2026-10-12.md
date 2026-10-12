@@ -140,6 +140,15 @@ I due adapter sono intenzionalmente **brevi**: rinviano a `ADVANCEMENT-EQUIPMENT
 
 **Criteri P0:** talenti/ASI illegali; multiclass senza prerequisiti; slots/preparazioni indebite; componenti costosi/consumati gratuiti; item/cariche inventati; cambio di edizione; penalità subacquee e silenzio magico ignorati con impatto sul risultato. **P1:** omissione spiegazione o aiuto, richieste ripetitive a novizi, errori cosmetici. Non incrementare percentuali SYSTEM-SUPPORT senza evidenza comportamentale.
 
+## Risultati verificati — 12/10/2026
+
+- **94/94** scenari correttamente presenti e identificati in questa batteria, ripartiti in LV12, FT12, MC16, SP22, MI12, EN20. Sono **scenari da eseguire**, NON 94 prove del Divertoscopio superate.
+- **52/52** asserzioni statiche passate sui documenti modificati, i rimandi di caricamento on-demand, il contenuto dei guardrail, il numero di scenari, l'assenza di variazioni a CORE, PLAYER, runtime e SYSTEM-SUPPORT. Verifica lessicale e strutturale: NON afferma che ChatGPT esegua sempre le istruzioni.
+- **45/45** casi matematici/logici su **oracolo separato scritto per questo audit**: prerequisiti, multiclasse 2014/2024 (inclusi arrotondamenti half-caster e terzi per sottoclassi incantatrici, se previste), legalità di V/S/M e materiali costosi, slot/componenti, sintonizzazione 3, armi sott'acqua e movimento/danno da fuoco. **Non è un interprete del Divertoscopio e non simula una partita**.
+- **Nessuna prova clean-room del modello eseguita qui:** 0 turni AI osservati con il repository come sistema, 0 confronti quantitativi di TTFP. Nessuna affermazione di accuratezza %, divertimento o robustezza reale. Mantenere il gate di actual play aperto.
+- **Principianti:** ridurre la burocrazia per i reagenti comuni *solo* grazie a focus/borse/pack già verificati oppure una correzione di inventario o una house rule esplicita. I materiali prezzati o consumati non si inventano. Per esperti rendere visibili le regole RAW senza inventare ulteriori vincoli.
+- **Latenza attesa:** i due adapter principali contengono solo un rimando aggiuntivo, e l'approfondimento è in due file separati; non è stato misurato il tempo reale di avvio.
+
 ## Fonti ufficiali
 
 - 2014 Basic Rules: https://www.dndbeyond.com/sources/dnd/basic-rules-2014/customization-options ; https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting ; https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat ; https://www.dndbeyond.com/sources/dnd/basic-rules-2014/magic-items

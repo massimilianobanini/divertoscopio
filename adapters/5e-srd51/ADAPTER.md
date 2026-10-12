@@ -146,6 +146,7 @@ TRACK MINIMO
 \- enemy goal/morale.
 
 **Regole di combattimento per classe/stato (on-demand):** per una manovra, uso di Ki, lotta/spinta, economia azioni controversa, reazione, condizione o altra feature meccanica ad alto rischio, consulta **solo quando pertinente** [`COMBAT-CLASSES.md`](COMBAT-CLASSES.md) nello stesso adapter. Non caricarlo nel bootstrap o prima di una prima decisione che non lo richieda; la fonte del ruleset attivo rimane prevalente.
+**Level-up complesso, talenti/ASI, multiclasse, componenti V/S/M, focus, oggetti magici, acqua o terreno difficile (on-demand):** consulta [`ADVANCEMENT-EQUIPMENT-ENVIRONMENT.md`](ADVANCEMENT-EQUIPMENT-ENVIRONMENT.md) **solo quando pertinente**, mantenendo le decisioni di build al giocatore e la fonte 2014 prevalente. Nessun precaricamento nell'avvio rapido.
 
 CUSTOM / AI-GENERATED ADVERSARY PRECOMMIT  
 Se una creatura importante è inventata o adattata dall'AI invece di usare direttamente uno stat block verificato, **prima del primo tiro materialmente dipendente da essa** fissa privatamente almeno:

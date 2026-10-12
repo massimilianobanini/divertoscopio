@@ -277,6 +277,7 @@ Track whether the creature has a feature that actually unlocks Weapon Mastery fo
 
 
 **Class/combat resource gate (on-demand):** for Monk Focus, subclass maneuvers, Paladin Smite, class ability usage, contested reactions or other complex class features, consult [`COMBAT-CLASSES.md`](COMBAT-CLASSES.md) in this adapter directory **only when relevant**. Do not preload it during bootstrap/quickstart, and preserve the current edition and source authority.
+**Advanced level-up, feats/ASI, multiclass, spell components/foci, magic items or underwater/difficult terrain (on-demand):** consult [`ADVANCEMENT-EQUIPMENT-ENVIRONMENT.md`](ADVANCEMENT-EQUIPMENT-ENVIRONMENT.md) **only when needed**, preserving player-owned choices and current 2024 source; never preload in fast bootstrap.
 
 ---
 

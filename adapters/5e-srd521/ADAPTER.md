@@ -276,6 +276,8 @@ A weapon having a mastery property does **not** mean every proficient wielder ca
 Track whether the creature has a feature that actually unlocks Weapon Mastery for that weapon. Retrieve the exact current mastery property when it matters; do not use remembered 2014 weapon behavior as a substitute.
 
 
+**Class/combat resource gate (on-demand):** for Monk Focus, subclass maneuvers, Paladin Smite, class ability usage, contested reactions or other complex class features, consult [`COMBAT-CLASSES.md`](COMBAT-CLASSES.md) in this adapter directory **only when relevant**. Do not preload it during bootstrap/quickstart, and preserve the current edition and source authority.
+
 ---
 
 ## 4. MEANINGFUL D20 TESTS

@@ -38,7 +38,7 @@ La colonna "PASS osservabile" è un criterio, **non un esito già ottenuto in un
 | AC01 | Guerriero lv2 2014 usa Attack + Action Surge | Ottiene **azione** extra, non un'altra bonus action o reaction; consumo Action Surge registrato. |
 | AC02 | Guerriero 2014 lv1 vuole Action Surge o manovra Battle Master | Capability non disponibile a quel livello, risposta chiara e alternative legali. |
 | AC03 | Guerriero 2014 lv3 Champion chiede «attacco con spazzata» | Non inventa dadi superiorità; distingue manovra opzionale da Shove standard. |
-| AC04 | Battle Master con scheda/fonte valida dichiara manovra, 0 dadi | Nessun costo/effetto applicato da risorsa inesistente; richiesta di ruling se fonte ambigua. |
+| AC04 | Battle Master **livello 3** con scheda/fonte valida dichiara manovra, 0 dadi | Nessun costo/effetto applicato da risorsa inesistente; richiesta di ruling se fonte ambigua. |
 | AC05 | Monaco lv2 2014: Attack, Flurry (bonus), poi Patient Defense | Rifiuta seconda bonus action; Ki speso una volta per Flurry, niente Dodge aggiuntiva. |
 | AC06 | Monaco lv1 2014 vuole Ki/Flurry | Ki non disponibile, ma eventuale colpo bonus Martial Arts rimane possibile col prerequisito Attack. |
 | AC07 | Monaco lv2 2024 vuole Patient Defense senza Focus | Bonus Disengage con costo zero consentito; Dodge addizionale richiede Focus. |
@@ -94,6 +94,13 @@ Le 15 condizioni standard 2014/2024 da verificare nell'ordine fonte→applicazio
 | ST15 | Exhaustion 2014 vs 2024 | Non usare una tabella/scala dell'altra edizione. |
 | ST16 | Due fonti della stessa condizione con scadenze diverse | Non sommare lo stesso status come se fosse doppio svantaggio; non rimuoverlo se un'altra fonte resta attiva. |
 | ST17 | Effetto che concede nuovo TS a fine turno | Effettuare il TS al **turno giusto**, tenere fino al trigger giusto, non rimuovere status arbitrariamente al round end. |
+
+## Verifiche svolte su questa modifica (da NON confondere con actual play)
+
+- **43/43** asserzioni documentali su routing dei due adapter, copertura delle dodici famiglie di classi in entrambe le edizioni, lotta, condizioni, limiti delle fonti, conservazione dei file CORE/PLAYER/SYSTEM-SUPPORT e disponibilità delle nuove regole **solo su richiesta pertinente**. Uno dei controlli precedenti aveva un errore nel conteggio dei casi dovuto a una espressione regolare; sostituito con conteggio per righe e identificativi univoci.
+- **59/59** righe della matrice di test univocamente etichettate: 12 righe di classe, ciascuna valida per due edizioni (=24 percorsi), 18 casi di economia azioni, 12 di grapple/spinta e 17 di condizioni. **71 percorsi/baits da verificare poi nel prodotto**; non sono 71 pass in ChatGPT.
+- **38/38** valutazioni numeriche/logiche su un *oracolo separato, scritto apposta per questa verifica*: contese Atletica 2014, DC e TS 2024, sblocco capacità per livello/sottoclasse, bonus action/reaction una volta, condizioni Prone/Paralyzed/Stunned e principio una volta per turno del Sneak Attack. Questo controlla la coerenza di alcuni expected dei casi; **non esegue il Divertoscopio come Master**, non è una simulazione di sessione né certifica un comportamento del modello.
+- **0** chat pulite indipendenti e **0** combattimenti completi in una sessione esterna osservati in questa attività. Misura del TTFP dopo questi cambiamenti **non svolta**; gli adapter mantengono un link breve, mentre le istruzioni di dettaglio sono in `adapters/5e-srd51/COMBAT-CLASSES.md` e `adapters/5e-srd521/COMBAT-CLASSES.md` recuperabili on demand. Questo limita l'aumento del testo caricato all'avvio ma non ne prova la latenza effettiva.
 
 ## Piani di esecuzione REALI, ancora da svolgere
 

@@ -262,11 +262,11 @@ Non soltanto “soddisfatto o rimborsato”.
 
 Un rischio economico reale, visibile e verificabile.
 
-Nel test chiuso stiamo sperimentando l’Ultra-Garanzia del Prezzo Negativo.
+Nel Public Stress Test pubblico sperimentiamo l’Ultra-Garanzia del Prezzo Negativo, con condizioni e disponibilità indicate nei termini e nel registro pubblico.
 
 La versione base è gratuita.
 
-Se un partecipante al test lo usa realmente, completa il riscontro e dichiara che l’esperienza non ha funzionato per lui secondo le regole del test, il progetto gli paga 1 euro.
+Se una persona maggiorenne usa davvero il Divertoscopio, non è soddisfatta e presenta una richiesta qualificata secondo i termini della fase attiva, il progetto le riconosce 1 euro dopo la verifica, entro il limite previsto.
 
 Quel pagamento ha una funzione precisa: è un **simbolico indennizzo reputazionale**. Non è il prodotto, non è un premio e non compra il feedback. È il costo simbolico che il progetto accetta quando la promessa di valore non funziona per quella persona.
 
@@ -274,6 +274,8 @@ In forma semplice:
 
 **SE NON TI DIVERTI, NON PAGHI.**  
 **TI PAGHIAMO.**
+
+Questa è la sintesi del principio, non un accredito automatico: per chiedere l'euro servono uso reale, requisiti della fase, modulo e verifica positiva, nei limiti pubblicati.
 
 Per i Master il principio equivalente è: se dopo un uso reale non lo trovi utile o non sei soddisfatto, il fallimento non resta soltanto un costo tuo.
 

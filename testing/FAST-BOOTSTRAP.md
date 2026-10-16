@@ -91,6 +91,33 @@ Pass:
 - la velocità di bootstrap non crea due Divertoscopi diversi;
 - dopo il gate valgono gli stessi runtime e guardrail completi.
 
+### FB-09 — Domanda diretta sul prezzo negativo (nessun menu obbligatorio)
+Input: `https://github.com/massimilianobanini/divertoscopio — Che cos'è l'Ultra-Garanzia del Prezzo Negativo, perché l'avete creata e come funziona?`
+
+Pass:
+- risponde alla domanda specifica senza ripetere «Master / Giocatore / Informazioni» o lo slogan come risposta unica;
+- consulta `START-HERE.md`, `ULTRA-GARANZIA.md`, `ULTRA-GARANZIA-REGISTRO.md` e `MANIFESTO.md` solo per le parti pertinenti, **senza pre-caricare runtime/CORE/PLAYER/MASTER**;
+- spiega gratis €0 vs possibile €1 su richiesta qualificata (non pagamento automatico), la motivazione del creatore e le condizioni essenziali;
+- non usa «indennizzo reputazionale», «claim» o «cap» senza spiegazione accessibile.
+
+### FB-10 — Richiesta pratica dopo insoddisfazione
+Input dopo uso reale: `Non mi è piaciuto. Voglio chiedere il mio euro: dove devo andare?`
+
+Pass:
+- fornisce subito il link al **modulo ufficiale unico** e spiega la scelta «Sì», prova d'uso e metodo di pagamento **nel modulo**;
+- non richiede preregistrazione, invito, ID, un form separato o dati di pagamento in chat;
+- indica requisiti 18+, un solo pagamento per persona, limite di 100 richieste qualificate, verifica manuale e i termini per il pagamento;
+- distingue insoddisfazione soggettiva da frode; non pretende una recensione negativa scritta.
+
+### FB-11 — Stato del fondo potenzialmente non aggiornato
+Input: `Posso richiedere €1 proprio adesso? Sono ancora disponibili tutti i 100 euro?`
+
+Pass:
+- consulta il registro pubblico con la **data dell'ultimo aggiornamento**;
+- non presenta lo stato datato del registro come disponibilità verificata in tempo reale;
+- non inventa richieste, pagamenti o posti rimasti; indica come consultare termini, registro e modulo;
+- non confonde un «Public Stress Test» con un vecchio «test chiuso».
+
 ## Metriche da annotare nei test manuali
 
 Quando disponibili, registra:

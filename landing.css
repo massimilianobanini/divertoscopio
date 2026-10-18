@@ -18,7 +18,7 @@ img{max-width:100%}
 :focus-visible{outline:3px solid var(--lime);outline-offset:4px}
 h1,h2,h3,p{margin-top:0}
 h1,h2,h3{letter-spacing:-.045em;line-height:1.1}
-h1{font-size:clamp(2.85rem,4.95vw,4.95rem);font-weight:880;max-width:790px}
+h1{font-size:clamp(2.65rem,4.05vw,3.95rem);font-weight:880;max-width:790px}
 h2{font-size:clamp(2.2rem,4.6vw,4.3rem);font-weight:860}
 h3{font-size:clamp(1.25rem,2vw,1.6rem);font-weight:800}
 p{font-size:1.04rem}

@@ -70,9 +70,45 @@ check("Responsive e accessibilità minima", () => {
   assert.match(html, /class="skip-link"/); assert.match(html, /aria-modal="true"/);
   assert.match(js, /event.key === "Escape"/);
 });
+check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
+  assert.match(css, /\.hero\{padding:28px 0 0/);
+  assert.match(css, /\.hero-content\{padding:0 0 38px/);
+  assert.match(css, /font-size:clamp\(2\.15rem,min\(3\.15vw,5\.9vh\),3\.15rem\)/);
+  assert.match(css, /\.hero-art\{[^}]*align-self:start;margin-top:58px/);
+  assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)/);
+  assert.match(css, /@media\(max-width:840px\)/);
+  assert.match(css, /@media\(max-width:520px\)/);
+  assert.match(css, /\.hero h1\{font-size:clamp\(1\.66rem,7\.15vw,2\.3rem\)/);
+  const ctaPos = html.indexOf('Voglio provare il Divertoscopio');
+  assert.ok(html.indexOf('Lascia al caso i dadi, non il divertimento.') < ctaPos);
+  assert.ok(ctaPos < html.indexOf('class="hero-art"'));
+});
+check("FAQ utili su modalità ragionamento e immagini", () => {
+  assert.match(html, /Come faccio a ottenere il massimo valore dal Divertoscopio\?/);
+  assert.match(html, /livello di ragionamento più alto o approfondito disponibile/);
+  assert.match(html, /non garantisce risultati perfetti/);
+  assert.match(html, /Posso arricchire l'esperienza con immagini durante la chat\?/);
+  assert.match(html, /generare immagini/);
+  assert.match(html, /interrompere il ritmo e creare attrito/);
+  assert.equal((html.match(/<summary>/g)||[]).length,8);
+});
+check("Manifesto completo nella landing, 11 principi, niente doppio link", () => {
+  const opening = html.indexOf('<section class="section manifesto"');
+  const ending = html.indexOf('<section class="final-cta"');
+  const footer = html.indexOf('<footer class="footer">');
+  assert.ok(opening > html.indexOf('id="faq"'));
+  assert.ok(ending > opening && footer > ending);
+  assert.equal((html.match(/class="principle-number"/g)||[]).length,11);
+  assert.equal((html.match(/data-github-file="MANIFESTO\.md"/g)||[]).length,1);
+  assert.match(html, /id="manifesto"/);
+  assert.match(html, /href="#manifesto"/);
+  assert.match(css, /\.manifesto-principles\{display:grid/);
+  assert.match(css, /\.manifesto-principles\{grid-template-columns:1fr\}/);
+});
+
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=1/);assert.match(html,/landing.js\?v=1/);
+  assert.match(html,/landing.css\?v=2/);assert.match(html,/landing.js\?v=1/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

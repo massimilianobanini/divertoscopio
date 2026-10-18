@@ -73,8 +73,8 @@ check("Responsive e accessibilità minima", () => {
 check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
   assert.match(css, /\.hero\{padding:28px 0 0/);
   assert.match(css, /\.hero-content\{padding:0 0 12px/);
-  assert.match(css, /font-size:clamp\(2\.15rem,min\(3\.15vw,5\.9vh\),3\.15rem\)/);
-  assert.match(css, /\.hero-art\{[^}]*align-self:start;margin-top:-10px/);
+  assert.match(css, /font-size:clamp\(2\.65rem,min\(4\.25vw,8\.2vh\),4\.25rem\)/);
+  assert.match(css, /\.hero-art\{[^}]*display:flex;justify-content:center;align-items:flex-start;align-self:start;margin-top:0/);
   assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)/);
   assert.match(css, /@media\(max-width:840px\)/);
   assert.match(css, /@media\(max-width:520px\)/);
@@ -84,21 +84,30 @@ check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
   assert.ok(ctaPos < html.indexOf('class="hero-art"'));
 });
 check("Hero più corta: visual allineato in alto e meno spazio sotto CTA", () => {
-  assert.match(css, /\.hero-art img\{width:min\(100%,365px\)/);
+  assert.match(css, /\.hero-art img\{width:min\(100%,445px\);height:auto/);
   assert.match(css, /\.hero-bottom\{min-height:54px/);
   assert.match(css, /\.hero-art\{min-height:0;margin-top:0;padding:0 0 14px\}/);
   assert.match(css, /\.hero-art img\{width:min\(58%,320px\)\}/);
-  assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)\{[\s\S]*?\.hero-art\{margin-top:-10px\}/);
+  assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)\{[\s\S]*?\.hero-art\{margin-top:0\}/);
   assert.ok(html.includes('Voglio provare il Divertoscopio'));
 });
 check("Promessa di GDR semplice e divertimento più rapido", () => {
   assert.match(html, /Meno attesa prima di divertirti\./);
-  assert.match(html, /più semplice iniziare un GDR/);
+  assert.match(html, /mette le basi per il GDR semplice/);
   assert.match(html, /meno preparazione superflua e più tempo per giocare davvero/);
   assert.match(css, /\.answer-heading \.first-fun\{/);
   assert.ok(html.indexOf('class="first-fun"') > html.indexOf('id="answer-title"'));
   assert.ok(html.indexOf('class="first-fun"') < html.indexOf('class="benefit-stack"'));
 });
+check("Evita vuoti verticali da grid e centra il Visual Hammer senza alterarlo", () => {
+  assert.match(css, /\.hero-art\{[^}]*display:flex;justify-content:center;align-items:flex-start/);
+  assert.doesNotMatch(css, /\.hero-art\{[^}]*display:grid;place-items:center/);
+  assert.match(css, /\.hero-art img\{width:min\(100%,445px\);height:auto/);
+  assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)\{[\s\S]*?\.hero h1\{font-size:clamp\(2\.5rem,min\(4\.1vw,8vh\),3\.85rem\)/);
+  assert.match(css, /@media\(max-width:520px\)/);
+  assert.match(html, /Ultra-Garanzia del Prezzo Negativo/);
+});
+
 check("FAQ utili su modalità ragionamento e immagini", () => {
   assert.match(html, /Come faccio a ottenere il massimo valore dal Divertoscopio\?/);
   assert.match(html, /livello di ragionamento più alto o approfondito disponibile/);
@@ -124,7 +133,7 @@ check("Manifesto completo nella landing, 11 principi, niente doppio link", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=3/);assert.match(html,/landing.js\?v=1/);
+  assert.match(html,/landing.css\?v=4/);assert.match(html,/landing.js\?v=1/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

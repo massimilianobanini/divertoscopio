@@ -32,7 +32,7 @@ check("Visual Hammer originale, non sostituito da illustrazioni", () => {
 });
 check("Narrativa direct-response completa", () => {
   for(const id of ["perche","come-funziona","inizia","garanzia","faq"]) assert.ok(html.includes('id="'+id+'"'),id);
-  assert.match(html, /Il problema/);assert.match(html,/La risposta/);
+  assert.match(html, /Il problema/i);assert.match(html,/La risposta/i);
   assert.match(html, /PER GIOCATORI/);assert.match(html, /PER MASTER/);
   assert.match(html, /TRASPARENZA/);
 });

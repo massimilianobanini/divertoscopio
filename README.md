@@ -53,6 +53,14 @@ Un chatbot può già inventare una storia. Il Divertoscopio prova a fare qualcos
 
 L’obiettivo non è far fare tutto all’AI. È aiutare le persone a giocare meglio e con meno ostacoli, senza togliere al Master e ai giocatori le parti che vogliono tenere per sé.
 
+## Landing page pubblica — V0.1
+
+Pagina di ingresso pensata per giocatori e Master italiani: [Divertoscopio su GitHub Pages](https://massimilianobanini.github.io/divertoscopio/).
+
+La pagina presenta il progetto con un percorso a risposta diretta e permette di **scegliere un intento già specifico**, generare localmente un'istruzione con questo repository e copiarla per ChatGPT. Non ospita una nuova AI, non raccoglie dati personali, non richiede un account Divertoscopio, non sostituisce il runtime e non cambia i termini dell'Ultra-Garanzia. I dati eventualmente digitati nella pagina restano nel browser finché l'utente non li incolla volontariamente nella propria chat.
+
+**Stato di distribuzione:** l'indirizzo sopra funziona quando GitHub Pages è abilitato e il workflow `.github/workflows/landing-pages.yml` ha completato il deploy. Se la pagina non fosse raggiungibile, usa l'avvio diretto qui sotto. L'interfaccia della landing va ancora validata con persone e browser reali.
+
 ## Inizia
 
 Non devi studiare questo repository.

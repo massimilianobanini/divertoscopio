@@ -35,6 +35,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Verify landing
         run: node testing/landing-page.test.mjs
+      - name: Verify complete Divertoscopio framework
+        run: node testing/repository-stress.test.mjs
   deploy:
     if: github.event_name != 'pull_request'
     needs: test

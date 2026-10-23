@@ -1,0 +1,21 @@
+name: Divertoscopio — Full Repository Regression
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    name: Framework, adapters, contracts, safety, landing
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Check full repository regression
+        run: node testing/repository-stress.test.mjs

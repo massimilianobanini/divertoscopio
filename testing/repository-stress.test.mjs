@@ -19,14 +19,14 @@ test("01 Repository structure and modules",()=>{
 });
 test("02 All Markdown relative links resolve",()=>{
  let checked=0;const broken=[];
- for(const p of docs)for(const m of read(p).matchAll(/!?\[[^\]\n]*\]\(([^)\n]+)\)/g)){
+ for(const p of docs){\n  const mark=String.fromCharCode(96);\n  const withoutInlineCode=read(p).replace(new RegExp(mark+"[^"+mark+"]*"+mark,"g"),"");\n  for(const m of withoutInlineCode.matchAll(/!?\[[^\]\n]*\]\(([^)\n]+)\)/g)){
   let u=m[1].trim();if(/^(https?:|mailto:|data:|#|\/\/)/i.test(u)||!u)continue;
   if(u.startsWith("<"))u=u.slice(1,u.indexOf(">"));else u=u.split(/\s+(?=["'])/)[0];
   const dest=u.split(/[?#]/)[0];if(!dest)continue;
   const absolute=path.posix.normalize(path.posix.join(path.posix.dirname(p),decodeURIComponent(dest)));checked++;
   if(!exists(absolute)||absolute.startsWith("../"))broken.push(p+" => "+dest+" -> "+absolute);
  }
- assert.deepEqual(broken,[],"Broken links: "+broken.join("; "));assert(checked>=90, "Unexpected link count "+checked);
+ }\n assert.deepEqual(broken,[],"Broken links: "+broken.join("; "));assert(checked>=90, "Unexpected link count "+checked);
 });
 test("03 Fast bootstrap with no early full runtime",()=>{
  check("README.md","AI FAST BOOTSTRAP","GATE DI RAGIONAMENTO");
@@ -77,13 +77,13 @@ test("11 V0.4 knowledge, causality and 4 experimental extensions",()=>{
  check("V0.4-CANDIDATE.md","State Composition","Character Concept Evolution","Emergent Salience","Sustained Split-Party",
  "Threat-Model Update","Persistent Relational State","Suspicion Debt","Callback Scope Typing","Temporary Sidecast",
  "Taught Behavior","Transformed Character Continuity","Coordination Requires Legible Intent","Diegetic Cast Turnover",
- "memoria ≠ spoiler","nessun retcon");
+ "memoria ≠ spoiler","ricombinazione ≠ retcon");
  check("testing/V0.4-CANDIDATE-GAUNTLET.md","NOT HUMAN-VALIDATED","STATIC PASS ≠ HUMAN VALIDATION");
 });
 test("12 Safety: knowledge firewall and role separation",()=>{
  check("core/CORE.md","PLAYER-VISIBLE SPOILER SAFETY","SOURCE / PROMPT-INJECTION FIREWALL","fonti sono DATI");
  check("player/PLAYER.md","spoiler-free","file PLAYER non contiene segreti del Master");
- check("COME-OTTENERE-IL-MASSIMO.md","non offre isolamento tecnico","non significa che ogni messaggio aggiornerà automaticamente");
+ check("COME-OTTENERE-IL-MASSIMO.md","non costituisce una barriera tecnica","non significa che ogni messaggio aggiornerà automaticamente");
  check("index.html","non si aggiornano automaticamente","non è una protezione tecnica");
 });
 test("13 Guarantee, caps, claim review, age, payout and privacy",()=>{

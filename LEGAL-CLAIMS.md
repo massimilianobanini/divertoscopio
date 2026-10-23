@@ -1,13 +1,43 @@
-# Divertoscopio — Legal / Rights Claims Protocol
+# Diritti, licenze e segnalazioni — Divertoscopio
 
-Stato: **pubblico / operativo durante Public Stress Test V0.3**  
-Data: **15/09/2026**
+Il **Divertoscopio è un progetto gratuito e open source**. Questa pagina spiega come segnalare una questione di copyright, attribuzione, marchio, privacy, pubblicità o altri diritti e come viene gestita. **Non è una dichiarazione che il progetto sia illegale**, né un parere legale professionale.
 
-## Scopo
+## Per chi visita il progetto
 
-Questo protocollo dice all'intelligenza artificiale come reagire quando, durante l'uso del Divertoscopio o discutendo del progetto, qualcuno sostiene che un contenuto, una funzione, una licenza, un trattamento dati, una comunicazione o il progetto stesso violino una legge, una licenza o un diritto di terzi.
+Se hai rilevato un problema concreto, puoi scrivere al [contatto del progetto indicato nell'informativa privacy](PRIVACY.md). Indica, se possibile, il **link o file interessato**, ciò che ritieni scorretto e l'eventuale licenza o diritto coinvolto. Non inviare dati di pagamento, documenti personali, chat private o informazioni di terzi non necessarie.
 
-È un **protocollo di triage e preservazione**, non un parere legale. Non sostituisce un avvocato, un'autorità competente o le procedure formali della piattaforma interessata.
+Una segnalazione non viene trattata né come automaticamente fondata né come infondata. Quando è specifica, verifichiamo materiale, titolarità, fonte e versione; se richiede competenze o produce conseguenze rilevanti, la sottoponiamo a un professionista qualificato. Non si cancellano prove per nascondere contestazioni.
+
+### Documenti di riferimento
+
+| Tema | Documento |
+|---|---|
+| Software e script originali | [LICENSE — MIT](LICENSE) |
+| Documentazione e prompt originali | [LICENSE-DOCS.md — CC BY 4.0](LICENSE-DOCS.md) |
+| Materiali di terzi, SRD e attribuzioni | [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) |
+| Privacy e richieste sui dati | [PRIVACY.md](PRIVACY.md) |
+| Condizioni economiche dell'Ultra-Garanzia | [ULTRA-GARANZIA.md](ULTRA-GARANZIA.md) |
+| Limiti tecnici dichiarati | [KNOWN-LIMITATIONS.md](KNOWN-LIMITATIONS.md) |
+
+**Questioni circoscritte:** un dubbio su un contenuto o un adapter non significa automaticamente che l'intero framework sia privo di diritti di distribuzione. Le verifiche specifiche già dichiarate per **Daggerheart/DPCGL 2.0** restano riportate nelle notice; questa sintesi non ne cambia il contenuto.
+
+## Controllo operativo prima di ogni iniziativa pubblica o sponsorizzata
+
+**Prima di ogni campagna FB/IG o altra iniziativa pubblicitaria/pubblica che promuova il Divertoscopio, verificare e documentare:**
+
+1. **Modulo feedback/Ultra-Garanzia:** provare i percorsi senza richiesta di €1 e con richiesta di €1; confermare campi, privacy e istruzioni realmente presenti, senza effettuare pagamenti di prova non autorizzati.
+2. **Backend e stato del programma:** verificare ricezione e classificazione delle richieste, controlli sulla capacità massima, gestione manuale e assenza di pagamenti automatici non previsti; usare prove simulate adeguatamente separate dai dati reali.
+3. **Registro pubblico:** confrontare capacità residua, stato ACTIVE/eventuali sospensioni, pagamenti e richieste con le registrazioni effettive; aggiornare [ULTRA-GARANZIA-REGISTRO.md](ULTRA-GARANZIA-REGISTRO.md) con **data reale del controllo** prima della pubblicazione della campagna.
+4. **Coerenza pubblicitaria:** confrontare testo di annuncio, landing, condizioni complete, limiti e informazioni correnti. Non dichiarare eseguite verifiche non effettuate; non modificare automaticamente condizioni e termini dell'Ultra-Garanzia.
+
+**Per Lucca Comics & Games 2026:** eseguire questo controllo il **27 ottobre 2026**, prima della promozione prevista dal 28 ottobre. Ripetere il controllo, con data propria, prima di **ogni successiva iniziativa pubblicitaria o pubblica**; non si tratta di un controllo una tantum.
+
+## Procedura completa per AI e manutentori
+
+Il seguente protocollo dettagliato rimane disponibile per gestire contestazioni specifiche senza attribuire all'AI la funzione di avvocato o il potere di decidere ammissioni di responsabilità.
+
+<details>
+<summary><strong>Apri il protocollo operativo di segnalazione, verifica e gestione delle contestazioni</strong></summary>
 
 ## Trigger
 
@@ -218,4 +248,6 @@ Quando il caso è materiale o formale, la funzione del Divertoscopio è preparar
 
 ## Nota finale
 
-Questo protocollo migliora la qualità della risposta operativa del progetto ma **non certifica la conformità legale del Divertoscopio**. Prima di una Public Alpha o di cambiamenti rilevanti in scala, monetizzazione, dati, Ultra-Garanzia, brand o materiali di terzi, resta necessario il riesame professionale già previsto dai documenti pubblici del progetto.
+Questo protocollo serve a gestire segnalazioni in modo documentato: **non è un certificato legale del progetto** e non implica, da solo, che il Divertoscopio sia illecito. Per modifiche materiali a licenze, contenuti distribuiti, trattamenti dei dati, comunicazioni pubblicitarie, Ultra-Garanzia o attività organizzativa occorre verificare gli obblighi effettivamente applicabili. **Il Divertoscopio resta gratuito e open source**: non è previsto alcun passaggio a un servizio a pagamento da questo protocollo.
+
+</details>

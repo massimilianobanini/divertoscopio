@@ -19,14 +19,18 @@ test("01 Repository structure and modules",()=>{
 });
 test("02 All Markdown relative links resolve",()=>{
  let checked=0;const broken=[];
- for(const p of docs){\n  const mark=String.fromCharCode(96);\n  const withoutInlineCode=read(p).replace(new RegExp(mark+"[^"+mark+"]*"+mark,"g"),"");\n  for(const m of withoutInlineCode.matchAll(/!?\[[^\]\n]*\]\(([^)\n]+)\)/g)){
+ for(const p of docs){
+  const mark=String.fromCharCode(96);
+  const withoutInlineCode=read(p).replace(new RegExp(mark+"[^"+mark+"]*"+mark,"g"),"");
+  for(const m of withoutInlineCode.matchAll(/!?\[[^\]\n]*\]\(([^)\n]+)\)/g)){
   let u=m[1].trim();if(/^(https?:|mailto:|data:|#|\/\/)/i.test(u)||!u)continue;
   if(u.startsWith("<"))u=u.slice(1,u.indexOf(">"));else u=u.split(/\s+(?=["'])/)[0];
   const dest=u.split(/[?#]/)[0];if(!dest)continue;
   const absolute=path.posix.normalize(path.posix.join(path.posix.dirname(p),decodeURIComponent(dest)));checked++;
   if(!exists(absolute)||absolute.startsWith("../"))broken.push(p+" => "+dest+" -> "+absolute);
  }
- }\n assert.deepEqual(broken,[],"Broken links: "+broken.join("; "));assert(checked>=90, "Unexpected link count "+checked);
+ }
+ assert.deepEqual(broken,[],"Broken links: "+broken.join("; "));assert(checked>=90, "Unexpected link count "+checked);
 });
 test("03 Fast bootstrap with no early full runtime",()=>{
  check("README.md","AI FAST BOOTSTRAP","GATE DI RAGIONAMENTO");

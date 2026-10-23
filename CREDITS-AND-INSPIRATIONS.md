@@ -2,11 +2,11 @@
 
 Il **Divertoscopio è un progetto originale**. È stato però sviluppato anche studiando, confrontando, criticando e stressando idee pubblicamente condivise da Master, giocatori, autori, designer, divulgatori e community del gioco di ruolo.
 
-Questa pagina **non è una classifica di importanza**. Le persone e le realtà citate hanno contribuito, in modi diversi, al modo di ragionare da cui nasce il progetto: attraverso contenuti, esempi, confronto, actual play, critica, failure mode, tecniche o prospettive sul GDR. La lunghezza delle descrizioni è volutamente uniforme e non indica un peso maggiore o minore.
+Questa pagina **non è una classifica**: raccoglie autori, opere e comunità i cui contenuti pubblici sono stati consultati come riferimenti, esempi o spunti di riflessione. La citazione non implica un contributo diretto al codice o una collaborazione.
 
 **Essere citati qui non implica approvazione del Divertoscopio, collaborazione, partnership, sponsorizzazione o affiliazione.** Salvo dichiarazione esplicita, le persone elencate non hanno revisionato né approvato questo progetto.
 
-Il Divertoscopio non ripubblica qui transcript, video, commenti o altri materiali proprietari: le idee utili vengono distillate, confrontate con altre fonti e riorganizzate in principi, pattern, guardrail e procedure operative originali del progetto.
+Questa pagina non riproduce video, trascrizioni o altri contenuti di terzi. Le attribuzioni giuridicamente richieste per i materiali effettivamente incorporati si trovano nelle [notice dedicate](THIRD-PARTY-NOTICES.md).
 
 ## Chi lo ha creato e da quali materiali nasce
 
@@ -16,13 +16,13 @@ Il suo metodo nasce dall'esperienza accumulata negli anni come Master e giocator
 
 **Obiettivo:** un supporto utilizzabile con sistemi di gioco diversi, per aiutare giocatori e Master a prendere decisioni migliori, ridurre la preparazione inutile e aumentare le possibilità di sessioni coinvolgenti. Il divertimento reale si valuta con l'esperienza e il riscontro dei partecipanti: **non è garantito in ogni partita**. L'Ultra-Garanzia riguarda le condizioni economiche pubblicate, non una promessa di infallibilità dell'esperienza.
 
-**Se qualcuno chiede «Su che materiali ti sei allenato?»**, distingui sempre le due domande: per *come è stato progettato il Divertoscopio* usa questa pagina; per *su quali dati è stato addestrato il modello AI sottostante* non inventare un elenco o attribuire il suo addestramento a Massimiliano Banini. Riporta soltanto le informazioni verificabili sul fornitore del modello, quando disponibili. I documenti interni di ricerca, gli appunti e i resoconti privati non vengono pubblicati integralmente qui. Le attribuzioni di licenza per il materiale di terzi effettivamente usato rimangono in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+**Progettazione e addestramento AI sono cose diverse:** Massimiliano Banini ha progettato le istruzioni e le procedure del Divertoscopio, non ha addestrato il modello ChatGPT sottostante. L'elenco di fonti consultate non è un elenco di dati di addestramento del fornitore AI. Le attribuzioni obbligatorie dei materiali di terzi effettivamente incorporati sono raccolte in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 ---
 
 ## Persone, community e fonti italiane
 
-Elenco alfabetico, senza gerarchie. Quando una fonte ha prodotto un contributo tecnicamente tracciato, la provenance dettagliata rimane nella ricerca interna e nel Source Registry del progetto.
+Elenco alfabetico, senza gerarchie. Le descrizioni riassumono il tipo di riferimento pubblico considerato, senza attribuire collaborazione o approvazione.
 
 - **20 Facce / Samuele Nicotra** — esperienza, contenuti e confronto sul gioco di ruolo, sul ruolo del Master e sull’esperienza al tavolo considerati nel percorso di ricerca e testing.
 - **Andrea “Il Rosso” Lucca — La Locanda del Drago Rosso** — tecniche, riflessioni e divulgazione GDR considerate nel lavoro di confronto e distillazione della libreria del progetto.
@@ -42,7 +42,7 @@ Elenco alfabetico, senza gerarchie. Quando una fonte ha prodotto un contributo t
 Anche qui l’ordine è alfabetico e non rappresenta una graduatoria. Alcune fonti hanno fornito esempi positivi, altre controesempi o failure mode; entrambe le cose sono utili alla ricerca.
 
 - **Bob World Builder** — contenuti e riflessioni GDR considerati nel confronto comparativo su Mastering, gioco al tavolo e design dell’esperienza.
-- **The Alexandrian / Justin Alexander** — ricerca comparativa su design degli indizi, preparazione di scenari, strutture a nodi e interpretazione delle scelte dei giocatori. L'audit completo del dominio è ancora in corso: l'integrazione selettiva non implica validazione o approvazione dell'autore.
+- **The Alexandrian / Justin Alexander** — articoli pubblici su design degli indizi, preparazione di scenari, strutture a nodi e interpretazione delle scelte dei giocatori, consultati come riferimenti. Nessuna approvazione o affiliazione implicita.
 - **Crispy’s Tavern** — contenuti GDR considerati come materiale di confronto su esperienza di gioco, Mastering e pratiche di community.
 - **Dani Krossing** — contenuti e prospettive GDR considerati nella ricerca comparativa del progetto.
 - **Deck of DM Things** — contenuti e strumenti di Mastering considerati nel confronto su prep, procedure e gestione pratica della sessione.
@@ -55,7 +55,7 @@ Anche qui l’ordine è alfabetico e non rappresenta una graduatoria. Alcune fon
 - **Insight Check** — contenuti GDR considerati nel percorso di ricerca e confronto.
 - **Jon Del Arroz** — contenuti e prospettive sul GDR considerate nel confronto qualitativo della ricerca.
 - **MrRipper** — selezioni editoriali di storie e discussioni community usate per analizzare actual play, rulings, soluzioni creative, callback, twist, failure mode e cultura del tavolo.
-- **Reddit e Quora — community GDR** — thread e risposte usati come evidenza qualitativa su esperienze di gioco, pratiche, fallimenti e soluzioni, mantenendo separata la provenance delle singole source family.
+- **Reddit e Quora — community GDR** — discussioni pubbliche considerate come spunti qualitativi su esperienze di gioco, problemi ricorrenti e soluzioni.
 - **r/daggerheart** — discussioni community campionate per individuare failure mode, ambiguità e problemi ricorrenti da stressare, senza usarle come autorità sulle regole.
 - **Tabletop University** — contenuti e riflessioni GDR considerate nel confronto tra tecniche, sistemi e pratiche di gioco.
 - **The DM Lair** — contenuti di Mastering e preparazione considerati come materiale di confronto nella ricerca.
@@ -66,7 +66,7 @@ Anche qui l’ordine è alfabetico e non rappresenta una graduatoria. Alcune fon
 
 ## Libri, framework e riferimenti di game mastering
 
-La ricerca privata che alimenta la libreria pubblica ha inoltre confrontato opere e framework di game mastering, improvvisazione, comicità e narrativa. Anche questi riferimenti sono elencati alfabeticamente e non per importanza:
+Tra le opere e i libri consultati come riferimenti per game mastering, improvvisazione, comicità e narrativa figurano, in ordine alfabetico:
 
 - **Dungeon Crawler Carl** — Matt Dinniman; usato come riferimento narrativo per audience, reputazione, incentivi, stato persistente e contrasto fra comicità e pressione reale.
 - **Improv for Gamers** — Karen Twelves; confrontato per improvvisazione, collaborazione, spotlight, adattamento degli esercizi e costruzione progressiva dei personaggi.
@@ -93,7 +93,7 @@ Anche Public Stress Test, stress test mirati e feedback successivi contribuiscon
 
 Questa pagina raccoglie **influenze, fonti e interlocutori**, non assegna proprietà esclusiva su principi di game design che spesso appartengono a tradizioni più ampie e possono avere molte formulazioni indipendenti.
 
-La provenance tecnica dettagliata — source family, audit status, conferme, contraddizioni, pattern collegati e stato dei test — resta nei documenti di ricerca e nei registri interni del progetto. Qui le descrizioni rimangono volutamente brevi e comparabili.
+Questi crediti descrivono fonti e ispirazioni; non concedono diritti su opere di terzi e non sostituiscono le notice di licenza per materiali effettivamente riutilizzati.
 
 Quando un’opera o un materiale di terzi richiede una specifica attribuzione di licenza, questa viene gestita separatamente in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 

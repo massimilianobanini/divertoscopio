@@ -110,12 +110,12 @@ check("Evita vuoti verticali da grid e centra il Visual Hammer senza alterarlo",
 
 check("FAQ utili su modalità ragionamento e immagini", () => {
   assert.match(html, /Come faccio a ottenere il massimo valore dal Divertoscopio\?/);
-  assert.match(html, /livello di ragionamento più alto o approfondito disponibile/);
+  assert.match(html, /un livello di ragionamento più approfondito/);
   assert.match(html, /non garantisce risultati perfetti/);
   assert.match(html, /Posso arricchire l'esperienza con immagini durante la chat\?/);
   assert.match(html, /generare immagini/);
   assert.match(html, /interrompere il ritmo e creare attrito/);
-  assert.equal((html.match(/<summary>/g)||[]).length,8);
+  assert.equal((html.match(/<summary>/g)||[]).length,12);
 });
 check("Manifesto completo nella landing, 11 principi, niente doppio link", () => {
   const opening = html.indexOf('<section class="section manifesto"');
@@ -131,9 +131,37 @@ check("Manifesto completo nella landing, 11 principi, niente doppio link", () =>
   assert.match(css, /\.manifesto-principles\{grid-template-columns:1fr\}/);
 });
 
+
+check("Risorse per scettici e uso consapevole, facoltative e responsive", () => {
+  assert.match(html, /<section class="section learn" id="risorse"/);
+  assert.match(html, /La creatività resta tua/);
+  assert.match(html, /Nessuna configurazione obbligatoria/);
+  assert.match(css, /\.learn-grid\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(css, /\.pain-grid,\.steps,\.learn-grid\{grid-template-columns:1fr\}/);
+  for (const path of ["PERCHE-USARE-IL-DIVERTOSCOPIO.md", "COME-OTTENERE-IL-MASSIMO.md"]) {
+    assert.ok(fs.statSync(path).size > 1000);
+    assert.ok((html.split('data-github-file="' + path + '"').length-1) >= 2);
+  }
+  assert.ok(html.indexOf('id="risorse"') > html.indexOf('class="section honest"'));
+  assert.ok(html.indexOf('id="risorse"') < html.indexOf('id="faq"'));
+});
+
+check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () => {
+  assert.ok(html.includes("L'AI non rischia di togliere il divertimento della preparazione?"));
+  assert.ok(html.includes("Perché non usare ChatGPT normale o le mie tabelle casuali?"));
+  assert.ok(html.includes("Perché giocare con l'AI invece che a un videogioco?"));
+  assert.ok(html.includes("Posso salvare la campagna su Google Drive senza perdere dettagli o avere spoiler?"));
+  assert.ok(html.includes("Non è stata dimostrata una superiorità generale"));
+  assert.ok(html.includes("non si aggiornano automaticamente"));
+  assert.ok(html.includes("non è una protezione tecnica"));
+  assert.ok(html.includes("08 / DOMANDE FREQUENTI"));
+  assert.ok(html.includes("09 / IL MANIFESTO DEL DIVERTOSCOPIO"));
+  assert.doesNotMatch(html, /Francesco Siciliano|WhatsApp/);
+});
+
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=4/);assert.match(html,/landing.js\?v=1/);
+  assert.match(html,/landing.css\?v=5/);assert.match(html,/landing.js\?v=1/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

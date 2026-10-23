@@ -1,25 +1,24 @@
-LIMITI CONOSCIUTI — Public Stress Test V0.3 / V0.4 Candidate
+# Limiti attuali del Divertoscopio — Public Stress Test
 
-IN BREVE — QUELLO CHE DEVI SAPERE COME TESTER
+Il Divertoscopio è **gratuito, open source e ancora in fase di test pubblico**. Questa pagina spiega cosa aspettarti; **non è necessario leggerla tutta prima di iniziare**.
 
-Non devi leggere tutto questo documento prima di iniziare. Ti basta sapere questo:
+## In breve
 
-**Supporto piattaforme corrente: solo ChatGPT. Gemini e Claude non sono supportati al momento.** Su Gemini, il solo URL GitHub non ha dato accesso affidabile al repository e nel test reale il repository è stato interpretato erroneamente come vuoto/inaccessibile; un workaround con Gem dedicata + knowledge/mirror su Google Drive è stato esplorato ma giudicato troppo complesso per il normale onboarding. Su Claude, il Divertoscopio è riuscito ad avviarsi, ma sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi, interrompendo di fatto l'avventura e imponendo circa 6 ore di attesa nel test osservato. Non attribuiamo questi sintomi a una causa tecnica più precisa senza evidenza. Questi risultati non dimostrano che le piattaforme non possano mai funzionare: indicano che il Divertoscopio non è oggi abbastanza semplice e sostenibile per dichiararne il supporto.
+| Cosa vuoi fare | Stato e limite da conoscere |
+|---|---|
+| **Giocare in chat con l'AI** | Supporto pubblico attuale: **ChatGPT**. Il percorso più provato è **D&D 5e 2014 / SRD 5.1**, soprattutto un giocatore, livello 1 e avventure testuali brevi. |
+| **Usarlo come Master** | Più maturo per **preparare, analizzare e migliorare** le sessioni; l'assistenza continuativa in diretta a un tavolo complesso è ancora poco verificata. |
+| **Giocare a D&D 2024 o Daggerheart** | Adapter candidati pubblicati, ma **non ancora validati quanto D&D 2014**. Per Daggerheart resta distinto il chiarimento di licenza descritto nelle [notice](THIRD-PARTY-NOTICES.md). |
+| **Giocare in più persone** | È predisposta la modalità **HOSTED / SINGLE-CHAT**: una persona inoltra le azioni degli altri. Non equivale a chat collaborativa sincronizzata ed è poco validata con gruppi reali. |
+| **Usare Gemini o Claude** | **Non supportati pubblicamente al momento** in base ai test effettuati; questo non dimostra che non possano funzionare in futuro. |
+| **Aggiungere immagini, musica o mappe** | Possibili come integrazioni, soprattutto su richiesta; possono introdurre **attesa e attrito**, quindi il percorso standard privilegia il testo. |
 
-La matrice corrente delle confidence per i sistemi con supporto pubblico è mantenuta in **[SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md)**, unica fonte canonica delle percentuali.
+**Cosa significa «ancora in test»:** la presenza di istruzioni e test tecnici nel repository non garantisce che l'AI rispetti sempre regole, memoria, ritmo e scelte. L'esperienza può variare in base a sistema di gioco, difficoltà, modello e durata della chat. La disponibilità dell'[Ultra-Garanzia](ULTRA-GARANZIA.md) segue **soltanto i suoi termini pubblicati** e non implica che tutte le partite saranno soddisfacenti.
 
-> **Stima interna basata su adapter, stress test e actual play. Non è una probabilità di divertimento né una garanzia che ogni ruling sia corretto.**
-- per i giocatori, abbiamo provato soprattutto **D&D 5e 2014 / SRD 5.1**, una persona e gioco testuale in chat; il livello 1 resta il caso più testato, con un primo catch-up tecnico 1→3 già eseguito ma senza ancora una lunga validazione post-level-up;  
-- D&D 2024 / SRD 5.2.1 ha ora un adapter candidato separato e un ampio audit interno, ma actual-play e validazione esterna sono ancora insufficienti; personaggi di livello più alto e combattimenti molto complessi restano poco testati;  
-- la **modalità multiplayer HOSTED / SINGLE-CHAT è implementata** (un host inoltra le azioni del gruppo), ma **non ancora validata** con più persone reali in partite complete;  
-- usare l'intelligenza artificiale mentre un gruppo sta giocando dal vivo è ancora poco testato;  
-- immagini, musica e mappe possono essere utili, ma possono anche rallentare il gioco: stiamo ancora capendo quando valgono davvero l'attesa;  
-- **Daggerheart** ha ora un adapter candidato pubblico basato su SRD 2.0 e fonti ufficiali correnti: ha superato stress test statici interni, ma non ha ancora validazione esterna/actual-play sufficiente; altri GDR e altre piattaforme di intelligenza artificiale possono funzionare, ma non sono stati provati quanto il caso principale;  
-- giocare al tavolo, online in tempo reale e via chat sono esperienze diverse: non fingiamo che funzionino nello stesso identico modo;  
-- per i Master, oggi il Divertoscopio è più maturo per **preparare una sessione, adattare materiale, analizzare problemi e migliorare il gioco** che per seguire automaticamente in tempo reale un intero tavolo complesso.
+Per le stime tecniche dei sistemi, consulta [SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md): **non sono percentuali di probabilità di divertimento**. Le evidenze dettagliate disponibili risalgono soprattutto ai test del **7–8 ottobre 2026**; questa riorganizzazione del testo **non costituisce una nuova validazione**.
 
-Se il tuo caso è diverso puoi comunque provarlo: consideralo un test esplorativo e raccontaci chiaramente cosa succede.
-
+<details>
+<summary><strong>Leggi i dettagli tecnici, lo stato delle funzionalità e lo storico dei test</strong> (facoltativo)</summary>
 
 ## STATO PUBBLICO ATTUALE — 8 OTTOBRE 2026
 
@@ -49,7 +48,7 @@ DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
 Stato: pubblico per tester / sperimentale  
 Versione corrente: Public Stress Test V0.3 / V0.4 Candidate  
 Prima ricognizione dettagliata: 18/09/2026  
-**Ultima revisione documentale: 08/10/2026** (nuove capacità e suite statiche; NON nuova validazione di actual play)  
+**Ultima verifica tecnica delle capacità: 08/10/2026** (nuove capacità e suite statiche; NON nuova validazione di actual play). **Revisione espositiva: 24/10/2026**, senza nuove verifiche funzionali.  
 Le date precedenti nelle sezioni tecniche indicano quando una specifica prova è stata effettuata, non la data dell'ultima versione.
 
 SCOPO  
@@ -193,7 +192,7 @@ Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma 
 13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON SUPPORTATI NELLA VERSIONE CORRENTE  
 La versione pubblica corrente è ottimizzata e supportata **solo su ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente.
 
-**Gemini:** il bootstrap dal solo link GitHub non è risultato affidabile; nel test reale Gemini ha trattato il repository come vuoto/inaccessibile quando in realtà il problema era l'accesso. Sono stati esplorati percorsi alternativi, incluso un setup con Gem dedicata e knowledge/mirror Drive, ma richiedono troppo attrito rispetto all'avvio desiderato `link + Iniziamo`.
+**Gemini:** il bootstrap dal solo link GitHub non è risultato affidabile; nel test reale Gemini ha trattato il repository come vuoto/inaccessibile quando in realtà il problema era l'accesso. Sono stati esplorati percorsi alternativi, incluso un setup con Gem dedicata e archivio di conoscenza esterno, ma richiedono troppo attrito rispetto all'avvio desiderato `link + Iniziamo`.
 
 **Claude:** il bootstrap ha permesso di iniziare, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi. L'avventura/interazione è quindi diventata impraticabile e la piattaforma ha imposto circa 6 ore di attesa prima di poter continuare.
 
@@ -278,3 +277,5 @@ Rischi aperti:
 - sidecast può sottrarre troppo spotlight o trasferire informazioni non dovute.
 
 Questi rischi vanno verificati con actual play, correction burden, FUN e Desire to Return. **STATIC PASS ≠ VALIDATED.**
+
+</details>

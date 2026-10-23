@@ -157,6 +157,22 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
 .honest-links{display:flex;flex-wrap:wrap;gap:13px;margin-top:25px}
 .honest-links a{display:inline-block;padding:10px 14px;border:1px solid #51684c;border-radius:9px;font-weight:740;font-size:.85rem;text-decoration:none}
 .honest-links a:hover{border-color:var(--lime)}
+
+.learn{background:#0c130c;color:var(--ink)}
+.learn .kicker{color:var(--lime)}
+.learn-intro{max-width:890px;margin-bottom:30px}
+.learn-intro h2{font-size:clamp(2.15rem,4.1vw,3.75rem);margin-bottom:17px}
+.learn-intro h2 span{color:var(--lime)}
+.learn-intro>p:last-child{max-width:750px;color:#bdcbb6;line-height:1.75;margin:0}
+.learn-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.learn-card{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:31px;border:1px solid #3b5534;background:#162216;border-radius:19px}
+.learn-label{color:var(--lime);font-size:.7rem;font-weight:850;letter-spacing:.13em;margin:0 0 20px}
+.learn-card h3{font-size:clamp(1.35rem,2.4vw,1.85rem);line-height:1.28;margin-bottom:17px}
+.learn-card>p:not(.learn-label){font-size:.97rem;line-height:1.7;color:#bbcbb5}
+.learn-card .under-link{margin-top:auto;font-size:.93rem;color:#e5f7dd}
+.learn-steps{margin:0 0 13px;padding-left:22px;color:#bdcbb6;line-height:1.7;font-size:.95rem}
+.learn-steps li{padding-left:4px;margin-bottom:5px}
+.learn-steps strong{color:var(--ink)}
 .faq{background:var(--paper);color:var(--paper-ink);scroll-margin-top:76px}
 .faq-grid{display:grid;grid-template-columns:.76fr 1.24fr;gap:96px}
 .faq .kicker{color:#318323}
@@ -207,7 +223,7 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
  .hero-art img{width:min(58%,320px)}
  .hero-bottom{padding:17px 0}
  .section{padding:75px 0}
- .pain-grid,.steps{grid-template-columns:1fr}
+ .pain-grid,.steps,.learn-grid{grid-template-columns:1fr}
  .pain-num{margin-bottom:18px}
  .answer-grid,.guarantee-grid,.manifesto-intro,.honest-inner,.faq-grid{grid-template-columns:1fr;gap:32px}
  .manifesto-bottom{align-items:flex-start;flex-direction:column}
@@ -230,7 +246,7 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
  .hero-bottom .bullet-dot{display:none}
  .section{padding:63px 0}
  h2{font-size:clamp(2rem,9.5vw,2.8rem)}
- .pain,.path-card,.guarantee-panel,.custom-start{padding:23px 20px}
+ .pain,.path-card,.guarantee-panel,.custom-start,.learn-card{padding:23px 20px}
  .price-result strong{font-size:3.6rem}
  .steps article{padding:24px}
  .final-cta{padding:76px 0}

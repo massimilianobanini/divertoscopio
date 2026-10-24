@@ -80,6 +80,7 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  const ordered=["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**"];
  let last=-1;
  for(const field of ordered){const pos=pc.indexOf(field);assert.ok(pos>last,"Missing/reordered quickstart field: "+field);last=pos;}
+ assert.ok(pc.includes("3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente)."),"Canonical screen must keep exact full ambientazione list");
  for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart","Fantasy","Dark fantasy","Western","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
  assert.match(b,/PASSO 3 — GIOCA SUBITO: SCHERMATA CANONICA IMMUTABILE/);
  assert.match(b,/NON consultare START-HERE|non consultare START-HERE|non caricare altri file/);

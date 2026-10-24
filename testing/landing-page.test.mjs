@@ -57,7 +57,8 @@ check("Landing: avvio unico senza salti dei menu", () => {
   assert.match(html, /Personalizza prima/);
   assert.match(html, /Nessuna impostazione o storia viene scelta da questa pagina/);
   assert.match(js, /const START_PROMPT = REPO \+ "\\n\\nIniziamo"/);
-  assert.match(js, /start-divertoscopio"\)\.addEventListener\("click", openPrompt\)/);
+  assert.match(js, /querySelectorAll\("\[data-start-divertoscopio\]"\)/);
+  assert.equal((html.match(/data-start-divertoscopio/g)||[]).length,4);
   assert.doesNotMatch(html, /data-flow=|id="custom-task"|id="custom-go"/);
   assert.doesNotMatch(js, /Scegli tutto tu|Iniziamo\. Sono un giocatore|Iniziamo\. Sono un Master|FLOWS|customTask/);
   assert.match(html, /Non serve per i primi menu di scelta/);
@@ -174,7 +175,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=6/);assert.match(html,/landing.js\?v=2/);
+  assert.match(html,/landing.css\?v=6/);assert.match(html,/landing.js\?v=3/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

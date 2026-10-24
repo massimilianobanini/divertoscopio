@@ -69,7 +69,7 @@ test("06b Gioca subito: sei impostazioni visibili, default e niente form",()=>{
  const canonical=p.slice(p.indexOf("TESTO USER-FACING CANONICO — GIOCA SUBITO"),p.indexOf("Dopo una risposta sufficiente"));
  const fallback=f.slice(f.indexOf("Se la persona sceglie GIOCA SUBITO"),f.indexOf("Dopo “scegli tutto tu”"));
  for(const [name,part] of [["PLAYER",canonical],["START-HERE",fallback]]){
-  for(const field of ["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**","Scegli tutto tu","D&D 5e 2014","D&D 2024","Daggerheart","Comico-demenziale","Epico","Basso / Moderato / Alto","personaggio pregenerato di livello 1","assist enza"])if(field!=="assist enza")assert.ok(part.includes(field),name+" missing "+field);
+  for(const field of ["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**","Scegli tutto tu","D&D 5e 2014","D&D 2024","Daggerheart","Comico-demenziale","Epico","Basso / Moderato / Alto","personaggio pregenerato di livello 1","assistenza da principiante"])assert.ok(part.includes(field),name+" missing "+field);
   assert.ok(part.includes("rischio moderato"),name+" missing default risk");
   assert.ok(part.includes("assistenza da principiante"),name+" missing default support");
   assert.ok(!part.includes("Scrivimi anche solo:"),name+" old two-field UI survives");

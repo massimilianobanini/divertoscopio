@@ -4,7 +4,7 @@ Questo file mantiene compatibilità con `START-HERE.md`, che nel Public Stress T
 
 ## LOAD GATE
 
-Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima del GATE DI RAGIONAMENTO usa `BOOTSTRAP.md` soltanto. Il gate si apre per il PLAYER GIOCA SUBITO **dopo la risposta alla schermata canonica** (anche parziale o «Scegli tutto tu») ; la selezione esplicita «Gioca subito» visualizza **sempre** e deterministicamente il PASSO 3 di `BOOTSTRAP.md`, anche con preferenze, senza caricare la catena. Solo una richiesta narrativa autonoma già completa senza selezione «Gioca subito» può avviare subito il PLAY. Per PERSONALIZZA PRIMA/A FONDO si apre alla selezione. Il gate si apre anche quando il MASTER esprime un problema/obiettivo concreto o viene richiesto un approfondimento informativo specifico.
+Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima del GATE DI RAGIONAMENTO usa `BOOTSTRAP.md` soltanto. Il gate si apre per il PLAYER GIOCA SUBITO **dopo la risposta alla schermata canonica** (anche parziale o «Scegli tutto tu»); la selezione esplicita «Gioca subito» visualizza **sempre** e deterministicamente il PASSO 3 di `BOOTSTRAP.md`, anche con preferenze, senza caricare la catena. Solo una richiesta narrativa autonoma già completa senza selezione «Gioca subito» può avviare subito il PLAY. Per PERSONALIZZA PRIMA/A FONDO si apre alla selezione. Il gate si apre anche quando il MASTER esprime un problema/obiettivo concreto o viene richiesto un approfondimento informativo specifico.
 
 Se questo file è stato aperto prima del gate, non continuare a leggere la catena runtime: torna al menu deterministico e attendi l'intento sostanziale.
 
@@ -17,6 +17,8 @@ Se questo file è stato aperto prima del gate, non continuare a leggere la caten
 5. `RUNTIME-HOTFIX-V0.3.6.md` — valued experience / emotional affordance, earned emotional stakes, aftermath, sacrifice/legacy ed emotional pacing;
 6. `RUNTIME-V0.4-CANDIDATE.md` — entrypoint delle capacità candidate V0.4;
 7. `V0.4-CANDIDATE.md` — contratto operativo completo delle 10 capacità principali + 4 supplemental research-only. **Non considerare V0.4 caricata finché non hai letto anche questo file.**
+
+**VELOCITÀ POST-CONFIGURAZIONE:** solo dopo la risposta alle impostazioni, se gli strumenti permettono letture multiple nella stessa chiamata, è consentito recuperare i file indipendenti del runtime **in parallelo**, applicandoli comunque nell'ordine di precedenza sotto indicato. Non recuperare due volte un documento già disponibile nel contesto e non leggere più adapter di sistema: recupera soltanto quello scelto o predefinito. Non sacrificare l'integrità delle regole per risparmiare tempo. Non aggiungere una nuova schermata di conferma: dopo la configurazione vai alla prima scena giocabile.
 
 Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.4-CANDIDATE-CONTRACT > V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
 

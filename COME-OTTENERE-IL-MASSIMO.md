@@ -44,7 +44,7 @@ Le preferenze non devono diventare un questionario infinito. Puoi indicarne poch
 | Area | Esempi da comunicare |
 |---|---|
 | **Esperienza** | Sono principiante / esperto; spiegami le regole solo quando servono |
-| **GDR e regole** | D&D 5e 2014, 2024, Daggerheart, altro; specifica eventuali house rule |
+| **GDR e regole** | D&D 5e 2014, 2024, Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0), altro; specifica eventuali house rule |
 | **Atmosfera** | Avventuroso, comico, investigativo, oscuro, serio; puoi combinarli |
 | **Rischio e conseguenze** | Combattimenti impegnativi, mortalità, fallimenti significativi, misteri da risolvere |
 | **Ritmo** | Scene brevi, meno preamboli, descrizioni dettagliate quando importanti |

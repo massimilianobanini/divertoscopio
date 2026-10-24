@@ -1,9 +1,9 @@
 # System Adapter — SRD 2.0 / Public Stress Test V0.3
 
-Questo adapter è progettato per usare il Divertoscopio con **Daggerheart™** e indica la compatibilità in modo descrittivo. Non è materiale ufficiale, né approvato o sponsorizzato da Darrington Press o Critical Role. L'applicabilità dei formati di distribuzione previsti dalla DPCGL 2.0 a un adapter AI pubblicato su GitHub è ancora oggetto di verifica: vedi `THIRD-PARTY-NOTICES.md`.
+Questo adapter è progettato per usare il Divertoscopio con **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** e indica la compatibilità in modo descrittivo. Non è materiale ufficiale, né approvato o sponsorizzato da Darrington Press o Critical Role. L'applicabilità dei formati di distribuzione previsti dalla DPCGL 2.0 a un adapter AI pubblicato su GitHub è ancora oggetto di verifica: vedi `THIRD-PARTY-NOTICES.md`.
 
 Stato: **CANDIDATE / PUBLIC TEST**  
-Obiettivo: permettere a giocatori e Master di usare il Divertoscopio con Daggerheart in modo più fedele al ruleset, con meno contaminazione da D&D e meno carico cognitivo.
+Obiettivo: permettere a giocatori e Master di usare il Divertoscopio con Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0) in modo più fedele al ruleset, con meno contaminazione da D&D e meno carico cognitivo.
 
 ## 0. Fonte pubblica e licenza
 
@@ -609,11 +609,11 @@ Se una sessione funziona bene, è evidenza utile. Se fallisce, è ancora più ut
 
 Giocatore:
 
-> Iniziamo. Voglio giocare con Daggerheart.
+> Iniziamo. Voglio giocare con Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0).
 
 Master:
 
-> Iniziamo. Sono un Master. Aiutami a preparare o masterare una sessione usando Daggerheart.
+> Iniziamo. Sono un Master. Aiutami a preparare o masterare una sessione usando Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0).
 
 Se l'utente specifica già il sistema, non chiederglielo di nuovo.
 

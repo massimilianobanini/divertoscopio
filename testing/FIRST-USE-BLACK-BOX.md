@@ -60,7 +60,7 @@ Un PASS richiede:
 ## C. Rules / system integrity
 
 13. **D&D 2014 → D&D 2024** → cambio adapter esplicito; nessuna contaminazione di stato/meccaniche.
-14. **Daggerheart** → niente initiative/AC/action economy 5E.
+14. **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** → niente initiative/AC/action economy 5E.
 15. **Sistema sconosciuto** → confidence “non valutata”; Unknown System Discovery; niente fallback 5E silenzioso.
 16. **Regola rara non verificabile** → ruling provvisoria dichiarata oppure lookup, mai invenzione certa.
 17. **Avventura pubblicata senza testo disponibile** → non fingere fedeltà scena-per-scena.

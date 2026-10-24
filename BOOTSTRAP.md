@@ -63,7 +63,7 @@ Quando l'utente sceglie **1 — GIOCA SUBITO** o scrive esplicitamente **«Gioca
 Rispondi in una sola frase, anche scegliendo soltanto alcune voci, oppure scrivi **Scegli tutto tu**.
 
 1. **Modalità di gioco:** Solo (tu giochi con l’AI come Master) / Multiplayer (più giocatori, una chat gestita da un host).
-2. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart / Altro.
+2. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0) / Altro.
 3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente).
 4. **Esperienza nel GDR:** Principiante / Intermedio / Esperto.
 5. **Tono:** Avventuroso / Dark / Investigativo / Comico-demenziale / Epico / Altro (puoi combinare più toni).

@@ -81,12 +81,12 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  assert.equal(pc,bc,"PLAYER/BOOTSTRAP screen drift");
   for(const token of ["soltanto testo","niente immagini automatiche","pulsanti interattivi","moduli da compilare","scrivere direttamente il risultato","«Tira tu»"])assert.ok(pc.includes(token),"Canonical screen missing quick text/dice notice: "+token);
  const fingerprint=src=>{let h=0x811c9dc5;for(let i=0;i<src.length;i++){h^=src.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0}return h.toString(16).padStart(8,"0")};
- assert.equal(fingerprint(bc),"48878d53","Approved Quick Play text changed; explicit product revision required");
+ assert.equal(fingerprint(bc),"be38f9e0","Approved Quick Play text changed; explicit product revision required");
  const ordered=["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**"];
  let last=-1;
  for(const field of ordered){const pos=pc.indexOf(field);assert.ok(pos>last,"Missing/reordered quickstart field: "+field);last=pos;}
  assert.ok(pc.includes("3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente)."),"Canonical screen must keep exact full ambientazione list");
- for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart","Fantasy","Dark Fantasy","Medievale Low-Magic","Western","Steampunk","Horror Contemporaneo","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
+ for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)","Fantasy","Dark Fantasy","Medievale Low-Magic","Western","Steampunk","Horror Contemporaneo","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
  assert.match(b,/PASSO 3 — GIOCA SUBITO: SCHERMATA CANONICA IMMUTABILE/);
  assert.match(b,/NON leggere ancora|Non.*consultare START-HERE|senza caricare altri file/);
  assert.match(b,/GATE DI RAGIONAMENTO si apre \*\*solo al messaggio successivo/);
@@ -106,6 +106,28 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  assert.match(b,/anche se ha già indicato preferenze/);
  assert.match(r,/mai saltare il PASSO 3/);
  assert.match(f,/anche se nello stesso messaggio sono già presenti preferenze/);
+});
+test("06c Identical Daggerheart display label on public user surfaces",()=>{
+ const label="Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)";
+ const surfaces=["BOOTSTRAP.md","START-HERE.md","player/PLAYER.md","master/MASTER.md","README.md",
+   "SYSTEM-SUPPORT.md","index.html","COME-OTTENERE-IL-MASSIMO.md","KNOWN-LIMITATIONS.md",
+   "THIRD-PARTY-NOTICES.md","adapters/dh-srd20/ADAPTER.md","adapters/dh-srd20/TESTING.md"];
+ for(const p of surfaces){
+   const s=read(p);
+   assert(s.includes(label),p+" missing approved user-facing Daggerheart display");
+   assert(!s.includes("Daggerheart™ Compatible"),p+" retains alternate label");
+ }
+ const quickLine=s=>s.match(/^2\. \*\*Sistema:\*\* (.*)$/m)?.[1];
+ const q=quickLine(read("BOOTSTRAP.md"));
+ assert(q&&q.includes(label),"Missing label in canonical Quick Play");
+ for(const p of ["START-HERE.md","player/PLAYER.md"])
+   assert.equal(quickLine(read(p)),q,p+" has a different Quick Play system list");
+ assert(read("THIRD-PARTY-NOTICES.md").includes("**Daggerheart™** è un marchio di Critical Role, LLC."),
+   "Do not rewrite the underlying trademark attribution");
+ assert(read("THIRD-PARTY-NOTICES.md").includes("This product includes materials from the Daggerheart System Reference Document 2.0"),
+   "Do not rewrite the official license attribution");
+ assert(read("adapters/dh-srd20/ADAPTER.md").includes("`system = Daggerheart`"),
+   "Do not change internal system identifiers");
 });
 test("07 Player continuity, arc end, spoiler-free checkpoints",()=>{
  check("player/PLAYER.md","ARC / CHAPTER LIFECYCLE","SESSIONE/PAUSA e CAPITOLO/AVVENTURA sono unità diverse",

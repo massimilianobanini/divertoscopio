@@ -44,7 +44,7 @@ Esempi:
 
 > Iniziamo. Voglio giocare.
 
-> Iniziamo. Voglio giocare con Daggerheart.
+> Iniziamo. Voglio giocare con Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0).
 
 > Iniziamo. Voglio giocare con le regole D&D 2024.
 

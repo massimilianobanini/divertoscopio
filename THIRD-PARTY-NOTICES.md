@@ -19,7 +19,7 @@ Gli altri materiali originali del repository seguono le licenze indicate in [`LI
 
 ## SRD 2.0 — Critical Role, LLC / Darrington Press
 
-Il repository include un adapter procedurale **Daggerheart™ Compatible** basato sul **Daggerheart System Reference Document 2.0 (SRD 2.0)**, identificato come Public Game Content dalla **Darrington Press Community Gaming License 2.0 (DPCGL)**.
+Il repository include il supporto **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)**, basato sul **Daggerheart System Reference Document 2.0 (SRD 2.0)**, identificato come Public Game Content dalla **Darrington Press Community Gaming License 2.0 (DPCGL)**.
 
 Fonte SRD: https://www.daggerheart.com/srd/  
 Licenza DPCGL: https://darringtonpress.com/license/  
@@ -42,7 +42,7 @@ Le parti del repository che costituiscono o incorporano Public Game Content / Ad
 ### Verifica di conformità della distribuzione — APERTA (08/10/2026)
 La DPCGL 2.0 distingue la condivisione del **Public Game Content** (sezione 2.1(a)) dall'**Adaptive Content** (sezione 2.1(b)), per il quale richiede i **Permitted Formats** definiti nella sezione 1.9. I formati elencati includono supplementi/manuali/libri digitali, contenuti audio-video e VTT approvati. **La qualificazione di un adapter Markdown operativamente utilizzabile da un assistente AI, distribuito tramite repository GitHub, non è stata verificata formalmente**: potrebbe richiedere una valutazione sul formato effettivo, sulla natura di ogni parte (testo originale / Public Game Content / Adaptive Content) e, se necessario, un'autorizzazione o chiarimento scritto dall'editore. La pubblicazione del presente avviso e la presenza dell'attribuzione richiesta **non certificano** la conformità dell'intero adapter. Nessuna violazione è qui accertata. Non aggiungere contenuti proprietari o espandere materiale derivato da DPCGL prima di questa verifica; mantenere separati i componenti originali e le eventuali parti soggette a licenza.
 
-**Marchi e pubblicazione:** applicare le limitazioni sui *Name Marks* (sezione 2.5), incluso l'uso descrittivo di **Daggerheart™ Compatible**, senza usare il marchio nel titolo del prodotto/capitolo o suggerire affiliazione. Le parole "compatible" e "open source" non sostituiscono gli obblighi della licenza. Testo ufficiale: https://darringtonpress.com/license/.
+**Marchi e pubblicazione:** applicare le limitazioni sui *Name Marks* (sezione 2.5), incluso l'uso descrittivo di **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)**, senza usare il marchio nel titolo del prodotto/capitolo o suggerire affiliazione. Le parole "compatible" e "open source" non sostituiscono gli obblighi della licenza. Testo ufficiale: https://darringtonpress.com/license/.
 
 ## System Reference Document 5.2.1 — Wizards of the Coast LLC
 

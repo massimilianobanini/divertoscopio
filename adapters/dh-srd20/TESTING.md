@@ -1,6 +1,6 @@
 # Test rapido — adapter SRD 2.0
 
-Questo file serve a chi vuole provare il Divertoscopio con un ruleset **Daggerheart™ Compatible** senza leggere l'adapter.
+Questo file serve a chi vuole provare il Divertoscopio con un ruleset **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** senza leggere l'adapter.
 
 Se sei un tester esperto e vuoi separare natural clean-room, red-team e A/B, usa prima [`../../testing/EXPERT-CLEAN-ROOM.md`](../../testing/EXPERT-CLEAN-ROOM.md). Non leggere i failure mode specifici qui sotto prima della prima prova naturale se vuoi evitare priming.
 
@@ -16,7 +16,7 @@ https://github.com/massimilianobanini/divertoscopio
 
 e scrivi:
 
-> Iniziamo. Voglio giocare con Daggerheart.
+> Iniziamo. Voglio giocare con Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0).
 
 Poi gioca normalmente. Non cercare di "aiutare" l'AI ricordandole in anticipo tutti i failure mode: il test vale di più se usi il sistema come lo useresti davvero.
 
@@ -24,7 +24,7 @@ Poi gioca normalmente. Non cercare di "aiutare" l'AI ricordandole in anticipo tu
 
 Apri una chat nuova, incolla lo stesso repository e scrivi:
 
-> Iniziamo. Sono un Master. Voglio usare il Divertoscopio con Daggerheart.
+> Iniziamo. Sono un Master. Voglio usare il Divertoscopio con Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0).
 
 Puoi poi chiedere, per esempio:
 

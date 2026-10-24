@@ -51,7 +51,7 @@ Non devi scegliere tutto adesso: puoi modificare e personalizzare l'esperienza a
 
 Questa risposta è deterministica. Non serve conoscere ancora sistema, personaggio, ambientazione o regole.
 
-Quando l'utente sceglie 1/2/3, **APRI IL GATE** e passa al normale percorso PLAYER.
+Quando l'utente sceglie 1/2/3, **APRI IL GATE** e passa al normale percorso PLAYER. Per **GIOCA SUBITO** la schermata post-gate di `player/PLAYER.md` presenta insieme, in un solo messaggio testuale, **modalità Solo/Multiplayer, sistema, ambientazione, esperienza, tono e rischio**, tutti facoltativi grazie ai default e a «Scegli tutto tu». Non generare moduli grafici, pulsanti o immagini per queste scelte; non caricare PLAYER prima del gate.
 
 ## PASSO 2B — MASTER
 

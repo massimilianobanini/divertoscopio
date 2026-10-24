@@ -55,7 +55,7 @@ Pass:
 - non apre ancora il gate;
 - non ripete la scelta PLAYER;
 - nel messaggio canonico di GIOCA SUBITO chiarisce **solo** come “giochi tu con l’AI come Master” e **multiplayer** come “più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti”;
-- presenta **in un unico messaggio testuale** le sei voci: modalità Solo/Multiplayer, sistema (D&D 2014 / D&D 2024 / Daggerheart / altro), ambientazione, esperienza (principiante / intermedio / esperto), tono (avventuroso / dark / investigativo / comico-demenziale / epico / altro) e rischio (basso / moderato / alto);
+- presenta **in un unico messaggio testuale** le sei voci: modalità Solo/Multiplayer, sistema (D&D 2014 / D&D 2024 / Daggerheart / altro), ambientazione (**Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro**), esperienza (principiante / intermedio / esperto), tono (avventuroso / dark / investigativo / comico-demenziale / epico / altro) e rischio (basso / moderato / alto);
 - permette toni combinati, descrizioni libere, risposte parziali e **«Scegli tutto tu»** senza ulteriori conferme;
 - dichiara i default: Solo, D&D 5e 2014, fantasy classica, assistenza da principiante, avventuroso, rischio moderato, PG pregenerato di livello 1;
 - non mostra form, pulsanti grafici né immagini non richieste e rinvia la scelta dei dadi al primo tiro del PG;

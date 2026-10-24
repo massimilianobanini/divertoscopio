@@ -78,7 +78,7 @@ Input sequenziale:
 2. `3`
 
 Pass:
-- apre la risposta sostanziale con **“IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.”** e mantiene il Battlecry;
+- apre la risposta sostanziale con **“IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.”** e mantiene il Battlecry;
 - subito dopo mostra una spiegazione “In 30 secondi” con esempi pratici PLAYER e MASTER;
 - usa linguaggio normale e non richiede di capire gergo come agency, payoff, friction, provenance, state o framework;
 - presenta il supporto al Master come possibile “secondo paio di occhi”, non come sostituzione obbligatoria della creatività;

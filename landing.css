@@ -197,6 +197,7 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
 .modal{position:relative;background:#172017;color:var(--ink);width:min(100%,690px);max-height:min(90vh,850px);overflow:auto;border:1px solid #58734b;border-radius:20px;padding:34px;box-shadow:0 32px 110px rgba(0,0,0,.4)}
 .modal h2{font-size:2.35rem;margin-bottom:15px;max-width:540px}
 .modal p:not(.kicker){color:#becbb8;margin-bottom:18px}
+.modal p.modal-tagline{font-size:1.08rem;line-height:1.45;color:#e8f4e1;font-weight:800;margin:0 0 20px}
 .modal .kicker{margin-bottom:12px}
 .modal label{display:block;margin-bottom:8px}
 .modal textarea{font-size:.9rem;min-height:155px}

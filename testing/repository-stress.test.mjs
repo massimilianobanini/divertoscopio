@@ -57,6 +57,8 @@ test("06a First PG roll consent is just-in-time and dice-source honest",()=>{
  const p=read("player/PLAYER.md"),pr=read("protocols/PROTOCOLS.md"),f=read("START-HERE.md"),h=read("RUNTIME-HOTFIX-V0.3.2-BASE.md");
  const section=p.slice(p.indexOf("DICE MODE — CONSENSO PRIMA DEL PRIMO TIRO DEL PG"),p.indexOf("SOLO / COMPANIONS"));
  assert.ok(section.length>500,"Missing canonical dice gate");
+  for(const token of ["un unico messaggio","direttamente il risultato grezzo","«Tira tu»","anche **1** o **2**","senza chiedere un secondo messaggio","Non mettere pulsanti"])assert.ok(section.includes(token),"Fast dice gate missing "+token);
+  for(const token of ["niente immagini (né generazione, né ricerca/lookup)","pulsanti","widget","prima scena e per i tiri"])assert.ok(read("RUNTIME-HOTFIX-V0.3.2-BASE.md").includes(token),"Text-only default missing "+token);
  for(const s of ["prima di generare qualsiasi dado","Tiro io (giocatore)","Tira il Divertoscopio (AI)","dice_source","casualità","Nessun default automatico di tiro AI","checkpoint"])assert.ok(section.includes(s),"Player dice gate missing "+s);
  for(const s of ["Prima del primo tiro del PG","Nessun default AI","Un numero narrato dal modello non dimostra casualità equa"])assert.ok(pr.includes(s),"Protocol missing "+s);
  for(const s of ["FIRST PLAYER ROLL CONSENT","prima del primo tiro del personaggio","Nessun default AI","non chiedere prima di un tiro reale"])assert.ok(f.includes(s),"Fallback missing "+s);
@@ -77,8 +79,9 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  const pc=extraction(p),fc=extraction(f),bc=extraction(b);
  assert.equal(pc,fc,"PLAYER/START-HERE screen drift");
  assert.equal(pc,bc,"PLAYER/BOOTSTRAP screen drift");
+  for(const token of ["soltanto testo","niente immagini automatiche","pulsanti interattivi","moduli da compilare","scrivere direttamente il risultato","«Tira tu»"])assert.ok(pc.includes(token),"Canonical screen missing quick text/dice notice: "+token);
  const fingerprint=src=>{let h=0x811c9dc5;for(let i=0;i<src.length;i++){h^=src.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0}return h.toString(16).padStart(8,"0")};
- assert.equal(fingerprint(bc),"b20b87c1","Approved Quick Play text changed; explicit product revision required");
+ assert.equal(fingerprint(bc),"48878d53","Approved Quick Play text changed; explicit product revision required");
  const ordered=["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**"];
  let last=-1;
  for(const field of ordered){const pos=pc.indexOf(field);assert.ok(pos>last,"Missing/reordered quickstart field: "+field);last=pos;}

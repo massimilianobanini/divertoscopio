@@ -88,26 +88,17 @@ p{font-size:1.04rem}
 .benefit p{color:#b7c4b3;font-size:.98rem;line-height:1.72;margin:0}
 .paths{background:linear-gradient(180deg,#141c13 0%,#0d120d 100%);scroll-margin-top:76px}
 .paths .section-head p:last-child{color:#b6c4b0}
-.path-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.path-card{border:1px solid #3b4d34;background:#192319;border-radius:23px;padding:34px;min-width:0}
-.path-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
-.role{color:var(--lime)}
-.path-symbol{font-size:1.45rem;color:var(--lime)}
-.path-card h3{font-size:clamp(1.85rem,3vw,2.7rem);margin-bottom:14px}
-.path-card>p{color:#b7c5b1;line-height:1.77;max-width:465px;min-height:87px;margin-bottom:26px}
-.path-actions{display:grid;gap:11px}
-.choice{width:100%;min-height:92px;border:1px solid #43533d;background:#101810;color:var(--ink);border-radius:13px;padding:17px 18px;text-align:left;display:flex;justify-content:space-between;align-items:center;gap:13px;transition:background .16s,border-color .16s,transform .16s}
-.choice:hover{border-color:var(--lime);background:#202f1c;transform:translateY(-2px)}
-.choice.primary-choice{border-color:#78b35f}
-.choice strong{display:block;font-size:1.04rem;line-height:1.4}
-.choice small{color:#a9baa3;display:block;font-size:.86rem;line-height:1.5;margin-top:4px}
-.choice>span:last-child{font-size:1.35rem;color:var(--lime)}
-.custom-start{margin-top:22px;border:1px solid #384b33;border-radius:22px;background:#0c130c;padding:32px;display:grid;grid-template-columns:.72fr 1.28fr;gap:44px;align-items:center}
-.custom-start .kicker{margin-bottom:10px}
-.custom-start h3{font-size:1.8rem;margin-bottom:12px}
-.custom-start p:not(.kicker){color:#afbea9;font-size:.94rem}
-.custom-input{display:grid;gap:11px}
-.custom-input label,.modal label{font-size:.86rem;font-weight:780}
+.start-panel{max-width:790px;margin-inline:auto;padding:42px;border:1px solid #4c6d42;border-radius:23px;background:#192319;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.16)}
+.start-label{color:var(--lime);font-weight:850;letter-spacing:.13em;font-size:.77rem;margin-bottom:12px}
+.start-formula{font-size:clamp(1.55rem,3vw,2.4rem);line-height:1.2;font-weight:800;margin-bottom:20px}
+.start-formula strong{color:var(--lime)}
+.start-panel>p:not(.start-label):not(.start-formula):not(.start-help){color:#c1d0bb;max-width:630px;margin-inline:auto}
+.start-button{margin:14px auto 22px;font-size:1.15rem;padding:17px 24px}
+.start-help{color:#abbca5;font-size:.9rem;max-width:650px;margin:0 auto}
+.start-help strong{color:#e3f2db}
+.modal .reasoning-tip{border-left:3px solid var(--lime);padding:12px 14px;background:#22301f;color:#d5e6cb;font-size:.9rem}
+.modal .start-fallback{font-size:.81rem;margin-top:12px}
+.modal .start-fallback a{color:#cefaaf}
 textarea{display:block;width:100%;resize:vertical;border:1px solid #5b7052;border-radius:11px;background:#f6f8f4;color:#152014;min-height:104px;padding:15px;line-height:1.6}
 textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
 .custom-input .button{justify-self:start}
@@ -227,9 +218,6 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
  .pain-num{margin-bottom:18px}
  .answer-grid,.guarantee-grid,.manifesto-intro,.honest-inner,.faq-grid{grid-template-columns:1fr;gap:32px}
  .manifesto-bottom{align-items:flex-start;flex-direction:column}
- .path-grid{grid-template-columns:1fr}
- .path-card>p{min-height:0}
- .custom-start{grid-template-columns:1fr;gap:20px}
  .footer-main{flex-direction:column}.footer-links{justify-content:flex-start}
 }
 @media(max-width:520px){
@@ -246,7 +234,9 @@ textarea:focus{outline:3px solid rgba(69,218,2,.38);outline-offset:2px}
  .hero-bottom .bullet-dot{display:none}
  .section{padding:63px 0}
  h2{font-size:clamp(2rem,9.5vw,2.8rem)}
- .pain,.path-card,.guarantee-panel,.custom-start,.learn-card{padding:23px 20px}
+ .pain,.guarantee-panel,.learn-card{padding:23px 20px}
+ .start-panel{padding:26px 18px}
+ .start-button{width:100%;justify-content:center}
  .price-result strong{font-size:3.6rem}
  .steps article{padding:24px}
  .final-cta{padding:76px 0}

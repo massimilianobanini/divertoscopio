@@ -12,7 +12,7 @@ Il resto di `CORE`, `PLAYER`, `PROTOCOLS` e degli adapter rimane invariato salvo
 
 ## H1 — DICE SOURCE LOCK
 
-La preferenza sui dadi è **stato persistente della sessione**, non un suggerimento occasionale.
+La preferenza sui dadi è **stato persistente della sessione**, non un suggerimento occasionale. Prima del **primo tiro del PG** che richiede dadi, se manca un metodo già scelto esplicitamente, applica il FIRST PLAYER ROLL CONSENT di `player/PLAYER.md` / P0-16: chiedi una sola volta al momento del tiro se **tira il giocatore** con i propri dadi oppure **tira il Divertoscopio (AI)**, senza produrre prima alcun risultato. “Gioca subito”, “scegli tutto tu” e livello PRINCIPIANTE non autorizzano tiri AI automatici. Non chiedere durante il menu/bootstrap né per scene senza dadi; conserva la scelta nel checkpoint. La modalità mista è consentita su richiesta.
 
 Se il giocatore specifica un metodo preciso per generare i tiri — per esempio: “quando te lo ordino, esegui il tiro tramite Python” — quel metodo diventa il `dice_source` attivo finché il giocatore non lo cambia esplicitamente.
 
@@ -23,7 +23,8 @@ Regole operative:
 - se il tool fallisce, ritenta; se continua a non essere disponibile, dichiaralo e concorda un fallback prima di produrre il risultato;
 - non effettuare tiri del PG non richiesti quando il patto stabilisce che il giocatore dà l'ordine di tirare;
 - dopo un tiro riuscito mostra almeno dado grezzo, modificatore e totale quando pertinenti;
-- distinguere sempre il **numero generato** dalla successiva **interpretazione secondo il ruleset**.
+- distinguere sempre il **numero generato** dalla successiva **interpretazione secondo il ruleset**;
+- non rappresentare numeri inventati dal modello come risultati di un RNG equo o verificabile: se il tool casuale richiesto non c'è, comunicarlo e concordare un metodo alternativo prima di tirare.
 
 Questo hardening rafforza `player/PLAYER.md` / DICE MODE e l'integrità dei dadi già prevista dal Core e dagli adapter.
 

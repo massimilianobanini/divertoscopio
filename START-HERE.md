@@ -227,7 +227,7 @@ Rispondi in una sola frase, anche scegliendo soltanto alcune voci, oppure scrivi
 
 1. **Modalità di gioco:** Solo (tu giochi con l’AI come Master) / Multiplayer (più giocatori, una chat gestita da un host).
 2. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart / Altro.
-3. **Ambientazione:** Fantasy / Dark fantasy / Western / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente).
+3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente).
 4. **Esperienza nel GDR:** Principiante / Intermedio / Esperto.
 5. **Tono:** Avventuroso / Dark / Investigativo / Comico-demenziale / Epico / Altro (puoi combinare più toni).
 6. **Rischio:** Basso / Moderato / Alto (anche morte del personaggio).

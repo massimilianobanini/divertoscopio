@@ -9,7 +9,7 @@ Scopo: impedire regressioni che ricarichino il runtime completo prima che l'uten
 Nel percorso normale, prima del **GATE DI RAGIONAMENTO** l'AI deve usare intenzionalmente soltanto `BOOTSTRAP.md`. L'apertura tecnica del repository/README necessaria a raggiungerlo non conta come caricamento di runtime, ma nessun altro file di contenuto deve essere pre-caricato per produrre i menu iniziali.
 
 Il gate si apre:
-- PLAYER → dopo **GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO** o richiesta equivalente già esplicita;
+- PLAYER → per **GIOCA SUBITO** soltanto **dopo** la risposta alla schermata esatta del PASSO 3 (anche «Scegli tutto tu»), oppure subito con preferenze già sufficienti; per **PERSONALIZZA PRIMA / PERSONALIZZA A FONDO** alla selezione;
 - MASTER → dopo problema/obiettivo concreto o categoria scelta;
 - INFORMAZIONI → dopo una richiesta specifica di approfondimento.
 
@@ -46,19 +46,38 @@ Pass:
 - il gate **non è ancora aperto**;
 - MASTER/CORE/toolbox non sono ancora necessari.
 
-### FB-04 — PLAYER apre il gate
+### FB-04 — PLAYER mostra schermata bloccata (ancora senza gate)
 Input successivo a FB-02: `Gioca subito`
 
 Pass:
-- da questo momento può caricare START-HERE + runtime + CORE + PLAYER e gli altri file pertinenti;
+- carica **solo** `BOOTSTRAP.md`, **non** START-HERE/runtime/CORE/PLAYER/adapter;
+- mostra **esattamente** il testo canonico del PASSO 3, identico al testo in PLAYER e START-HERE;
+- non apre ancora il gate;
 - non ripete la scelta PLAYER;
 - nel messaggio canonico di GIOCA SUBITO chiarisce **solo** come “giochi tu con l’AI come Master” e **multiplayer** come “più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti”;
 - presenta **in un unico messaggio testuale** le sei voci: modalità Solo/Multiplayer, sistema (D&D 2014 / D&D 2024 / Daggerheart / altro), ambientazione, esperienza (principiante / intermedio / esperto), tono (avventuroso / dark / investigativo / comico-demenziale / epico / altro) e rischio (basso / moderato / alto);
 - permette toni combinati, descrizioni libere, risposte parziali e **«Scegli tutto tu»** senza ulteriori conferme;
 - dichiara i default: Solo, D&D 5e 2014, fantasy classica, assistenza da principiante, avventuroso, rischio moderato, PG pregenerato di livello 1;
 - non mostra form, pulsanti grafici né immagini non richieste e rinvia la scelta dei dadi al primo tiro del PG;
-- se il sistema è già dichiarato, non chiede nuovamente di sceglierlo;
+- se il sistema era già stato dichiarato, lo ricorda senza variare o omettere il testo canonico;
+- non aggiunge introduzioni, disclaimer, confidence, indicazioni tecniche o altri contenuti alla schermata;
 - punta alla prima decisione realmente giocabile con il minimo onboarding.
+
+### FB-04B — PLAYER risponde alla schermata: gate aperto
+Input successivo a FB-04: `Solo, D&D 2024, fantasy, esperto, comico-demenziale e avventuroso, rischio basso` oppure `Scegli tutto tu`.
+
+Pass:
+- **ora** apre il gate e può caricare START-HERE + runtime + CORE + PLAYER + adapter pertinenti;
+- passa direttamente al PLAY, senza duplicare la schermata o chiedere conferme;
+- con risposta parziale usa i default dei soli campi mancanti; la preferenza sistema, tono misto e rischio prevalgono;
+- il consenso per il primo tiro PG rimane just-in-time.
+
+### FB-04C — Scelta Gioca subito con preferenze già fornite
+Input: `Iniziamo. Gioca subito. Solo, fantasy, D&D 2014, rischio basso.`
+
+Pass:
+- non richiede di ripetere i campi già dichiarati;
+- apre il gate e passa direttamente al PLAY.
 
 ### FB-05 — MASTER apre il gate
 Input successivo a FB-03: `I combattimenti sono troppo lenti e i giocatori si distraggono`

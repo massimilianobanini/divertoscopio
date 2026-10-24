@@ -69,6 +69,14 @@ check("Landing: avvio unico senza salti dei menu", () => {
   assert.equal((html.match(/data-start-divertoscopio/g)||[]).length,4);
   assert.doesNotMatch(html, /data-flow=|id="custom-task"|id="custom-go"/);
   assert.doesNotMatch(js, /Scegli tutto tu|Iniziamo\. Sono un giocatore|Iniziamo\. Sono un Master|FLOWS|customTask/);
+  const modalIntro = html.slice(html.indexOf('id="modal-heading"'),html.indexOf('<label for="generated-prompt">'));
+  assert.match(modalIntro, /Se scegli <strong>«Gioca subito»<\/strong>/);
+  assert.match(modalIntro, /poche impostazioni iniziali/);
+  assert.match(modalIntro, /obiettivo è arrivare alla prima scelta giocabile in circa 2 minuti/);
+  assert.match(modalIntro, /senza scelte preimpostate dalla pagina/);
+  assert.match(modalIntro, /Meno attrito, meno preparazione, più gioco\./);
+  assert.ok(modalIntro.indexOf("Meno attrito") < html.indexOf('<label for="generated-prompt">'));
+  assert.match(css, /\.modal p\.modal-tagline\{/);
   assert.match(html, /Non serve per i primi menu di scelta/);
   assert.match(html, /data-github-file="BOOTSTRAP\.md"/);
 });
@@ -185,7 +193,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=6/);assert.match(html,/landing.js\?v=3/);
+  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=3/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

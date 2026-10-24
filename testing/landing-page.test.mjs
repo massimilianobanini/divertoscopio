@@ -51,6 +51,14 @@ check("Supporto reale: ChatGPT soltanto", () => {
 check("JavaScript sintatticamente valido", () => { new vm.Script(js, {filename:"landing.js"}); });
 check("Landing: avvio unico senza salti dei menu", () => {
   assert.match(html, /id="start-divertoscopio"/);
+  const intro = html.slice(html.indexOf('<div class="start-panel">'), html.indexOf('id="start-divertoscopio"'));
+  assert.match(intro, /Pronto a iniziare\?/);
+  assert.match(intro, /scegli <strong>«Gioca subito»<\/strong>/);
+  assert.match(intro, /poche impostazioni iniziali/);
+  assert.match(intro, /prima scelta giocabile in circa 2 minuti/);
+  assert.match(intro, /Tempo indicativo, da verificare su smartphone/);
+  assert.ok(intro.indexOf("Pronto a iniziare?") < intro.indexOf("Link GitHub"));
+  assert.match(css, /\.start-speed-note\{/);
   assert.match(html, /Un solo link\. Poi scegli tu/);
   assert.match(html, /Sono un Master/);
   assert.match(html, /Sono un Giocatore/);

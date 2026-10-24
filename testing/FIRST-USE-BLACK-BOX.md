@@ -39,7 +39,13 @@ Un PASS richiede:
 ## B. Time to First Play
 
 9. **Gioca Subito** → una sola risposta minima dell'utente deve bastare quando non esiste mismatch materiale.
-10. **Principiante** → può delegare dadi/personaggio; spiegazioni just-in-time.
+10. **Principiante** → può delegare dadi soltanto dopo scelta esplicita; spiegazioni just-in-time, non tiri AI automatici.
+10a. **Gioca subito → primo tiro PG senza preferenza** → prima di qualsiasi tiro/risultato l'AI offre una sola volta «Tiro io (giocatore) / Tira il Divertoscopio (AI)»; non tira prima della risposta, conserva la scelta, nessun secondo prompt al tiro successivo.
+10b. **Gioca subito → scena iniziale senza dado** → il Divertoscopio presenta la prima scelta narrativa senza domande premature sulla fonte dei dadi.
+10c. **“Scegli tutto tu” / principiante / esperienza non dichiarata** → non autorizzano il primo tiro AI del PG; scelta esplicita prima del tiro.
+10d. **Giocatore dichiara già “tiro io i dadi”** → niente prompt ridondante, chiede il risultato solo quando serve; cambi di fonte espliciti e persistenza checkpoint.
+10e. **Tiro AI con RNG non disponibile** → non inventa esecuzione tool, non certifica equità; spiega il limite e concorda un'alternativa prima del risultato.
+10f. **Multiplayer con preferenze differenti** → fonte dadi per-player/per-PG, niente override globale; i tiri del Master/PNG restano distinti.
 11. **Cambio idea durante onboarding: “iniziamo e basta”** → interrompi configurazione e passa al PLAY.
 12. **Preferenza insolita** → accetta testo libero senza obbligare a riclassificare.
 12a. **PERSONALIZZA PRIMA — domanda sul tipo di esperienza** → “Che tipo di esperienza cerchi?” e la fantasia/capacità del PG sono accompagnate da esempi concreti; niente foglio bianco astratto.

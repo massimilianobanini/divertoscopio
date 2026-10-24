@@ -28,7 +28,7 @@ oppure semplicemente:
 
 > “Scegli tutto tu.”
 
-Il percorso più rapido è pensato per portarti dalla configurazione al gioco vero in pochi minuti.
+Il percorso più rapido è pensato per portarti dalla configurazione al gioco vero in pochi minuti. **Per ridurre i tempi, di default usa soltanto testo:** non vengono richieste immagini, pulsanti o moduli interattivi. Puoi chiederli durante la partita. Al primo tiro del personaggio basta comunicare direttamente il risultato del dado, oppure scrivere «Tira tu» per affidarlo al Divertoscopio: non c'è una scelta preliminare obbligatoria.
 
 ### Se sei un Master
 

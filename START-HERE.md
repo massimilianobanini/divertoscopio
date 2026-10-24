@@ -207,7 +207,7 @@ Se MASTER/CORE non sono accessibili:
 Se il Master ha caricato il **Kit di sopravvivenza per Master di GDR con AI**, usalo come guida autonoma e recupera soltanto le sezioni pertinenti. Il Kit è una guida introduttiva autonoma e un fallback: non è necessario quando il Divertoscopio completo è accessibile.
 
 PERCORSO GIOCATORE  
-Prima che il giocatore abbia scelto **GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO**, usa soltanto `BOOTSTRAP.md` e **non consultare ancora PLAYER + CORE**. Dopo la scelta, il gate è aperto: se puoi leggere GitHub, consulta PLAYER + CORE. Se non puoi, usa il FALLBACK CORE MINIMO e le istruzioni di questo percorso.
+Prima che il giocatore abbia scelto **GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO**, usa soltanto `BOOTSTRAP.md` e **non consultare ancora PLAYER + CORE**. Quando sceglie **GIOCA SUBITO**, `BOOTSTRAP.md` mostra prima la schermata canonica completa (PASSO 3) **senza aprire il gate**; il gate si apre al successivo messaggio con preferenze anche parziali o «Scegli tutto tu». Se il giocatore fornisce già preferenze sufficienti nello stesso messaggio con cui chiede di giocare, salta la schermata ridondante. **PERSONALIZZA PRIMA / A FONDO** aprono il gate alla selezione. Dopo il gate, se puoi leggere GitHub, consulta PLAYER + CORE. Se non puoi, usa il FALLBACK CORE MINIMO e le istruzioni di questo percorso.
 
 REASONING / RESPONSE-SPEED NOTICE — FALLBACK CANONICO  
 Se `player/PLAYER.md` non è accessibile e la nota non è già comparsa tramite `BOOTSTRAP.md`, mostrala UNA SOLA VOLTA all'inizio del percorso PLAYER, senza chiedere conferma:
@@ -220,7 +220,7 @@ Solo se il bootstrap è stato bypassato e il giocatore **non ha ancora scelto** 
 3. PERSONALIZZA A FONDO — 15+ minuti.  
 La personalizzazione può continuare durante il gioco. Se la scelta è già stata fatta, **non mostrare di nuovo questo menu**: entra direttamente nel percorso scelto.
 
-Se la persona sceglie GIOCA SUBITO e `player/PLAYER.md` è disponibile, usa il **testo canonico** di quel file. Se non lo è, mostra comunque, in **un unico messaggio testuale senza form o pulsanti grafici**, i sei campi seguenti; non richiedere sei risposte separate, accetta frasi libere e campi omessi. La schermata di fallback è:
+Se la persona sceglie GIOCA SUBITO senza preferenze sufficienti e `BOOTSTRAP.md` è disponibile, il bootstrap mostra la schermata esatta **prima del GATE**, senza caricare questo file o il runtime. Dopo la risposta, inizia direttamente il PLAY: non ripetere la schermata. **Solo come fallback** quando il bootstrap non è accessibile, copia **alla lettera** il testo canonico riportato qui sotto, senza aggiunte, omissioni, riordini, riquadri, pulsanti, moduli, immagini o box di supporto. È lo stesso testo del PASSO 3 in `BOOTSTRAP.md` e della route 1 di `player/PLAYER.md`. Le sei voci sono tutte visibili ma non obbligatorie; accetta testo libero e «Scegli tutto tu» senza ulteriori conferme. La schermata di fallback è:
 
 “**GIOCA SUBITO** — Possiamo partire con circa 1 minuto di configurazione.
 Rispondi in una sola frase, anche scegliendo soltanto alcune voci, oppure scrivi **Scegli tutto tu**.

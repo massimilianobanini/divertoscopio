@@ -8,12 +8,6 @@ const html = fs.readFileSync("index.html", "utf8");
 const css = fs.readFileSync("landing.css", "utf8");
 const js = fs.readFileSync("landing.js", "utf8");
 const png = fs.readFileSync("assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.png");
-const flowTests = [
-  ["player-fast", "Iniziamo. Sono un giocatore. Voglio giocare subito. Scegli tutto tu."],
-  ["player-custom", "Iniziamo. Sono un giocatore. Voglio personalizzare prima l'avventura."],
-  ["master-prepare", "Iniziamo. Sono un Master. Voglio preparare la prossima sessione."],
-  ["master-problem", "Iniziamo. Sono un Master. Voglio risolvere un problema al tavolo."],
-];
 const tests = [];
 function check(name, run) {
   try { run(); tests.push([name, true]); console.log("PASS", name); }
@@ -40,7 +34,7 @@ check("Visual Hammer originale, non sostituito da illustrazioni", () => {
 check("Narrativa direct-response completa", () => {
   for(const id of ["perche","come-funziona","inizia","garanzia","faq"]) assert.ok(html.includes('id="'+id+'"'),id);
   assert.match(html, /Il problema/i);assert.match(html,/La risposta/i);
-  assert.match(html, /PER GIOCATORI/);assert.match(html, /PER MASTER/);
+  assert.match(html, /PER GIOCATORI/);assert.match(html, /GIOCATORI E MASTER/);
   assert.match(html, /TRASPARENZA/);
 });
 check("Garanzia: condizioni e link corretti", () => {
@@ -55,9 +49,19 @@ check("Supporto reale: ChatGPT soltanto", () => {
   assert.doesNotMatch(html, /Copia e apri Gemini/);
 });
 check("JavaScript sintatticamente valido", () => { new vm.Script(js, {filename:"landing.js"}); });
-check("4 flussi instradati, senza ripetere ruolo", () => {
-  for(const [id,prompt] of flowTests){ assert.ok(html.includes('data-flow="'+id+'"'),id); assert.ok(js.includes(prompt),id); }
-  assert.match(js, /REPO \+ "\\n\\n" \+ task.trim\(\)/);
+check("Landing: avvio unico senza salti dei menu", () => {
+  assert.match(html, /id="start-divertoscopio"/);
+  assert.match(html, /Un solo link\. Poi scegli tu/);
+  assert.match(html, /Sono un Master/);
+  assert.match(html, /Sono un Giocatore/);
+  assert.match(html, /Personalizza prima/);
+  assert.match(html, /Nessuna impostazione o storia viene scelta da questa pagina/);
+  assert.match(js, /const START_PROMPT = REPO \+ "\\n\\nIniziamo"/);
+  assert.match(js, /start-divertoscopio"\)\.addEventListener\("click", openPrompt\)/);
+  assert.doesNotMatch(html, /data-flow=|id="custom-task"|id="custom-go"/);
+  assert.doesNotMatch(js, /Scegli tutto tu|Iniziamo\. Sono un giocatore|Iniziamo\. Sono un Master|FLOWS|customTask/);
+  assert.match(html, /Non serve per i primi menu di scelta/);
+  assert.match(html, /data-github-file="BOOTSTRAP\.md"/);
 });
 check("Copia + apertura ChatGPT e fallback", () => {
   assert.match(js, /navigator.clipboard.writeText/);
@@ -86,7 +90,7 @@ check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
   assert.match(css, /@media\(max-width:840px\)/);
   assert.match(css, /@media\(max-width:520px\)/);
   assert.match(css, /\.hero h1\{font-size:clamp\(1\.66rem,7\.15vw,2\.3rem\)/);
-  const ctaPos = html.indexOf('Voglio provare il Divertoscopio');
+  const ctaPos = html.indexOf('Inizia con il Divertoscopio');
   assert.ok(html.indexOf('Lascia al caso i dadi, non il divertimento.') < ctaPos);
   assert.ok(ctaPos < html.indexOf('class="hero-art"'));
 });
@@ -96,7 +100,7 @@ check("Hero più corta: visual allineato in alto e meno spazio sotto CTA", () =>
   assert.match(css, /\.hero-art\{min-height:0;margin-top:0;padding:0 0 14px\}/);
   assert.match(css, /\.hero-art img\{width:min\(58%,320px\)\}/);
   assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)\{[\s\S]*?\.hero-art\{margin-top:0\}/);
-  assert.ok(html.includes('Voglio provare il Divertoscopio'));
+  assert.ok(html.includes('Inizia con il Divertoscopio'));
 });
 check("Promessa di GDR semplice e divertimento più rapido", () => {
   assert.match(html, /Meno attesa prima di divertirti\./);
@@ -170,7 +174,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=5/);assert.match(html,/landing.js\?v=1/);
+  assert.match(html,/landing.css\?v=6/);assert.match(html,/landing.js\?v=2/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

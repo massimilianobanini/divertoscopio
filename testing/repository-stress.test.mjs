@@ -110,13 +110,20 @@ test("15 Landing static regression + independent document links",()=>{
  "COME-OTTENERE-IL-MASSIMO.md","PERCHE-USARE-IL-DIVERTOSCOPIO.md");
  assert(!/Francesco Siciliano|WhatsApp/.test(html),"Private tester data in landing");
 });
-test("17 Official GDR semplice positioning across active public surfaces",()=>{
- const phrase="IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.";
- for(const p of ["README.md","START-HERE.md","MANIFESTO.md"])assert(read(p).includes(phrase),p+" missing positioning");
- assert(read("BOOTSTRAP.md").includes(phrase.replace("L’ULTRA","L'ULTRA")),"bootstrap positioning mismatch");
- for(const p of ["PERCHE-USARE-IL-DIVERTOSCOPIO.md","COME-OTTENERE-IL-MASSIMO.md","KNOWN-LIMITATIONS.md"])check(p,"il primo strumento italiano per il GDR semplice");
- check("index.html","il primo strumento italiano per il GDR semplice","non un gioco di ruolo nuovo né un regolamento semplificato");
- for(const p of ["README.md","BOOTSTRAP.md","START-HERE.md","MANIFESTO.md","index.html"])assert(!read(p).includes("IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO"),p+" still has old positioning");
+test("17 Exact brand positioning is canonical across active public surfaces",()=> {
+ const phrase="Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.";
+ const ordered=["README.md","BOOTSTRAP.md","START-HERE.md","MANIFESTO.md","PERCHE-USARE-IL-DIVERTOSCOPIO.md","COME-OTTENERE-IL-MASSIMO.md","KNOWN-LIMITATIONS.md"];
+ for(const p of ordered)assert(read(p).includes(phrase),p+" missing exact approved wording");
+ const html=read("index.html");
+ const hero=html.match(/<h1 id="hero-title">([\\s\\S]*?)<\\/h1>/)?.[1]?.replace(/<[^>]*>/g,"");
+ assert.equal(hero,phrase,"Landing H1 drifted from brand positioning");
+ for(const tag of ['meta name="description"','meta property="og:description"'])
+   assert(html.includes("<"+tag+' content="'+phrase),tag+" missing exact brand positioning");
+ const obsolete=/il primo strumento italiano per GDR da tavolo con l['’]Ultra-Garanzia del Prezzo Negativo/i;
+ for(const p of ordered)assert(!obsolete.test(read(p)),p+" still contains obsolete positioning");
+ assert(!obsolete.test(html),"Landing still contains obsolete positioning");
+ for(const p of ["BOOTSTRAP.md","START-HERE.md","README.md","MANIFESTO.md"])assert(!read(p).includes("IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE"),p+" repeats uppercase-only noncanonical copy");
+ check("index.html","non un gioco di ruolo nuovo né un regolamento semplificato");
 });
 test("16 No added tracking or local browser storage",()=>{
  const html=read("index.html"),js=read("landing.js");

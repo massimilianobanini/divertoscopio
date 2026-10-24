@@ -49,7 +49,7 @@ test("05 Runtime versions loaded in strict sequence",()=>{
  check("RUNTIME-V0.4-CANDIDATE.md","V0.4-CANDIDATE.md","IMPLEMENTED ≠ VALIDATED");
 });
 test("06 Player rights, dice and initial ruleset",()=>{
- check("player/PLAYER.md","decisioni volontarie del PG restano sempre del giocatore","Tira tu / Tiro io","DICE SOURCE LOCK",
+ check("player/PLAYER.md","decisioni volontarie del PG restano sempre del giocatore","Tiro io (giocatore)","Tira il Divertoscopio (AI)","DICE SOURCE LOCK",
  "CHARACTER SHEET SCHEMA IS SYSTEM-OWNED","HOSTED / SINGLE-CHAT","PRINCIPIANTE","ESPERTO","MILESTONE-STORY","niente XP paralleli");
  check("core/CORE.md","RULESET/SOURCE HONESTY","CHARACTER STATE OWNERSHIP");
 });

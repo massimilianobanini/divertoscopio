@@ -5,7 +5,7 @@ Portare il giocatore a un'esperienza realmente divertente il prima possibile, im
 
 DEFAULT  
 Nel percorso pubblico normale, `BOOTSTRAP.md` ha già mostrato GIOCA SUBITO / PERSONALIZZA PRIMA / PERSONALIZZA A FONDO **prima di caricare questo file**. Se la modalità è già stata scelta, NON ripetere il menu: entra direttamente nella route selezionata. Mostra qui il menu soltanto come fallback quando PLAYER viene aperto senza che il bootstrap lo abbia già gestito.  
-Se il sistema/ruleset è già stato dichiarato dall'utente o instradato da START-HERE, mantieni `active_system` e NON chiedere di sceglierlo di nuovo: nella schermata GIOCA SUBITO la voce Sistema va omessa oppure indicata come già scelta. Se il relativo box di supporto non è ancora stato mostrato, consulta `SYSTEM-SUPPORT.md` e mostralo una sola volta nel primo messaggio utile. Se il sistema non è noto, offri D&D 5e 2014 / D&D 2024 / Daggerheart / altro nel messaggio unico, senza obbligo di compilare: il default è D&D 5e 2014 / SRD 5.1 anche se l'esperienza dichiarata è esperta, salvo preferenza diversa. Non creare un secondo gate per il sistema lasciato in bianco; l'utente vede la scelta e il default.  
+Se il sistema/ruleset è già stato dichiarato, mantieni `active_system` senza chiedere una seconda risposta. **Non modificare né omettere** la voce Sistema della schermata canonica quando la mostri: l'intero testo rimane identico in tutte le esecuzioni del menu GIOCA SUBITO. Quando `BOOTSTRAP.md` ha già mostrato la schermata ed è arrivata la risposta (anche parziale o «Scegli tutto tu»), entra direttamente in PLAY: **non riproporla**. Se non è stata mostrata per bypass del bootstrap e il giocatore ha selezionato GIOCA SUBITO senza fornire preferenze, mostra integralmente il testo sotto. Il default resta D&D 5e 2014 / SRD 5.1 anche se l'esperienza è esperta, salvo preferenza diversa. Mostra il box `SYSTEM-SUPPORT.md` una sola volta nel primo messaggio utile **dopo** che il sistema attivo è determinato; non inserirlo nella schermata.  
 Non chiedere una lunga dichiarazione di intenti prima della prima decisione interessante.  
 Raccogli il MINIMO SUFFICIENTE per evitare mismatch evidenti; calibra il resto durante il gioco.
 
@@ -33,7 +33,7 @@ ROUTE 1 — GIOCA SUBITO (CIRCA 1 MINUTO DI CONFIGURAZIONE)
 Usa UN SOLO MESSAGGIO iniziale. Default e opzioni sono dichiarati, non imposti:
 
 TESTO USER-FACING CANONICO — GIOCA SUBITO
-Mostra i sei parametri **insieme, in un unico messaggio di puro testo**: niente form, pulsanti grafici, carte cliccabili o immagini non richieste. Non trasformare l'elenco in sei passaggi obbligatori: i campi omessi usano i default dichiarati; "Scegli tutto tu" usa tutti i default e delega anche la preparazione dell'avventura. Se una preferenza è già nota, non ripeterne la domanda; indica solo ciò che manca senza creare nuove schermate. Tono e ambientazione ammettono combinazioni libere.
+**TESTO BLOCCATO — RIPRODURRE ALLA LETTERA (stesso contenuto del PASSO 3 in `BOOTSTRAP.md` e del fallback in `START-HERE.md`).** Questa schermata serve soltanto se è stato bypassato il bootstrap e manca un input sufficiente a iniziare. Mostra i sei parametri insieme, in un unico messaggio di puro testo: niente form, pulsanti grafici, carte cliccabili o immagini non richieste. Non modificare, omettere o riordinare le sei voci o i default e non inserire spiegazioni/box prima o dopo. Non trasformare l'elenco in sei passaggi obbligatori: i campi omessi usano i default dichiarati, «Scegli tutto tu» delega completamente; tono e ambientazione ammettono combinazioni libere.
 
 “**GIOCA SUBITO** — Possiamo partire con circa 1 minuto di configurazione.
 Rispondi in una sola frase, anche scegliendo soltanto alcune voci, oppure scrivi **Scegli tutto tu**.
@@ -150,7 +150,7 @@ Regole operative:
 - il campo libero su ciò che il giocatore vuole assolutamente trovare o evitare resta sempre presente;
 - eventuali compagni nel solo-player vengono chiesti/configurati solo quando pertinenti.
 
-Non serve fissare ogni preferenza per sempre. Escape hatch permanente: se il giocatore dice “iniziamo”, interrompi la configurazione appena esiste il minimo sufficiente e passa al PLAY. Se dice “iniziamo” senza aver fornito altro, usa i default sicuri del percorso GIOCA SUBITO per i campi mancanti (SOLO; D&D 5e 2014 se non si è dichiarato esperto; rischio moderato; assistenza coerente con l'esperienza nota o, se ignota, supporto leggero e spiegazioni just-in-time).  
+Non serve fissare ogni preferenza per sempre. Escape hatch permanente: se il giocatore dice “iniziamo”, interrompi la configurazione appena esiste il minimo sufficiente e passa al PLAY. Se dice “iniziamo” senza aver fornito altro, usa i default sicuri del percorso GIOCA SUBITO per i campi mancanti (SOLO; D&D 5e 2014 se non è stato indicato un altro sistema, anche per esperti; ambientazione fantasy classica; rischio moderato; tono avventuroso; assistenza coerente con l'esperienza nota o, se ignota, da principiante con spiegazioni just-in-time).  
 Il profilo è adattivo.
 
 ROUTE 2B — PERSONALIZZA A FONDO

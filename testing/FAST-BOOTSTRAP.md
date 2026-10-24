@@ -58,7 +58,7 @@ Pass:
 - presenta **in un unico messaggio testuale** le sei voci: modalità Solo/Multiplayer, sistema (D&D 2014 / D&D 2024 / Daggerheart / altro), ambientazione (**Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro**), esperienza (principiante / intermedio / esperto), tono (avventuroso / dark / investigativo / comico-demenziale / epico / altro) e rischio (basso / moderato / alto);
 - permette toni combinati, descrizioni libere, risposte parziali e **«Scegli tutto tu»** senza ulteriori conferme;
 - dichiara i default: Solo, D&D 5e 2014, fantasy classica, assistenza da principiante, avventuroso, rischio moderato, PG pregenerato di livello 1;
-- non mostra form, pulsanti grafici né immagini non richieste e rinvia la scelta dei dadi al primo tiro del PG;
+- dichiara chiaramente il default solo testo (niente immagini automatiche, pulsanti o moduli non richiesti); non mostra form, pulsanti grafici né immagini e rinvia la scelta dei dadi al primo tiro del PG, con risultato e consenso possibili nella stessa risposta;
 - se il sistema era già stato dichiarato, lo ricorda senza variare o omettere il testo canonico;
 - non aggiunge introduzioni, disclaimer, confidence, indicazioni tecniche o altri contenuti alla schermata;
 - punta alla prima decisione realmente giocabile con il minimo onboarding.
@@ -161,3 +161,23 @@ Pass:
 - **media/UI aggiunti:** zero; **divergenze dal testo canonico:** zero.
 
 **Criterio statico di superamento:** schermata identica nelle tre copie, impronta fissata nel test automatico, sei voci nell'ordine approvato, zero pre-caricamenti aggiuntivi, nessun form o media. **Criterio temporale:** valutare T_config su almeno 5 avvii indipendenti e registrare mediana e massimo, confrontando la mediana con l'obiettivo di 60 secondi; registrare separatamente T_menu e T_play per individuare il collo di bottiglia. Se la mediana supera 60 secondi, il target temporale NON è validato e si apre un problema di prestazioni. Non dichiarare PASS sui tempi senza misurazioni reali: il comportamento e la latenza di ChatGPT non sono garantibili soltanto con test di file.
+
+### FB-12 — Default solo testo dopo Gioca subito
+Input: `solo, D&D 5e 2014, steampunk, principiante, dark, basso`
+
+Pass:
+- dopo la configurazione inizia subito con una prima scena e una scelta reale, **senza cercare/generare immagini**;
+- **nessun pulsante cliccabile, badge interattivo, input numerico, modulo o widget** nella scena e nelle normali scelte narrative;
+- ammette immagini o controlli grafici solo se l'utente li richiede, senza confonderli con una preferenza implicita;
+- testo, elenchi numerati testuali e chiarimenti sintetici sono ammessi.
+
+### FB-13 — Primo tiro: consenso e risultato nello stesso messaggio
+Input: prima azione incerta che richiede 1d20; nessuna fonte di dadi già dichiarata.
+
+Pass:
+- in un solo messaggio testuale spiega il dado/modificatore e scrive **«scrivimi direttamente il risultato»** oppure **«Tira tu»**;
+- se il giocatore risponde `14`, `1`, `2` oppure `Ho tirato 14`, interpreta il numero come **risultato del dado del giocatore**, memorizza `dice_mode=PLAYER` e risolve subito **senza secondo turno di scelta**;
+- se risponde `Tira tu`, memorizza `dice_mode=AI` ed esegue il tiro con la fonte realmente disponibile, dichiarandola; se manca una fonte appropriata non inventa un risultato;
+- nel seguito non ripete la domanda se la preferenza è nota; permette di cambiare metodo in ogni momento;
+- **zero tiri AI prima del consenso**, anche per principianti e `Scegli tutto tu`;
+- **zero moduli, pulsanti o form** per gestire il tiro.

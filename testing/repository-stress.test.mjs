@@ -64,6 +64,20 @@ test("06a First PG roll consent is just-in-time and dice-source honest",()=>{
  assert.doesNotMatch(p,/dopo 2[–-]3 tiri chiede|PRINCIPIANTE: per i primi tiri necessari, l’AI tira|Se sei principiante posso gestire io i primi dadi/);
  assert.ok(p.indexOf("DICE MODE — CONSENSO PRIMA DEL PRIMO TIRO DEL PG")<p.indexOf("SOLO / COMPANIONS"));
 });
+test("06b Gioca subito: sei impostazioni visibili, default e niente form",()=>{
+ const p=read("player/PLAYER.md"),f=read("START-HERE.md"),b=read("BOOTSTRAP.md");
+ const canonical=p.slice(p.indexOf("TESTO USER-FACING CANONICO — GIOCA SUBITO"),p.indexOf("Dopo una risposta sufficiente"));
+ const fallback=f.slice(f.indexOf("Se la persona sceglie GIOCA SUBITO"),f.indexOf("Dopo “scegli tutto tu”"));
+ for(const [name,part] of [["PLAYER",canonical],["START-HERE",fallback]]){
+  for(const field of ["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**","Scegli tutto tu","D&D 5e 2014","D&D 2024","Daggerheart","Comico-demenziale","Epico","Basso / Moderato / Alto","personaggio pregenerato di livello 1","assist enza"])if(field!=="assist enza")assert.ok(part.includes(field),name+" missing "+field);
+  assert.ok(part.includes("rischio moderato"),name+" missing default risk");
+  assert.ok(part.includes("assistenza da principiante"),name+" missing default support");
+  assert.ok(!part.includes("Scrivimi anche solo:"),name+" old two-field UI survives");
+ }
+ assert.ok(b.includes("modalità Solo/Multiplayer, sistema, ambientazione, esperienza, tono e rischio"));
+ assert.ok(p.includes("niente form, pulsanti grafici"));
+ assert.ok(f.includes("La scelta dei dadi avviene solo prima del primo tiro"));
+});
 test("07 Player continuity, arc end, spoiler-free checkpoints",()=>{
  check("player/PLAYER.md","ARC / CHAPTER LIFECYCLE","SESSIONE/PAUSA e CAPITOLO/AVVENTURA sono unità diverse",
  "MEMORIA DI GIOCO","ultima scena e punto esatto","file PLAYER non contiene segreti del Master","zero perdita di dettaglio");

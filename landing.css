@@ -90,9 +90,13 @@ p{font-size:1.04rem}
 .paths .section-head p:last-child{color:#b6c4b0}
 .start-panel{max-width:790px;margin-inline:auto;padding:42px;border:1px solid #4c6d42;border-radius:23px;background:#192319;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.16)}
 .start-label{color:var(--lime);font-weight:850;letter-spacing:.13em;font-size:.77rem;margin-bottom:12px}
+.start-promise{font-size:clamp(1.65rem,3.5vw,2.35rem);line-height:1.16;letter-spacing:-.03em;margin:12px 0 14px;color:#f4faef}
+.start-speed{font-size:1.07rem;line-height:1.65;color:#e0ecda;max-width:640px;margin:0 auto 9px}
+.start-speed strong{color:#f3ffec}
+.start-speed-note{font-size:.78rem;line-height:1.5;color:#a9baa3;max-width:630px;margin:0 auto 28px}
 .start-formula{font-size:clamp(1.55rem,3vw,2.4rem);line-height:1.2;font-weight:800;margin-bottom:20px}
 .start-formula strong{color:var(--lime)}
-.start-panel>p:not(.start-label):not(.start-formula):not(.start-help){color:#c1d0bb;max-width:630px;margin-inline:auto}
+.start-panel>p:not(.start-label):not(.start-formula):not(.start-help):not(.start-speed):not(.start-speed-note){color:#c1d0bb;max-width:630px;margin-inline:auto}
 .start-button{margin:14px auto 22px;font-size:1.15rem;padding:17px 24px}
 .start-help{color:#abbca5;font-size:.9rem;max-width:650px;margin:0 auto}
 .start-help strong{color:#e3f2db}

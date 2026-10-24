@@ -8,7 +8,7 @@
 
 **Lascia al caso i dadi, non il divertimento.**
 
-**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.**
+**Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.**
 
 **Dal “vorrei giocare” al gioco vero con meno attrito.**
 

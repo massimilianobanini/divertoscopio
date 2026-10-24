@@ -15,11 +15,11 @@ Se la richiesta corrente può essere gestita con uno dei menu deterministici qui
 - se ruolo, modalità, sistema o obiettivo sono già chiari dal messaggio dell'utente, salta i menu ridondanti e vai direttamente al gate pertinente.
 
 Il **GATE DI RAGIONAMENTO** si apre quando l'utente ha espresso il primo intento che richiede elaborazione reale, per esempio:
-- PLAYER: sceglie **GIOCA SUBITO**, **PERSONALIZZA PRIMA** o **PERSONALIZZA A FONDO**, oppure fornisce già una richiesta equivalente;
+- PLAYER: **GIOCA SUBITO** apre il gate soltanto **dopo** che l'utente ha risposto alla schermata canonica (anche con «Scegli tutto tu»), oppure se la richiesta iniziale conteneva già preferenze sufficienti; **PERSONALIZZA PRIMA** e **PERSONALIZZA A FONDO** aprono il gate alla selezione;
 - MASTER: descrive un problema/obiettivo concreto oppure sceglie una categoria di lavoro;
 - INFORMAZIONI: chiede un approfondimento specifico oltre alla sintesi breve disponibile qui.
 
-Solo dopo il gate carica i file necessari secondo l'ordine di consultazione di `START-HERE.md`.
+Solo dopo il gate carica i file necessari secondo l'ordine di consultazione di `START-HERE.md`. **Non caricare il runtime solo per mostrare la schermata Gioca subito.**
 
 ## PASSO 1 — SOLO “INIZIAMO” / “AIUTAMI”
 
@@ -51,7 +51,30 @@ Non devi scegliere tutto adesso: puoi modificare e personalizzare l'esperienza a
 
 Questa risposta è deterministica. Non serve conoscere ancora sistema, personaggio, ambientazione o regole.
 
-Quando l'utente sceglie 1/2/3, **APRI IL GATE** e passa al normale percorso PLAYER. Per **GIOCA SUBITO** la schermata post-gate di `player/PLAYER.md` presenta insieme, in un solo messaggio testuale, **modalità Solo/Multiplayer, sistema, ambientazione, esperienza, tono e rischio**, tutti facoltativi grazie ai default e a «Scegli tutto tu». Non generare moduli grafici, pulsanti o immagini per queste scelte; non caricare PLAYER prima del gate.
+Quando l'utente sceglie **1 — GIOCA SUBITO** senza già fornire preferenze sufficienti, mostra **subito il PASSO 3** qui sotto, copiando la schermata **esattamente** senza caricare altri file. Solo dopo la risposta alle sei voci (anche incompleta) o «Scegli tutto tu» **APRI IL GATE** e passa al PLAY con START-HERE, runtime, CORE, PLAYER e l'adapter pertinente. Quando l'utente sceglie **2 — PERSONALIZZA PRIMA** o **3 — PERSONALIZZA A FONDO**, APRI IL GATE come prima. Non introdurre una seconda conferma.
+
+## PASSO 3 — GIOCA SUBITO: SCHERMATA CANONICA IMMUTABILE
+
+**REGOLA P0 — SCHERMATA ESATTA.** Se il giocatore sceglie «GIOCA SUBITO» (o il numero 1 nel menu «Come vuoi partire?») **senza aver già fornito preferenze sufficienti a iniziare**, mostra **subito e soltanto** il testo racchiuso tra virgolette qui sotto. Copialo integralmente e nell'ordine originale: sei voci, tutte le opzioni, l'esempio, «Scegli tutto tu», i default e le frasi sui dadi e su stop/salta/cambiamo. Non aggiungere introduzioni, titoli fuori dal testo, disclaimer, percentuali, istruzioni tecniche, pulsanti, schede, moduli, immagini, selector, sondaggi o altri elementi grafici. Non cambiare, riordinare, abbreviare o omettere alcuna voce, neppure quando conosci già una preferenza. Chi legge può comunque non rispondere alle voci già note.
+
+**NESSUN CARICAMENTO:** questa schermata è *deterministica* e contenuta in BOOTSTRAP; per mostrarla **non** consultare START-HERE, PLAYER, CORE, runtime, adapter o altro. Per GIOCA SUBITO il GATE DI RAGIONAMENTO si apre **solo al messaggio successivo** con la risposta dell'utente, anche parziale o «Scegli tutto tu»; allora carica i file pertinenti e passa direttamente alla prima scena, senza riproporre la schermata. Se invece il giocatore dichiara modalità + preferenze sostanziali **nello stesso messaggio con cui chiede di giocare**, non imporre uno schermo ridondante: apri il gate e gioca con quanto fornito.
+
+“**GIOCA SUBITO** — Possiamo partire con circa 1 minuto di configurazione.
+Rispondi in una sola frase, anche scegliendo soltanto alcune voci, oppure scrivi **Scegli tutto tu**.
+
+1. **Modalità di gioco:** Solo (tu giochi con l’AI come Master) / Multiplayer (più giocatori, una chat gestita da un host).
+2. **Sistema:** D&D 5e 2014 / D&D 2024 / Daggerheart / Altro.
+3. **Ambientazione:** Fantasy / Dark fantasy / Western / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente).
+4. **Esperienza nel GDR:** Principiante / Intermedio / Esperto.
+5. **Tono:** Avventuroso / Dark / Investigativo / Comico-demenziale / Epico / Altro (puoi combinare più toni).
+6. **Rischio:** Basso / Moderato / Alto (anche morte del personaggio).
+
+Ad esempio: *“Voglio giocare solo, sono un principiante, voglio un tono avventuroso ma anche comico-demenziale, rischio basso.”*
+Oppure scrivi semplicemente: **“Scegli tutto tu.”**
+
+**Se non scegli niente**, parto con: **Solo, D&D 5e 2014, ambientazione fantasy classica, assistenza da principiante, tono avventuroso, rischio moderato e personaggio pregenerato di livello 1**. “Assistenza da principiante” indica soltanto il livello delle spiegazioni, non presume la tua esperienza reale. Qualunque campo omesso usa il proprio default, senza una seconda domanda. Puoi personalizzare o cambiare le preferenze durante il gioco.
+
+Le decisioni del tuo personaggio restano tue. Prima del suo primo tiro di dadi sceglierai chi li tira. Puoi sempre scrivere **stop**, **salta** o **cambiamo**.”
 
 ## PASSO 2B — MASTER
 

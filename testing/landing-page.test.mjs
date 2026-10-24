@@ -83,6 +83,8 @@ check("Responsive e accessibilità minima", () => {
   assert.match(js, /event.key === "Escape"/);
 });
 check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
+  assert.match(html, /<p class="hero-lead">Vuoi giocare anche senza un Master\? O preparare meglio le tue sessioni\?<\/p>/);
+  assert.doesNotMatch(html.match(/<p class="hero-lead">[\s\S]*?<\/p>/)?.[0] || "", /prompt complicati|nuovo regolamento/);
   assert.match(css, /\.hero\{padding:28px 0 0/);
   assert.match(css, /\.hero-content\{padding:0 0 12px/);
   assert.match(css, /font-size:clamp\(2\.65rem,min\(4\.25vw,8\.2vh\),4\.25rem\)/);
@@ -91,7 +93,7 @@ check("Hero compatta: CTA e Visual Hammer prima possibile senza scroll", () => {
   assert.match(css, /@media\(max-width:840px\)/);
   assert.match(css, /@media\(max-width:520px\)/);
   assert.match(css, /\.hero h1\{font-size:clamp\(1\.66rem,7\.15vw,2\.3rem\)/);
-  const ctaPos = html.indexOf('Inizia con il Divertoscopio');
+  const ctaPos = html.indexOf('INIZIA SUBITO GRATIS con il Divertoscopio');
   assert.ok(html.indexOf('Lascia al caso i dadi, non il divertimento.') < ctaPos);
   assert.ok(ctaPos < html.indexOf('class="hero-art"'));
 });
@@ -101,7 +103,7 @@ check("Hero più corta: visual allineato in alto e meno spazio sotto CTA", () =>
   assert.match(css, /\.hero-art\{min-height:0;margin-top:0;padding:0 0 14px\}/);
   assert.match(css, /\.hero-art img\{width:min\(58%,320px\)\}/);
   assert.match(css, /@media\(max-height:720px\) and \(min-width:841px\)\{[\s\S]*?\.hero-art\{margin-top:0\}/);
-  assert.ok(html.includes('Inizia con il Divertoscopio'));
+  assert.ok(html.includes('INIZIA SUBITO GRATIS con il Divertoscopio'));
 });
 check("Promessa di GDR semplice e divertimento più rapido", () => {
   assert.match(html, /Meno attesa prima di divertirti\./);

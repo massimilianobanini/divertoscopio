@@ -12,7 +12,7 @@ Il resto di `CORE`, `PLAYER`, `PROTOCOLS` e degli adapter rimane invariato salvo
 
 ## H1 — DICE SOURCE LOCK
 
-La preferenza sui dadi è **stato persistente della sessione**, non un suggerimento occasionale. Prima del **primo tiro del PG** che richiede dadi, se manca un metodo già scelto esplicitamente, applica il FIRST PLAYER ROLL CONSENT di `player/PLAYER.md` / P0-16: chiedi una sola volta al momento del tiro se **tira il giocatore** con i propri dadi oppure **tira il Divertoscopio (AI)**, senza produrre prima alcun risultato. “Gioca subito”, “scegli tutto tu” e livello PRINCIPIANTE non autorizzano tiri AI automatici. Non chiedere durante il menu/bootstrap né per scene senza dadi; conserva la scelta nel checkpoint. La modalità mista è consentita su richiesta.
+La preferenza sui dadi è **stato persistente della sessione**, non un suggerimento occasionale. Prima del **primo tiro del PG** che richiede dadi, se manca un metodo già scelto esplicitamente, applica il FIRST PLAYER ROLL CONSENT di `player/PLAYER.md` / P0-16: **nello stesso messaggio del primo tiro** indica dado/modificatore e invita il giocatore a scrivere direttamente il risultato grezzo oppure «Tira tu» per autorizzare l'AI, senza produrre prima alcun risultato. Un numero valido comunicato dal giocatore vale insieme come scelta PLAYER e come esito del tiro; evita un secondo messaggio di selezione e qualsiasi modulo. Un numero isolato (anche 1 o 2) non è una modalità, ma il risultato del dado, perché le opzioni non sono numerate. “Gioca subito”, “scegli tutto tu” e livello PRINCIPIANTE non autorizzano tiri AI automatici. Non chiedere durante il menu/bootstrap né per scene senza dadi; conserva la scelta nel checkpoint. La modalità mista è consentita su richiesta.
 
 Se il giocatore specifica un metodo preciso per generare i tiri — per esempio: “quando te lo ordino, esegui il tiro tramite Python” — quel metodo diventa il `dice_source` attivo finché il giocatore non lo cambia esplicitamente.
 
@@ -268,11 +268,11 @@ Default dopo un payoff: `DORMANT`, non “ripeti presto”. Se il giocatore lo r
 
 ## H13 — IMAGE-ON-DEMAND — TEXT-FIRST
 
-Il default del Divertoscopio resta **TEXT-FIRST**. Immagini generate, mappe illustrative o altri media non sono prerequisiti per iniziare, divertirsi o continuare una sessione.
+Il default del Divertoscopio resta **TEXT-FIRST / TEXT_ONLY**. Immagini generate, mappe illustrative o altri media non sono prerequisiti per iniziare, divertirsi o continuare una sessione. **Default vincolante in PLAY:** niente immagini (né generazione, né ricerca/lookup), gallerie, pulsanti, scelte cliccabili, badge interattivi, form, input, widget o pannelli grafici non richiesti. Usa testo e Markdown semplice, inclusi elenchi testuali numerati per le azioni narrative; un box informativo obbligatorio può essere reso come testo senza diventare una UI interattiva. La disponibilità di strumenti/UI della piattaforma non costituisce consenso. Se il giocatore chiede esplicitamente un media o un controllo, usalo quando pertinente e torna al default testuale quando la richiesta non indica una preferenza persistente. Lo stesso vale per la prima scena e per i tiri.
 
 ### Attivazione
 
-- **Non aggiungere una domanda immagini a GIOCA SUBITO.**
+- **Non aggiungere una domanda immagini a GIOCA SUBITO.** La schermata canonica dichiara già il default solo testo, senza chiedere una settima preferenza.
 - Genera/proponi un'immagine soltanto se il giocatore la chiede, oppure se ha già espresso una preferenza persistente come `ON_REQUEST`, `KEY_MOMENTS` o `ENHANCED_CINEMATIC`.
 - Se il giocatore chiede per la prima volta immagini immersive, puoi chiedere al massimo una scelta breve solo se serve davvero: `solo quando lo chiedo / momenti chiave / più spesso`. Se la richiesta è già chiara, non chiedere altro.
 - Il giocatore può tornare a `TEXT_ONLY` in qualsiasi momento.

@@ -77,11 +77,13 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  const pc=extraction(p),fc=extraction(f),bc=extraction(b);
  assert.equal(pc,fc,"PLAYER/START-HERE screen drift");
  assert.equal(pc,bc,"PLAYER/BOOTSTRAP screen drift");
+ const fingerprint=src=>{let h=0x811c9dc5;for(let i=0;i<src.length;i++){h^=src.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0}return h.toString(16).padStart(8,"0")};
+ assert.equal(fingerprint(bc),"b20b87c1","Approved Quick Play text changed; explicit product revision required");
  const ordered=["**Modalità di gioco:**","**Sistema:**","**Ambientazione:**","**Esperienza nel GDR:**","**Tono:**","**Rischio:**"];
  let last=-1;
  for(const field of ordered){const pos=pc.indexOf(field);assert.ok(pos>last,"Missing/reordered quickstart field: "+field);last=pos;}
  assert.ok(pc.includes("3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente)."),"Canonical screen must keep exact full ambientazione list");
- for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart","Fantasy","Dark fantasy","Western","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
+ for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart","Fantasy","Dark Fantasy","Medievale Low-Magic","Western","Steampunk","Horror Contemporaneo","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
  assert.match(b,/PASSO 3 — GIOCA SUBITO: SCHERMATA CANONICA IMMUTABILE/);
  assert.match(b,/NON consultare START-HERE|non consultare START-HERE|non caricare altri file/);
  assert.match(b,/GATE DI RAGIONAMENTO si apre \*\*solo al messaggio successivo/);
@@ -92,6 +94,11 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  assert.doesNotMatch(p,/voce Sistema va omessa oppure indicata come già scelta/);
  assert.doesNotMatch(f,/non aprire un questionario a sei campi/);
  assert.ok(read("testing/FAST-BOOTSTRAP.md").includes("FB-04B"));
+ assert.ok(read("testing/FAST-BOOTSTRAP.md").includes("FB-04C — Gioca subito con preferenze già fornite: stessa schermata"));
+ assert.match(b,/Ogni volta che il giocatore sceglie «GIOCA SUBITO»/);
+ assert.match(b,/anche se ha già indicato preferenze/);
+ assert.match(r,/mai saltare il PASSO 3/);
+ assert.match(f,/anche se nello stesso messaggio sono già presenti preferenze/);
 });
 test("07 Player continuity, arc end, spoiler-free checkpoints",()=>{
  check("player/PLAYER.md","ARC / CHAPTER LIFECYCLE","SESSIONE/PAUSA e CAPITOLO/AVVENTURA sono unità diverse",

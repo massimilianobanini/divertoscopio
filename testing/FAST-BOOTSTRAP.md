@@ -53,7 +53,11 @@ Pass:
 - da questo momento può caricare START-HERE + runtime + CORE + PLAYER e gli altri file pertinenti;
 - non ripete la scelta PLAYER;
 - nel messaggio canonico di GIOCA SUBITO chiarisce **solo** come “giochi tu con l’AI come Master” e **multiplayer** come “più giocatori, una sola chat ChatGPT gestita da un host che raccoglie le azioni di tutti”;
-- gli esempi di atmosfera includono come riferimenti almeno *fantasy avventuroso*, *dark fantasy*, *comico-demenziale* e *horror investigativo*, senza trasformarli in una tassonomia chiusa;
+- presenta **in un unico messaggio testuale** le sei voci: modalità Solo/Multiplayer, sistema (D&D 2014 / D&D 2024 / Daggerheart / altro), ambientazione, esperienza (principiante / intermedio / esperto), tono (avventuroso / dark / investigativo / comico-demenziale / epico / altro) e rischio (basso / moderato / alto);
+- permette toni combinati, descrizioni libere, risposte parziali e **«Scegli tutto tu»** senza ulteriori conferme;
+- dichiara i default: Solo, D&D 5e 2014, fantasy classica, assistenza da principiante, avventuroso, rischio moderato, PG pregenerato di livello 1;
+- non mostra form, pulsanti grafici né immagini non richieste e rinvia la scelta dei dadi al primo tiro del PG;
+- se il sistema è già dichiarato, non chiede nuovamente di sceglierlo;
 - punta alla prima decisione realmente giocabile con il minimo onboarding.
 
 ### FB-05 — MASTER apre il gate

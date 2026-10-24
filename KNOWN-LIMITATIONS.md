@@ -243,7 +243,7 @@ Snapshot e PAUSE & RESUME sono stati progettati e usati. Resta da validare quant
 Per dettagli scena-per-scena l'AI deve avere accesso a materiale che l'utente può legalmente fornire/utilizzare. La conoscenza generale o le discussioni pubbliche non devono essere spacciate per precisione canonica verificata.
 
 18. DIVERTOSCOPIO È ANCORA UN BRAND IN TEST  
-Nome, Visual Hammer, categoria e posizionamento stanno ancora attraversando test umani e stress test. Non presentare il naming come marchio registrato o definitivamente validato.
+Il posizionamento pubblico adottato il 24/10/2026 è «Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo». «GDR semplice» indica minore attrito nei GDR da tavolo esistenti, non un nuovo regolamento. La comprensione spontanea della categoria e l'anteriorità implicita in «primo» non sono ancora convalidate da evidenze indipendenti: non presentare il naming come marchio registrato né il primato come provato.
 
 19. ULTRA-GARANZIA — PUBLIC STRESS TEST, NON PROVA DI PERFORMANCE  
 La presenza dell'Ultra-Garanzia e del suo simbolico indennizzo reputazionale dimostra che il progetto accetta una conseguenza economica sul fallimento dichiarato; non dimostra da sola che il prodotto aumenti il divertimento. La prova viene da uso reale, feedback, riuso, voglia di tornare a giocare, casi e iterazioni.

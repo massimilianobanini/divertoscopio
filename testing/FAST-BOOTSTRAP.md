@@ -9,7 +9,7 @@ Scopo: impedire regressioni che ricarichino il runtime completo prima che l'uten
 Nel percorso normale, prima del **GATE DI RAGIONAMENTO** l'AI deve usare intenzionalmente soltanto `BOOTSTRAP.md`. L'apertura tecnica del repository/README necessaria a raggiungerlo non conta come caricamento di runtime, ma nessun altro file di contenuto deve essere pre-caricato per produrre i menu iniziali.
 
 Il gate si apre:
-- PLAYER → per **GIOCA SUBITO** soltanto **dopo** la risposta alla schermata esatta del PASSO 3 (anche «Scegli tutto tu»), oppure subito con preferenze già sufficienti; per **PERSONALIZZA PRIMA / PERSONALIZZA A FONDO** alla selezione;
+- PLAYER → con selezione esplicita **GIOCA SUBITO**, sempre la schermata esatta del PASSO 3, **anche se le preferenze sono già sufficienti**, poi gate soltanto dopo la risposta; un gioco narrativo autonomo senza selezione «Gioca subito» può partire direttamente; PERSONALIZZA PRIMA / A FONDO aprono il gate alla selezione;
 - MASTER → dopo problema/obiettivo concreto o categoria scelta;
 - INFORMAZIONI → dopo una richiesta specifica di approfondimento.
 
@@ -72,12 +72,21 @@ Pass:
 - con risposta parziale usa i default dei soli campi mancanti; la preferenza sistema, tono misto e rischio prevalgono;
 - il consenso per il primo tiro PG rimane just-in-time.
 
-### FB-04C — Scelta Gioca subito con preferenze già fornite
+### FB-04C — Gioca subito con preferenze già fornite: stessa schermata
 Input: `Iniziamo. Gioca subito. Solo, fantasy, D&D 2014, rischio basso.`
 
 Pass:
-- non richiede di ripetere i campi già dichiarati;
-- apre il gate e passa direttamente al PLAY.
+- mostra comunque **la stessa schermata canonica identica del PASSO 3**, una volta sola;
+- non pre-carica START-HERE, CORE, PLAYER, runtime né adapter;
+- dopo la risposta usa le preferenze già dichiarate insieme alle nuove senza chiederle di nuovo;
+- apre il gate e passa al PLAY.
+
+### FB-04D — Richiesta autonoma di gioco senza selezionare il menu
+Input: `Fammi giocare una storia fantasy in D&D 2024, sono esperto.`
+
+Pass:
+- può evitare la schermata «Gioca subito», perché il giocatore non ha selezionato quella voce;
+- apre il gate e inizia il PLAY, senza creare una versione differente del menu.
 
 ### FB-05 — MASTER apre il gate
 Input successivo a FB-03: `I combattimenti sono troppo lenti e i giocatori si distraggono`

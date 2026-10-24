@@ -115,7 +115,7 @@ test("17 Exact brand positioning is canonical across active public surfaces",()=
  const ordered=["README.md","BOOTSTRAP.md","START-HERE.md","MANIFESTO.md","PERCHE-USARE-IL-DIVERTOSCOPIO.md","COME-OTTENERE-IL-MASSIMO.md","KNOWN-LIMITATIONS.md"];
  for(const p of ordered)assert(read(p).includes(phrase),p+" missing exact approved wording");
  const html=read("index.html");
- const hero=html.match(/<h1 id="hero-title">([\\s\\S]*?)<\\/h1>/)?.[1]?.replace(/<[^>]*>/g,"");
+ const hero=html.match(/<h1 id="hero-title">([\s\S]*?)<\/h1>/)?.[1]?.replace(/<[^>]*>/g,"");
  assert.equal(hero,phrase,"Landing H1 drifted from brand positioning");
  for(const tag of ['meta name="description"','meta property="og:description"'])
    assert(html.includes("<"+tag+' content="'+phrase),tag+" missing exact brand positioning");

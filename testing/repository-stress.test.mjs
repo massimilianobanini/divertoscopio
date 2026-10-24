@@ -49,9 +49,20 @@ test("05 Runtime versions loaded in strict sequence",()=>{
  check("RUNTIME-V0.4-CANDIDATE.md","V0.4-CANDIDATE.md","IMPLEMENTED ≠ VALIDATED");
 });
 test("06 Player rights, dice and initial ruleset",()=>{
- check("player/PLAYER.md","decisioni volontarie del PG restano sempre del giocatore","Tira tu / Tiro io","DICE SOURCE LOCK",
+ check("player/PLAYER.md","decisioni volontarie del PG restano sempre del giocatore","Tiro io (giocatore)","Tira il Divertoscopio (AI)","DICE SOURCE LOCK",
  "CHARACTER SHEET SCHEMA IS SYSTEM-OWNED","HOSTED / SINGLE-CHAT","PRINCIPIANTE","ESPERTO","MILESTONE-STORY","niente XP paralleli");
  check("core/CORE.md","RULESET/SOURCE HONESTY","CHARACTER STATE OWNERSHIP");
+});
+test("06a First PG roll consent is just-in-time and dice-source honest",()=>{
+ const p=read("player/PLAYER.md"),pr=read("protocols/PROTOCOLS.md"),f=read("START-HERE.md"),h=read("RUNTIME-HOTFIX-V0.3.2-BASE.md");
+ const section=p.slice(p.indexOf("DICE MODE — CONSENSO PRIMA DEL PRIMO TIRO DEL PG"),p.indexOf("SOLO / COMPANIONS"));
+ assert.ok(section.length>500,"Missing canonical dice gate");
+ for(const s of ["prima di generare qualsiasi dado","Tiro io (giocatore)","Tira il Divertoscopio (AI)","dice_source","casualità","Nessun default automatico di tiro AI","checkpoint"])assert.ok(section.includes(s),"Player dice gate missing "+s);
+ for(const s of ["Prima del primo tiro del PG","Nessun default AI","Un numero narrato dal modello non dimostra casualità equa"])assert.ok(pr.includes(s),"Protocol missing "+s);
+ for(const s of ["FIRST PLAYER ROLL CONSENT","prima del primo tiro del personaggio","Nessun default AI","non chiedere prima di un tiro reale"])assert.ok(f.includes(s),"Fallback missing "+s);
+ for(const s of ["primo tiro del PG","FIRST PLAYER ROLL CONSENT","livello PRINCIPIANTE non autorizzano","RNG equo o verificabile"])assert.ok(h.includes(s),"Runtime missing "+s);
+ assert.doesNotMatch(p,/dopo 2[–-]3 tiri chiede|PRINCIPIANTE: per i primi tiri necessari, l’AI tira|Se sei principiante posso gestire io i primi dadi/);
+ assert.ok(p.indexOf("DICE MODE — CONSENSO PRIMA DEL PRIMO TIRO DEL PG")<p.indexOf("SOLO / COMPANIONS"));
 });
 test("07 Player continuity, arc end, spoiler-free checkpoints",()=>{
  check("player/PLAYER.md","ARC / CHAPTER LIFECYCLE","SESSIONE/PAUSA e CAPITOLO/AVVENTURA sono unità diverse",

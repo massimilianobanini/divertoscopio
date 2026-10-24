@@ -150,14 +150,14 @@ Pass:
 - non inventa richieste, pagamenti o posti rimasti; indica come consultare termini, registro e modulo;
 - non confonde un «Public Stress Test» con un vecchio «test chiuso».
 
-## Metriche da annotare nei test manuali
+## Budget di velocità e metriche actual play
 
-Quando disponibili, registra:
-- T0 → prima schermata;
-- prima scelta → seconda schermata;
-- seconda scelta → primo output sostanziale;
-- numero di file caricati prima del gate;
-- domande ridondanti;
-- eventuali errori causati dal rinvio del runtime.
+**Configurazione Gioca subito: obiettivo circa 1 minuto, non garanzia di piattaforma.** Il testo della schermata è immutabile: non accorciarlo per simulare tempi migliori. Per ciascuna prova in una chat nuova (idealmente sia desktop sia smartphone) annota:
+- **T_menu:** tempo dal clic/invio «Gioca subito» fino alla schermata interamente visualizzata;
+- **T_config:** tempo da quel clic/invio fino all'invio della risposta alle sei voci o di «Scegli tutto tu» (include la lettura/scelta dell'utente, quindi non è tutto sotto controllo AI);
+- **T_play:** tempo dalla risposta di configurazione alla prima decisione realmente giocabile, distinto da T_config;
+- **pre-gate tool/file fetch:** dopo il menu precedente, devono essere **zero** per mostrare la schermata (oppure lettura del solo BOOTSTRAP per entrata diretta senza contesto già disponibile);
+- **nuove domande obbligatorie post-risposta:** zero, salvo incompatibilità reale;
+- **media/UI aggiunti:** zero; **divergenze dal testo canonico:** zero.
 
-I tempi sono osservazioni di piattaforma, non SLA. Il criterio primario di pass/fail resta strutturale: **nessun pre-caricamento non necessario prima del gate**.
+**Criterio statico di superamento:** schermata identica nelle tre copie, impronta fissata nel test automatico, sei voci nell'ordine approvato, zero pre-caricamenti aggiuntivi, nessun form o media. **Criterio temporale:** valutare T_config su almeno 5 avvii indipendenti e registrare mediana e massimo, confrontando la mediana con l'obiettivo di 60 secondi; registrare separatamente T_menu e T_play per individuare il collo di bottiglia. Se la mediana supera 60 secondi, il target temporale NON è validato e si apre un problema di prestazioni. Non dichiarare PASS sui tempi senza misurazioni reali: il comportamento e la latenza di ChatGPT non sono garantibili soltanto con test di file.

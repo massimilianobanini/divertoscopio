@@ -8,9 +8,11 @@
 
 **Lascia al caso i dadi, non il divertimento.**
 
-**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.**
+**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.**
 
 **Dal “vorrei giocare” al gioco vero con meno attrito.**
+
+**GDR semplice** significa meno ostacoli per iniziare, giocare, preparare e riprendere una campagna con i sistemi di GDR da tavolo esistenti: **non è un nuovo gioco, un regolamento proprietario o una promessa di regole ridotte**. Le scelte creative rimangono ai giocatori e al Master.
 
 ## In 30 secondi
 

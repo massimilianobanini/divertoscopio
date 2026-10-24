@@ -4,7 +4,7 @@ Questo file mantiene compatibilità con `START-HERE.md`, che nel Public Stress T
 
 ## LOAD GATE
 
-Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima del GATE DI RAGIONAMENTO usa `BOOTSTRAP.md` soltanto. Il gate si apre per il PLAYER GIOCA SUBITO **dopo la risposta alla schermata canonica** (anche parziale o «Scegli tutto tu») o subito quando una richiesta diretta è già completa; la sola selezione «Gioca subito» visualizza determinísticamente il PASSO 3 di `BOOTSTRAP.md` senza caricare la catena. Per PERSONALIZZA PRIMA/A FONDO si apre alla selezione. Il gate si apre anche quando il MASTER esprime un problema/obiettivo concreto o viene richiesto un approfondimento informativo specifico.
+Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima del GATE DI RAGIONAMENTO usa `BOOTSTRAP.md` soltanto. Il gate si apre per il PLAYER GIOCA SUBITO **dopo la risposta alla schermata canonica** (anche parziale o «Scegli tutto tu») ; la selezione esplicita «Gioca subito» visualizza **sempre** e deterministicamente il PASSO 3 di `BOOTSTRAP.md`, anche con preferenze, senza caricare la catena. Solo una richiesta narrativa autonoma già completa senza selezione «Gioca subito» può avviare subito il PLAY. Per PERSONALIZZA PRIMA/A FONDO si apre alla selezione. Il gate si apre anche quando il MASTER esprime un problema/obiettivo concreto o viene richiesto un approfondimento informativo specifico.
 
 Se questo file è stato aperto prima del gate, non continuare a leggere la catena runtime: torna al menu deterministico e attendi l'intento sostanziale.
 

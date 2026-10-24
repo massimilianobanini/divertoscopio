@@ -41,7 +41,10 @@
     return false;
   }
 
-  document.getElementById("start-divertoscopio").addEventListener("click", openPrompt);
+  // Ogni CTA primaria avvia lo stesso prompt canonico, senza pre-selezioni.
+  document.querySelectorAll("[data-start-divertoscopio]").forEach((button) => {
+    button.addEventListener("click", openPrompt);
+  });
 
   closeButton.addEventListener("click", closePrompt);
   modal.addEventListener("click", (event) => {

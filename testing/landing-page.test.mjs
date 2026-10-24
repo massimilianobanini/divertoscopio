@@ -25,8 +25,13 @@ check("Headline: target, brand positioning, battlecry", () => {
   assert.match(html, /<h1[^>]*>Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’/);
   assert.match(html, /Ultra-Garanzia del Prezzo Negativo/);
   assert.match(html, /Lascia al caso i dadi, non il divertimento/);
-  assert.match(html, /meta name="description" content="Divertoscopio: il primo strumento italiano per il GDR semplice/);
+  assert.match(html, /meta name="description" content="Il Divertoscopio è il primo strumento italiano per il GDR semplice/);
   assert.match(html, /og:description" content="Il Divertoscopio è il primo strumento italiano per il GDR semplice/);
+  const official = "Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.";
+  const hero = html.match(/<h1 id="hero-title">([\s\S]*?)<\/h1>/)?.[1]?.replace(/<[^>]*>/g, "");
+  assert.equal(hero, official, "La headline deve usare la formula ufficiale esatta");
+  assert.ok(html.includes('<meta name="description" content="' + official));
+  assert.ok(html.includes('<meta property="og:description" content="' + official));
 });
 check("Visual Hammer originale, non sostituito da illustrazioni", () => {
   assert.match(html, /<div class="hero-art"[^>]*>[\s\S]*?<img src="assets\/visual-hammer\/DIVERTOSCOPIO-visual-hammer-lime.png"/);

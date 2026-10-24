@@ -81,7 +81,7 @@ Quando l'utente descrive il problema/obiettivo o sceglie una voce, **APRI IL GAT
 
 Per la prima richiesta generica “Informazioni”, non caricare ancora MANIFESTO/CORE/PLAYER/MASTER. Usa questa sintesi breve e concreta. Il posizionamento deve restare la prima cosa sostanziale mostrata:
 
-**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.**  
+**Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.**  
 **Lascia al caso i dadi, non il divertimento.**
 
 ### In 30 secondi

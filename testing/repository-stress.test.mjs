@@ -96,6 +96,10 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  assert.ok(read("testing/FAST-BOOTSTRAP.md").includes("FB-04B"));
  assert.ok(read("testing/FAST-BOOTSTRAP.md").includes("FB-04C — Gioca subito con preferenze già fornite: stessa schermata"));
  assert.match(b,/Ogni volta che il giocatore sceglie «GIOCA SUBITO»/);
+ assert.match(b,/ZERO PRELOAD \/ ZERO NUOVI TOOL/);
+ assert.match(b,/zero nuove chiamate a GitHub/);
+ assert.match(router,/recuperare i file indipendenti del runtime \*\*in parallelo\*\*/);
+ assert.match(read("testing/FAST-BOOTSTRAP.md"),/T_config/);
  assert.match(b,/anche se ha già indicato preferenze/);
  assert.match(r,/mai saltare il PASSO 3/);
  assert.match(f,/anche se nello stesso messaggio sono già presenti preferenze/);

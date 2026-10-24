@@ -35,7 +35,7 @@ test("02 All Markdown relative links resolve",()=>{
 test("03 Fast bootstrap with no early full runtime",()=>{
  check("README.md","AI FAST BOOTSTRAP","GATE DI RAGIONAMENTO");
  check("BOOTSTRAP.md","ZERO PRELOAD PRIMA DEL GATE","NON leggere ancora","SONO UN MASTER","SONO UN GIOCATORE","INFORMAZIONI",
- "GIOCA SUBITO","PERSONALIZZA PRIMA","PERSONALIZZA A FONDO","salta i menu ridondanti","runtime caricati: **0**");
+ "GIOCA SUBITO","PERSONALIZZA PRIMA","PERSONALIZZA A FONDO","salta soltanto i menu ridondanti","runtime caricati: **0**");
 });
 test("04 Information route does not preload game",()=>{
  check("BOOTSTRAP.md","sola domanda informativa","senza caricare la catena runtime","CREDITS-AND-INSPIRATIONS.md","ULTRA-GARANZIA.md");
@@ -88,7 +88,7 @@ test("06b Gioca subito: P0 schermata unica letterale, prima del runtime",()=>{
  assert.ok(pc.includes("3. **Ambientazione:** Casuale / Fantasy / Dark Fantasy / Medievale Low-Magic / Western / Steampunk / Horror Contemporaneo / Fantascienza / Post-apocalittica / Altro (puoi descriverla liberamente)."),"Canonical screen must keep exact full ambientazione list");
  for(const token of ["Solo","Multiplayer","D&D 5e 2014","D&D 2024","Daggerheart","Fantasy","Dark Fantasy","Medievale Low-Magic","Western","Steampunk","Horror Contemporaneo","Fantascienza","Post-apocalittica","Principiante","Intermedio","Esperto","Avventuroso","Dark","Investigativo","Comico-demenziale","Epico","Basso / Moderato / Alto","Scegli tutto tu","fantasy classica","assistenza da principiante","rischio moderato","personaggio pregenerato di livello 1","Prima del suo primo tiro di dadi","stop","salta","cambiamo"])assert.ok(pc.includes(token),"Canonical screen missing "+token);
  assert.match(b,/PASSO 3 — GIOCA SUBITO: SCHERMATA CANONICA IMMUTABILE/);
- assert.match(b,/NON consultare START-HERE|non consultare START-HERE|non caricare altri file/);
+ assert.match(b,/NON leggere ancora|Non.*consultare START-HERE|senza caricare altri file/);
  assert.match(b,/GATE DI RAGIONAMENTO si apre \*\*solo al messaggio successivo/);
  assert.match(r,/schermata canonica già inclusa in BOOTSTRAP/);
  assert.match(router,/dopo la risposta alla schermata canonica/);

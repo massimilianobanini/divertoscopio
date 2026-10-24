@@ -104,11 +104,19 @@ test("14 Licenses, attribution and third-party boundary",()=>{
 });
 test("15 Landing static regression + independent document links",()=>{
  execFileSync("node",["testing/landing-page.test.mjs"],{stdio:"pipe"});
- const html=read("index.html");assert.equal((html.match(/<summary>/g)||[]).length,12);
+ const html=read("index.html");assert.equal((html.match(/<summary>/g)||[]).length,13);
  for(const m of html.matchAll(/data-github-file="([^"]+)"/g))assert(exists(m[1]),"Broken landing doc "+m[1]);
- check("index.html","Il Divertoscopio è il primo strumento italiano","Lascia al caso i dadi","La creatività resta tua",
+ check("index.html","Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’","Lascia al caso i dadi","La creatività resta tua",
  "COME-OTTENERE-IL-MASSIMO.md","PERCHE-USARE-IL-DIVERTOSCOPIO.md");
  assert(!/Francesco Siciliano|WhatsApp/.test(html),"Private tester data in landing");
+});
+test("17 Official GDR semplice positioning across active public surfaces",()=>{
+ const phrase="IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L’ULTRA-GARANZIA DEL PREZZO NEGATIVO.";
+ for(const p of ["README.md","START-HERE.md","MANIFESTO.md"])assert(read(p).includes(phrase),p+" missing positioning");
+ assert(read("BOOTSTRAP.md").includes(phrase.replace("L’ULTRA","L'ULTRA")),"bootstrap positioning mismatch");
+ for(const p of ["PERCHE-USARE-IL-DIVERTOSCOPIO.md","COME-OTTENERE-IL-MASSIMO.md","KNOWN-LIMITATIONS.md"])check(p,"il primo strumento italiano per il GDR semplice");
+ check("index.html","il primo strumento italiano per il GDR semplice","non un gioco di ruolo nuovo né un regolamento semplificato");
+ for(const p of ["README.md","BOOTSTRAP.md","START-HERE.md","MANIFESTO.md","index.html"])assert(!read(p).includes("IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO"),p+" still has old positioning");
 });
 test("16 No added tracking or local browser storage",()=>{
  const html=read("index.html"),js=read("landing.js");

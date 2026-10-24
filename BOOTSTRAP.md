@@ -81,10 +81,12 @@ Quando l'utente descrive il problema/obiettivo o sceglie una voce, **APRI IL GAT
 
 Per la prima richiesta generica “Informazioni”, non caricare ancora MANIFESTO/CORE/PLAYER/MASTER. Usa questa sintesi breve e concreta. Il posizionamento deve restare la prima cosa sostanziale mostrata:
 
-**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER GDR DA TAVOLO CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.**  
+**IL DIVERTOSCOPIO È IL PRIMO STRUMENTO ITALIANO PER IL GDR SEMPLICE, CON L'ULTRA-GARANZIA DEL PREZZO NEGATIVO.**  
 **Lascia al caso i dadi, non il divertimento.**
 
 ### In 30 secondi
+
+«GDR semplice» significa meno complicazioni per giocare e preparare con GDR da tavolo esistenti, non inventare o riscrivere un regolamento. Il Divertoscopio è uno strumento, non un gioco autonomo.
 
 Il Divertoscopio usa l’AI per aiutarti a **giocare** oppure a **preparare e migliorare le tue partite come Master**.
 

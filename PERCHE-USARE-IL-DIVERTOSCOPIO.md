@@ -1,5 +1,9 @@
 # L'AI non deve toglierti il bello del gioco
 
+**Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.**
+
+Qui «GDR semplice» significa meno ostacoli nei GDR da tavolo esistenti, non un nuovo gioco né la sostituzione obbligatoria del Master o delle regole.
+
 ## Perché esiste il Divertoscopio (anche se ami preparare tutto a mano)
 
 **Ti piace creare avventure, disegnare mappe, leggere manuali, preparare gli incontri e tirare i dadi? Continua a farlo.** Il Divertoscopio non nasce per toglierti quelle attività. Nasce per ridurre gli ostacoli che *tu* non trovi divertenti, aiutarti a giocare quando non hai un Master o darti un secondo punto di vista quando prepari le tue sessioni.

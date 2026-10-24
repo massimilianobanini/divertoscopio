@@ -22,9 +22,11 @@ function check(name, run) {
 
 check("Headline: target, brand positioning, battlecry", () => {
   assert.match(html, /PER GIOCATORI E MASTER ITALIANI/);
-  assert.match(html, /<h1[^>]*>Il Divertoscopio è il primo strumento italiano per GDR da tavolo con l’/);
+  assert.match(html, /<h1[^>]*>Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’/);
   assert.match(html, /Ultra-Garanzia del Prezzo Negativo/);
   assert.match(html, /Lascia al caso i dadi, non il divertimento/);
+  assert.match(html, /meta name="description" content="Divertoscopio: il primo strumento italiano per il GDR semplice/);
+  assert.match(html, /og:description" content="Il Divertoscopio è il primo strumento italiano per il GDR semplice/);
 });
 check("Visual Hammer originale, non sostituito da illustrazioni", () => {
   assert.match(html, /<div class="hero-art"[^>]*>[\s\S]*?<img src="assets\/visual-hammer\/DIVERTOSCOPIO-visual-hammer-lime.png"/);
@@ -94,6 +96,8 @@ check("Hero più corta: visual allineato in alto e meno spazio sotto CTA", () =>
 check("Promessa di GDR semplice e divertimento più rapido", () => {
   assert.match(html, /Meno attesa prima di divertirti\./);
   assert.match(html, /mette le basi per il GDR semplice/);
+  assert.match(html, /Che cosa significa «GDR semplice»\? È un nuovo gioco\?/);
+  assert.match(html, /non un gioco di ruolo nuovo né un regolamento semplificato/);
   assert.match(html, /meno preparazione superflua e più tempo per giocare davvero/);
   assert.match(css, /\.answer-heading \.first-fun\{/);
   assert.ok(html.indexOf('class="first-fun"') > html.indexOf('id="answer-title"'));
@@ -115,7 +119,7 @@ check("FAQ utili su modalità ragionamento e immagini", () => {
   assert.match(html, /Posso arricchire l'esperienza con immagini durante la chat\?/);
   assert.match(html, /generare immagini/);
   assert.match(html, /interrompere il ritmo e creare attrito/);
-  assert.equal((html.match(/<summary>/g)||[]).length,12);
+  assert.equal((html.match(/<summary>/g)||[]).length,13);
 });
 check("Manifesto completo nella landing, 11 principi, niente doppio link", () => {
   const opening = html.indexOf('<section class="section manifesto"');

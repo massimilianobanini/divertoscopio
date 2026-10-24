@@ -1,5 +1,9 @@
 # Come ottenere il massimo dal Divertoscopio
 
+**Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.**
+
+«GDR semplice» significa rendere meno complicato giocare o fare il Master con i giochi di ruolo da tavolo esistenti, non riscriverne le regole o toglierti le attività creative che ami.
+
 **Non devi studiare questa guida per iniziare.** Il Divertoscopio è gratuito e open source: nella versione pubblica attuale si usa su **ChatGPT**, senza un account separato del Divertoscopio e senza conoscere il prompt engineering. Questa guida è facoltativa e serve quando vuoi personalizzare l'esperienza o gestire una campagna lunga.
 
 L'obiettivo non è impostare tutto in anticipo: è **ridurre gli ostacoli prima del divertimento, senza togliere le attività che ti piace fare**.

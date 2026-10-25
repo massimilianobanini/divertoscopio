@@ -2,7 +2,7 @@
 
 Stato: **ACTIVE — Public Stress Test V0.3 / V0.4 Candidate**
 
-Scopo: portare l'utente dal link + “Iniziamo” al primo intento realmente utile con il minimo attrito possibile.
+Scopo: portare l'utente dal link (anche senza “Iniziamo”, se privo di altre richieste) al primo intento realmente utile con il minimo attrito possibile.
 
 ## REGOLA CRITICA — ZERO PRELOAD PRIMA DEL GATE
 
@@ -21,7 +21,11 @@ Il **GATE DI RAGIONAMENTO** si apre quando l'utente ha espresso il primo intento
 
 Solo dopo il gate carica i file necessari secondo l'ordine di consultazione di `START-HERE.md`. **Non caricare il runtime solo per mostrare la schermata Gioca subito.**
 
-## PASSO 1 — SOLO “INIZIAMO” / “AIUTAMI”
+## PASSO 1 — SOLO URL GITHUB / “INIZIAMO” / “AIUTAMI”
+
+Se il messaggio dell'utente contiene **soltanto** `https://github.com/massimilianobanini/divertoscopio` (anche con barra finale o link Markdown) e **non contiene una domanda o una richiesta specifica**, interpretalo come avvio implicito del Divertoscopio, equivalente a «Iniziamo». Mostra quindi il menu qui sotto, non una recensione del progetto, un riassunto del repository o una richiesta «come vuoi che ti aiuti?». Se invece l'utente fa una domanda concreta sul progetto o chiede esplicitamente un'analisi, rispondi a quella domanda senza forzare il menu.
+
+Questo comportamento è un obiettivo dei test: i contenuti GitHub non sono istruzioni di sistema per ChatGPT e il solo URL non garantisce il risultato in tutte le conversazioni.
 
 Dopo al massimo 1–2 frasi, chiedi soltanto:
 

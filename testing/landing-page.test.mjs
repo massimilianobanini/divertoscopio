@@ -86,9 +86,12 @@ check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.doesNotMatch(js, /const CHATGPT_PREFILL|encodeURIComponent\(START_PROMPT\)|location\.assign\(CHATGPT_PREFILL\)/);
   assert.match(js, /const copied = await copyPrompt\(\)/);
   assert.match(js, /if \(!copied\) \{/);
-  assert.match(js, /window.location.assign\(CHATGPT\)/);
+  assert.match(js, /window.open\("about:blank", "_blank"\)/);
+  assert.match(js, /chatTab.location.replace\(CHATGPT\)/);
+  assert.doesNotMatch(js, /window.location.assign\(CHATGPT\)/);
   const primary = js.slice(js.indexOf('document.getElementById("copy-and-open").addEventListener'),js.indexOf("// I documenti canonici"));
-  assert.ok(primary.indexOf("if (!copied)") < primary.indexOf("window.location.assign"));
+  assert.ok(primary.indexOf("if (!copied)") < primary.indexOf("chatTab.location.replace"));
+  assert.match(primary, /if \(!chatTab \|\| chatTab.closed\)/);
   assert.match(js, /navigator.clipboard.writeText/);
   assert.match(js, /document.execCommand\("copy"\)/);
   assert.doesNotMatch(html, /id="copy-only"/);
@@ -98,7 +101,7 @@ check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.doesNotMatch(js, /manualChatGPT/);
   assert.doesNotMatch(html, /href="https:\/\/chatgpt\.com\/?"/);
   assert.equal((html.match(/id="copy-and-open"/g)||[]).length,1);
-  assert.equal((js.match(/window\.location\.assign\(CHATGPT\)/g)||[]).length,1);
+  assert.equal((js.match(/chatTab\.location\.replace\(CHATGPT\)/g)||[]).length,1);
   assert.match(html, /Copia e apri in ChatGPT/);
 });
 check("Instagram in-app simulated stress suite", () => {
@@ -211,7 +214,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=7/);
+  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=8/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

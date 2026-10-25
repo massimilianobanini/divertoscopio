@@ -41,7 +41,7 @@ Pass:
 - il testo **fisso** da copiare è l'URL canonico del repository + due a capo + «Iniziamo» (nessun UTM, fbclid, l.instagram.com o URL della landing);
 - il sito apre `https://chatgpt.com/` soltanto dopo conferma positiva dell'operazione clipboard; se fallisce, **non naviga**;
 - il browser non legge il testo dal parametro `?q=` né da `window.location`;
-- il link «Apri ChatGPT manualmente» è sostituito da un pulsante **disabilitato finché «Copia soltanto» non verifica una copia riuscita**;
+- la finestra presenta **un solo pulsante «Copia e apri in ChatGPT»**, senza «Copia soltanto» o pulsanti di apertura separati;
 - se l'utente copia solo una parte del messaggio fuori dal percorso, il repository richiede un avvio implicito best-effort, ma **il modello non è vincolato** dalle istruzioni dei file esterni;
 - dopo l'apertura ChatGPT l'utente deve incollare il testo e premere Invia;
 - verificare su Samsung/Instagram WebView: permesso negato, fallback, chat nuova e accesso non autenticato.

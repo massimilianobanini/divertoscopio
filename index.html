@@ -235,16 +235,16 @@
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading" aria-describedby="modal-description">
       <button class="modal-close" type="button" id="modal-close" aria-label="Chiudi">×</button>
       <p class="kicker">PRONTO PER CHATGPT</p><h2 id="modal-heading">Pronto a iniziare.</h2>
-      <p id="modal-description">Premi <strong>«Copia e apri ChatGPT»</strong>, poi <strong>incolla</strong> il messaggio copiato nella nuova chat e premi <strong>Invia</strong>. Se la copia automatica fallisce, resterai su questa pagina: copia manualmente l’istruzione qui sotto e usa «Apri ChatGPT manualmente». Se scegli <strong>«Gioca subito»</strong>, bastano poche impostazioni iniziali: <strong>l’obiettivo è arrivare alla prima scelta giocabile in circa 2 minuti.</strong> Sarà il Divertoscopio a proporti tutti i menu, senza scelte preimpostate dalla pagina.</p>
+      <p id="modal-description">Premi <strong>«Copia e apri ChatGPT»</strong>, poi <strong>incolla</strong> il messaggio copiato nella nuova chat e premi <strong>Invia</strong>. Se la copia automatica fallisce, resterai su questa pagina: seleziona e copia manualmente l’istruzione qui sotto, poi apri ChatGPT dal browser. Il pulsante in questa pagina si sblocca solo dopo una copia verificata. Se scegli <strong>«Gioca subito»</strong>, bastano poche impostazioni iniziali: <strong>l’obiettivo è arrivare alla prima scelta giocabile in circa 2 minuti.</strong> Sarà il Divertoscopio a proporti tutti i menu, senza scelte preimpostate dalla pagina.</p>
       <p class="modal-tagline">Meno attrito, meno preparazione, più gioco.</p>
       <label for="generated-prompt">Unica istruzione di avvio</label><textarea id="generated-prompt" readonly rows="3"></textarea>
       <div class="modal-actions"><button class="button button-lime" id="copy-and-open" type="button">Copia e apri ChatGPT <span aria-hidden="true">↗</span></button><button class="button button-outline" id="copy-only" type="button">Copia soltanto</button></div>
       <p class="modal-status" id="copy-status" role="status" aria-live="polite">Il sito copia il messaggio senza inviarlo: in ChatGPT dovrai incollare e premere Invia.</p>
       <p class="reasoning-tip"><strong>Consiglio:</strong> se disponibile, una modalità più ragionata può aiutare nelle situazioni complesse, ma rallenta le risposte. Non serve per i primi menu di scelta.</p>
       <p class="start-fallback">Se ChatGPT non riesce ad aprire GitHub, puoi usare il <a href="https://github.com/massimilianobanini/divertoscopio/blob/main/BOOTSTRAP.md" data-github-file="BOOTSTRAP.md" target="_blank" rel="noopener noreferrer">bootstrap di riserva</a>.</p>
-      <a class="under-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" id="manual-chatgpt">Apri ChatGPT manualmente ↗</a>
+      <button class="button button-outline" id="manual-chatgpt" type="button" disabled>Apri ChatGPT (prima copia l’istruzione)</button>
     </section>
   </div>
-  <script src="landing.js?v=5" defer></script>
+  <script src="landing.js?v=6" defer></script>
 </body>
 </html>

@@ -180,7 +180,7 @@ test("14 Licenses, attribution and third-party boundary",()=>{
 });
 test("15 Landing static regression + independent document links",()=>{
  execFileSync("node",["testing/landing-page.test.mjs"],{stdio:"pipe"});
- const html=read("index.html");assert.equal((html.match(/<summary>/g)||[]).length,13);
+ const html=read("index.html");assert.equal((html.match(/<summary>/g)||[]).length,15);
  for(const m of html.matchAll(/data-github-file="([^"]+)"/g))assert(exists(m[1]),"Broken landing doc "+m[1]);
  check("index.html","Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’","Lascia al caso i dadi","La creatività resta tua",
  "COME-OTTENERE-IL-MASSIMO.md","PERCHE-USARE-IL-DIVERTOSCOPIO.md");

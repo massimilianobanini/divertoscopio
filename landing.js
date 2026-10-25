@@ -67,17 +67,45 @@
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
   });
 
-  document.getElementById("copy-and-open").addEventListener("click", async () => {
-    // Non navigare MAI se la copia non è confermata: potrebbe rimanere negli
-    // appunti un vecchio redirect l.instagram.com con tracking e fbclid.
-    // La stessa scheda evita i popup bloccati dei browser interni.
-    const copied = await copyPrompt();
-    if (!copied) {
-        copyStatus.textContent = "La copia automatica non è riuscita. ChatGPT NON è stato aperto: seleziona e copia il testo pulito qui sopra, poi apri ChatGPT dal browser.";
-      return;
+  const launchButton = document.getElementById("copy-and-open");
+  let launchInProgress = false;
+  launchButton.addEventListener("click", async () => {
+    if (launchInProgress) return;
+    launchInProgress = true;
+    launchButton.disabled = true;
+
+    // Avvia la copia durante il gesto dell'utente, PRIMA di aprire una nuova scheda.
+    // Pre-apri una scheda vuota senza attendere la Promise: i browser bloccano
+    // spesso i popup aperti dopo un await. La landing resta nella scheda originale.
+    const copyAttempt = copyPrompt();
+    let chatTab = null;
+    try {
+      chatTab = window.open("about:blank", "_blank");
+      if (chatTab) chatTab.opener = null;
+    } catch (_) { /* Popup non consentito: non usare mai la scheda corrente. */ }
+
+    try {
+      const copied = await copyAttempt;
+      if (!copied) {
+        if (chatTab && !chatTab.closed) chatTab.close();
+        copyStatus.textContent = "La copia non è riuscita. Non è stata aperta alcuna chat: seleziona e copia manualmente l’istruzione visualizzata qui sopra, oppure consenti gli appunti e riprova.";
+        return;
+      }
+      if (!chatTab || chatTab.closed) {
+        copyStatus.textContent = "Istruzione copiata, ma il browser ha bloccato la nuova scheda. Consenti le finestre popup per questo sito e premi nuovamente «Copia e apri in ChatGPT». La landing è ancora aperta.";
+        return;
+      }
+      try {
+        chatTab.location.replace(CHATGPT);
+        copyStatus.textContent = "Istruzione copiata. ChatGPT è stato aperto in una nuova scheda: incolla il messaggio e premi Invia. Questa pagina rimane disponibile.";
+      } catch (_) {
+        try { chatTab.close(); } catch (_) { /* Il browser potrebbe impedire la chiusura. */ }
+        copyStatus.textContent = "Istruzione copiata, ma non sono riuscito ad aprire ChatGPT nella nuova scheda. Controlla le autorizzazioni popup e riprova.";
+      }
+    } finally {
+      launchInProgress = false;
+      launchButton.disabled = false;
     }
-    copyStatus.textContent = "Istruzione copiata. In ChatGPT incolla il messaggio e premi Invia.";
-    window.location.assign(CHATGPT);
   });
 
   // I documenti canonici vivono nel repository, non nel sito statico.

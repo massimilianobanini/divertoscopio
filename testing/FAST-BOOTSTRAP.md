@@ -23,6 +23,28 @@ Pass:
 - massimo 1–2 frasi prima del menu;
 - nessun runtime, CORE, PLAYER, MASTER, adapter, toolbox o protocollo caricato intenzionalmente.
 
+### FB-01B — Solo URL ufficiale senza comando (nuovo ingresso)
+Input (intero messaggio): `https://github.com/massimilianobanini/divertoscopio`
+
+Comportamento atteso quando ChatGPT interpreta il repository come avvio:
+- legge al massimo README e BOOTSTRAP, poi mostra Master / Giocatore / Informazioni;
+- non produce audit, riassunto marketing del sito o richiesta generica «Come vuoi che ti aiuti?»;
+- non pre-carica il runtime, CORE, PLAYER, MASTER, adapter o altri file;
+- se il messaggio contiene invece una domanda sostanziale, risponde alla domanda e non forza il menu.
+
+**Limite del test:** un repository esterno non può imporre l'intento di un URL isolato a ChatGPT. Questo caso richiede anche un test live in una nuova chat, non solo la revisione dei file.
+
+### FB-01C — Landing da browser interno di Instagram (nuovo ingresso)
+Input: tocca «Apri ChatGPT con testo pronto» nella landing sullo smartphone.
+
+Pass:
+- naviga a `https://chatgpt.com/?q=` con prompt URL-encoded uguale a URL repository + doppio a capo + «Iniziamo»;
+- il flusso **non** legge o scrive clipboard quando apre ChatGPT;
+- in browser compatibili il prompt viene precompilato, ma non è garantito l'invio automatico;
+- compare un fallback «Copia soltanto» nel modal, utilizzabile se ChatGPT non precompila;
+- non viene trasmesso alla chat solo l'URL della landing come accaduto nel test originale;
+- validare manualmente su Samsung / Instagram in-app browser e su un browser esterno prima del deploy.
+
 ### FB-02 — Entrata PLAYER
 Input sequenziale:
 1. `Iniziamo`

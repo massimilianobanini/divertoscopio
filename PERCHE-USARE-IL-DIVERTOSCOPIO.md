@@ -10,6 +10,8 @@ Qui «GDR semplice» significa meno ostacoli nei GDR da tavolo esistenti, non un
 
 **Il Divertoscopio è gratuito e open source.** È un insieme di istruzioni, procedure e strumenti pubblici da usare con ChatGPT; non è un nuovo modello di AI addestrato appositamente né un nuovo regolamento GDR autonomo. Non devi saper scrivere prompt complicati per iniziare.
 
+**Un vantaggio concreto per chi vuole continuare a giocare:** il Divertoscopio non vende crediti o token, non fa pagare ogni turno e non richiede un proprio abbonamento, neppure per ricevere aiuto come Master. Questo elimina il contatore di crediti *del progetto*, non i limiti del servizio ChatGPT che lo ospita. Per campagne lunghe esistono [checkpoint e procedure di ripresa](COME-OTTENERE-IL-MASSIMO.md), ancora da validare completamente.
+
 **Lascia al caso i dadi, non il divertimento.** Questo è l'obiettivo del progetto, non la promessa che ogni singola partita riuscirà perfettamente.
 
 ## Prima domanda: cosa ti diverte davvero del GDR?

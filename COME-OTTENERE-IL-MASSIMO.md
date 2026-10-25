@@ -155,7 +155,17 @@ Puoi richiedere immagini di personaggi, luoghi o momenti significativi quando la
 
 La stessa regola vale per mappe, musica e altri strumenti: usali se migliorano *la tua* esperienza, non perché «si devono usare» per sfruttare il prodotto al massimo. L'integrazione sincronizzata con VTT e la gestione automatica dei media non sono funzionalità completamente validate del test pubblico.
 
-## 8. Se qualcosa va storto
+## 8. Riduci le distrazioni durante l'avventura
+
+Una scena coinvolgente può perdere ritmo se viene interrotta da notifiche, pubblicità o altre distrazioni. Se ti è utile, attiva la modalità **Non disturbare** del dispositivo e tieni aperta soltanto la chat di gioco.
+
+**Se giochi su ChatGPT da browser e gli annunci ti distraggono**, puoi valutare un'estensione affidabile per bloccare le pubblicità, come **Adblock Plus** o un'alternativa simile. È una scelta **facoltativa**, non un requisito del Divertoscopio: il blocco non è garantito e alcune estensioni possono interferire con il sito. Controlla permessi e affidabilità dell'estensione; se ChatGPT funziona male, prova a disattivarla per quel sito.
+
+**Se giochi nell'app ChatGPT su smartphone**, un'estensione del browser non controlla automaticamente le pubblicità mostrate nell'app. Anche le eventuali opzioni pubblicitarie e i limiti di utilizzo dipendono dal piano e dalle impostazioni di ChatGPT, non dal Divertoscopio.
+
+**Non perdere tempo a configurare tutto prima di iniziare.** Questi consigli servono solo se le interruzioni diventano un problema reale per la tua esperienza.
+
+## 9. Se qualcosa va storto
 
 - **Regola sbagliata:** chiedi di identificare sistema, edizione e fonte; non accettare una regola inventata.
 - **Dettaglio della campagna dimenticato:** fornisci il checkpoint e correggi lo stato, senza ricostruzioni fantasiose.

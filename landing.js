@@ -9,14 +9,12 @@
   const generatedPrompt = document.getElementById("generated-prompt");
   const copyStatus = document.getElementById("copy-status");
   const closeButton = document.getElementById("modal-close");
-  const manualChatGPT = document.getElementById("manual-chatgpt");
   let returnFocus = null;
 
   function openPrompt() {
     returnFocus = document.activeElement;
     generatedPrompt.value = START_PROMPT;
-    manualChatGPT.disabled = true;
-    copyStatus.textContent = "Premi «Copia e apri ChatGPT»: il messaggio verrà copiato prima di aprire ChatGPT. Poi incollalo e premi Invia.";
+    copyStatus.textContent = "Premi «Copia e apri in ChatGPT»: il messaggio verrà copiato prima di aprire ChatGPT. Poi incollalo e premi Invia.";
     modal.hidden = false;
     document.body.style.overflow = "hidden";
     closeButton.focus();
@@ -69,29 +67,16 @@
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
   });
 
-  document.getElementById("copy-only").addEventListener("click", async () => {
-    const copied = await copyPrompt();
-    manualChatGPT.disabled = !copied;
-    copyStatus.textContent = copied ? "Istruzione copiata. Premi «Apri ChatGPT» qui sotto, poi incollala e inviala." : "La copia automatica non è disponibile: seleziona e copia l'istruzione qui sopra, poi apri ChatGPT dal browser.";
-  });
-
   document.getElementById("copy-and-open").addEventListener("click", async () => {
     // Non navigare MAI se la copia non è confermata: potrebbe rimanere negli
     // appunti un vecchio redirect l.instagram.com con tracking e fbclid.
     // La stessa scheda evita i popup bloccati dei browser interni.
     const copied = await copyPrompt();
     if (!copied) {
-      manualChatGPT.disabled = true;
-      copyStatus.textContent = "La copia automatica non è riuscita. ChatGPT NON è stato aperto: seleziona e copia il testo pulito qui sopra, poi apri ChatGPT dal browser.";
+        copyStatus.textContent = "La copia automatica non è riuscita. ChatGPT NON è stato aperto: seleziona e copia il testo pulito qui sopra, poi apri ChatGPT dal browser.";
       return;
     }
     copyStatus.textContent = "Istruzione copiata. In ChatGPT incolla il messaggio e premi Invia.";
-    window.location.assign(CHATGPT);
-  });
-
-  manualChatGPT.addEventListener("click", () => {
-    // L’utente può navigare dalla landing solo dopo che la copia è stata confermata.
-    if (manualChatGPT.disabled) return;
     window.location.assign(CHATGPT);
   });
 

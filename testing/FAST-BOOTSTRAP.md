@@ -34,16 +34,18 @@ Comportamento atteso quando ChatGPT interpreta il repository come avvio:
 
 **Limite del test:** un repository esterno non può imporre l'intento di un URL isolato a ChatGPT. Questo caso richiede anche un test live in una nuova chat, non solo la revisione dei file.
 
-### FB-01C — Landing da browser interno di Instagram (nuovo ingresso)
-Input: tocca «Apri ChatGPT con testo pronto» nella landing sullo smartphone.
+### FB-01C — Landing da browser interno Instagram (ingresso corrente)
+Input: premi «Copia e apri ChatGPT» dalla landing.
 
 Pass:
-- naviga a `https://chatgpt.com/?q=` con prompt URL-encoded uguale a URL repository + doppio a capo + «Iniziamo»;
-- il flusso **non** legge o scrive clipboard quando apre ChatGPT;
-- in browser compatibili il prompt viene precompilato, ma non è garantito l'invio automatico;
-- compare un fallback «Copia soltanto» nel modal, utilizzabile se ChatGPT non precompila;
-- non viene trasmesso alla chat solo l'URL della landing come accaduto nel test originale;
-- validare manualmente su Samsung / Instagram in-app browser e su un browser esterno prima del deploy.
+- il testo **fisso** da copiare è l'URL canonico del repository + due a capo + «Iniziamo» (nessun UTM, fbclid, l.instagram.com o URL della landing);
+- il sito apre `https://chatgpt.com/` soltanto dopo conferma positiva dell'operazione clipboard; se fallisce, **non naviga**;
+- il browser non legge il testo dal parametro `?q=` né da `window.location`;
+- il link «Apri ChatGPT manualmente» è sostituito da un pulsante **disabilitato finché «Copia soltanto» non verifica una copia riuscita**;
+- se l'utente copia solo una parte del messaggio fuori dal percorso, il repository richiede un avvio implicito best-effort, ma **il modello non è vincolato** dalle istruzioni dei file esterni;
+- dopo l'apertura ChatGPT l'utente deve incollare il testo e premere Invia;
+- verificare su Samsung/Instagram WebView: permesso negato, fallback, chat nuova e accesso non autenticato.
+
 
 ### FB-02 — Entrata PLAYER
 Input sequenziale:

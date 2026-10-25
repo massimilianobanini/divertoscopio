@@ -27,7 +27,7 @@ Elenco alfabetico, senza gerarchie. Le descrizioni riassumono il tipo di riferim
 - **20 Facce / Samuele Nicotra** — esperienza, contenuti e confronto sul gioco di ruolo, sul ruolo del Master e sull’esperienza al tavolo considerati nel percorso di ricerca e testing.
 - **Andrea “Il Rosso” Lucca — La Locanda del Drago Rosso** — tecniche, riflessioni e divulgazione GDR considerate nel lavoro di confronto e distillazione della libreria del progetto.
 - **Caotico Pigro / Stefano** — contenuti su preparazione, PNG, improvvisazione, one-shot, Sessione Zero, feedback e gestione pratica del tavolo usati come confronto di ricerca.
-- **D20 Nation** — avventure e materiali analizzati per confrontare encounter design, minigiochi, reattività dei PNG, tono, pacing, procedure e qualità dell’esecuzione.
+- **D20 Nation** — avventure e contenuti analizzati per confrontare encounter design, minigiochi, reattività dei PNG, tono, pacing, procedure e qualità dell’esecuzione.
 - **Dottor Morgan** — preparazione e cura di campagne pubblicate, in particolare materiale su *Curse of Strahd*, considerate per repair, hook, riuso, pacing e conseguenze persistenti.
 - **Giù Nel Dungeon** — discussioni pubbliche su intelligenza artificiale e GDR e prospettive della community considerate per aspettative, failure mode, guardrail e stress test.
 - **La Tana dell’Occhio / Master P / Omar Pelosi** — contenuti, esperienza di mastering e prospettive della community considerate nel percorso di confronto e sviluppo del progetto.

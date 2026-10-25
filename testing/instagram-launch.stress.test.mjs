@@ -138,7 +138,7 @@ await check("Popup blocked: clipboard copies but current tab never navigates",as
 await check("No extra copy or manual-open buttons",async()=>{
   const html=fs.readFileSync("index.html","utf8");
   assert.doesNotMatch(html,/id="copy-only"|id="manual-chatgpt"/);
-  assert.doesNotMatch(code,/getElementById\\("copy-only"\\)|manualChatGPT/);
+  assert.doesNotMatch(code,/getElementById\("copy-only"\)|manualChatGPT/);
   assert.equal((html.match(/id="copy-and-open"/g)||[]).length,1);
 });
 await check("Repeated denied copies never navigate or reuse Instagram tracking URL",async()=>{

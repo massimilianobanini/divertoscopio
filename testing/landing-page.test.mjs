@@ -2,6 +2,7 @@
 // Non sostituiscono un test browser/actual play con utenti indipendenti.
 import fs from "node:fs";
 import vm from "node:vm";
+import {execFileSync} from "node:child_process";
 import assert from "node:assert/strict";
 
 const html = fs.readFileSync("index.html", "utf8");
@@ -80,18 +81,23 @@ check("Landing: avvio unico senza salti dei menu", () => {
   assert.match(html, /Non serve per i primi menu di scelta/);
   assert.match(html, /data-github-file="BOOTSTRAP\.md"/);
 });
-check("ChatGPT precompilato senza clipboard obbligatoria, fallback manuale", () => {
+check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.match(js, /const START_PROMPT = REPO \+ "\\n\\nIniziamo"/);
-  assert.match(js, /const CHATGPT_PREFILL = CHATGPT \+ "\?q=" \+ encodeURIComponent\(START_PROMPT\)/);
-  assert.match(js, /window.location.assign\(CHATGPT_PREFILL\)/);
+  assert.doesNotMatch(js, /const CHATGPT_PREFILL|encodeURIComponent\(START_PROMPT\)|location\.assign\(CHATGPT_PREFILL\)/);
+  assert.match(js, /const copied = await copyPrompt\(\)/);
+  assert.match(js, /if \(!copied\) \{/);
+  assert.match(js, /window.location.assign\(CHATGPT\)/);
   const primary = js.slice(js.indexOf('document.getElementById("copy-and-open").addEventListener'),js.indexOf("// I documenti canonici"));
-  assert.doesNotMatch(primary, /copyPrompt\(|navigator.clipboard|document.execCommand/);
+  assert.ok(primary.indexOf("if (!copied)") < primary.indexOf("window.location.assign"));
   assert.match(js, /navigator.clipboard.writeText/);
   assert.match(js, /document.execCommand\("copy"\)/);
   assert.match(html, /id="copy-only"/);
   assert.match(html, /id="generated-prompt"/);
   assert.match(html, /id="manual-chatgpt"/);
-  assert.match(html, /Apri ChatGPT con testo pronto/);
+  assert.match(html, /Copia e apri ChatGPT/);
+});
+check("Instagram in-app simulated stress suite", () => {
+  execFileSync("node",["testing/instagram-launch.stress.test.mjs"],{stdio:"pipe"});
 });
 
 check("Privacy: testo locale, senza tracker o chiamate backend", () => {
@@ -200,7 +206,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=4/);
+  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=5/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

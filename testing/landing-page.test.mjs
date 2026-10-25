@@ -93,7 +93,9 @@ check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.match(js, /document.execCommand\("copy"\)/);
   assert.match(html, /id="copy-only"/);
   assert.match(html, /id="generated-prompt"/);
-  assert.match(html, /id="manual-chatgpt"/);
+  assert.match(html, /id="manual-chatgpt"[^>]*disabled/);
+  assert.doesNotMatch(html, /href="https:\/\/chatgpt\.com\/?"/);
+  assert.match(js, /if \(manualChatGPT\.disabled\) return/);
   assert.match(html, /Copia e apri ChatGPT/);
 });
 check("Instagram in-app simulated stress suite", () => {
@@ -206,7 +208,7 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
 
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=5/);
+  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=6/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

@@ -8,7 +8,7 @@
 
 **Lascia al caso i dadi, non il divertimento.**
 
-**Avvio rapido da ChatGPT:** se il tuo messaggio contiene solo l’URL di questo repository e nessuna domanda, l’intento previsto è aprire il menu iniziale (Master / Giocatore / Informazioni), non ricevere un’analisi del sito. ChatGPT può comunque interpretare diversamente un link isolato: per maggiore affidabilità usa il pulsante della [landing pubblica](https://massimilianobanini.github.io/divertoscopio/), che prepara l’URL con «Iniziamo» già scritto.\n\n
+**Avvio rapido da ChatGPT:** se il tuo messaggio contiene solo l’URL di questo repository e nessuna domanda, l’intento previsto è aprire il menu iniziale (Master / Giocatore / Informazioni), non ricevere un’analisi del sito. ChatGPT può comunque interpretare diversamente un link isolato: per maggiore affidabilità usa il pulsante della [landing pubblica](https://massimilianobanini.github.io/divertoscopio/), che copia il link ufficiale con «Iniziamo» prima di aprire ChatGPT.
 
 **Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.**
 

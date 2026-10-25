@@ -223,6 +223,10 @@ check("Nessun credito a turno del Divertoscopio, senza promettere infinito", () 
   assert.match(css, /\.hero \.no-turn-credits\{/);
 });
 
+check("No paid credits or per-turn fees: cross-surface and mutation stress", () => {
+  execFileSync("node",["testing/no-credit-fees.stress.test.mjs"],{stdio:"inherit"});
+});
+
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
   assert.match(html,/landing.css\?v=8/);assert.match(html,/landing.js\?v=8/);

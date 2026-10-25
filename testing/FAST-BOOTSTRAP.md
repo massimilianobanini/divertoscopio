@@ -35,15 +35,16 @@ Comportamento atteso quando ChatGPT interpreta il repository come avvio:
 **Limite del test:** un repository esterno non può imporre l'intento di un URL isolato a ChatGPT. Questo caso richiede anche un test live in una nuova chat, non solo la revisione dei file.
 
 ### FB-01C — Landing da browser interno Instagram (ingresso corrente)
-Input: premi «Copia e apri ChatGPT» dalla landing.
+Input: premi «Copia e apri in ChatGPT» dalla landing.
 
 Pass:
 - il testo **fisso** da copiare è l'URL canonico del repository + due a capo + «Iniziamo» (nessun UTM, fbclid, l.instagram.com o URL della landing);
-- il sito apre `https://chatgpt.com/` soltanto dopo conferma positiva dell'operazione clipboard; se fallisce, **non naviga**;
+- il sito pre-apre una **nuova scheda vuota** nello stesso gesto del clic (riduce i blocchi popup), ma naviga a `https://chatgpt.com/` soltanto dopo conferma positiva della copia; se fallisce, richiude la scheda vuota e **non naviga**;
 - il browser non legge il testo dal parametro `?q=` né da `window.location`;
 - la finestra presenta **un solo pulsante «Copia e apri in ChatGPT»**, senza «Copia soltanto» o pulsanti di apertura separati;
 - se l'utente copia solo una parte del messaggio fuori dal percorso, il repository richiede un avvio implicito best-effort, ma **il modello non è vincolato** dalle istruzioni dei file esterni;
-- dopo l'apertura ChatGPT l'utente deve incollare il testo e premere Invia;
+- la scheda originale della landing resta disponibile in background; se la nuova scheda è bloccata, la landing mostra istruzioni per consentire i popup;
+- dopo l'apertura di ChatGPT l'utente deve incollare il testo e premere Invia;
 - verificare su Samsung/Instagram WebView: permesso negato, fallback, chat nuova e accesso non autenticato.
 
 

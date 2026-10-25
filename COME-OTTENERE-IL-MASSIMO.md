@@ -6,6 +6,8 @@
 
 **Non devi studiare questa guida per iniziare.** Il Divertoscopio è gratuito e open source: nella versione pubblica attuale si usa su **ChatGPT**, senza un account separato del Divertoscopio e senza conoscere il prompt engineering. Questa guida è facoltativa e serve quando vuoi personalizzare l'esperienza o gestire una campagna lunga.
 
+**Non si comprano crediti Divertoscopio e non si paga per turno o per richiesta al Master.** Il costo e i limiti dell'eventuale piano ChatGPT restano separati; modelli, strumenti e lunghezza della chat possono imporre pause o richiedere di ripartire in una nuova conversazione. In quel caso usa la procedura di checkpoint al [punto 4](#4-fai-attenzione-alla-memoria-di-gioco): non garantisce una memoria perfetta e non aggira i limiti della piattaforma.
+
 L'obiettivo non è impostare tutto in anticipo: è **ridurre gli ostacoli prima del divertimento, senza togliere le attività che ti piace fare**.
 
 ## Tre livelli: scegli quanto approfondire

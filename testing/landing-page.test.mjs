@@ -224,7 +224,7 @@ check("Nessun credito a turno del Divertoscopio, senza promettere infinito", () 
 });
 
 check("No paid credits or per-turn fees: cross-surface and mutation stress", () => {
-  execFileSync("node",["testing/no-credit-fees.stress.test.mjs"],{stdio:"pipe"});
+  execFileSync("node",["testing/no-credit-fees.stress.test.mjs"],{stdio:"inherit"});
 });
 
 check("File statici e GitHub Pages", () => {

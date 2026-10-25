@@ -7,6 +7,9 @@ on:
       - index.html
       - landing.css
       - landing.js
+      - testing/landing-page.test.mjs
+      - testing/repository-stress.test.mjs
+      - testing/instagram-launch.stress.test.mjs
       - assets/visual-hammer/DIVERTOSCOPIO-visual-hammer-lime.png
       - .github/workflows/landing-pages.yml
   pull_request:

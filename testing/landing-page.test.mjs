@@ -169,7 +169,7 @@ check("FAQ utili su modalità ragionamento e immagini", () => {
   assert.match(html, /Posso arricchire l'esperienza con immagini durante la chat\?/);
   assert.match(html, /generare immagini/);
   assert.match(html, /interrompere il ritmo e creare attrito/);
-  assert.equal((html.match(/<summary>/g)||[]).length,13);
+  assert.equal((html.match(/<summary>/g)||[]).length,15);
 });
 check("Manifesto completo nella landing, 11 principi, niente doppio link", () => {
   const opening = html.indexOf('<section class="section manifesto"');
@@ -213,9 +213,19 @@ check("FAQ obiezioni reali, nessun dato privato e nessuna falsa promessa", () =>
   assert.doesNotMatch(html, /Francesco Siciliano|WhatsApp/);
 });
 
+check("Nessun credito a turno del Divertoscopio, senza promettere infinito", () => {
+  assert.match(html, /class="no-turn-credits"/);
+  assert.match(html, /non fa pagare le scelte in partita/);
+  assert.match(html, /Nessun credito Divertoscopio da esaurire/);
+  assert.match(html, /La partita o l'aiuto al Master consumano crediti a ogni turno\?/);
+  assert.match(html, /non promettiamo uso infinito o privo di interruzioni/);
+  assert.match(html, /Si usa su ChatGPT, con i limiti del tuo account/);
+  assert.match(css, /\.hero \.no-turn-credits\{/);
+});
+
 check("File statici e GitHub Pages", () => {
   for(const f of ["index.html","landing.css","landing.js",".github/workflows/landing-pages.yml"]) assert.ok(fs.statSync(f).size>0);
-  assert.match(html,/landing.css\?v=7/);assert.match(html,/landing.js\?v=8/);
+  assert.match(html,/landing.css\?v=8/);assert.match(html,/landing.js\?v=8/);
 });
 
 const pass = tests.filter(x=>x[1]).length;

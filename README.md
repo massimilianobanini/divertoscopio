@@ -20,6 +20,8 @@
 
 Il Divertoscopio usa l’AI per aiutarti in due modi: **giocare** oppure **preparare e migliorare le tue partite come Master**. Non devi imparare prompt speciali o studiare il repository prima di provarlo.
 
+**Nessun credito da acquistare e nessun costo per turno imposto dal Divertoscopio.** Non vendiamo token, pacchetti di mosse o abbonamenti al progetto: puoi giocare o chiedere aiuto come Master senza un contatore di crediti Divertoscopio. **Si applicano comunque i piani e i limiti di ChatGPT** (modelli, strumenti e lunghezza delle conversazioni): non promettiamo sessioni infinite né prive di interruzioni. Per campagne lunghe usa i [checkpoint e le istruzioni di ripresa](COME-OTTENERE-IL-MASSIMO.md), la cui affidabilità resta in test; dettagli nei [limiti attuali](KNOWN-LIMITATIONS.md).
+
 ### Se vuoi giocare
 
 Puoi iniziare anche se non hai un Master o un gruppo disponibile. Puoi scrivere, per esempio:

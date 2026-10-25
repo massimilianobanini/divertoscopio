@@ -7,6 +7,7 @@ Il Divertoscopio è **gratuito, open source e ancora in fase di test pubblico**.
 | Cosa vuoi fare | Stato e limite da conoscere |
 |---|---|
 | **Giocare in chat con l'AI** | Supporto pubblico attuale: **ChatGPT**. Il percorso più provato è **D&D 5e 2014 / SRD 5.1**, soprattutto un giocatore, livello 1 e avventure testuali brevi. |
+| **Costi e interruzioni** | **Nessun credito, token a consumo, tariffa per turno o abbonamento del Divertoscopio.** ChatGPT può avere piani a pagamento, limiti di utilizzo per modelli e strumenti e limiti di contesto. Nessuna garanzia di gioco infinito o senza pause. |
 | **Usarlo come Master** | Più maturo per **preparare, analizzare e migliorare** le sessioni; l'assistenza continuativa in diretta a un tavolo complesso è ancora poco verificata. |
 | **Giocare a D&D 2024 o Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** | Adapter candidati pubblicati, ma **non ancora validati quanto D&D 2014**. Per il supporto Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0) resta distinto il chiarimento di licenza descritto nelle [notice](THIRD-PARTY-NOTICES.md). |
 | **Giocare in più persone** | È predisposta la modalità **HOSTED / SINGLE-CHAT**: una persona inoltra le azioni degli altri. Non equivale a chat collaborativa sincronizzata ed è poco validata con gruppi reali. |
@@ -14,6 +15,8 @@ Il Divertoscopio è **gratuito, open source e ancora in fase di test pubblico**.
 | **Aggiungere immagini, musica o mappe** | Possibili come integrazioni, soprattutto su richiesta; possono introdurre **attesa e attrito**, quindi il percorso standard privilegia il testo. |
 
 **Cosa significa «ancora in test»:** la presenza di istruzioni e test tecnici nel repository non garantisce che l'AI rispetti sempre regole, memoria, ritmo e scelte. L'esperienza può variare in base a sistema di gioco, difficoltà, modello e durata della chat. La disponibilità dell'[Ultra-Garanzia](ULTRA-GARANZIA.md) segue **soltanto i suoi termini pubblicati** e non implica che tutte le partite saranno soddisfacenti.
+
+**Perché il beneficio economico è reale ma circoscritto:** il Divertoscopio non inserisce un proprio pagamento a consumo fra una decisione e la successiva, né addebita l'assistenza ai Master. Non controlla però le condizioni di ChatGPT: l'account può avere un abbonamento, limiti sui modelli o sugli strumenti, messaggi di ripristino della disponibilità o problemi tecnici. I checkpoint [descritti nella guida](COME-OTTENERE-IL-MASSIMO.md) sono una procedura di ripresa, non un salvataggio garantito né un modo per superare i limiti di ChatGPT. Non attribuire a tutti i concorrenti un modello a crediti senza verificare ciascun prodotto.
 
 Per le stime tecniche dei sistemi, consulta [SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md): **non sono percentuali di probabilità di divertimento**. Le evidenze dettagliate disponibili risalgono soprattutto ai test del **7–8 ottobre 2026**; questa riorganizzazione del testo **non costituisce una nuova validazione**.
 

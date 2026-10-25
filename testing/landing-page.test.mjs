@@ -90,7 +90,7 @@ check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.match(js, /window.open\("about:blank", "_blank"\)/);
   assert.match(js, /chatTab.location.replace\(CHATGPT\)/);
   assert.doesNotMatch(js, /window.location.assign\(CHATGPT\)/);
-  const primary = js.slice(js.indexOf('document.getElementById("copy-and-open").addEventListener'),js.indexOf("// I documenti canonici"));
+  const primary = js.slice(js.indexOf('launchButton.addEventListener'),js.indexOf("// I documenti canonici"));
   assert.ok(primary.indexOf("if (!copied)") < primary.indexOf("chatTab.location.replace"));
   assert.match(primary, /if \(!chatTab \|\| chatTab.closed\)/);
   assert.match(js, /navigator.clipboard.writeText/);

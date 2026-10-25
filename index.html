@@ -85,7 +85,7 @@
           <p class="start-speed">Se vuoi giocare, scegli <strong>«Gioca subito»</strong>: bastano poche impostazioni iniziali. <strong>Obiettivo: prima scelta giocabile in circa 2 minuti.</strong></p>
           <p class="start-speed-note">Tempo indicativo, da verificare su smartphone: dipende anche dalla risposta di ChatGPT.</p>
           <p class="start-formula">Link GitHub + <strong>«Iniziamo»</strong></p>
-          <p>Apri ChatGPT con l’istruzione già scritta e premi <strong>Invia</strong>. Se non compare, usa «Copia soltanto» e incollala manualmente. Il Divertoscopio ti mostrerà i suoi menu: <strong>Sono un Master</strong>, <strong>Sono un Giocatore</strong> oppure <strong>Informazioni</strong>.</p>
+          <p>Premi <strong>«Copia e apri ChatGPT»</strong>: l’istruzione viene copiata prima di aprire ChatGPT. Nella nuova chat <strong>incolla il testo e premi Invia</strong>. Se la copia non riesce, resta qui e puoi copiarla manualmente. Il Divertoscopio ti mostrerà i suoi menu: <strong>Sono un Master</strong>, <strong>Sono un Giocatore</strong> oppure <strong>Informazioni</strong>.</p>
           <button class="button button-lime start-button" id="start-divertoscopio" data-start-divertoscopio type="button">Inizia con il Divertoscopio <span aria-hidden="true">→</span></button>
           <p class="start-help">Se scegli Giocatore, potrai poi selezionare <strong>Gioca subito</strong>, <strong>Personalizza prima</strong> o <strong>Personalizza a fondo</strong>. Nessuna impostazione o storia viene scelta da questa pagina.</p>
         </div>
@@ -97,7 +97,7 @@
         <div class="section-head narrow"><p class="kicker">04 / COME FUNZIONA</p><h2 id="how-title">Tre passaggi. Le scelte restano tue.</h2><p>La landing apre il Divertoscopio in ChatGPT, senza saltare i menu o scegliere un'avventura al posto tuo.</p></div>
         <div class="steps">
           <article><span class="step-number">1</span><h3>Avvia il Divertoscopio</h3><p>Un clic prepara il link GitHub ufficiale e «Iniziamo».</p></article>
-          <article><span class="step-number">2</span><h3>Apri ChatGPT e premi Invia</h3><p>Il testo si precompila nei browser compatibili. Se non appare, usa il pulsante «Copia soltanto».</p></article>
+          <article><span class="step-number">2</span><h3>Copia e apri ChatGPT</h3><p>La pagina apre ChatGPT solo dopo la conferma della copia. Nella chat incolla il messaggio e premi Invia.</p></article>
           <article><span class="step-number">3</span><h3>Scegli nel Divertoscopio</h3><p>Sei un Master, un Giocatore o vuoi informazioni? Se giochi, scegli poi quanto personalizzare l'avventura.</p></article>
         </div>
         <p class="how-note"><strong>Da sapere:</strong> il Divertoscopio è ottimizzato e supportato pubblicamente su ChatGPT. Non richiede un account separato del Divertoscopio. L'utilizzo di ChatGPT segue le condizioni e gli eventuali limiti del tuo account.</p>
@@ -235,16 +235,16 @@
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading" aria-describedby="modal-description">
       <button class="modal-close" type="button" id="modal-close" aria-label="Chiudi">×</button>
       <p class="kicker">PRONTO PER CHATGPT</p><h2 id="modal-heading">Pronto a iniziare.</h2>
-      <p id="modal-description">Apri ChatGPT con il link GitHub e «Iniziamo» già scritti: <strong>premi Invia</strong>. Se il testo non compare, usa «Copia soltanto» e incollalo. Se scegli <strong>«Gioca subito»</strong>, bastano poche impostazioni iniziali: <strong>l’obiettivo è arrivare alla prima scelta giocabile in circa 2 minuti.</strong> Sarà il Divertoscopio a proporti tutti i menu, senza scelte preimpostate dalla pagina.</p>
+      <p id="modal-description">Premi <strong>«Copia e apri ChatGPT»</strong>, poi <strong>incolla</strong> il messaggio copiato nella nuova chat e premi <strong>Invia</strong>. Se la copia automatica fallisce, resterai su questa pagina: copia manualmente l’istruzione qui sotto e usa «Apri ChatGPT manualmente». Se scegli <strong>«Gioca subito»</strong>, bastano poche impostazioni iniziali: <strong>l’obiettivo è arrivare alla prima scelta giocabile in circa 2 minuti.</strong> Sarà il Divertoscopio a proporti tutti i menu, senza scelte preimpostate dalla pagina.</p>
       <p class="modal-tagline">Meno attrito, meno preparazione, più gioco.</p>
       <label for="generated-prompt">Unica istruzione di avvio</label><textarea id="generated-prompt" readonly rows="3"></textarea>
-      <div class="modal-actions"><button class="button button-lime" id="copy-and-open" type="button">Apri ChatGPT con testo pronto <span aria-hidden="true">↗</span></button><button class="button button-outline" id="copy-only" type="button">Copia soltanto</button></div>
-      <p class="modal-status" id="copy-status" role="status" aria-live="polite">Il sito non invia il messaggio al posto tuo: controlla il testo e premi Invia.</p>
+      <div class="modal-actions"><button class="button button-lime" id="copy-and-open" type="button">Copia e apri ChatGPT <span aria-hidden="true">↗</span></button><button class="button button-outline" id="copy-only" type="button">Copia soltanto</button></div>
+      <p class="modal-status" id="copy-status" role="status" aria-live="polite">Il sito copia il messaggio senza inviarlo: in ChatGPT dovrai incollare e premere Invia.</p>
       <p class="reasoning-tip"><strong>Consiglio:</strong> se disponibile, una modalità più ragionata può aiutare nelle situazioni complesse, ma rallenta le risposte. Non serve per i primi menu di scelta.</p>
       <p class="start-fallback">Se ChatGPT non riesce ad aprire GitHub, puoi usare il <a href="https://github.com/massimilianobanini/divertoscopio/blob/main/BOOTSTRAP.md" data-github-file="BOOTSTRAP.md" target="_blank" rel="noopener noreferrer">bootstrap di riserva</a>.</p>
       <a class="under-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" id="manual-chatgpt">Apri ChatGPT manualmente ↗</a>
     </section>
   </div>
-  <script src="landing.js?v=4" defer></script>
+  <script src="landing.js?v=5" defer></script>
 </body>
 </html>

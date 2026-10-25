@@ -15,7 +15,7 @@ function harness({clipboard="ok", fallback=false, failExec=false}={}) {
   const log = {navigations:[],writes:[],selections:0,exec:0};
   const nodes = new Map();
   const create=(id)=>({
-    id,hidden:id==="prompt-modal",value:"",textContent:"",style:{},
+    id,hidden:id==="prompt-modal",disabled:id==="manual-chatgpt",value:"",textContent:"",style:{},
     focus(){document.activeElement=this},
     select(){log.selections++},
     getClientRects(){return [1]},
@@ -72,6 +72,9 @@ await check("Denied permission + missing execCommand: do NOT open stale clipboar
   await h.click("copy-and-open");
   assert.deepEqual(h.log.writes,[EXPECT]);
   assert.equal(h.log.navigations.length,0);
+  assert.equal(h.node("manual-chatgpt").disabled,true);
+  await h.click("manual-chatgpt"); // simula persino un evento sintetico su bottone disabilitato
+  assert.equal(h.log.navigations.length,0);
   assert.equal(h.log.selections,1);
   assert.match(h.node("copy-status").textContent,/NON è stato aperto/);
 });
@@ -103,6 +106,9 @@ await check("Copy-only success never opens ChatGPT",async()=>{
   await h.click("copy-only");
   assert.deepEqual(h.log.writes,[EXPECT]);
   assert.equal(h.log.navigations.length,0);
+  assert.equal(h.node("manual-chatgpt").disabled,false);
+  await h.click("manual-chatgpt");
+  assert.deepEqual(h.log.navigations,["https://chatgpt.com/"]);
 });
 await check("Copy-only denied leaves selectable visible prompt",async()=>{
   const h=harness({clipboard:"denied"});
@@ -110,6 +116,9 @@ await check("Copy-only denied leaves selectable visible prompt",async()=>{
   await h.click("copy-only");
   assert.equal(h.log.selections,1);
   assert.equal(h.node("generated-prompt").value,EXPECT);
+  assert.equal(h.node("manual-chatgpt").disabled,true);
+  await h.click("manual-chatgpt");
+  assert.equal(h.log.navigations.length,0);
   assert.match(h.node("copy-status").textContent,/seleziona e copia/);
 });
 await check("Close / reopen resets prompt and does not navigate",async()=>{
@@ -120,6 +129,7 @@ await check("Close / reopen resets prompt and does not navigate",async()=>{
   assert.equal(h.node("prompt-modal").hidden,true);
   await h.click("start-1");
   assert.equal(h.node("generated-prompt").value,EXPECT);
+  assert.equal(h.node("manual-chatgpt").disabled,true);
   assert.equal(h.log.navigations.length,0);
 });
 

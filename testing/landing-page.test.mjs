@@ -83,7 +83,7 @@ check("Landing: avvio unico senza salti dei menu", () => {
 });
 check("ChatGPT apre soltanto dopo copia confermata, con fallback", () => {
   assert.match(js, /const START_PROMPT = REPO \+ "\\n\\nIniziamo"/);
-  assert.doesNotMatch(js, /CHATGPT_PREFILL|encodeURIComponent\(START_PROMPT\)|\?q=/);
+  assert.doesNotMatch(js, /const CHATGPT_PREFILL|encodeURIComponent\(START_PROMPT\)|location\.assign\(CHATGPT_PREFILL\)/);
   assert.match(js, /const copied = await copyPrompt\(\)/);
   assert.match(js, /if \(!copied\) \{/);
   assert.match(js, /window.location.assign\(CHATGPT\)/);

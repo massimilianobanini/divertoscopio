@@ -59,7 +59,10 @@ p{font-size:1.04rem}
 .battlecry{font-size:clamp(1.12rem,1.6vw,1.55rem);line-height:1.2;font-weight:825;letter-spacing:-.03em;margin:0 0 12px}
 .hero-lead{font-size:1.01rem;line-height:1.55;max-width:650px;color:#bfcbb7;margin-bottom:17px}
 .hero-actions{display:flex;align-items:center;gap:21px;flex-wrap:wrap;margin-bottom:13px}
-.hero .micro{color:#9fac96;font-size:.75rem;line-height:1.45;margin:0}
+.hero .no-turn-credits{max-width:650px;border-left:3px solid var(--lime);padding:2px 0 2px 12px;color:#dcecd5;font-size:.94rem;line-height:1.53;margin:0 0 10px}
+.hero .no-turn-credits strong{color:#bbff92}
+.hero .micro{color:#aebfa7;font-size:.75rem;line-height:1.45;margin:0}
+.hero .micro a{color:#d4f5c5;text-decoration:underline;text-underline-offset:2px}
 .hero-art{min-height:0;display:flex;justify-content:center;align-items:flex-start;align-self:start;margin-top:0;position:relative;isolation:isolate}
 .hero-art::before{content:"";position:absolute;z-index:-1;inset:9%;border-radius:50%;background:rgba(69,218,2,.05);filter:blur(44px)}
 .hero-art img{width:min(100%,445px);height:auto;aspect-ratio:597/576;object-fit:contain;filter:drop-shadow(0 36px 65px rgba(0,0,0,.35));display:block}

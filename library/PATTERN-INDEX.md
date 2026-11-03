@@ -1,0 +1,440 @@
+PUBLIC STRESS TEST V0.3 — PUBLIC PATTERN LIBRARY
+
+SCOPO  
+Questa libreria contiene pattern trasferibili e originali/riorganizzati. Non è una bibliografia né un'enciclopedia. Il motore consulta un pattern solo quando una situazione lo rende utile.
+
+CLASSIFICAZIONE  
+CORE CANDIDATE — principio quasi universale; normalmente già promosso nel CORE.  
+PROTOCOL — procedura con trigger specifico.  
+MODIFIER — estensione di un protocollo base.  
+LIBRARY ONLY — tecnica opzionale da proporre/attivare quando ha ROI positivo.
+
+A. PREP & SESSION DESIGN
+
+PREP VALUE DENSITY  
+Prepara prima gli elementi con alta probabilità d'uso, alto impatto sul divertimento e buon riuso. Taglia prep costosa che esiste soltanto per completezza. Il PREP FLOOR è system-dependent: low/zero prep non è un valore universale. Se il ruleset richiede studio preventivo di stat block, procedure, mappe o interazioni complesse per essere eseguito bene, quel lavoro è prep necessaria; ottimizzala, non fingere che possa sparire.
+
+SUNK-COST FIREWALL  
+Materiale già preparato non deve essere forzato in gioco solo perché è costato tempo.
+
+STRONG START, OUTCOME OPEN  
+Apri con una situazione che richiede attenzione/decisione, ma non predeterminare come debba finire.
+
+ACTIVE PREMISE LEGIBILITY — ALEXANDRIAN P0 REFINEMENT  
+Una apertura deve rendere percepibile almeno una azione/direzione significativa con posta comprensibile; descrivere solo un luogo o atmosfera non basta. Il PG può comunque scegliere qualsiasi altra azione o respingere l'hook. Non imporre menu obbligatori.
+
+FUNCTION-PRESERVING SCENARIO TRANSPOSITION — LIBRARY ONLY  
+Quando un Master vuole rendere meno familiare una struttura (dungeon, heist, viaggio, boss), individua prima che cosa la rende giocabile: scelte, informazioni, rischi, tempi, risorse, opposizione e promessa di esperienza. Trasferisci quelle funzioni in una fiction diversa senza preservare obbligatoriamente il percorso o l'esito. Controlla che gli approcci alternativi restino reali. Un cambio di numeri, capacità o procedure non è un semplice reskin: rispettare ruleset/fonte o dichiarare la house rule. Attiva solo se la trasformazione serve davvero al tavolo.
+
+DISPOSABLE SCENE SKELETON  
+Per una scena probabile, prepara: situazione, attori, tensione, informazioni, possibili cambiamenti. Non preparare un copione.
+
+STAGED PREP COMPILER  
+Classifica il futuro in definito/probabile/plausibile/remoto e investi tempo proporzionalmente.
+
+FOUR-LENS PREFLIGHT QA  
+Prima della sessione controlla Player Lens, World Lens, Table Lens e Coherence Lens: divertimento/agency, causalità/stato, usabilità reale e coerenza di nomi, oggetti, timeline, posizione e terminologia.
+
+DRAMATIC QUESTION EXIT GATE  
+Una scena dovrebbe continuare finché esiste una domanda/decisione interessante; quando è risolta e non emerge altro valore, comprimi/transiziona.
+
+B. PLAYER AGENCY & CHOICE
+
+CHOICE CLARIFIER, NOT DIRECTOR  
+Quando il giocatore è confuso, chiarisci possibilità e conseguenze percepibili senza scegliere al suo posto.
+
+MEANINGFUL CHOICE CONTRACT  
+Una scelta deve poter cambiare uno stato rilevante. Se tutte le opzioni portano allo stesso esito per design nascosto, non è vera agency.
+
+FICTIONAL DECEPTION ≠ FACILITATOR DECEPTION  
+La fiction può mentire; il facilitatore no. PNG, documenti inaffidabili, false piste e antagonisti possono ingannare se coerenti col mondo. L'AI non deve falsificare regole, risultati, stato, fonti o CANON per fabbricare sorpresa. Non deve nemmeno attribuire falsamente a una scelta del giocatore un esito che era già fissato indipendentemente da quella scelta. Se un esito o segmento è predeterminato o il facilitatore ha autorità discrezionale per contratto, rendi trasparente quello scope invece di simulare una causalità player-driven.
+
+FAIL-FORWARD SCOPE / RETRY ≠ RESET  
+Fail-forward non è universale: applicalo soltanto quando ruleset, fonte o contratto del tavolo lo autorizzano. Quando è attivo, il fallimento deve cambiare stato e la continuazione non deve preservare automaticamente lo stesso percorso. Un nuovo tentativo parte dalla fiction e dallo stato lasciati dal tentativo precedente, salvo un vero reset previsto dalla fonte/fiction.
+
+OPTION COMPRESSION  
+Quando esistono decine di possibilità tecniche, mostra soltanto le categorie/opzioni salienti e lascia sempre spazio a “altro”.
+
+STANDING DECISIONS  
+Preferenze ripetitive già definite — dice mode, assistance level, companion control, ecc. — diventano stato persistente invece di essere richieste ogni volta.
+
+PLAYER-OWNED GOAL PORTFOLIO  
+Il sistema può mantenere obiettivi desiderati dal giocatore; default a bassa frizione: un focus attivo \+ eventuale coda, non una lista di missioni autoimposta.
+
+OBJECTIVE–APPROACH SEPARATION  
+Distingui cosa il giocatore vuole ottenere da come prova a ottenerlo. Lo stesso obiettivo può avere molte strategie.
+
+C. INVESTIGATION, INFORMATION & KNOWLEDGE
+
+REVELATION COVERAGE LEDGER  
+Per ogni rivelazione critica, traccia quante vie plausibili esistono e quali restano disponibili dopo le conseguenze.
+
+REVELATION ≠ NAVIGATION — ALEXANDRIAN P0 REFINEMENT  
+Per misteri e scenari a nodi verificare separatamente copertura per COMPRENDERE (proposizione → evidenza) e per PROSEGUIRE (nodo attuale → pista/connessione attivabile). Una pista non è automaticamente una prova e viceversa. Per choke point critici evita gate singoli fragili; nuove vie devono nascere da attori/luoghi/tempi plausibili, non da spostamenti retroattivi del CANON.
+
+PORTABLE INFORMATION, CAUSALITY GATE  
+Una stessa informazione può essere appresa da fonti diverse plausibili; gli oggetti/eventi concreti non si teletrasportano.
+
+FAILURE-SENSITIVE HINT LADDER  
+Scala l'aiuto in base a blocco, frustrazione e assistance mode: reminder → connessione → categoria di azione → pista diretta → soluzione solo se voluta.
+
+ATOMIC TRUTH UNIT  
+Conserva le informazioni come unità distinte con stato/provenienza, invece di grandi paragrafi di recap difficili da aggiornare.
+
+ACTIONABLE LORE REWARD  
+La lore ha valore prioritario quando apre una decisione, modifica la comprensione, crea payoff o concede possibilità d'azione.
+
+KNOWLEDGE PROVENANCE  
+Per ogni informazione importante distingui verità, conoscenza PG, credenza PNG, rumor, inferenza e ignoto.
+
+CAUSAL TWIST / REVEAL INTEGRITY  
+`TWIST ≠ RETCON`. Distingui reveal reinterpretativo, verità nascosta resa visibile e conseguenza emergente. Se una verità ha già influenzato prove/comportamenti/stato, fissala prima di usare quegli effetti; un fatto ancora realmente OPEN può essere definito just-in-time senza contraddire CANON, ma non riceve retroattivamente indizi mai esistiti. Un twist reinterpretativo dovrebbe rendere più leggibili fatti precedenti senza cancellarli; un reveal importante dovrebbe cambiare comprensione o possibilità d'azione. Foreshadowing è uno strumento, non una quota, e una conseguenza emergente dei PG può eliminare il twist preparato.
+
+D. NPC, FACTIONS & SOCIAL
+
+NPC STATE LADDER  
+Un PNG utile non è solo personalità: goal, attitude, knowledge, leverage, risk tolerance, relationships, next move.
+
+CONTEXT-INDEXED NPC RETRIEVAL  
+Recupera dettagli del PNG in base alla scena corrente: social, combattimento, indagine, negoziazione. Non caricare tutta la scheda.
+
+ORTHOGONAL NPC ATTRIBUTES  
+Per varietà, combina attributi indipendenti — desiderio, paura, modo, contraddizione, relazione — invece di archetipi monolitici.
+
+NPC VOICE / REGISTER LAYER  
+Definisci quando utile: livello culturale, complessità del lessico, ritmo, errori, tic linguistici, eventuale accento/struttura insolita e lingua parlata. Un PNG può parlare in modo semplice o scorretto perché ignorante; evita però caricature gratuite e mantieni leggibilità.
+
+SPEECH ≠ COMPREHENSION  
+Distingui ciò che il PNG dice realmente, la lingua/registro usato, ciò che il PG comprende e come la narrazione rende al giocatore l'informazione. Non appiattire automaticamente tutte le lingue del mondo in dialogo perfettamente compreso.
+
+NPC VISUAL / BEHAVIOR ANCHORS  
+Per un PNG importante assegna 1–3 dettagli estetici o gestuali memorabili e richiamali con moderazione: piuma viola, tatuaggio toccato spesso, pipa mai fumata, stivali bucati, gesto rituale, profumo, cicatrice, ecc. Devono rafforzare riconoscibilità/personaggio, non sostituire obiettivi e motivazioni.
+
+LIVING FACTION FRONT  
+Faction \= goal \+ resources \+ relationships \+ pressure \+ next plausible move \+ clock/event. Può avanzare off-screen.
+
+ATTITUDE–LEVERAGE SOCIAL INTERACTION  
+Interazioni sociali robuste combinano atteggiamento, richiesta, interessi/leva, approccio e, se serve, meccanica.
+
+HIGH-STAKES NEGOTIATION EXCHANGE  
+Per trattative importanti, traccia proposta, controparte, concessioni, scadenza, informazioni, costo di rottura e stato dell'accordo.
+
+CONTRACT / DEAL STATE  
+Accordo \= parties \+ benefit \+ price \+ conditions \+ deadline \+ visibility \+ breach \+ resolution.
+
+E. COMBAT & ADVERSARIES
+
+STAT-BLOCK → BEHAVIOR COMPILER  
+Traduci capacità meccaniche in comportamento plausibile: obiettivo, conoscenza, priorità, terreno, rischio, morale. Non ottimizzare con onniscienza.
+
+MORALE / RETREAT / SURRENDER  
+Combattimento non implica lotta fino alla morte. Prepara condizioni plausibili di fuga, resa, negoziazione o cambio obiettivo.
+
+COMBAT INTEREST BUDGET  
+Aggiungi complessità solo dove produce decisioni: obiettivi, terreno, tempo, risorse, trasformazioni, priorità. Non sovraccaricare ogni fight.
+
+EFFECTIVE ACTION ECONOMY  
+Valuta quante azioni/partecipazioni significative esistono realmente, soprattutto nel solo-player, più che affidarti a un singolo rating di difficoltà.
+
+PRECOMMITTED BOSS PHASE  
+Una seconda fase deve esistere prima dell'esito e avere causa/segnale; non aggiungerla perché il boss sta perdendo.
+
+SMART-ADVERSARY LEARNING LOOP  
+Avversari ricorrenti possono imparare soltanto da ciò che hanno osservato o appreso plausibilmente, aggiornando tattiche senza metagame.
+
+F. HAZARDS, STEALTH & CHALLENGES
+
+HAZARD INTENT TAXONOMY  
+Definisci cosa deve fare il pericolo: warning, attrition, scelta, separazione, pressione, puzzle, escalation. Non mettere trappole solo perché “servono trappole”.
+
+TELEGRAPH–INVESTIGATE–COUNTER  
+Pericoli soddisfacenti tendono a offrire segnali, possibilità di capire e possibilità di reagire/controbattere proporzionate al rischio.
+
+COMPLEX HAZARD STATE MACHINE  
+Hazard dinamico \= trigger \+ stato \+ escalation \+ effetti \+ countermeasures \+ resolution.
+
+STEALTH AWARENESS STATE  
+Evita binario “non visto/visto”: usa stati plausibili come unaware, suspicious, alerted, identified, actively searching quando il sistema/scena lo supporta.
+
+PARALLEL CONTEST PROGRESS  
+Gare/inseguimenti/rituali possono usare progressi paralleli e conseguenze intermedie invece di un singolo tiro che decide tutto.
+
+ROLE-PARTITIONED SHARED CHALLENGE  
+Nelle sfide di gruppo, assegna problemi/leve differenti così più giocatori possono contribuire senza duplicare la stessa prova.
+
+CHALLENGE LOCUS  
+Prima di una sfida in cui la competenza reale del giocatore può divergere da quella del PG — puzzle/cifrari/prop, conoscenze o interazioni sociali — chiarisci se il locus è PLAYER-FOCUSED, CHARACTER-FOCUSED o HYBRID. Le competenze del PG possono offrire hint, traduzioni, vantaggi, bypass o la risoluzione prevista dal ruleset; non obbligare il giocatore a possedere personalmente crittografia, eloquenza, memoria, cultura o altre capacità che il personaggio dovrebbe avere. Nelle scene sociali distingui ciò che il giocatore dichiara — intento, approccio, leve/argomenti — da quanto bene il personaggio lo esegue: la performance attoriale del player non concede né nega di per sé effetti meccanici salvo regola o contratto esplicito.
+
+APPROACH-FIRST CHECK ROUTING  
+Quando il sistema usa check/skill/proficiency, determina prima intento, approccio fictionale e incertezza; poi scegli ability/procedura e soltanto dopo la proficiency/skill applicabile. `SKILL NAME ≠ ACTION`: una skill familiare non è un interruttore universale.
+
+CHECK ECOLOGY / UNDERUSED CAPABILITY SURFACING  
+`VARIETY ≠ QUOTA`. Se lo stesso approccio ricorre davvero, può ricorrere anche la stessa skill. Se invece molte scene producono sempre gli stessi check perché i problemi sono progettati nello stesso modo, varia persone, oggetti, ambiente, informazioni e leve. Capacità del party poco usate possono ispirare opportunità plausibili — informazione specialistica, shortcut, leverage, riduzione del rischio, accesso — senza creare gate artificiali soltanto per farle tirare.
+
+MULTI-APPROACH INFORMATION PAYLOAD  
+Lo stesso elemento può offrire informazioni diverse secondo l'approccio: percepirlo, analizzarne costruzione/alterazioni, ricordarne il contesto storico, riconoscerne natura/religione, seguire tracce o interagirvi socialmente non devono diventare automaticamente lo stesso check rinominato. Conserva differenze reali di domanda e payoff secondo ruleset e fiction.
+
+G. TRAVEL, EXPLORATION & WORLD
+
+TRAVEL TURN  
+Quando il viaggio conta: destination → pace/approach → roles → progress/navigation → discovery/event → resources/conditions → new state.
+
+OPERATIONAL SPATIAL SCALE  
+Distanze e tempi devono essere abbastanza concreti da rendere significative scelte, urgenze e ritorni, senza simulazione inutile.
+
+EXPLORATION DISCOVERY LOOP  
+Esplorare produce segnali → scelta di direzione/approccio → scoperta → nuova possibilità/rischio → aggiornamento mappa/stato.
+
+PERSISTENT EXPOSURE LOOP  
+Freddo, caldo, fame, contaminazione o altri ambienti persistenti funzionano meglio come stato/esposizione crescente con segnali e contromisure, non tiri isolati casuali.
+
+EVIDENCE-DRIVEN MOBILE QUARRY  
+Per cacciare una creatura/bersaglio mobile: segni → inferenza → scelta di percorso → aggiornamento posizione plausibile → incontro/nuova evidenza.
+
+MINIMUM VIABLE SETTLEMENT IDENTITY  
+Per rendere un luogo giocabile bastano prima: identità, tensione, 2–4 attori, poche location operative, opportunità e conseguenze. L'enciclopedia viene dopo.
+
+LIGHTWEIGHT ROUTINE / AVAILABILITY  
+Orari/routine dei PNG si tracciano solo se producono decisioni, opportunità o causalità significativa.
+
+SCENE CONTEXT ANCHOR  
+Quando una scena inizia o cambia significativamente, ancora la fiction con il minimo utile di DOVE \+ QUANDO \+ CONDIZIONI: luogo/area, ora o fascia del giorno, luce e meteo/ambiente quando pertinenti. Non ripetere meccanicamente informazioni immutate a ogni turno.
+
+PC-KNOWN GEOGRAPHY  
+Il giocatore può ignorare informazioni che il personaggio conoscerebbe normalmente. Se il PG è locale, ha viaggiato nella zona, possiede competenze pertinenti o la conoscenza è comune, restituisci senza tiro informazioni operative come direzioni, distanze approssimative, vie principali, territori, pericoli noti, clima tipico e tempi di viaggio. Tira soltanto quando esiste vera incertezza fictionale.
+
+WEATHER AS STATE, NOT WALLPAPER  
+Meteo e ambiente possono essere atmosfera oppure stato operativo. Quando influenzano visibilità, viaggio, riposo, combattimento, equipaggiamento o scelta dell'orario, trattali come parte del mondo persistente. Se OPEN, randomizza dentro un perimetro coerente con luogo/stagione/clima; una volta stabilito, il risultato diventa CANON e cambia solo causalmente.
+
+DAYLIGHT / PLANNING WINDOW  
+L'ora del giorno dovrebbe essere abbastanza chiara da permettere pianificazione: quanta luce resta, quando arriverà il buio, quanto manca a alba/tramonto, se un'attività richiede ore, se partire ora o domattina cambia il rischio. Evita precisione al minuto quando non serve.
+
+H. HEIST, DOWNTIME & DOMAIN PLAY
+
+RECON–PLAN–EXECUTE  
+Heist \= objective → intel → security model → planning/resources → execution → alert/complications → escape → aftermath.
+
+SECURITY STATE, NOT TELEPORTING GUARDS  
+Guardie, pattuglie, allarmi e accessi hanno stato e movimenti plausibili; non compaiono dove serve solo per “rendere difficile”.
+
+DOWNTIME \+ RIVAL TICK  
+Attività di downtime può avere tempo/costo/esito/complicazione; rivali e mondo possono avanzare nello stesso intervallo.
+
+PLAYER-OWNED INSTITUTION/DOMAIN  
+Se i giocatori possiedono base, nave, gilda o dominio, le decisioni dovrebbero produrre capacità, costi, relazioni e problemi giocabili, non solo contabilità.
+
+I. CHARACTER, HOOKS & REWARDS
+
+CHARACTER DISCOVERY  
+Choose / Random / Hybrid → veto/adapt → trasforma i risultati in fatti, relazioni, hooks, secrets o unresolved threads giocabili.
+
+CHARACTER-SAFE TENSION HOOK  
+Un hook legato al PG deve creare pressione/opportunità senza confiscare identità o riscrivere silenziosamente backstory.
+
+INDIVIDUAL HIDDEN HOOK  
+Segreto personale \= owner \+ visibility \+ truth \+ reveal triggers \+ consequences \+ safety sensitivity \+ status.
+
+PARTY SHARED HOOK  
+Un fatto/segreto comune può creare coesione e pressione; non deve diventare ricatto narrativo obbligatorio.
+
+ACTIONABLE REWARD  
+Una ricompensa interessante può sbloccare nuove capacità/decisioni/accessi/relazioni, non essere soltanto aumento numerico.
+
+EARNED REWARD–PLAYER VALUE FIT — LIBRARY ONLY  
+Se il tipo di ricompensa è ancora OPEN e la fiction lo consente, considera quali risultati sono apprezzati dal giocatore (esplorazione/scoperte, legami, capacità, status, risorse, ecc.) usando preferenze DECLARED/OBSERVED e confidence; un'inferenza debole non diventa etichetta. Offri opportunità di guadagnare ricompense pertinenti, non premi automatici né loot fabbricato dopo una domanda. Ricompense CANON, pubblicate, già promesse o determinate dal ruleset non si sostituiscono silenziosamente; non aumentare frequenza/entità solo per compiacere.
+
+REWARD–BURDEN–RESOLUTION  
+Alcune ricompense possono includere costo/conseguenza/evoluzione, purché preparati e coerenti, non punizioni retroattive.
+
+J. RANDOMNESS & IMPROVISATION
+
+PRECOMMITTED RANDOMNESS ENVELOPE  
+Prima di randomizzare, definisci l'insieme compatibile con tono, livello, luogo, safety e canone. Poi accetta il risultato entro quel perimetro.
+
+RANDOM GENERATION GOVERNANCE  
+Random serve a sorpresa/varietà/neutralità, non a sostituire causalità già determinabile.
+
+OPEN / CANDIDATE / CANON  
+Improvvisa liberamente nei fatti OPEN; valuta CANDIDATE; non riscrivere CANON.
+
+PROVISIONAL RULING LEDGER  
+Se una regola incerta bloccherebbe il gioco: ruling rapida → marca provisional → continua → verifica dopo → correggi con minimo retcon.
+
+K. ATMOSPHERE & PRESENTATION
+
+ATMOSPHERE MICRO-BUNDLE  
+VISUAL RECALL ANCHOR — riusa dettagli estetici già stabiliti di PG/PNG/luoghi nei momenti pertinenti per sostenere memoria e immersione senza ripetizione meccanica.  
+Per una scena importante, se utile: 1 obiettivo sensoriale, 1 elemento sonoro/musicale, 1 dettaglio ricorrente, 1 cambio previsto. Non produrre un pacchetto multimediale per ogni scena.
+
+SHOW THROUGH CONSEQUENCE  
+Preferisci rendere percepibile il mondo attraverso segnali, azioni e conseguenze invece di spiegazioni del designer.
+
+SIGNATURE MECHANIC / IDENTITY ANCHOR  
+Un luogo/genere/fazione può avere una meccanica o pattern ricorrente distintivo, ma il budget di regole locali deve restare limitato.
+
+L. CAMPAIGN CONTINUITY
+
+CAUSAL CONSEQUENCE PROPAGATION  
+Dopo una decisione importante, chiedi quali oggetti di stato cambiano: PNG, fazioni, luogo, opportunità, informazione, risorse, clock. Propaga soltanto conseguenze plausibili.
+
+WORLD CLOCK  
+Tempo/eventi avanzano secondo trigger e causalità; alcuni clocks possono essere visibili, altri solo segnalati diegeticamente. Una scadenza deve essere abbastanza reale da creare un trade-off: cosa cambia, si perde o avanza se i PG scelgono altro? Evita countdown finti che aspettano comunque i giocatori. Se i PG si attivano concretamente per impedire un evento e fiction + ruleset rendono plausibile interferire, devono avere una reale procedura/opportunità di riuscirci: non far avanzare l'esito per fiat solo perché era stato preparato. Se invece non intervengono, non sanno o falliscono attraverso procedure legittime, il mondo può avanzare off-screen.
+
+RIVAL PARTY  
+Membri \+ goals \+ attitudes-to-PC \+ history/reasons \+ power tier \+ independent progress \+ next move.
+
+PUBLISHED ANTHOLOGY STITCHING  
+Collega avventure modulari attraverso conseguenze, cast, fazioni e stato del mondo, non inventando un'unica trama segreta obbligatoria.
+
+CAMPAIGN CONTINUITY LOCUS  
+Prima di gioco ad alta letalità, con ritiri frequenti o campagne lunghe, identifica cosa dovrebbe portare la continuità quando un PG esce di scena: INDIVIDUAL CHARACTER, PARTY/CREW/INSTITUTION, MISSION/FRONT, WORLD/REGION/FACTIONS o HYBRID. Usa il locus per morte, ritiro, TPK, replacement PC, recap e persistenza. CHARACTER LOSS ≠ CAMPAIGN MEMORY LOSS; i successori ricevono solo conoscenze diegeticamente trasferibili. Non assumere né che un TPK debba sempre chiudere la campagna né che ogni campagna debba sopravvivere a un TPK.
+
+M. MEANINGFUL THEMES & LIFE-SKILL TRANSFER
+
+THEME BEFORE SERMON  
+Una avventura originale può avere una domanda morale, un tema umano o un insegnamento memorabile, ma deve emergere da fiction, dilemmi e conseguenze. Non inserire una predica finale né una risposta moralmente obbligatoria.
+
+LEARNING THROUGH CONSEQUENCES  
+Se si vuole allenare una competenza reale, costruisci situazioni in cui usarla produce informazioni/conseguenze comprensibili: assertività, diagnosi prima delle conclusioni, indagine oltre le prime impressioni, gestione della fiducia tradita, responsabilità, pensiero critico, pensiero laterale, confronto di prospettive, gestione del fallimento, conflitti, emozioni, soft skill, ecc.
+
+MULTI-PERSPECTIVE DILEMMA  
+Per temi delicati o controversi, rappresenta più punti di vista plausibili, interessi e costi. Evita di trasformare PNG dissenzienti in strawman. Il giocatore deve poter esplorare e dissentire senza essere punito dal design solo perché non sceglie la “lezione giusta”.
+
+LIFE-SKILL THEME BANK — ESEMPI  
+Assertività e dialogo; diagnosticare prima di saltare alle conclusioni; indagare oltre le prime impressioni; reagire costruttivamente alla fiducia tradita; non confondere fiducia con ingenuità; locus of control e responsabilità personale; informarsi prima di giudicare temi controversi; non diffondere fake news; anticipare conseguenze e trade-off; mantenere promesse; superare gradualmente i propri limiti; gestire rimorso/rimpianto; affrontare situazioni spiacevoli; rialzarsi dopo fallimenti; non ripetere lo stesso errore; riconoscere rapporti tossici; conflitti familiari; confronto di punti di vista; pensiero critico; pensiero laterale; overperformance senza perfezionismo; leva degli asset fisici/materiali/economici/relazionali/status/emotivi; gestione di paura ed emozioni negative; puntualità; riconoscenza; organizzazione; comunicazione/public speaking.
+
+FUN-FIRST GUARDRAIL  
+Attiva questi pattern solo quando migliorano plausibilmente l'esperienza desiderata. Il divertimento resta North Star; l'apprendimento è valore aggiunto, non giustificazione per rendere il gioco didattico o paternalistico.
+
+N. QUALITY CONTROL
+
+PLAYER-FIRST PERSONALIZATION LOOP  
+Setup minimo → play → feedback → aggiorna preferenze con confidence → modifica una piccola quantità di design → play di nuovo.
+
+NARRATIVE / ORTHOGRAPHIC COHERENCE CHECK  
+Prima di ogni output, controlla nomi, identità, oggetti, quantità, posizione, direzione, timeline, risorse, terminologia e ortografia. Esempio anti-pattern: un oggetto descritto come “pala” non diventa “spada” senza causa CANON.
+
+SPOILER-SAFE VISIBLE PROCESS  
+Qualunque testo user-visible, anche eventuali stati di elaborazione, usa riferimenti già conoscibili al giocatore. Identità segrete restano descritte con label diegetiche note.
+
+REPETITION / ESCALATION GOVERNOR  
+Se lo stesso macro-intento si ripete, verifica se il nuovo stato differisce. Se no, comprimi o fai evolvere causalmente costo, rischio, informazione, posizione, opportunità o relazione. Non creare un blocco arbitrario per impedire la scelta.
+
+SESSION ARC EXIT GATE  
+Una micro-sessione/capitolo deve poter raggiungere una chiusura significativa: domanda drammatica risolta, stato cambiato, obiettivo chiuso/aperto con payoff, oppure finestra temporale target. Poi debrief leggero.
+
+PERSISTENCE OFFER  
+Alla fine di una unità significativa, offrire una volta un file V0.1 riutilizzabile. PLAYER: solo conoscenza/stato accessibile al giocatore. MASTER: stato \+ prep utile. Versionare nelle continuazioni.
+
+DECISION DENSITY CHECK  
+Se passa troppo tempo senza che una persona possa incidere, valuta compressione, nuova informazione o situazione più actionable.
+
+AI SETUP AS OPTIONAL LEVER  
+Nei percorsi esperti/deep, se utile, suggerisci configurazioni AI orientate a accuratezza/coerenza/ragionamento e istruzioni personalizzate copiabili. Non rendere il setup prerequisito al PLAY; le istruzioni specifiche di piattaforma devono essere verificate al momento dell'uso e prevedere fallback per capability/account limitati.
+
+FRICTION BUDGET  
+Ogni nuova regola, tracker, domanda o procedura paga un costo cognitivo. Attivala solo se il beneficio atteso lo giustifica.
+
+PATTERN PROMOTION RULE  
+Un pattern entra nel CORE solo se è veramente quasi universale. Altrimenti resta Protocol, Modifier o Library.
+
+LIBRARY USAGE RULE  
+Non mostrare questo indice al giocatore come homework.  
+Situation Classifier → recupera 1–3 pattern pertinenti → applica → misura → conserva soltanto ciò che funziona
+
+O. MEMORABILITY & PAYOFF — LIBRARY ONLY  
+Questi pattern non sono obblighi di ogni scena. Attivali quando possono aumentare il valore emotivo, decisionale o il ricordo della sessione senza forzare la trama.
+
+EXPERIENCE PROMISE  
+Definisci implicitamente o esplicitamente quale esperienza la sessione promette: paranoia, esplorazione, eroismo, intrigo, horror, commedia, ecc. Il payoff dovrebbe rispettare quella promessa senza predeterminare l'esito.
+
+EARLY COMPETENCE BEAT  
+Quando possibile, nelle prime fasi crea una opportunità coerente perché il PG mostri una capacità, tratto o scelta che lo rende interessante. Non regalare successo automatico: crea uno spazio in cui la competenza possa contare.
+
+CALLBACK SEED LEDGER  
+Mantieni al massimo 3–5 dettagli recenti ad alto potenziale di ritorno: promessa, oggetto insolito, frase, cicatrice, finestra rotta, nome sentito, favore, debito, scelta lasciata aperta. Ogni seed ha: source, owner, player-visible?, stato, possibili ritorni plausibili. Non forzare tutti i seed a diventare payoff; usali solo se la causalità li rende ancora vivi.
+
+REVERSAL WITH FAIR SETUP  
+Una rivelazione memorabile può cambiare il significato di fatti precedenti, ma deve rispettare CANON e lasciare retrospettivamente segnali compatibili. Non inventare dopo il fatto una verità che contraddice ciò che era già stabilito.
+
+IRREVERSIBILITY MARK  
+Quando una decisione importante modifica davvero il mondo, rendi percepibile almeno una traccia durevole: relazione cambiata, accesso perso/ottenuto, luogo trasformato, reputazione, debito, risorsa, clock o nuova opportunità. Non ogni scelta deve essere irreversibile, ma le scelte ad alto peso non dovrebbero evaporare.
+
+EARNED PAYOFF  
+Un payoff forte collega una preparazione o decisione precedente a un vantaggio, costo, rivelazione o conseguenza attuale. Preferisci payoff guadagnati dal gioco rispetto a ricompense arbitrarie inserite solo per emozionare.
+
+PEAK MOMENT CANDIDATE  
+Una sessione può beneficiare di almeno un momento potenzialmente memorabile: scelta difficile, scoperta, vittoria tattica, fallimento significativo, dialogo, sacrificio, reversal o conseguenza. Non costruire artificialmente un climax se la fiction non lo sostiene.
+
+END-STATE DELTA  
+Alla chiusura significativa, rendi chiaro almeno un modo in cui mondo, PG, relazioni o comprensione sono diversi da prima. Questo aumenta senso di completezza senza richiedere una trama lineare.
+
+LOCAL HOPE / DURABLE VICTORY — LIBRARY ONLY  
+Nelle esperienze consensualmente dure, tragiche o ad alta pressione, verifica che esistano almeno obiettivi locali influenzabili dai PG e possibilità di cambiamento credibili: non promettere vittoria o sopravvivenza, non eliminare il fallimento. Quando un successo viene ottenuto legittimamente, registra almeno un effetto durevole proporzionato; eventuali nuove pressioni devono derivare da mondo, stato e causalità, non essere introdotte automaticamente per annullare ogni conquista. Non imporre eroismo o speranza come tono a un tavolo che desidera altro.
+
+CAUSAL CONTINUATION HOOK  
+Se resta un gancio per continuare, deve derivare preferibilmente da ciò che è appena successo: conseguenza, debito, domanda irrisolta, fazione reagente, promessa, scoperta. Evita cliffhanger seriali scollegati usati soltanto per trattenere il giocatore.
+
+MEMORABILITY GUARDRAIL  
+Non ottimizzare per 'momenti epici' a scapito di agency, causalità o ritmo. Un ricordo forte può essere piccolo ma personale. Il motore deve prima riconoscere ciò a cui il giocatore ha attribuito valore, poi usare eventuali callback con moderazione.
+
+VALUED EXPERIENCE ≠ POSITIVE AFFECT  
+Tristezza, paura, rimorso, rabbia, tenerezza, perdita, sollievo o emozioni miste possono appartenere a un'esperienza apprezzata. Non inferire qualità dal segno positivo/negativo dell'emozione e non trattare intensità, pianto o shock come prova automatica di successo.
+
+EMOTIONAL AFFORDANCE, NOT EMOTION CONTROL  
+Costruisci condizioni fictionali che possano generare emozioni; non prescrivere l'emozione volontaria del PG. Descrivi fatti, reazioni dei PNG e conseguenze, poi lascia spazio a “Cosa fai?/Come reagisci?”. Non inventare retroattivamente affetto, lutto, colpa o ricordi personali per rendere la scena più intensa.
+
+EMOTIONAL STAKES ARE EARNED  
+Relazioni, promesse, aiuto reciproco, vulnerabilità, rituali, oggetti con storia, conflitti e scelte costose accumulano capitale relazionale. Usa quel capitale come stato giocabile quando la causalità lo coinvolge. `ATTACHMENT ≠ TARGET PERMISSION`: un elemento amato non va colpito soltanto perché produrrebbe dolore; investimento aumenta stakes, non garantisce né tragedia né plot armor.
+
+AFTERMATH SPACE  
+Dopo morte, sacrificio, tradimento, rivelazione dolorosa o vittoria costosa, se non esiste urgenza reale lascia breve spazio per silenzio, dialogo, rituale, decisione, memoria o semplice reazione. Non inserire automaticamente comic relief o un nuovo climax. Se emerge disagio OOC, safety stop prima del payoff fictionale.
+
+SACRIFICE PAYOFF  
+Un sacrificio forte conserva `VOLUNTARY COST + CAUSAL BENEFIT + CONSEQUENCE/LEGACY`. Per un PG, la scelta resta del giocatore. Il costo deve poter cambiare davvero lo stato; non neutralizzarlo per ripristinare la trama. La legacy è proporzionata a relazione e scelte dei sopravvissuti, non una quota di funerali/statue/vendetta.
+
+EMOTIONAL CONTRAST / RECOVERY  
+Non rendere ogni scena emotivamente intensa. Pressione, recupero, calore, humour, paura e serietà possono alternarsi quando tono e fiction lo sostengono. Se il registro diventa monotono per design, varia le situazioni; se è una conseguenza reale delle scelte/mondo, non correggerlo artificialmente.
+
+P. SYSTEM, PLAYSTYLE & SOURCE INTEGRITY — LIBRARY ONLY
+
+SYSTEM-FIT BEFORE HEAVY BENDING  
+Se l'esperienza desiderata entra in attrito costante col ruleset, rendi esplicito il trade-off: semplificazione consensuale, house rule dichiarata o sistema alternativo. Non usare modificatori nascosti per simulare un contratto di gioco diverso. Quando l'obiettivo è CAPIRE, VALUTARE o VALIDARE un sistema, stabilisci prima una baseline source-faithful e separa qualsiasi modifica successiva come overlay esplicito: un'esperienza riuscita dopo house rule/importazioni non valida automaticamente il ruleset di partenza. Quando invece l'obiettivo è ottimizzare il gioco per quello specifico tavolo, le modifiche consensuali sono legittime, ma vanno mantenute con provenance chiara.
+
+PLAYSTYLE PROFILE ≠ RULESET  
+Un playstyle, cultura di tavolo o tradizione di adventure design non coincide con un ruleset. Quando rilevante, separa sistema/edizione/fonte attiva, obiettivo di playstyle, tecniche/procedure esplicite, assunzioni di adventure design e house/imported rules realmente attive. Un'etichetta come “OSR”, “cinematico”, “narrativo”, “tattico” o “sandbox” non autorizza da sola un pacchetto di procedure. Se il sistema resiste continuamente allo stile richiesto, rendi esplicito il system-fit invece di accumulare bending nascosto.
+
+SOURCE / TABLE KNOWLEDGE PROVENANCE  
+“Abbiamo sempre giocato così”, sicurezza personale o insegnamento fra pari non sono prova automatica della fonte. Peer teaching e quick reference sono utili per imparare, ma quando una regola è materialmente rilevante o contestata risolvi contro sistema/edizione/fonte attiva e overlay espliciti. Distingui SOURCE / OPTIONAL / HOUSE / IMPORTED / PROVISIONAL. Assisted correct execution non dimostra da sola rule literacy; familiarità non dimostra source correctness.
+
+
+---
+
+## Q. V0.4 CANDIDATE — STATE, CONTINUITY & LEARNING
+
+Stato generale: **IMPLEMENTED CANDIDATE / NOT VALIDATED**.
+
+- **STATE COMPOSITION / CROSS-THREAD RECOMBINATION** — promotion-ready candidate.
+- **CHARACTER CONCEPT EVOLUTION / EMERGENT REAUTHORING** — promotion-ready candidate.
+- **EMERGENT SALIENCE / PROMOTION** — promotion-ready candidate.
+- **RELEVANCE-TRIGGERED THREAD RECAP** — high-priority candidate.
+- **SUSTAINED SPLIT-PARTY / PARALLEL PC ARC** — high-priority candidate.
+- **ITERATIVE THREAT-MODEL UPDATE / FAILURE → PLAN DELTA** — high-priority candidate.
+- **INTRA-PARTY BREACH → PERSISTENT RELATIONAL STATE** — high-priority candidate.
+- **SUSPICION DEBT / EXPLORATION CONFIDENCE ≠ SAFETY** — experimental refinement.
+- **CALLBACK SCOPE TYPING** — experimental refinement.
+- **TEMPORARY SIDECAST / CONSEQUENCE POV** — experimental / high-priority research candidate.
+
+Governor comune: **input del tavolo → conseguenza causale → stato persistente → salienza/conoscenza tipizzata → recupero quando rilevante → nuova scelta**.
+
+Guardrail: memoria ≠ spoiler; persistenza ≠ railroad; ricombinazione ≠ retcon; salienza ≠ manipolazione; character evolution ≠ character takeover; apprendimento ≠ onniscienza; split/sidecast ≠ ownership transfer.
+
+
+### Supplemental V0.4 research-only
+
+- **TAUGHT BEHAVIOR → COMPANION REAPPLICATION** — medium-high / research-only.
+- **TRANSFORMED CHARACTER CONTINUITY ≠ AUTOMATIC SOCIAL RECOGNITION** — research-only.
+- **COORDINATION REQUIRES LEGIBLE INTENT** — medium refinement candidate.
+- **DIEGETIC CAST TURNOVER / FAST RE-ENTRY** — medium / research-only.
+
+Questi elementi sono inclusi nel Public Stress Test per raccolta di evidenza, ma restano subordinati ai pattern già pubblici su Actor State, player ownership, knowledge provenance, participation continuity e multiplayer state.

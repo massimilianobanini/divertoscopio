@@ -1,0 +1,65 @@
+# Third-Party Notices
+
+## System Reference Document 5.1 — Wizards of the Coast LLC
+
+Il repository include un adapter procedurale per 5E/SRD 5.1 e può includere materiale derivato dal **System Reference Document 5.1 (SRD 5.1)**, distribuito da Wizards of the Coast LLC sotto licenza Creative Commons Attribution 4.0 International.
+
+Attribuzione richiesta dall'SRD 5.1:
+
+> This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+### Nota sulle modifiche
+
+Quando nel Divertoscopio viene riutilizzato materiale dell’SRD 5.1, può essere **selezionato, sintetizzato, adattato o riorganizzato** per trasformarlo in procedure operative del progetto. Queste modifiche appartengono al Divertoscopio e non vanno attribuite all'autore originale del materiale SRD. Il testo di attribuzione riportato sopra resta invariato.
+
+Divertoscopio non è un prodotto ufficiale, approvato o sponsorizzato da Wizards of the Coast. Il repository non usa loghi, artwork o trade dress di Wizards come asset del progetto.
+
+Gli altri materiali originali del repository seguono le licenze indicate in [`LICENSE`](LICENSE) e [`LICENSE-DOCS.md`](LICENSE-DOCS.md), salvo diversa indicazione.
+
+
+## SRD 2.0 — Critical Role, LLC / Darrington Press
+
+Il repository include il supporto **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)**, basato sul **Daggerheart System Reference Document 2.0 (SRD 2.0)**, identificato come Public Game Content dalla **Darrington Press Community Gaming License 2.0 (DPCGL)**.
+
+Fonte SRD: https://www.daggerheart.com/srd/  
+Licenza DPCGL: https://darringtonpress.com/license/  
+Errata/download ufficiali: https://www.daggerheart.com/downloads/
+
+Attribuzione richiesta:
+
+> This product includes materials from the Daggerheart System Reference Document 2.0, © Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License. More information can be found at https://www.daggerheart.com. There are no previous modifications by others.
+
+### Nota sulle modifiche
+
+Nel Divertoscopio il materiale Public Game Content pertinente può essere **selezionato, sintetizzato, riorganizzato e adattato** in procedure operative di interoperabilità. Il progetto non pretende proprietà sul Public Game Content sottostante.
+
+Il repository non ripubblica il testo completo dei manuali, dei Campaign Frame, artwork, mappe, loghi ufficiali o altro Prohibited Content. I Campaign Frame e altre fonti non-PGC possono essere usati durante una sessione privata quando l'utente fornisce o rende accessibile una fonte che può usare legittimamente, ma non vengono redistribuiti qui.
+
+**Daggerheart™** è un marchio di Critical Role, LLC. Il Divertoscopio è un progetto indipendente e non è affiliato, sponsorizzato o approvato da Critical Role o Darrington Press.
+
+Le parti del repository che costituiscono o incorporano Public Game Content / Adaptive Content DPCGL restano soggette alla DPCGL. La licenza generale della documentazione del Divertoscopio non sostituisce né limita gli obblighi DPCGL applicabili.
+
+### Verifica di conformità della distribuzione — APERTA (08/10/2026)
+La DPCGL 2.0 distingue la condivisione del **Public Game Content** (sezione 2.1(a)) dall'**Adaptive Content** (sezione 2.1(b)), per il quale richiede i **Permitted Formats** definiti nella sezione 1.9. I formati elencati includono supplementi/manuali/libri digitali, contenuti audio-video e VTT approvati. **La qualificazione di un adapter Markdown operativamente utilizzabile da un assistente AI, distribuito tramite repository GitHub, non è stata verificata formalmente**: potrebbe richiedere una valutazione sul formato effettivo, sulla natura di ogni parte (testo originale / Public Game Content / Adaptive Content) e, se necessario, un'autorizzazione o chiarimento scritto dall'editore. La pubblicazione del presente avviso e la presenza dell'attribuzione richiesta **non certificano** la conformità dell'intero adapter. Nessuna violazione è qui accertata. Non aggiungere contenuti proprietari o espandere materiale derivato da DPCGL prima di questa verifica; mantenere separati i componenti originali e le eventuali parti soggette a licenza.
+
+**Marchi e pubblicazione:** applicare le limitazioni sui *Name Marks* (sezione 2.5), incluso l'uso descrittivo di **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)**, senza usare il marchio nel titolo del prodotto/capitolo o suggerire affiliazione. Le parole "compatible" e "open source" non sostituiscono gli obblighi della licenza. Testo ufficiale: https://darringtonpress.com/license/.
+
+## System Reference Document 5.2.1 — Wizards of the Coast LLC
+
+Il repository include un adapter candidato procedurale per **5E / SRD 5.2.1**, basato sul **System Reference Document 5.2.1 (SRD 5.2.1)**, distribuito da Wizards of the Coast LLC sotto licenza Creative Commons Attribution 4.0 International.
+
+Fonte ufficiale SRD: https://www.dndbeyond.com/srd  
+Licenza CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribuzione richiesta:
+
+> This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+### Nota sulle modifiche
+
+Nel Divertoscopio il materiale pertinente dell’SRD 5.2.1 può essere **selezionato, sintetizzato, adattato o riorganizzato** per trasformarlo in procedure operative e guardrail di interoperabilità. Le procedure originali del Divertoscopio e la loro organizzazione non sono attribuite a Wizards.
+
+Il repository pubblico non ripubblica testo di manuali commerciali, avventure, setting book, artwork, mappe o altri contenuti proprietari non inclusi nell’SRD 5.2.1. Quando il runtime richiede materiale non-SRD, deve lavorare sulla fonte legalmente disponibile all’utente senza riversarla nel repository.
+
+Divertoscopio è un progetto indipendente e non è un prodotto ufficiale, approvato o sponsorizzato da Wizards of the Coast.
+

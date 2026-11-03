@@ -1,0 +1,27 @@
+name: Divertoscopio — Public Release Integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    name: Essential public files
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout public release
+        uses: actions/checkout@v4
+      - name: Verify release files
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in README.md BOOTSTRAP.md START-HERE.md core/CORE.md player/PLAYER.md master/MASTER.md protocols/PROTOCOLS.md adapters/5e-srd51/ADAPTER.md adapters/5e-srd521/ADAPTER.md adapters/dh-srd20/ADAPTER.md SYSTEM-SUPPORT.md KNOWN-LIMITATIONS.md THIRD-PARTY-NOTICES.md index.html landing.css landing.js; do
+            test -s "$file"
+          done
+          node --check landing.js

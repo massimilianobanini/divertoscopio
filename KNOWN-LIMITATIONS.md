@@ -1,0 +1,277 @@
+# Limiti attuali del Divertoscopio — Public Stress Test
+
+Il Divertoscopio è **gratuito, open source e ancora in fase di test pubblico**. Questa pagina spiega cosa aspettarti; **non è necessario leggerla tutta prima di iniziare**.
+
+## In breve
+
+| Cosa vuoi fare | Stato e limite da conoscere |
+|---|---|
+| **Giocare in chat con l'AI** | Supporto pubblico attuale: **ChatGPT**. Il percorso più provato è **D&D 5e 2014 / SRD 5.1**, soprattutto un giocatore, livello 1 e avventure testuali brevi. |
+| **Costi e interruzioni** | **Nessun credito, token a consumo, tariffa per turno o abbonamento del Divertoscopio.** ChatGPT può avere piani a pagamento, limiti di utilizzo per modelli e strumenti e limiti di contesto. Nessuna garanzia di gioco infinito o senza pause. |
+| **Usarlo come Master** | Più maturo per **preparare, analizzare e migliorare** le sessioni; l'assistenza continuativa in diretta a un tavolo complesso è ancora poco verificata. |
+| **Giocare a D&D 2024 o Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** | Adapter candidati pubblicati, ma **non ancora validati quanto D&D 2014**. Per il supporto Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0) resta distinto il chiarimento di licenza descritto nelle [notice](THIRD-PARTY-NOTICES.md). |
+| **Giocare in più persone** | È predisposta la modalità **HOSTED / SINGLE-CHAT**: una persona inoltra le azioni degli altri. Non equivale a chat collaborativa sincronizzata ed è poco validata con gruppi reali. |
+| **Usare Gemini o Claude** | **Non supportati pubblicamente al momento** in base ai test effettuati; questo non dimostra che non possano funzionare in futuro. |
+| **Aggiungere immagini, musica o mappe** | Possibili come integrazioni, soprattutto su richiesta; possono introdurre **attesa e attrito**, quindi il percorso standard privilegia il testo. |
+
+**Cosa significa «ancora in test»:** la presenza di istruzioni e test tecnici nel repository non garantisce che l'AI rispetti sempre regole, memoria, ritmo e scelte. L'esperienza può variare in base a sistema di gioco, difficoltà, modello e durata della chat. La disponibilità dell'[Ultra-Garanzia](ULTRA-GARANZIA.md) segue **soltanto i suoi termini pubblicati** e non implica che tutte le partite saranno soddisfacenti.
+
+**Perché il beneficio economico è reale ma circoscritto:** il Divertoscopio non inserisce un proprio pagamento a consumo fra una decisione e la successiva, né addebita l'assistenza ai Master. Non controlla però le condizioni di ChatGPT: l'account può avere un abbonamento, limiti sui modelli o sugli strumenti, messaggi di ripristino della disponibilità o problemi tecnici. I checkpoint [descritti nella guida](COME-OTTENERE-IL-MASSIMO.md) sono una procedura di ripresa, non un salvataggio garantito né un modo per superare i limiti di ChatGPT. Non attribuire a tutti i concorrenti un modello a crediti senza verificare ciascun prodotto.
+
+Per le stime tecniche dei sistemi, consulta [SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md): **non sono percentuali di probabilità di divertimento**. Le evidenze dettagliate disponibili risalgono soprattutto ai test del **7–8 ottobre 2026**; questa riorganizzazione del testo **non costituisce una nuova validazione**.
+
+<details>
+<summary><strong>Leggi i dettagli tecnici, lo stato delle funzionalità e lo storico dei test</strong> (facoltativo)</summary>
+
+## STATO PUBBLICO ATTUALE — 8 OTTOBRE 2026
+
+Questa è la **fotografia del repository oggi**, distinta dagli esiti dei test di agosto/settembre riportati sotto. `IMPLEMENTATO` significa che le istruzioni e i controlli di comportamento sono disponibili su GitHub; `VALIDATO` richiede risultati osservati in partite indipendenti. Una suite documentale PASS **non** dimostra che ChatGPT eseguirà sempre quelle istruzioni.
+
+| Funzionalità | Cosa è disponibile nel repository pubblico | Evidenza effettiva / limite oggi |
+|---|---|---|
+| **Gioca subito, anche «scegli tutto tu»** | Fast Bootstrap, generazione del PG giocabile, prima situazione con scelta reale, default SOLO e D&D 5e 2014 se pertinenti | **Un** avvio PLAYER clean-room osservato il 07/10/2026, **prima delle modifiche dell'08/10**: meno di 2 minuti dal primo menu alla fiction. Non è una garanzia di tempo per altri utenti o modalità; la configurazione «circa 1 minuto» non misura l'intero percorso |
+| **Varietà dell'avventura iniziale** | Generazione privata di classi/specie legali, obiettivi, struttura dell'apertura e conflitti differenti, con controllo anti-cliché | Implementata 08/10; **non** validata su 20 chat nuove indipendenti. Nessuna garanzia di unicità fra chat senza storico condiviso |
+| **Avventure e capitoli successivi** | H5A: obiettivo/domanda locale, segnali di risoluzione, epilogo e continuazione; separazione fra pausa, fine capitolo e fine campagna | Implementata 08/10; non ancora verificata in 5 avventure complete e 3 capitoli consecutivi. L'orizzonte **4–6 scene è solo indicativo per una prima mini-avventura originale**, non un limite universale |
+| **Milestone del PG** | Per nuova avventura originale **Gioca subito → Scegli tutto tu** in D&D 5e 2014, `MILESTONE-STORY` come default, mantenuto nei capitoli seguenti; altre route 5e 2014 senza metodo/fonte restano XP | Implementata 08/10; una milestone narrativa **non** implica automaticamente un nuovo livello; trigger, registrazione persistente e level-up naturali richiedono actual play |
+| **Continuità, checkpoint, XP e level-up** | Stato persistente, handoff, verifiche di fonte, punti di ripresa e possibilità di continuare dopo ogni unità significativa | Contratti presenti e precedente catch-up tecnico 1→3, ma progressione multi-capitolo, spellcaster complessi e ripresa dopo settimane non ancora dimostrati affidabili |
+| **Supporto Master** | Analisi di problemi, preparazione rapida, miglioramento di avventure pubblicate (se fonte accessibile), situazioni, investigazione, PNG e strumenti mirati | Area più matura per preparazione/analisi; nessuna validazione generale come copilota che segue un tavolo umano complesso in tempo reale |
+| **Indizi, struttura delle avventure e ricompense** | Rafforzamenti P0/P1: indizi per comprendere vs piste per proseguire, prep come delta, apertura giocabile, pattern opzionali di vittorie locali e premi significativi | Implementati 08/10 come contratti/pattern selettivi. Non sono importazioni di regole/ambientazioni proprietarie, né studi di efficacia con gruppi umani |
+| **D&D 5e 2014 / SRD 5.1** | Adapter pubblico principale, con creazione del PG e regole/avanzamento specifici | È il sistema più testato ma soprattutto a **livello 1 / solo / chat**. Non garantisce tutte le interazioni del regolamento |
+| **D&D 2024 / SRD 5.2.1 e Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)** | Adapter pubblici separati e stress test statici/sintetici specifici | **Supporto candidato**, non equivalenza di affidabilità con 5e 2014; actual play esterno e campagne lunghe ancora insufficienti |
+| **Multiplayer** | Modalità HOSTED / SINGLE-CHAT: un host umano inoltra le azioni degli altri; ownership, roster, segreti PG e dadi separati sono previsti | Contratto implementato, ma multiplayer con più esseri umani **non ancora validato**. Non promette una chat collaborativa sincronizzata fra account |
+| **Immagini, musica, mappe e VTT** | Default TEXT-FIRST; immagini eventualmente su richiesta, strumenti/idee per il Master quando utili | Generazione media e integrazioni sincronizzate non convalidate come esperienza senza attrito; nessun VTT sincronizzato end-to-end validato |
+| **Funzionalità V0.4** | Dieci capacità candidate di stato/continuità, relazioni, salienza, split-party e aggiornamento delle minacce, più ricerca supplementare | **Implementate ma non human-validated**. Rischi specifici nell'ultima sezione di questo documento |
+
+**Piattaforme:** il progetto dichiara attualmente supporto pubblico **solo per ChatGPT**. I fallimenti Gemini/Claude riportati nei test precedenti sono **osservazioni datate di specifiche prove**, non dimostrazioni che quelle piattaforme non possano mai funzionare.
+
+**Stato del supporto:** le funzionalità implementate non sono necessariamente validate in sessioni indipendenti. I limiti attuali sono descritti in questo documento; le stime indicative per sistema sono in [SYSTEM-SUPPORT.md](SYSTEM-SUPPORT.md) e non rappresentano probabilità di successo.
+
+DA QUI IN POI — DETTAGLI DI APPROFONDIMENTO
+
+Stato: pubblico per tester / sperimentale  
+Versione corrente: Public Stress Test V0.3 / V0.4 Candidate  
+Prima ricognizione dettagliata: 18/09/2026  
+**Ultima verifica tecnica delle capacità: 08/10/2026** (nuove capacità e suite statiche; NON nuova validazione di actual play). **Revisione espositiva: 24/10/2026**, senza nuove verifiche funzionali.  
+Le date precedenti nelle sezioni tecniche indicano quando una specifica prova è stata effettuata, non la data dell'ultima versione.
+
+SCOPO  
+Questo documento evita di confondere “progettato per supportare” con “testato abbastanza da prometterlo”. Il Public Stress Test deve dichiarare apertamente ciò che sappiamo, ciò che abbiamo testato solo in parte e ciò che non è ancora validato.
+
+1. PERIMETRO CONSIGLIATO — PLAYER  
+Il percorso Player del Public Stress Test è più maturo quando viene usato con:  
+- D&D 5e 2014 / SRD 5.1;  
+- personaggi di livello 1;  
+- solo-player o solo/duet con compagni gestiti dall'AI;  
+- play-by-chat prevalentemente testuale;  
+- onboarding Gioca Subito / Personalizza Prima;  
+- sessioni brevi o capitoli iniziali con complessità moderata.
+
+Questo NON significa che altri casi non funzionino. Significa che non disponiamo ancora di dati sufficienti per presentarli come supporto validato.
+
+2. PERIMETRO CONSIGLIATO — MASTER  
+Il percorso Master è più maturo per:  
+- preparazione rapida di una sessione;  
+- diagnosi di un problema concreto al tavolo;  
+- brainstorming/design review con budget di tempo;  
+- miglioramento/adattamento di un'avventura;  
+- gestione di problemi come pacing, giocatore annoiato, PvP non voluto, retcon, organizzazione, PNG, musica, oggetti di scena e strumenti;  
+- uso del Kit di sopravvivenza come guida autonoma interrogabile dall'AI.
+
+Non è ancora validato come copilot live avanzato che segue in tempo reale un intero tavolo umano complesso.
+
+3. D&D 2024 / SRD 5.2.1 — ADAPTER CANDIDATO, NON VALIDATO A DOVERE  
+È disponibile un adapter candidato separato in `adapters/5e-srd521/`, basato sullo SRD 5.2.1. Questo aiuta a isolare le regole D&D 2024 da quelle 2014, ma NON equivale a una validazione esterna o a un actual play sufficiente. Il Public Stress Test deve evitare di presentare D&D 2024 come equivalente al supporto SRD 5.1 finché i test non lo giustificano.
+
+4. LEVEL-UP — TEST PARZIALE  
+È stato eseguito un primo catch-up tecnico dal livello 1 al 3 durante il Pilot 0, che ha fatto emergere e correggere problemi reali su checkpoint di avanzamento, ownership delle scelte di build e metodo dei PF. Questo NON valida ancora la progressione completa: restano da stressare level-up naturali durante il gioco, più passaggi consecutivi, multiclassing reale, ASI/talenti, spellcaster complessi, continuità delle risorse e gioco prolungato dopo il level-up.
+
+**Aggiornamento 08/10/2026 — novità pubbliche ancora da validare in actual play.** In D&D 5e 2014/SRD 5.1, solo una nuova avventura originale avviata dal percorso GIOCA SUBITO con delega completa «scegli tutto tu» usa ora MILESTONE-STORY come default; gli altri percorsi non ereditano automaticamente questa impostazione. I traguardi narrativi non producono automaticamente level-up. Il nuovo H5A prepara e riconosce la conclusione di avventure e capitoli successivi, preservando pause e progressione. **Sono contratti implementati e controllati staticamente, non risultati di gioco completo indipendente:** resta possibile che il modello dimentichi la milestone, allunghi una storia, salti l'handoff o perda continuità. La varietà degli inizi e la latenza reale della configurazione non sono garantite. Verificare con trascrizioni prima di presentare queste capacità come affidabili.
+
+5. LIVELLI MEDIO/ALTI — NON TESTATI A DOVERE  
+Non sono stati stressati seriamente:  
+- personaggi di medio/alto livello;  
+- molte feature simultanee;  
+- spell e capacità complesse;  
+- encounter ad alta densità tattica;  
+- gestione di risorse molto numerose;  
+- interazioni rare o edge case avanzati.
+
+6. MULTIPLAYER REALE — HOSTED / SINGLE-CHAT IMPLEMENTATO, ACTUAL PLAY ANCORA OPEN  
+**Ultima verifica di piattaforma documentata in questo progetto: 26/09/2026 (dato storico, non una verifica rinnovata l'08/10).** La modalità multiplayer pubblicamente dichiarata dal Divertoscopio resta HOSTED / SINGLE-CHAT. Non presumere che più account scrivano sincronicamente nella stessa conversazione senza una nuova verifica della capability.
+
+OpenAI ha iniziato il ritiro delle Group Chat dal 9 luglio 2026: non è più possibile crearne di nuove, convertire una conversazione in Group Chat o far entrare nuovi partecipanti tramite invite link. I **progetti condivisi** permettono ai membri di vedere il contesto e creare/diramare chat, ma la documentazione corrente specifica che le chat non vengono modificate collaborativamente e sincronicamente. Un normale link di condivisione della conversazione non va quindi trattato come trasporto multiplayer sincronizzato. Inoltre, gli account OpenAI sono destinati all'uso individuale: il Divertoscopio non deve chiedere né suggerire la condivisione di credenziali.
+
+Fonti ufficiali correnti:
+- OpenAI — [Retiring group chats in ChatGPT](https://help.openai.com/en/articles/12703475-retiring-group-chats-in-chatgpt)
+- OpenAI — [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
+- OpenAI — [OpenAI Account Sharing Policy](https://help.openai.com/en/articles/10471989-openai-account-sharing-policy)
+- OpenAI — [Sharing conversations and scheduled tasks in ChatGPT](https://help.openai.com/en/articles/7925741-sharing-conversations-and-scheduled-tasks-in-chatgpt)
+
+### Modalità pubblica corrente: HOSTED / SINGLE-CHAT
+Un solo **host umano** gestisce la conversazione ChatGPT dal proprio account. Gli altri giocatori possono essere presenti:
+- allo stesso tavolo;
+- in chiamata/voice;
+- in un canale esterno;
+e comunicano all'host le proprie azioni, tiri e decisioni. L'host inoltra input attribuiti e rende disponibile al gruppo l'output pertinente.
+
+Il runtime mantiene:
+- roster stabile giocatore -> PG;
+- ownership separata;
+- fonti dadi per-player/per-PG;
+- `PLAYER_VISIBLE != PC_KNOWN`;
+- Shared Decision Commit Window;
+- gestione di PG assenti/silenziosi;
+- party split / spotlight;
+- guardrail PvP.
+
+Questa modalità hosted **è implementata ma non è ancora validata a sufficienza con più giocatori umani contemporaneamente**. Restano da testare in actual play:
+- chiarezza del roster giocatore -> PG e attribuzione delle azioni;
+- attrito introdotto dall'host come relay;
+- equità del tempo di scena;
+- conflitti tra intenti e costo del Shared Decision Commit Window;
+- party split;
+- votazioni/decisioni di gruppo;
+- persone con preferenze incompatibili;
+- conversazioni sovrapposte nel canale umano;
+- leak OOC -> IC / metagaming involontario;
+- privacy e profili separati;
+- preferenze dadi differenti per giocatore;
+- rischio che l'host o l'AI favoriscano un giocatore;
+- fun, clarity, latency e Desire to Return del gruppo.
+
+### Privacy / metagaming
+La modalità hosted non fornisce di per sé segreti player-to-player. Se l'host o uno schermo condiviso espongono un testo a più giocatori, ciò che i giocatori vedono resta separato da ciò che i rispettivi PG conoscono. Se servono veri segreti tra giocatori, è necessario un canale privato realmente disponibile e concordato; in assenza di tale canale il sistema non deve fingere privacy.
+
+### Capability futura
+Se ChatGPT o un'altra piattaforma supportata introdurranno nuovamente una vera conversazione collaborativa same-chat, il Divertoscopio può riabilitare quel trasporto soltanto dopo una verifica corrente della capability e nuovi test. `MULTIPLAYER ENGINE IMPLEMENTED` ≠ `COLLABORATIVE TRANSPORT AVAILABLE` ≠ `HUMAN ACTUAL-PLAY VALIDATED`.
+
+7. HUMAN MASTER + AI COPILOT LIVE AVANZATO — NON VALIDATO  
+Il Kit e il percorso Master aiutano in preparazione e diagnosi. Non è ancora stato stressato seriamente l'uso con un Master umano che, durante una sessione dal vivo, chiede in tempo reale all'AI:  
+- regole;  
+- tattiche;  
+- reazioni dei PNG;  
+- metagame privato;  
+- gestione segreti;  
+- correzioni dinamiche;  
+mentre il tavolo continua a giocare.
+
+8. LIVE TABLE ≠ PLAY-BY-CHAT  
+Giocare dal vivo produce elementi che una chat testuale non replica automaticamente:  
+- mappe e griglie;  
+- miniature;  
+- musica e soundscape;  
+- voce, gestualità, postura e ritmo fisico;  
+- oggetti di scena reali;  
+- sguardi, reazioni e feedback sociale immediato;  
+- gestione simultanea di più persone.
+
+Una chat può integrare parte di questi elementi, ma il costo principale è il maggiore tempo di attesa.
+
+9. MEDIA DURANTE IL PLAY — TRADE-OFF QUALITÀ/LATENZA NON VALIDATO  
+In una normale chat testuale il tempo di risposta dipende dalla piattaforma e dal tipo di richiesta. Se durante ogni scena si generano anche immagini, mappe, audio o altri asset, il tempo di risposta può aumentare sensibilmente.
+
+Il runtime pubblico usa **TEXT-FIRST** come principio e queste preferenze operative quando pertinenti:  
+- `TEXT_ONLY` — solo testo, default se non viene espresso altro;  
+- `ON_REQUEST` — immagini/media soltanto quando il giocatore li chiede;  
+- `KEY_MOMENTS` — media nei momenti ad alto valore scelti/accettati dal giocatore;  
+- `ENHANCED_CINEMATIC` — media più frequenti, accettando maggiore latenza e interruzione del ritmo.
+
+Non è ancora stato determinato quale profilo aumenti davvero il divertimento per persone e situazioni diverse. Più asset non significa automaticamente più immersione o più divertimento: il Public Stress Test deve misurare il valore aggiunto rispetto al ritardo introdotto.
+
+10. IMMAGINI DURANTE LE SCENE — PATCH PUBBLICA, VALIDAZIONE ANCORA APERTA  
+Il Runtime Hotfix V0.3.2 include una modalità sperimentale **Image-on-demand / Text-first**: non aggiunge immagini al percorso Gioca Subito, mantiene il testo come source of truth e rende le immagini opt-in. Non è però ancora stato testato abbastanza se generare immagini durante il gioco:  
+- aumenta davvero immersione/divertimento;  
+- interrompe il ritmo;  
+- crea incoerenze visive;  
+- rallenta troppo la decisione successiva;  
+- mantiene in pratica il confine `GENERATED MEDIA ≠ CANON` su piattaforme/modelli diversi.
+
+11. MUSICA DURANTE LE SCENE — NON VALIDATA COME AUTOMAZIONE  
+La musica è un ottimo strumento per un Master umano, ma non è ancora testato un sistema automatico affidabile che trovi/selezioni/cambi musica durante il gioco in chat senza creare attrito o ritardi.
+
+12. VTT / MAPPE / GRIGLIE — NON VALIDATI  
+Roll20, Foundry, Owlbear Rodeo e altri VTT possono amplificare l'esperienza, ma l'integrazione sincronizzata AI ↔ mappa ↔ stato ↔ combattimento non è parte validata del Public Stress Test V0.3.
+
+13. PIÙ MODELLI / PIÙ PIATTAFORME / PIÙ MODALITÀ DI RISPOSTA — NON SUPPORTATI NELLA VERSIONE CORRENTE  
+La versione pubblica corrente è ottimizzata e supportata **solo su ChatGPT**. Il supporto multipiattaforma resta un obiettivo futuro, non una capacità corrente.
+
+**Gemini:** il bootstrap dal solo link GitHub non è risultato affidabile; nel test reale Gemini ha trattato il repository come vuoto/inaccessibile quando in realtà il problema era l'accesso. Sono stati esplorati percorsi alternativi, incluso un setup con Gem dedicata e archivio di conoscenza esterno, ma richiedono troppo attrito rispetto all'avvio desiderato `link + Iniziamo`.
+
+**Claude:** il bootstrap ha permesso di iniziare, ma nel test reale sono comparsi errori e il limite di capacità/messaggi della conversazione è stato raggiunto dopo pochi scambi. L'avventura/interazione è quindi diventata impraticabile e la piattaforma ha imposto circa 6 ore di attesa prima di poter continuare.
+
+Queste sono osservazioni di prodotto sul comportamento testato, non una diagnosi tecnica definitiva né una dichiarazione che Gemini o Claude non possano essere supportati in futuro.
+
+Una AI o modalità con maggiore capacità di ragionamento/contesto può comportarsi diversamente da una modalità orientata principalmente alla velocità. Il Divertoscopio non richiede come prerequisito una modalità “avanzata”, un piano specifico o istruzioni personalizzate dell'account, e il setup normale scelto spontaneamente dall'utente resta parte valida del Public Stress Test.
+
+Se durante l'uso emergono errori ripetuti o forte insoddisfazione, il sistema può proporre una volta, quando disponibile, di privilegiare qualità/coerenza/ragionamento rispetto alla velocità. Questa escalation è opzionale e non cancella il failure già osservato: non attribuire retroattivamente il problema all'utente perché aveva scelto una modalità veloce/default.
+
+Le istruzioni personalizzate possono cambiare il comportamento del modello o entrare in conflitto con altre istruzioni; vanno quindi considerate una variabile opzionale, non un requisito per ottenere assistenza valida.
+
+14. GDR NON-5E — CORE INDIPENDENTE DAL SISTEMA, SUPPORTO NON ANCORA VALIDATO OVUNQUE  
+Il Core non dipende da uno specifico GDR, da un singolo regolamento o da un particolare meccanismo di risoluzione e può essere adattato a d20, d10, d6, pool di dadi, carte, token, giochi senza dadi o altri meccanismi. Il vertical 5E/SRD 5.1 resta quello con più uso reale accumulato. Questa flessibilità progettuale NON significa accuratezza già validata su tutti i sistemi.
+
+14A. ADAPTER CANDIDATO SRD 2.0 — TEST ESTERNO APERTO  
+È ora pubblico `adapters/dh-srd20/ADAPTER.md`, un adapter progettato per l'uso **Daggerheart™ (adapter compatibile non ufficiale, SRD 2.0)**, basato sul Daggerheart SRD 2.0, errata/fonti ufficiali correnti e procedure originali del Divertoscopio. **Separatamente dalla validazione del gioco, l'applicabilità dei formati di distribuzione DPCGL 2.0 a un adapter Markdown utilizzato da un assistente AI è ancora da chiarire.** Non presentare la sola attribuzione come certificazione di conformità. Vedi `THIRD-PARTY-NOTICES.md`.
+
+L'adapter utilizza come riferimento pubblico lo SRD 2.0 e le errata ufficiali pertinenti. Il supporto resta sperimentale e NON equivale a una validazione esterna. Restano da verificare:
+- actual play di giocatori terzi;
+- Master umani che lo usano in preparazione e durante sessioni reali;
+- clean-room su più modelli/piattaforme;
+- campagne lunghe;
+- tavoli numerosi;
+- edge case rari e uso esteso di supplementi.
+
+Il repository pubblico NON ripubblica Campaign Frame o altro testo proprietario non qualificato come Public Game Content. Quando una sessione richiede quel materiale, l’AI deve lavorare sulla fonte legalmente disponibile all’utente.
+
+15. COMBATTIMENTO — TEST PARZIALE  
+Il combattimento è stato provato, ma non abbastanza per dichiarare valida ogni combinazione di:  
+- tattica ambientale;  
+- tempo/pressione;  
+- encounter complessi;  
+- gruppi numerosi;  
+- livelli alti;  
+- molte condizioni/abilità simultanee.
+
+16. MEMORIA / RIPRESA — TEST PARZIALE  
+Snapshot e PAUSE & RESUME sono stati progettati e usati. Resta da validare quanto bene funzionano dopo settimane/mesi, su campagne lunghe e fra modelli/chat differenti.
+
+17. AVVENTURE COMMERCIALI  
+Per dettagli scena-per-scena l'AI deve avere accesso a materiale che l'utente può legalmente fornire/utilizzare. La conoscenza generale o le discussioni pubbliche non devono essere spacciate per precisione canonica verificata.
+
+18. DIVERTOSCOPIO È ANCORA UN BRAND IN TEST  
+Il posizionamento pubblico adottato il 24/10/2026 è «Il Divertoscopio è il primo strumento italiano per il GDR semplice, con l’Ultra-Garanzia del Prezzo Negativo.» «GDR semplice» indica minore attrito nei GDR da tavolo esistenti, non un nuovo regolamento. La comprensione spontanea della categoria e l'anteriorità implicita in «primo» non sono ancora convalidate da evidenze indipendenti: non presentare il naming come marchio registrato né il primato come provato.
+
+19. ULTRA-GARANZIA — PUBLIC STRESS TEST, NON PROVA DI PERFORMANCE  
+La presenza dell'Ultra-Garanzia e del suo simbolico indennizzo reputazionale dimostra che il progetto accetta una conseguenza economica sul fallimento dichiarato; non dimostra da sola che il prodotto aumenti il divertimento. La prova viene da uso reale, feedback, riuso, voglia di tornare a giocare, casi e iterazioni.
+
+20. UTENTI ESTERNI — È PROPRIO CIÒ CHE STIAMO TESTANDO  
+I test interni hanno prodotto segnali utili, ma non esiste ancora un volume sufficiente di casi terzi. Il Public Stress Test apre l’uso autonomo senza invito proprio per raccogliere evidenza indipendente su onboarding, fun, Desire to Return, correction burden, uso Master e failure reali.
+
+REGOLA DI COMUNICAZIONE  
+Se qualcosa non è stato validato:  
+NON inventare sicurezza.  
+NON nasconderlo.  
+NON svilupparlo preventivamente solo per poter dire che esiste.
+
+Dichiarare il limite, raccogliere evidenza e promuovere la capacità soltanto quando i test lo giustificano.
+
+---
+
+## V0.4 Candidate — limiti specifici (stato pubblico ricontrollato 08/10/2026)
+
+Le dieci capacità V0.4 sono **implementate ma non human-validated**.
+
+Rischi aperti:
+- ricombinazione di stato troppo aggressiva può sembrare retcon;
+- salience promotion può sovra-pesare dettagli momentaneamente divertenti;
+- recap contestuale può fare knowledge leakage se la provenance è errata;
+- split-party prolungato può aumentare spotlight debt e latency;
+- threat-model update può diventare auto-ottimizzazione o onniscienza;
+- relational persistence può irrigidire dinamiche che il tavolo considera concluse;
+- suspicion-debt mitigation può appiattire paranoia/horror se applicata fuori contesto;
+- callback scope può essere classificato male;
+- sidecast può sottrarre troppo spotlight o trasferire informazioni non dovute.
+
+Questi rischi vanno verificati con actual play, correction burden, FUN e Desire to Return. **STATIC PASS ≠ VALIDATED.**
+
+</details>

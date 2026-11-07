@@ -45,7 +45,7 @@ Non deve creare tutto al posto tuo. Puoi usarlo come **secondo paio di occhi**. 
 
 L’idea è usare l’AI **dove ti è utile**, lasciando a te e al tuo gruppo idee, decisioni, interpretazione e modo di giocare.
 
-Se stai giocando **in questo momento**, scegli «Ho un problema durante la sessione»: il percorso Master propone pochi spunti leggibili al volo. È un formato sperimentale: la velocità effettiva delle risposte dipende da ChatGPT e l'affidabilità al tavolo deve ancora essere verificata.
+Se stai giocando **in questo momento**, scegli «Ho un problema durante la sessione»: il percorso Master riconosce automaticamente il tipo di imprevisto senza proporti altri menù. Può suggerire un **PNG improvvisato** con aspetto, tratto memorabile e motivazione, oppure un **luogo non preparato** con spazi utili e 2–3 PNG con interessi concreti; gestisce inoltre decisioni impreviste, regole, combattimenti, indagini, viaggi e ritmo. Sono previste 16 situazioni raggruppate in sei tipi di risposta: il formato rimane breve per il singolo problema e si amplia solo quando serve, per esempio per una città. È un comportamento progettato nei prompt, **non una funzionalità testata sistematicamente**: tempi e accuratezza dipendono da ChatGPT e dalle fonti accessibili.
 
 **Gratis e open source:** non serve un abbonamento al Divertoscopio per provarlo. Nel Public Stress Test corrente, una persona maggiorenne che lo usa davvero e non è soddisfatta può richiedere **€1** con l’Ultra-Garanzia secondo i termini correnti, fino a un massimo complessivo di **100 claim qualificati**.
 

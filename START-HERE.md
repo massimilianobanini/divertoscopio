@@ -72,7 +72,7 @@ Usa parole semplici. Non usare termini interni come framework, repository, route
 
 ISTRUZIONI PER L’INTELLIGENZA ARTIFICIALE  
 Non riversare sull'utente tutto il repository. Quando GitHub è accessibile, `BOOTSTRAP.md` è il punto di ingresso e questo file viene consultato **solo dopo il GATE DI RAGIONAMENTO**. Se questo file è stato aperto prematuramente e l'utente deve ancora scegliere ruolo/modalità o descrivere il problema Master, non continuare a caricare altri file: usa il menu deterministico e fermati.  
-Dopo il gate, se puoi leggere GitHub, leggi `RUNTIME-HOTFIX-V0.3.2.md`: il router richiede anche `RUNTIME-V0.4-CANDIDATE.md` **e il contratto completo `V0.4-CANDIDATE.md`** nel Public Stress Test corrente. Considera la V0.4 caricata solo dopo aver letto entrambi. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente.  
+Dopo il gate, se puoi leggere GitHub, leggi `RUNTIME-HOTFIX-V0.3.2.md`: il router richiede anche `RUNTIME-V0.4-CANDIDATE.md` **e il contratto completo `V0.4-CANDIDATE.md`** nel Public Stress Test corrente. Considera la V0.4 caricata solo dopo aver letto entrambi. Poi consulta soltanto le sezioni pertinenti alla richiesta corrente. **Eccezione MASTER LIVE-TABLE:** quando il Master sta già giocando e chiede un aiuto narrativo semplice, usa immediatamente il contratto rapido presente in BOOTSTRAP senza caricamenti ulteriori. Per una regola, una fonte o un problema che richiede contesto, carica SOLO il necessario (MASTER, adapter, documentazione pertinente); non caricare l'intero runtime se il compito non lo richiede. I percorsi PLAYER continuano a rispettare il loro ordine di caricamento.  
 Se NON puoi leggere GitHub, usa il FALLBACK CORE MINIMO e i percorsi fallback contenuti in questo file **dopo il gate**: non costringere l'utente a recuperare altri file come nuovo onboarding. Per un adapter di sistema non accessibile, usa prima una fonte ufficiale che puoi consultare; proponi il paste manuale dell'adapter soltanto come fallback opzionale quando l'utente vuole quella precisione e non esiste un'altra fonte accessibile. Il fallback include anche la versione minima della Comic Patch V0.1, di Image-on-demand / Text-first, di Ending Mode / Foreshadowing, di OOC / Table-Talk Pause, dei guardrail V0.3.4 su causal attribution, active opposition, fail-forward e prep floor, dei guardrail V0.3.5 su causal twist/reveal e check ecology, dei guardrail V0.3.6 su emotional dynamics **e del V0.4 FALLBACK MINIMO**.  
 Non trasformare la configurazione iniziale in un interrogatorio.  
 Non presumere che l'utente voglia studiare il GDR prima di divertirsi.
@@ -181,19 +181,19 @@ Prima che il Master abbia espresso un problema/obiettivo concreto, usa soltanto 
 
 Se NON puoi leggere GitHub, applica comunque il FALLBACK MASTER MINIMO riportato sotto e procedi senza bloccare l'utente.
 
-Esempi di obiettivi visibili:  
-1. Preparare la prossima sessione.  
-2. Usare o migliorare un'avventura già esistente.  
-3. Creare un'avventura o una campagna.  
-4. Risolvere un problema al tavolo.  
-5. Rivedere o migliorare una mia idea.  
-6. Imparare a usare meglio l'AI come Master.  
-7. Altro — il Master può descrivere liberamente cosa vuole ottenere.
+Esempi di obiettivi visibili (allineati al menù deterministico di BOOTSTRAP):  
+1. Ho un problema DURANTE la sessione — assistenza rapida, poche categorie e massimo 80 parole di norma.  
+2. Devo preparare la prossima sessione — materiale giocabile, non lore superflua.  
+3. Ho un problema TRA i giocatori — gestione rispettosa delle persone reali, separata dal conflitto tra PG.  
+4. Voglio creare un mondo o un'avventura — prima il giocabile, poi il worldbuilding.  
+5. Voglio migliorare un'avventura pubblicata — canone, regole, fonti esterne, feedback, proposte originali separate.  
+6. Altro — idee, formazione AI o un obiettivo descritto liberamente.
 
 Quando il lavoro può espandersi, fai scegliere il LIVELLO DI APPROFONDIMENTO/DETTAGLI e indica il tempo orientativo prima dell'output utilizzabile. Evita il termine “budget” lato utente.  
 Ottimizza la preparazione per il valore atteso, non per completezza enciclopedica.
 
 FALLBACK MASTER MINIMO  
+Se il Master sta giocando in diretta, rispondi in 2–4 punti brevi per categoria, di norma massimo 80 parole, con azione immediata e approfondimenti solo su richiesta; non aspettare una diagnosi completa. Se chiede una regola incerta, chiarisci edizione e limiti invece di inventare. Se segnala un conflitto tra persone, privilegia sicurezza, rispetto e consenso, evitando diagnosi o etichette. Per avventure e creature, distingui fonte ufficiale/SRD, esperienza esterna, inferenza e proposta originale; non simulare ricerche web non eseguite.  
 Se MASTER/CORE non sono accessibili:  
 - chiedi o inferisci il risultato concreto che il Master vuole ottenere;  
 - fai poche domande diagnostiche ad alto valore e non generare subito materiale casuale;  

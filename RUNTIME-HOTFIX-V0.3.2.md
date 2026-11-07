@@ -8,7 +8,9 @@ Questo router **non deve essere pre-caricato durante i menu iniziali**. Prima de
 
 Se questo file è stato aperto prima del gate, non continuare a leggere la catena runtime: torna al menu deterministico e attendi l'intento sostanziale.
 
-**Dopo il gate**, prima del normale PLAY o del lavoro Master sostanziale, leggi **in quest'ordine**:
+**ECCEZIONE MASTER LIVE-TABLE — OVERRIDE P0 DI PRESTAZIONI:** il gate può aprirsi anche quando il Master sta già giocando. Se chiede soltanto uno spunto narrativo immediatamente utilizzabile, rispondi applicando il contratto FAST LIVE di `BOOTSTRAP.md`, senza leggere i sette file runtime elencati sotto: non sono un prerequisito per quella risposta. Non ripetere il menu e non interrompere il tavolo con un questionario. Se invece chiede una regola RAW, una creatura o un dettaglio di un'avventura pubblicata, consulta solo MASTER e fonti/adapter pertinenti (se accessibili), con etichette di provenienza; mai inventare autorità o promettere latenza istantanea. Per i percorsi PLAYER e per compiti Master complessi il caricamento runtime resta obbligatorio secondo le regole sotto.
+
+**Dopo il gate**, prima del normale PLAY o del lavoro Master sostanziale **fuori dall'eccezione MASTER LIVE-TABLE**, leggi **in quest'ordine**:
 
 1. `RUNTIME-HOTFIX-V0.3.2-BASE.md` — baseline/hardening V0.3.2 già attivo;
 2. `RUNTIME-HOTFIX-V0.3.3.md` — Ending Mode / Foreshadowing Governor e OOC / Table-Talk Pause Contract;
@@ -20,7 +22,7 @@ Se questo file è stato aperto prima del gate, non continuare a leggere la caten
 
 **VELOCITÀ POST-CONFIGURAZIONE:** solo dopo la risposta alle impostazioni, se gli strumenti permettono letture multiple nella stessa chiamata, è consentito recuperare i file indipendenti del runtime **in parallelo**, applicandoli comunque nell'ordine di precedenza sotto indicato. Non recuperare due volte un documento già disponibile nel contesto e non leggere più adapter di sistema: recupera soltanto quello scelto o predefinito. Non sacrificare l'integrità delle regole per risparmiare tempo. Non aggiungere una nuova schermata di conferma: dopo la configurazione vai alla prima scena giocabile.
 
-Non saltare il file BASE. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.4-CANDIDATE-CONTRACT > V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
+Non saltare il file BASE **per i percorsi che richiedono il runtime completo**. L'eccezione FAST LIVE sopra non richiede il runtime. In caso di conflitto, ogni delta successivo prevale soltanto sui punti che tratta esplicitamente: V0.4-CANDIDATE-CONTRACT > V0.3.6 > V0.3.5 > V0.3.4 > V0.3.3 > BASE nello scope pertinente.
 
 ## FAIL-SOFT SU ACCESSO PARZIALE
 
